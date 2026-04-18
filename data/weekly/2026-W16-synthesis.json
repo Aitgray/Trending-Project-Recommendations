@@ -1,0 +1,137 @@
+{
+  "week_of": "2023-10-08",
+  "topics": [
+    {
+      "slug": "coding-tools-and-obfuscation",
+      "title": "Coding tools and obfuscation",
+      "summary": "This week highlights a variety of coding utilities including obfuscation techniques, emphasizing the ongoing interest in developer productivity and security.",
+      "supporting_repos": [
+        "rclone/rclone",
+        "mnfst/manifest",
+        "burrowers/garble"
+      ]
+    },
+    {
+      "slug": "cloud-storage-and-backend-solutions",
+      "title": "Cloud storage and backend solutions",
+      "summary": "Projects involving cloud storage, file management systems, and lightweight backend platforms continue to attract attention, underlining the demand for efficient data handling tools.",
+      "supporting_repos": [
+        "rclone/rclone",
+        "directus/directus",
+        "pocketbase/pocketbase"
+      ]
+    },
+    {
+      "slug": "developer-productivity-tools",
+      "title": "Developer productivity tools",
+      "summary": "Tools designed to enhance developer workflows, such as obfuscation and smart model routing, show sustained interest in improving coding efficiency and security.",
+      "supporting_repos": [
+        "burrowers/garble",
+        "mnfst/manifest",
+        "trufflesecurity/trufflehog"
+      ]
+    }
+  ],
+  "whats_new": "This week sees a new focus on cloud storage solutions, with rclone and Directus gaining traction. The previous theme of agentic coding tools has evolved into more specific categories like obfuscation and developer productivity.",
+  "projects": [
+    {
+      "title": "Secure File Migrator",
+      "topic_slug": "cloud-storage-and-backend-solutions",
+      "scope": "short",
+      "pitch": "Develop a lightweight tool that securely migrates files between different cloud storage services using encryption.",
+      "why_now": "Rclone's popularity highlights the need for secure file migration tools in various cloud environments.",
+      "stack_hints": [
+        "rclone API",
+        "Node.js"
+      ]
+    },
+    {
+      "title": "Agile Backend Manager",
+      "topic_slug": "cloud-storage-and-backend-solutions",
+      "scope": "medium",
+      "pitch": "Build an integrated backend management system that allows users to manage multiple cloud storage accounts and sync data in real-time.",
+      "why_now": "Pocketbase's lightweight nature makes it ideal for integrating with a broader ecosystem of cloud services.",
+      "stack_hints": [
+        "Express.js",
+        "MongoDB"
+      ]
+    },
+    {
+      "title": "Integrated Cloud Storage Portal",
+      "topic_slug": "cloud-storage-and-backend-solutions",
+      "scope": "long",
+      "pitch": "Create a comprehensive web portal that provides unified access to multiple cloud storage services, including file management and sharing features.",
+      "why_now": "The increasing complexity of managing various cloud services necessitates an integrated solution for users.",
+      "stack_hints": [
+        "Vue.js",
+        "Firebase"
+      ]
+    },
+    {
+      "title": "Code Obfuscation Assistant",
+      "topic_slug": "coding-tools-and-obfuscation",
+      "scope": "short",
+      "pitch": "Develop a CLI tool that assists developers in obfuscating their code for better security and protection.",
+      "why_now": "Garble's focus on Go language obfuscation demonstrates the growing need for such tools in various programming languages.",
+      "stack_hints": [
+        "Node.js",
+        "Go"
+      ]
+    },
+    {
+      "title": "Automated Obfuscation Pipeline",
+      "topic_slug": "coding-tools-and-obfuscation",
+      "scope": "medium",
+      "pitch": "Create an automated pipeline that integrates obfuscation tools like Garble into a CI/CD process for secure code deployments.",
+      "why_now": "The increasing use of CI/CD in development workflows highlights the need for seamless integration of security tools.",
+      "stack_hints": [
+        "GitHub Actions",
+        "Docker"
+      ]
+    },
+    {
+      "title": "Comprehensive Code Security Toolkit",
+      "topic_slug": "coding-tools-and-obfuscation",
+      "scope": "long",
+      "pitch": "Build a comprehensive toolkit that includes obfuscation, code quality checks, and security scanning for developers.",
+      "why_now": "The growing concern over secure coding practices calls for integrated tools that cover multiple aspects of code security.",
+      "stack_hints": [
+        "Golang",
+        "Node.js"
+      ]
+    },
+    {
+      "title": "Smart Model Router Debugger",
+      "topic_slug": "developer-productivity-tools",
+      "scope": "short",
+      "pitch": "Develop a debugging tool for Smart Model Routing systems that helps developers identify and fix routing issues.",
+      "why_now": "Manifest's focus on efficient model routing highlights the need for tools to help debug such systems.",
+      "stack_hints": [
+        "Node.js",
+        "VS Code"
+      ]
+    },
+    {
+      "title": "Developer Workflow Optimizer",
+      "topic_slug": "developer-productivity-tools",
+      "scope": "medium",
+      "pitch": "Create a tool that optimizes developer workflows by integrating various productivity tools and automating repetitive tasks.",
+      "why_now": "The increasing complexity of modern development environments necessitates integrated workflow optimization solutions.",
+      "stack_hints": [
+        "React.js",
+        "Docker"
+      ]
+    },
+    {
+      "title": "Unified Developer Productivity Suite",
+      "topic_slug": "developer-productivity-tools",
+      "scope": "long",
+      "pitch": "Develop a comprehensive suite of tools that includes code obfuscation, workflow automation, and model routing optimization for developers.",
+      "why_now": "The ongoing interest in developer productivity highlights the need for integrated solutions that cover multiple aspects of development.",
+      "stack_hints": [
+        "React.js",
+        "Node.js"
+      ]
+    }
+  ]
+}
