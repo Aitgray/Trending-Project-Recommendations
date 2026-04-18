@@ -1,0 +1,112 @@
+# Trending Project Ideas
+
+**Week of {{ synthesis.week_of }}** | [About this project](ABOUT.md)
+
+---
+
+> **What's new this week**
+>
+> {{ synthesis.whats_new }}
+
+---
+
+## Trending Topics
+
+{% for topic in synthesis.topics %}
+### {{ topic.title }}
+
+{{ topic.summary }}
+
+<details>
+<summary>Supporting repos ({{ topic.supporting_repos | length }})</summary>
+
+{% for repo in topic.supporting_repos %}
+- [{{ repo }}](https://github.com/{{ repo }})
+{% endfor %}
+
+</details>
+
+{% endfor %}
+---
+
+## Project Ideas
+
+### Short — Weekend Build (4–12 hours, one developer)
+
+{% for topic in synthesis.topics %}
+{% set topic_projects = synthesis.projects | selectattr("scope", "equalto", "short") | selectattr("topic_slug", "equalto", topic.slug) | list %}
+{% if topic_projects %}
+#### {{ topic.title }}
+
+{% for project in topic_projects %}
+##### {{ project.title }}
+
+{{ project.pitch }}
+
+**Why now:** {{ project.why_now }}
+
+**Stack hints:** `{{ project.stack_hints | join("`, `") }}`
+
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+---
+
+### Medium — 1–2 Week Project (20–50 hours, portfolio-worthy)
+
+{% for topic in synthesis.topics %}
+{% set topic_projects = synthesis.projects | selectattr("scope", "equalto", "medium") | selectattr("topic_slug", "equalto", topic.slug) | list %}
+{% if topic_projects %}
+#### {{ topic.title }}
+
+{% for project in topic_projects %}
+##### {{ project.title }}
+
+{{ project.pitch }}
+
+**Why now:** {{ project.why_now }}
+
+**Stack hints:** `{{ project.stack_hints | join("`, `") }}`
+
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+---
+
+### Long — 1–3 Month Project (100+ hours, shippable)
+
+{% for topic in synthesis.topics %}
+{% set topic_projects = synthesis.projects | selectattr("scope", "equalto", "long") | selectattr("topic_slug", "equalto", topic.slug) | list %}
+{% if topic_projects %}
+#### {{ topic.title }}
+
+{% for project in topic_projects %}
+##### {{ project.title }}
+
+{{ project.pitch }}
+
+**Why now:** {{ project.why_now }}
+
+**Stack hints:** `{{ project.stack_hints | join("`, `") }}`
+
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+---
+
+## Methodology
+
+This README is automatically regenerated each Sunday using a 7-day rolling aggregate
+of [GitHub's trending page](https://github.com/trending?spoken_language_code=en).
+Repos are scored by *persistence* — how many days they appeared in the window,
+weighted by cumulative stars — to filter out one-day viral spikes. The top 40 repos
+are passed to an LLM, which identifies 3–5 durable themes and proposes 9–15 original
+project ideas across short, medium, and long scope tiers.
+See [ABOUT.md](ABOUT.md) for full methodology details.
+
+---
+
+*Generated {{ generated_at }} · commit `{{ commit_hash }}`*

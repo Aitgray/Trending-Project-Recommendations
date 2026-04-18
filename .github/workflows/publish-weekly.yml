@@ -1,0 +1,49 @@
+name: Publish Weekly README
+
+on:
+  schedule:
+    - cron: "0 12 * * 0"   # 12:00 UTC every Sunday
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Aggregate trending data
+        run: python -m src.aggregator
+
+      - name: Synthesize with LLM
+        env:
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: python -m src.synthesizer
+
+      - name: Render README
+        run: python -m src.renderer
+
+      - name: Commit and push
+        run: |
+          DATE=$(python -c "from datetime import date, timedelta; d=date.today(); print(d + timedelta(days=(6-d.weekday())%7))")
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md history/ data/weekly/
+          git diff --cached --quiet || git commit -m "readme: week of ${DATE}"
+          git push
