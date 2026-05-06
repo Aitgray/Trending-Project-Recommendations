@@ -31,9 +31,7 @@ jobs:
 
       - name: Synthesize with LLM
         env:
-          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
-          LLM_MODEL: ${{ vars.LLM_MODEL }}
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python -m src.synthesizer
 
       - name: Render README
