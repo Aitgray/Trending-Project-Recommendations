@@ -167,11 +167,13 @@ def synthesize(week_label: str, sunday: date) -> TopicSynthesis:
 
 
 if __name__ == "__main__":
-    from datetime import date as _date
-
     from .aggregator import get_sunday, iso_week_label
+    from .storage import list_snapshot_dates
 
-    _today = _date.today()
-    _sunday = get_sunday(_today)
+    _dates = list_snapshot_dates()
+    if not _dates:
+        print("No snapshots found", file=sys.stderr)
+        sys.exit(1)
+    _sunday = get_sunday(_dates[-1])
     _week_label = iso_week_label(_sunday)
     synthesize(_week_label, _sunday)
