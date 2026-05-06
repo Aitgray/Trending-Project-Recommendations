@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-05-10",
+  "window_dates": [
+    "2026-04-30",
+    "2026-05-01",
+    "2026-05-02",
+    "2026-05-03",
+    "2026-05-04",
+    "2026-05-05",
+    "2026-05-06"
+  ],
+  "repos": [
+    {
+      "full_name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 545,
+      "peak_daily_stars": 97,
+      "persistence_score": 44.118332830214335
+    },
+    {
+      "full_name": "sindresorhus/awesome",
+      "description": "\ud83d\ude0e Awesome lists about all kinds of interesting topics",
+      "language": null,
+      "url": "https://github.com/sindresorhus/awesome",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 2494,
+      "peak_daily_stars": 526,
+      "persistence_score": 39.1102200409281
+    },
+    {
+      "full_name": "OpenBB-finance/OpenBB",
+      "description": "Financial data platform for analysts, quants and AI agents.",
+      "language": "Python",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 395,
+      "peak_daily_stars": 95,
+      "persistence_score": 35.88848526752688
+    },
+    {
+      "full_name": "withastro/astro",
+      "description": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!",
+      "language": "TypeScript",
+      "url": "https://github.com/withastro/astro",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 179,
+      "peak_daily_stars": 34,
+      "persistence_score": 31.157741105341263
+    },
+    {
+      "full_name": "tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "language": "Rust",
+      "url": "https://github.com/tokio-rs/tokio",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 107,
+      "peak_daily_stars": 38,
+      "persistence_score": 28.09278736274532
+    },
+    {
+      "full_name": "projectdiscovery/nuclei-templates",
+      "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "language": "JavaScript",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 51,
+      "peak_daily_stars": 12,
+      "persistence_score": 27.658706030069993
+    },
+    {
+      "full_name": "apache/superset",
+      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+      "language": "TypeScript",
+      "url": "https://github.com/apache/superset",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 77,
+      "peak_daily_stars": 21,
+      "persistence_score": 26.140252960137552
+    },
+    {
+      "full_name": "pola-rs/polars",
+      "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+      "language": "Rust",
+      "url": "https://github.com/pola-rs/polars",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 74,
+      "peak_daily_stars": 14,
+      "persistence_score": 25.90492868121786
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 628,
+      "peak_daily_stars": 187,
+      "persistence_score": 25.776525026801764
+    },
+    {
+      "full_name": "microsoft/qlib",
+      "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped withhttps://github.com/microsoft/RD-Agentto automate R&D process.",
+      "language": "Python",
+      "url": "https://github.com/microsoft/qlib",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 509,
+      "peak_daily_stars": 142,
+      "persistence_score": 24.937642902873485
+    },
+    {
+      "full_name": "ccxt/ccxt",
+      "description": "A cryptocurrency trading API with more than 100 exchanges in JavaScript / TypeScript / Python / C# / PHP / Go",
+      "language": "Python",
+      "url": "https://github.com/ccxt/ccxt",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 145,
+      "peak_daily_stars": 59,
+      "persistence_score": 24.91803310854168
+    },
+    {
+      "full_name": "nushell/nushell",
+      "description": "A new type of shell",
+      "language": "Rust",
+      "url": "https://github.com/nushell/nushell",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 136,
+      "peak_daily_stars": 47,
+      "persistence_score": 24.599904629140624
+    },
+    {
+      "full_name": "nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 132,
+      "peak_daily_stars": 45,
+      "persistence_score": 24.45174564110877
+    },
+    {
+      "full_name": "cli/cli",
+      "description": "GitHub\u2019s official command line tool",
+      "language": "Go",
+      "url": "https://github.com/cli/cli",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 127,
+      "peak_daily_stars": 31,
+      "persistence_score": 24.260151319598084
+    },
+    {
+      "full_name": "meshery/meshery",
+      "description": "Meshery, the cloud native manager",
+      "language": "Go",
+      "url": "https://github.com/meshery/meshery",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 53,
+      "peak_daily_stars": 16,
+      "persistence_score": 23.933904279385647
+    },
+    {
+      "full_name": "mailcow/mailcow-dockerized",
+      "description": "mailcow: dockerized - \ud83d\udc2e + \ud83d\udc0b = \ud83d\udc95",
+      "language": "JavaScript",
+      "url": "https://github.com/mailcow/mailcow-dockerized",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 51,
+      "peak_daily_stars": 13,
+      "persistence_score": 23.707462311488566
+    },
+    {
+      "full_name": "QuiteAFancyEmerald/InvisiProxy",
+      "description": "InvisiProxy LTS is a web proxy service that helps you access websites that may be blocked by your network, government or policy all within your browser with no download or setup. It does this securely and with additional privacy features. Browse Tor/Onion sites in any browser, hide browsing activity and bypass filters. (Star if you fork it!)",
+      "language": "JavaScript",
+      "url": "https://github.com/QuiteAFancyEmerald/InvisiProxy",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 44,
+      "peak_daily_stars": 14,
+      "persistence_score": 22.839974938621918
+    },
+    {
+      "full_name": "mui/material-ui",
+      "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+      "language": "JavaScript",
+      "url": "https://github.com/mui/material-ui",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 41,
+      "peak_daily_stars": 8,
+      "persistence_score": 22.42601770970021
+    },
+    {
+      "full_name": "Infisical/infisical",
+      "description": "Infisical is the open-source platform for secrets, certificates, and privileged access management.",
+      "language": "TypeScript",
+      "url": "https://github.com/Infisical/infisical",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 228,
+      "peak_daily_stars": 76,
+      "persistence_score": 21.73488801421696
+    },
+    {
+      "full_name": "ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "language": "HTML",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 224,
+      "peak_daily_stars": 102,
+      "persistence_score": 21.66440160881768
+    },
+    {
+      "full_name": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 1051,
+      "peak_daily_stars": 508,
+      "persistence_score": 20.875345179892967
+    },
+    {
+      "full_name": "qdrant/qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/",
+      "language": "Rust",
+      "url": "https://github.com/qdrant/qdrant",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 172,
+      "peak_daily_stars": 51,
+      "persistence_score": 20.613166377991117
+    },
+    {
+      "full_name": "pydantic/pydantic",
+      "description": "Data validation using Python type hints",
+      "language": "Python",
+      "url": "https://github.com/pydantic/pydantic",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 60,
+      "peak_daily_stars": 15,
+      "persistence_score": 20.554369320866556
+    },
+    {
+      "full_name": "caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "url": "https://github.com/caddyserver/caddy",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 142,
+      "peak_daily_stars": 41,
+      "persistence_score": 19.851378521039628
+    },
+    {
+      "full_name": "9001/copyparty",
+      "description": "Portable file server with accelerated resumable uploads, dedup, WebDAV, SFTP, FTP, TFTP, zeroconf, media indexer, thumbnails++ all in one file",
+      "language": "Python",
+      "url": "https://github.com/9001/copyparty",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 130,
+      "peak_daily_stars": 34,
+      "persistence_score": 19.500789292804605
+    },
+    {
+      "full_name": "mxrch/GHunt",
+      "description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f Offensive Google framework.",
+      "language": "Python",
+      "url": "https://github.com/mxrch/GHunt",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 130,
+      "peak_daily_stars": 40,
+      "persistence_score": 19.500789292804605
+    },
+    {
+      "full_name": "microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "language": "C#",
+      "url": "https://github.com/microsoft/PowerToys",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 624,
+      "peak_daily_stars": 417,
+      "persistence_score": 19.313254949209202
+    },
+    {
+      "full_name": "jj-vcs/jj",
+      "description": "A Git-compatible VCS that is both simple and powerful",
+      "language": "Rust",
+      "url": "https://github.com/jj-vcs/jj",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 118,
+      "peak_daily_stars": 35,
+      "persistence_score": 19.11649397244612
+    },
+    {
+      "full_name": "vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "language": "Python",
+      "url": "https://github.com/vinta/awesome-python",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 584,
+      "peak_daily_stars": 200,
+      "persistence_score": 19.11483554169557
+    },
+    {
+      "full_name": "slint-ui/slint",
+      "description": "Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps.",
+      "language": "Rust",
+      "url": "https://github.com/slint-ui/slint",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 114,
+      "peak_daily_stars": 36,
+      "persistence_score": 18.979728513453
+    },
+    {
+      "full_name": "chroma-core/chroma",
+      "description": "Search infrastructure for AI",
+      "language": "Rust",
+      "url": "https://github.com/chroma-core/chroma",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 89,
+      "peak_daily_stars": 25,
+      "persistence_score": 17.99923868132106
+    },
+    {
+      "full_name": "mnfst/manifest",
+      "description": "Smart Model Routing for Agents. Cut Costs up to 70% \ud83e\udd9a",
+      "language": "TypeScript",
+      "url": "https://github.com/mnfst/manifest",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 400,
+      "peak_daily_stars": 182,
+      "persistence_score": 17.981884281919708
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "url": "https://github.com/aquasecurity/trivy",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 80,
+      "peak_daily_stars": 23,
+      "persistence_score": 17.577796618689757
+    },
+    {
+      "full_name": "jellyfin/jellyfin",
+      "description": "The Free Software Media System - Server Backend & API",
+      "language": "C#",
+      "url": "https://github.com/jellyfin/jellyfin",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 339,
+      "peak_daily_stars": 263,
+      "persistence_score": 17.48683685283062
+    },
+    {
+      "full_name": "cloudnative-pg/cloudnative-pg",
+      "description": "CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance",
+      "language": "Go",
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 32,
+      "peak_daily_stars": 8,
+      "persistence_score": 17.482537807332402
+    },
+    {
+      "full_name": "traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "url": "https://github.com/traefik/traefik",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 77,
+      "peak_daily_stars": 26,
+      "persistence_score": 17.426835306758367
+    },
+    {
+      "full_name": "astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "url": "https://github.com/astral-sh/ruff",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 68,
+      "peak_daily_stars": 24,
+      "persistence_score": 16.93642601838904
+    },
+    {
+      "full_name": "microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/playwright",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 263,
+      "peak_daily_stars": 98,
+      "persistence_score": 16.72784730943895
+    },
+    {
+      "full_name": "stephenberry/glaze",
+      "description": "Extremely fast, in memory, serialization, reflection, and RPC library for C++. JSON, BEVE, BSON, CBOR, CSV, JSONB, MessagePack, TOML, YAML, EETF",
+      "language": "C++",
+      "url": "https://github.com/stephenberry/glaze",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 61,
+      "peak_daily_stars": 20,
+      "persistence_score": 16.508537540180367
+    },
+    {
+      "full_name": "neondatabase/neon",
+      "description": "Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.",
+      "language": "Rust",
+      "url": "https://github.com/neondatabase/neon",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 59,
+      "peak_daily_stars": 22,
+      "persistence_score": 16.3773782488884
+    }
+  ]
+}
