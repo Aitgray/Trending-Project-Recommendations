@@ -2,258 +2,281 @@
   "week_of": "2026-05-10",
   "topics": [
     {
-      "slug": "financial-ai-platforms",
-      "title": "Financial AI platforms and quant trading",
-      "summary": "AI-powered platforms for financial analysis, quantitative trading, and investment research are gaining prominence. These systems combine machine learning, market data integration, and deterministic event-driven architectures to automate trading decisions and research workflows.",
-      "supporting_repos": [
-        "OpenBB-finance/OpenBB",
-        "microsoft/qlib",
-        "nautechsystems/nautilus_trader",
-        "ccxt/ccxt"
-      ]
-    },
-    {
-      "slug": "rust-systems-infrastructure",
-      "title": "Rust-native systems and infrastructure",
-      "summary": "High-performance, memory-safe infrastructure tools written in Rust are dominating trends, spanning remote access, data processing, vectorization, and web servers. This reflects growing adoption of Rust for production systems requiring reliability and speed.",
+      "slug": "rust-infrastructure-dominance",
+      "title": "Rust-native infrastructure and developer tools",
+      "summary": "High-performance, memory-safe systems written in Rust continue to dominate infrastructure and tooling, spanning async runtimes, data processing, version control, and remote access. This reflects deepening adoption of Rust for production systems requiring reliability, speed, and strict safety guarantees.",
       "supporting_repos": [
         "rustdesk/rustdesk",
+        "astral-sh/ruff",
+        "GitoxideLabs/gitoxide",
         "pola-rs/polars",
         "tokio-rs/tokio",
-        "qdrant/qdrant",
-        "neondatabase/neon"
+        "emilk/egui",
+        "jj-vcs/jj",
+        "lance-format/lance",
+        "tracel-ai/burn",
+        "chroma-core/chroma"
       ]
     },
     {
-      "slug": "agentic-workflows-automation",
-      "title": "Agentic workflows and cost optimization",
-      "summary": "Tools that route, optimize, and automate AI agent workflows with cost awareness are emerging. Projects like Manifest exemplify the shift toward intelligent model selection and workflow automation for agent-based systems.",
+      "slug": "agentic-ai-workflows",
+      "title": "Agentic AI workflows and intelligent routing",
+      "summary": "Tools for building, routing, and optimizing AI agent workflows are gaining momentum, emphasizing cost efficiency, multi-model routing, and seamless integration with enterprise automation platforms. Projects like Manifest, LLamaIndex, and n8n demonstrate demand for intelligent agent orchestration that balances performance with operational expense.",
       "supporting_repos": [
         "mnfst/manifest",
-        "n8n-io/n8n"
+        "n8n-io/n8n",
+        "run-llama/llama_index",
+        "activepieces/activepieces",
+        "langchain-ai/langchain",
+        "NangoHQ/nango"
       ]
     },
     {
-      "slug": "cloud-native-deployment",
-      "title": "Cloud-native deployment and orchestration",
-      "summary": "Kubernetes-aware tools and cloud-native application proxies continue to gain traction as organizations shift workloads to containerized environments. These platforms handle service mesh management, database orchestration, and reverse proxy functionality.",
+      "slug": "backend-cmses-and-data-platforms",
+      "title": "Headless backends, CMSes, and rapid API generation",
+      "summary": "Platforms that transform databases into instant APIs, admin panels, and workflow automation are consolidating market share. Directus, n8n, and similar projects enable developers to ship backends and integrations without custom code, accelerating time-to-market for both internal tools and consumer applications.",
       "supporting_repos": [
-        "meshery/meshery",
-        "cloudnative-pg/cloudnative-pg",
-        "traefik/traefik",
-        "caddyserver/caddy"
+        "directus/directus",
+        "n8n-io/n8n",
+        "activepieces/activepieces",
+        "NangoHQ/nango",
+        "apache/superset"
       ]
     },
     {
-      "slug": "data-vectorization-search",
-      "title": "Vector databases and semantic search infrastructure",
-      "summary": "Purpose-built vector databases and search infrastructure enable AI applications to efficiently store and query embeddings at scale. These systems are foundational for retrieval-augmented generation (RAG) and semantic similarity search.",
+      "slug": "modern-vcs-and-developer-experience",
+      "title": "Modern version control and developer experience tooling",
+      "summary": "Next-generation VCS tools and Git-compatible systems, alongside fast linters and modern terminal UIs, are redefining developer workflow efficiency. Projects like jj, gitoxide, and ruff show sustained interest in reimagining core development tools with better UX and performance.",
       "supporting_repos": [
-        "qdrant/qdrant",
-        "chroma-core/chroma"
+        "jj-vcs/jj",
+        "GitoxideLabs/gitoxide",
+        "astral-sh/ruff",
+        "jesseduffield/lazygit",
+        "Eugeny/tabby",
+        "helix-editor/helix"
+      ]
+    },
+    {
+      "slug": "ai-native-data-and-search",
+      "title": "AI-native data formats, vector search, and multimodal storage",
+      "summary": "New storage and indexing formats (Lance, Chroma) purpose-built for AI workloads\u2014combining traditional analytics with vector search and embedding capabilities\u2014are emerging as foundational infrastructure. These systems bridge columnar databases, unstructured data, and semantic search in a unified interface.",
+      "supporting_repos": [
+        "lance-format/lance",
+        "chroma-core/chroma",
+        "pola-rs/polars",
+        "run-llama/llama_index",
+        "tracel-ai/burn"
       ]
     }
   ],
-  "whats_new": "Financial and trading infrastructure has surged dramatically this week, with Rust-native systems continuing their dominance across performance-critical domains. Agentic AI optimization (exemplified by Manifest's cost-aware model routing) represents an evolution beyond generic workflow automation, addressing real operational expenses. Cloud-native infrastructure remains steady, while vector databases have consolidated as essential AI primitives rather than experimental tools.",
+  "whats_new": "Rust infrastructure has strengthened further, with gitoxide, ruff, and burn entering the persistent trending window, signaling enterprise adoption of Rust for core developer tools. Agentic AI workflows have matured beyond generic automation into cost-optimized, intelligent routing systems\u2014Manifest's continued prominence alongside n8n and LLamaIndex reflects consolidation around cost governance. Headless backends and API-first platforms (Directus, n8n) are now competing on feature richness and ease-of-use rather than existence. The emergence of Lance and expanded Chroma traction shows vector search is graduating from experimental to production-grade infrastructure, with explicit demand for AI-native storage layers that combine analytics and semantic capabilities.",
   "projects": [
     {
-      "title": "Multi-Strategy Portfolio Backtester",
-      "topic_slug": "financial-ai-platforms",
+      "title": "Rust Toolchain Performance Profiler",
+      "topic_slug": "rust-infrastructure-dominance",
       "scope": "short",
-      "pitch": "Build a lightweight CLI tool that backtests multiple trading strategies across different cryptocurrency exchanges using real market data. Accept strategy definitions as JSON and output performance metrics including Sharpe ratio, max drawdown, and win rate.",
-      "why_now": "The convergence of CCXT, Qlib, and Nautilus Trader shows sustained demand for accessible quantitative backtesting without enterprise licensing.",
-      "stack_hints": [
-        "CCXT API",
-        "pandas",
-        "Click",
-        "numpy"
-      ]
-    },
-    {
-      "title": "Agent Cost Analyzer and Advisor",
-      "topic_slug": "agentic-workflows-automation",
-      "scope": "short",
-      "pitch": "Create a tool that inspects LLM API call logs and recommends cost-optimized model routing decisions. Show current spending patterns and suggest which tasks should route to cheaper models without degrading output quality.",
-      "why_now": "Manifest's focus on cutting costs by 70% through intelligent routing highlights the immediate pain point of expensive agent operations.",
-      "stack_hints": [
-        "Node.js",
-        "OpenAI API",
-        "SQLite",
-        "Chart.js"
-      ]
-    },
-    {
-      "title": "Vector Search Index Inspector",
-      "topic_slug": "data-vectorization-search",
-      "scope": "short",
-      "pitch": "Develop a CLI dashboard that connects to Qdrant or Chroma vector databases and visualizes embedding distributions, search relevance, and index health metrics. Help developers debug why semantic search isn't returning expected results.",
-      "why_now": "As vector databases become production infrastructure, developers need debugging tools comparable to traditional database inspection.",
+      "pitch": "Build a CLI tool that profiles Rust compilation and runtime performance across projects, identifying bottlenecks in incremental builds, linking, and LLVM codegen. Output actionable recommendations (e.g., enable codegen units, profile-guided optimization candidates). Integrate with popular Rust projects to benchmark against baseline metrics.",
+      "why_now": "Rust's persistence in trends combined with compilation pain points in large codebases makes performance visibility a critical need for teams scaling Rust adoption.",
       "stack_hints": [
         "Rust",
-        "Qdrant REST API",
-        "UMAP",
-        "ratatui"
+        "cargo",
+        "flamegraph",
+        "criterion",
+        "serde"
       ]
     },
     {
-      "title": "Self-Hosted Kubernetes Network Audit",
-      "topic_slug": "cloud-native-deployment",
+      "title": "Agent Execution Audit Logger",
+      "topic_slug": "agentic-ai-workflows",
       "scope": "short",
-      "pitch": "Write a tool that scans a Kubernetes cluster for misconfigured ingress rules, certificate issues, and proxy bottlenecks. Generate a detailed report with remediation steps specific to Traefik or Caddy configurations.",
-      "why_now": "Traefik and cloud-native-pg show that organizations are managing sophisticated networking; a safety audit tool fills a gap in deployment validation.",
+      "pitch": "Create a lightweight middleware that logs all LLM API calls made by agents (n8n, LangChain, LLamaIndex), capturing model name, token usage, latency, and cost. Expose a simple CLI dashboard showing spend trends, model distribution, and cost-per-task metrics. Alert on budget overruns.",
+      "why_now": "Manifest's success in cost reduction proves demand; teams need observability into agent spending without heavy instrumentation.",
+      "stack_hints": [
+        "Node.js",
+        "Express",
+        "SQLite",
+        "OpenAI API",
+        "chalk"
+      ]
+    },
+    {
+      "title": "Headless CMS Schema Migrator",
+      "topic_slug": "backend-cmses-and-data-platforms",
+      "scope": "short",
+      "pitch": "Build a tool that auto-generates Directus collection definitions from OpenAPI specs or existing database schemas. Support one-way sync and rollback of schema changes. Generate corresponding Node.js/Python client libraries automatically.",
+      "why_now": "Directus and similar platforms thrive when setup friction is minimized; automating schema migration from legacy systems accelerates adoption.",
+      "stack_hints": [
+        "Node.js",
+        "Directus API",
+        "TypeScript",
+        "OpenAPI Parser",
+        "database introspection"
+      ]
+    },
+    {
+      "title": "Git Workflow Analyzer and Recommender",
+      "topic_slug": "modern-vcs-and-developer-experience",
+      "scope": "short",
+      "pitch": "Build a CLI tool that analyzes a repository's Git history (commits, branches, merge patterns) and recommends whether the team would benefit from jj or traditional Git, and which workflow patterns (trunk-based, feature branches) suit the observed behavior. Generate a report with migration guidance.",
+      "why_now": "jj's momentum combined with diverse Git workflow preferences creates demand for data-driven migration guidance.",
       "stack_hints": [
         "Go",
-        "Kubernetes client library",
-        "kubectl",
-        "JSON output"
+        "git2-rs",
+        "statistical analysis",
+        "terminal UI"
       ]
     },
     {
-      "title": "Rust Async Benchmark Suite",
-      "topic_slug": "rust-systems-infrastructure",
+      "title": "Embedding Quality Regression Detector",
+      "topic_slug": "ai-native-data-and-search",
       "scope": "short",
-      "pitch": "Build a benchmarking harness that compares async runtime performance (Tokio vs others) across common workload patterns: I/O-bound, CPU-bound, and mixed. Output detailed metrics and flamegraphs.",
-      "why_now": "Tokio's persistence in trends plus heavy adoption of async Rust in infrastructure makes runtime performance visibility critical.",
+      "pitch": "Create a tool that monitors embeddings stored in Chroma or Qdrant for quality degradation over time. Detect when new embedding models or data drift causes semantic search relevance to drop, and automatically flag stale embeddings for re-generation. Integrate with CI/CD.",
+      "why_now": "As vector databases move into production, developers need automated detection of embedding quality issues that silent degrade search relevance.",
       "stack_hints": [
-        "Tokio",
-        "criterion",
-        "flamegraph",
-        "Rust"
+        "Python",
+        "Chroma SDK",
+        "similarity metrics",
+        "temporal analysis"
       ]
     },
     {
-      "title": "Financial Data Pipeline Builder",
-      "topic_slug": "financial-ai-platforms",
+      "title": "Multi-Model Agent Cost Optimizer Framework",
+      "topic_slug": "agentic-ai-workflows",
       "scope": "medium",
-      "pitch": "Create a visual workflow platform that lets users drag-and-drop financial data sources, transformations, and destinations. Support real-time ingestion from OpenBB, CCXT, and storage in a vector database for AI-powered analysis.",
-      "why_now": "OpenBB, Qlib, and vector databases converge around financial AI; a composable pipeline bridges them without custom code.",
-      "stack_hints": [
-        "React",
-        "Express.js",
-        "OpenBB SDK",
-        "Qdrant Python client"
-      ]
-    },
-    {
-      "title": "Intelligent Agent Routing Middleware",
-      "topic_slug": "agentic-workflows-automation",
-      "scope": "medium",
-      "pitch": "Develop a TypeScript middleware library that sits between agent frameworks and LLM APIs, learning task characteristics and routing to optimal models based on latency, cost, and quality thresholds. Include observability dashboards.",
-      "why_now": "Manifest's success proves the market; building a composable, framework-agnostic middleware unlocks broader adoption.",
+      "pitch": "Develop a TypeScript framework that wraps n8n, LangChain, and LLamaIndex, automatically routing agent tasks to optimal models based on learned cost/quality/latency tradeoffs. Include fine-tuning recommendations, batch processing for non-latency-critical tasks, and integration with fallback chains. Ship with observability dashboard.",
+      "why_now": "Manifest's cost-reduction success combined with multi-framework demand shows market appetite for intelligent, framework-agnostic routing middleware.",
       "stack_hints": [
         "TypeScript",
         "LangChain",
-        "OpenTelemetry",
-        "Express.js"
+        "n8n SDK",
+        "PostgreSQL",
+        "OpenTelemetry"
       ]
     },
     {
-      "title": "Cloud-Native Database Migration Assistant",
-      "topic_slug": "cloud-native-deployment",
+      "title": "Rust Async Workload Generator and Benchmarker",
+      "topic_slug": "rust-infrastructure-dominance",
       "scope": "medium",
-      "pitch": "Build an interactive tool that analyzes existing database schemas and generates Kubernetes manifests for CloudNativePG deployments. Include automated failover configuration, backup scheduling, and monitoring integration.",
-      "why_now": "CloudNativePG's lifecycle management capabilities demand tooling to reduce migration friction from traditional databases.",
-      "stack_hints": [
-        "Go",
-        "Kubernetes API",
-        "PostgreSQL introspection",
-        "YAML templating"
-      ]
-    },
-    {
-      "title": "Polars Data Transformation Debugger",
-      "topic_slug": "rust-systems-infrastructure",
-      "scope": "medium",
-      "pitch": "Create a VS Code extension that visualizes Polars query execution plans, highlights performance bottlenecks, and suggests optimizations. Include sample data preview and query cost estimation.",
-      "why_now": "Polars' rapid adoption in data pipelines parallels the need for query introspection tools developers expect from mature systems.",
+      "pitch": "Build a comprehensive benchmarking suite that generates realistic async workloads (I/O saturation, task scheduling contention, mixed CPU/IO) and compares Tokio, async-std, and other runtimes. Produce flamegraphs, contention analysis, and detailed performance reports. Export metrics to standard observability formats.",
+      "why_now": "Tokio's dominance in systems infrastructure combined with increasing async adoption means runtime performance comparison is critical for architecture decisions.",
       "stack_hints": [
         "Rust",
-        "Polars API",
-        "TypeScript",
-        "VS Code API"
+        "Tokio",
+        "criterion",
+        "flamegraph",
+        "pprof"
       ]
     },
     {
-      "title": "Semantic Search Relevance Tuner",
-      "topic_slug": "data-vectorization-search",
+      "title": "Directus + Workflow Automation Connector",
+      "topic_slug": "backend-cmses-and-data-platforms",
       "scope": "medium",
-      "pitch": "Build a web application where users can interactively fine-tune embedding models and retrieval parameters for their domain. Provide instant feedback on search quality via A/B testing and detailed relevance metrics.",
-      "why_now": "As Qdrant and Chroma move into production, developers need lower-friction tuning workflows than manual parameter tweaking.",
+      "pitch": "Create a bidirectional integration bridge between Directus collections and n8n workflows. Auto-generate workflow templates when collections change (CRUD hooks, approval chains). Support real-time sync and conflict resolution. Include visual flow designer for common patterns.",
+      "why_now": "Directus and n8n's complementary strengths (backend + workflows) are ripe for tight integration that reduces boilerplate.",
       "stack_hints": [
-        "Next.js",
-        "Qdrant Python client",
-        "Hugging Face Transformers",
-        "Streamlit components"
+        "Node.js",
+        "Directus SDK",
+        "n8n plugin API",
+        "WebSocket",
+        "TypeScript"
       ]
     },
     {
-      "title": "Multi-Asset Trading Simulation Engine",
-      "topic_slug": "financial-ai-platforms",
-      "scope": "long",
-      "pitch": "Develop a comprehensive trading simulation platform (stocks, crypto, forex) that integrates live market data, supports custom strategy scripting in Python, and includes realistic slippage/latency modeling. Expose REST APIs for headless execution.",
-      "why_now": "Nautilus Trader, Qlib, and CCXT form a converged ecosystem; a user-friendly simulation layer with integration to all three unlocks retail adoption.",
+      "title": "VCS Migration Toolkit with Automated Rewriting",
+      "topic_slug": "modern-vcs-and-developer-experience",
+      "scope": "medium",
+      "pitch": "Build a tool that eases migration from Git to jj by preserving history, rewriting commits to jj's conflict-free model, and automating developer workflow training. Include pre/post migration testing, rollback capabilities, and team onboarding guides.",
+      "why_now": "jj's growing adoption combined with organizational hesitation about VCS migration creates demand for risk-mitigated, automated transition tooling.",
       "stack_hints": [
-        "Rust core engine",
-        "Python bindings",
-        "FastAPI",
-        "CCXT integration",
-        "PostgreSQL"
+        "Rust",
+        "jj API",
+        "git2-rs",
+        "schema inference"
       ]
     },
     {
-      "title": "Kubernetes Multi-Cluster Cost Optimizer",
-      "topic_slug": "cloud-native-deployment",
-      "scope": "long",
-      "pitch": "Build a platform that monitors multiple Kubernetes clusters (including those using Traefik, CloudNativePG), identifies cost inefficiencies (overprovisioned nodes, unused resources), and automates remediation. Include FinOps reporting.",
-      "why_now": "Proliferation of cloud-native tools (Traefik, meshery, CloudNativePG) reflects multi-cluster complexity; cost visibility is becoming table-stakes.",
+      "title": "AI-Native Document Warehouse with Lance",
+      "topic_slug": "ai-native-data-and-search",
+      "scope": "medium",
+      "pitch": "Develop a Python library that abstracts Lance as a unified document warehouse, combining structured metadata, unstructured text, vector embeddings, and version history. Support SQL queries alongside semantic search and automatic embedding generation. Expose a REST API and Jupyter notebook integration.",
+      "why_now": "Lance's 100x faster random access plus vector indexing creates an opportunity to unify document storage and AI workloads without separate systems.",
       "stack_hints": [
-        "Go",
-        "Kubernetes client",
-        "Prometheus",
-        "React",
+        "Python",
+        "Lance",
+        "Polars",
+        "Hugging Face",
+        "FastAPI"
+      ]
+    },
+    {
+      "title": "Agent Resource Allocation and Rate Limiting Engine",
+      "topic_slug": "agentic-ai-workflows",
+      "scope": "long",
+      "pitch": "Design a comprehensive resource governance system for AI agents that enforces budget caps, token rate limits, concurrent task limits, and fallback strategies. Integrate with n8n, LangChain, and LLamaIndex. Include predictive cost modeling, anomaly detection, and auto-scaling of parallel agents. Expose metrics for fine-grained cost attribution.",
+      "why_now": "As agents scale across organizations, cost control and resource governance become mission-critical; Manifest's success validates the market.",
+      "stack_hints": [
+        "TypeScript",
+        "node-redis",
+        "PostgreSQL",
+        "OpenTelemetry",
         "GraphQL"
       ]
     },
     {
-      "title": "Async Rust Application Framework",
-      "topic_slug": "rust-systems-infrastructure",
+      "title": "Rust Native Application Server Framework",
+      "topic_slug": "rust-infrastructure-dominance",
       "scope": "long",
-      "pitch": "Create a batteries-included web framework optimized for high-concurrency services, built on Tokio with integrated middleware for observability, error handling, and graceful shutdown. Include code generators for common patterns.",
-      "why_now": "Tokio's dominance in systems infrastructure, combined with demand for fast deployments, supports a framework that abstracts async boilerplate.",
+      "pitch": "Create a batteries-included web server framework (similar to Rails/Django but Rust-native) optimized for high-concurrency services. Built on Tokio with integrated middleware for routing, auth, observability, graceful shutdown, and connection pooling. Include code generators, CLI scaffolding, and deployment helpers. Target sub-100ms latency for common workloads.",
+      "why_now": "Tokio's maturity, combined with sustained Rust adoption in infrastructure, creates demand for opinionated, fast-track frameworks that abstract async complexity.",
       "stack_hints": [
         "Tokio",
         "Hyper",
-        "OpenTelemetry",
         "Serde",
-        "Tower"
+        "Tower",
+        "OpenTelemetry"
       ]
     },
     {
-      "title": "AI-Native Analytics Data Warehouse",
-      "topic_slug": "data-vectorization-search",
+      "title": "Headless Backend Synthesis from Natural Language",
+      "topic_slug": "backend-cmses-and-data-platforms",
       "scope": "long",
-      "pitch": "Build a columnar data warehouse optimized for AI workloads, combining traditional SQL analytics with native vector search and RAG pipelines. Support both structured and unstructured data with transparent embedding generation.",
-      "why_now": "Chroma and Qdrant show vector databases are mainstream; merging them with OLAP capabilities (inspired by Polars) creates a unified AI-analytics platform.",
-      "stack_hints": [
-        "Rust",
-        "Arrow format",
-        "Polars",
-        "Qdrant SDK",
-        "DuckDB"
-      ]
-    },
-    {
-      "title": "Agent Cost Control Framework",
-      "topic_slug": "agentic-workflows-automation",
-      "scope": "long",
-      "pitch": "Develop a comprehensive framework for building cost-aware LLM agents, including budget allocation, token counting, fallback routing, and fine-tuning recommendation engines. Ship with n8n and LangChain integrations.",
-      "why_now": "Manifest's demonstrated success in cost reduction combined with n8n's workflow popularity shows appetite for production-grade cost governance in agent systems.",
+      "pitch": "Build an AI-powered system that accepts natural language descriptions of data models, workflows, and APIs, then generates Directus collections, n8n automations, and REST endpoints. Include iterative refinement through conversation, auto-generated tests, and deployment to cloud platforms. Ship with fine-tuned LLM for backend domain knowledge.",
+      "why_now": "Directus and n8n's ease-of-use combined with LLM progress enables a new class of low-code platforms where natural language drives infrastructure.",
       "stack_hints": [
         "TypeScript",
-        "n8n plugin system",
         "LangChain",
-        "Postgres for state",
-        "OpenTelemetry"
+        "Directus SDK",
+        "n8n SDK",
+        "Claude/GPT API"
+      ]
+    },
+    {
+      "title": "Polyglot VCS with AI-Assisted Conflict Resolution",
+      "topic_slug": "modern-vcs-and-developer-experience",
+      "scope": "long",
+      "pitch": "Design a Git-compatible VCS that natively supports multi-language codebases (AST-aware merging), leverages LLMs for intelligent merge conflict resolution, and provides time-travel debugging. Include web UI for collaborative rebasing and history visualization. Target teams with frequent merge conflicts.",
+      "why_now": "jj's conflict-free model combined with gitoxide's performance sets the stage for a modern VCS that makes Git merge workflows significantly safer.",
+      "stack_hints": [
+        "Rust",
+        "gitoxide internals",
+        "tree-sitter",
+        "LLM API",
+        "React"
+      ]
+    },
+    {
+      "title": "Semantic Search and Analytics Unified Platform",
+      "topic_slug": "ai-native-data-and-search",
+      "scope": "long",
+      "pitch": "Develop a full-stack platform combining Lance's storage, Polars' analytics, and Chroma's semantic search into a single query engine. Support SQL for structured analysis, vector similarity for unstructured data, and automatic embedding generation. Expose Python, JavaScript, and SQL interfaces. Include visualization dashboards and cost tracking.",
+      "why_now": "Lance, Polars, and Chroma's convergence creates an opportunity for a unified AI-native data layer that abstracts storage and search complexity.",
+      "stack_hints": [
+        "Rust",
+        "Lance",
+        "Polars",
+        "Chroma SDK",
+        "Arrow",
+        "DuckDB"
       ]
     }
   ]
