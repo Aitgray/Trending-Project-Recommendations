@@ -1,0 +1,257 @@
+{
+  "week_of": "2026-05-17",
+  "topics": [
+    {
+      "slug": "rust-systems-infrastructure",
+      "title": "Rust systems infrastructure and developer tooling",
+      "summary": "Rust continues dominating infrastructure, version control, and developer tools (rustdesk, ruff, helix, miri, neon, bun), reflecting production maturity and preference for memory-safe, high-performance systems. This extends beyond previous trends into frontend tooling and database infrastructure.",
+      "supporting_repos": [
+        "rustdesk/rustdesk",
+        "astral-sh/ruff",
+        "helix-editor/helix",
+        "rust-lang/miri",
+        "neondatabase/neon",
+        "oven-sh/bun",
+        "DioxusLabs/dioxus"
+      ]
+    },
+    {
+      "slug": "workflow-automation-platforms",
+      "title": "Workflow automation and no-code/low-code platforms",
+      "summary": "n8n, plane, and superset represent a consolidation around visual automation, project management, and data tools that reduce custom development friction. These platforms emphasize integration-first architecture and rapid API generation without boilerplate.",
+      "supporting_repos": [
+        "n8n-io/n8n",
+        "makeplane/plane",
+        "apache/superset",
+        "usememos/memos"
+      ]
+    },
+    {
+      "slug": "security-and-scanning",
+      "title": "Security scanning, vulnerability detection, and credential management",
+      "summary": "nuclei, nuclei-templates, and trufflehog show sustained interest in automated security scanning, DSL-driven vulnerability detection, and secret detection across infrastructure. This reflects organizational shift toward continuous, community-driven security validation.",
+      "supporting_repos": [
+        "projectdiscovery/nuclei",
+        "projectdiscovery/nuclei-templates",
+        "trufflesecurity/trufflehog"
+      ]
+    },
+    {
+      "slug": "fullstack-and-typesafe-apis",
+      "title": "Fullstack type-safe APIs and end-to-end frameworks",
+      "summary": "trpc, supabase, svelte, and react-three-fiber demonstrate demand for frameworks that unify frontend and backend with shared types, reducing API contract friction. These tools prioritize developer experience and compile-time safety.",
+      "supporting_repos": [
+        "trpc/trpc",
+        "supabase/supabase",
+        "sveltejs/svelte",
+        "pmndrs/react-three-fiber"
+      ]
+    },
+    {
+      "slug": "system-design-and-ai-infrastructure",
+      "title": "System design education and AI/ML pipeline infrastructure",
+      "summary": "donnemartin/system-design-primer, huggingface/transformers, pathwaycom/pathway, and NVIDIA/Megatron-LM reflect growing demand for both architectural knowledge and production-grade AI infrastructure for training and inference at scale.",
+      "supporting_repos": [
+        "donnemartin/system-design-primer",
+        "huggingface/transformers",
+        "pathwaycom/pathway",
+        "NVIDIA/Megatron-LM"
+      ]
+    }
+  ],
+  "whats_new": "Rust infrastructure has broadened significantly beyond backends into full-stack tooling (bun, dioxus) and emerging database layer (neon), while security scanning (nuclei, trufflehog) has emerged as a persistent theme with community-driven DSLs. Workflow automation consolidation continues, but now competing directly with project management tools (plane) for workspace integration. System design education and AI/ML infrastructure training have newly surfaced as durable topics, reflecting organizational focus on architectural knowledge and large-scale model training.",
+  "projects": [
+    {
+      "title": "Rust Compilation Timeline Analyzer",
+      "topic_slug": "rust-systems-infrastructure",
+      "scope": "short",
+      "pitch": "Build a CLI tool that hooks into cargo's compilation lifecycle to generate detailed timelines of crate compilation, linking, and codegen. Produce interactive HTML reports showing per-module bottlenecks, incremental build efficiency, and LLVM optimization time. Suggest concrete optimizations (split work, enable thin-LTO, etc.).",
+      "why_now": "Rust's expansion into full-stack tooling (bun, dioxus, neon) makes compile-time visibility critical for teams scaling Rust adoption.",
+      "stack_hints": [
+        "Rust",
+        "cargo_metadata",
+        "serde",
+        "plotly.rs"
+      ]
+    },
+    {
+      "title": "Security Policy DSL Validator",
+      "topic_slug": "security-and-scanning",
+      "scope": "short",
+      "pitch": "Create a linter and validator for nuclei templates and custom security policies. Detect malformed DSL, suggest performance optimizations, identify unreachable conditions, and auto-generate test cases. Export reports as JSON for CI/CD integration.",
+      "why_now": "nuclei's momentum as a community-driven scanning platform creates demand for policy tooling that ensures template quality and consistency at scale.",
+      "stack_hints": [
+        "Rust",
+        "pest",
+        "serde_yaml",
+        "clap"
+      ]
+    },
+    {
+      "title": "Type-Safe Workflow Builder for n8n",
+      "topic_slug": "workflow-automation-platforms",
+      "scope": "short",
+      "pitch": "Develop a TypeScript code generator that reads n8n workflow JSONs and generates fully typed, refactorable workflow definitions. Support IDE autocomplete for nodes, edge conditions, and variable bindings. Compile back to native n8n format with validation.",
+      "why_now": "As workflow automation matures, developers need programmatic, type-safe abstractions over visual builders to reduce manual errors and enable versioning.",
+      "stack_hints": [
+        "TypeScript",
+        "n8n API",
+        "zod",
+        "prettier"
+      ]
+    },
+    {
+      "title": "AI Model Cost Attribution Dashboard",
+      "topic_slug": "system-design-and-ai-infrastructure",
+      "scope": "short",
+      "pitch": "Build a lightweight dashboard that aggregates compute costs from Megatron-LM training runs, fine-tuning jobs, and inference endpoints. Track per-model, per-layer, and per-task costs with projected ROI. Integrate with wandb or mlflow.",
+      "why_now": "Large-scale AI training is becoming accessible to more teams, and cost attribution remains opaque\u2014this fills a critical observability gap.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "Plotly",
+        "SQLite"
+      ]
+    },
+    {
+      "title": "Full-Stack Type Safety Bridge for Svelte + tRPC",
+      "topic_slug": "fullstack-and-typesafe-apis",
+      "scope": "medium",
+      "pitch": "Create an integrated framework that seamlessly bridges Svelte stores, tRPC client, and server procedures, ensuring end-to-end type safety. Auto-generate reactive form bindings, request/response validation, and error handling. Include dev-server with hot-reload.",
+      "why_now": "Svelte's momentum combined with tRPC's typesafe API design creates demand for a unified development experience that eliminates manual type duplication.",
+      "stack_hints": [
+        "TypeScript",
+        "Svelte",
+        "tRPC",
+        "Zod",
+        "Vite"
+      ]
+    },
+    {
+      "title": "Rust-Native Database Migration Engine for Neon",
+      "topic_slug": "rust-systems-infrastructure",
+      "scope": "medium",
+      "pitch": "Build a migration manager for Neon (serverless Postgres) that safely handles branching, schema evolution, and automatic rollback. Include conflict detection, dry-run simulation, and time-travel recovery to any previous branch state. Expose both CLI and SDK.",
+      "why_now": "Neon's code-like branching model creates opportunities for developer-friendly migration tooling that manages the complexity of distributed schema changes.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "sqlx",
+        "neon_api"
+      ]
+    },
+    {
+      "title": "Vulnerability Remediation Suggestion Engine",
+      "topic_slug": "security-and-scanning",
+      "scope": "medium",
+      "pitch": "Extend nuclei output with an AI-powered suggestion layer that proposes concrete fixes for detected vulnerabilities (code patches, configuration changes, WAF rules). Integrate with GitHub PRs to auto-create remediation branches. Include severity-based prioritization and false-positive feedback loop.",
+      "why_now": "As teams adopt nuclei for continuous scanning, manual remediation becomes a bottleneck\u2014intelligent suggestions bridge detection and action.",
+      "stack_hints": [
+        "TypeScript",
+        "LangChain",
+        "GitHub API",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Distributed Workflow Orchestration for n8n",
+      "topic_slug": "workflow-automation-platforms",
+      "scope": "medium",
+      "pitch": "Design a distributed execution layer for n8n that enables workflow spans across multiple workers with fault tolerance, rate limiting, and job prioritization. Support dependency graphs, conditional branching across workers, and result aggregation. Include Kubernetes-native deployment.",
+      "why_now": "As n8n scales to enterprise teams, execution bottlenecks and resource contention require enterprise-grade distributed orchestration.",
+      "stack_hints": [
+        "TypeScript",
+        "Bull",
+        "Redis",
+        "n8n Plugin API",
+        "Kubernetes"
+      ]
+    },
+    {
+      "title": "Interactive System Design Learning Platform",
+      "topic_slug": "system-design-and-ai-infrastructure",
+      "scope": "medium",
+      "pitch": "Create an interactive web-based platform built on donnemartin/system-design-primer's content that includes hands-on simulations (capacity planning calculators, load balancing visualizers, consistency model explorers). Auto-generate interview prep modules from system designs. Support collaborative whiteboarding.",
+      "why_now": "System design education is reaching critical mass; interactive, immersive learning tools outperform static content and create stronger retention.",
+      "stack_hints": [
+        "TypeScript",
+        "React",
+        "D3.js",
+        "FastAPI",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Dioxus Component Visual Builder",
+      "topic_slug": "rust-systems-infrastructure",
+      "scope": "long",
+      "pitch": "Develop a drag-and-drop visual builder for Dioxus components that generates production-ready Rust code. Support component composition, event binding, state management (hooks), and hot-reload. Export as git-friendly Rust files with prop types enforced by compiler. Include preview and test harness.",
+      "why_now": "Dioxus is maturing as a fullstack Rust framework; a visual builder lowers the barrier to entry while maintaining Rust's type safety and performance benefits.",
+      "stack_hints": [
+        "TypeScript",
+        "React",
+        "Dioxus SDK",
+        "tree-sitter",
+        "WebSocket"
+      ]
+    },
+    {
+      "title": "End-to-End Encrypted Workflow Execution Platform",
+      "topic_slug": "workflow-automation-platforms",
+      "scope": "long",
+      "pitch": "Build a privacy-first alternative to n8n/plane that encrypts workflow data in transit and at rest, supports zero-knowledge execution traces, and audits all access. Maintain full compatibility with n8n's JSON format for portability. Ship with FHIR/PII detection and compliance reporting.",
+      "why_now": "Enterprise adoption of workflow automation platforms creates demand for privacy-preserving alternatives that handle sensitive data without exposing execution details to platform operators.",
+      "stack_hints": [
+        "TypeScript",
+        "TweetNaCl.js",
+        "PostgreSQL",
+        "n8n SDK",
+        "OpenTelemetry"
+      ]
+    },
+    {
+      "title": "Automated Security Posture Continuous Improvement System",
+      "topic_slug": "security-and-scanning",
+      "scope": "long",
+      "pitch": "Create a comprehensive platform that orchestrates nuclei scanning, trufflehog credential detection, and policy compliance checking across multi-cloud infrastructure. Auto-correlate findings, detect exploit chains, and generate risk-scored remediation playbooks. Include feedback loop for nuclei template refinement based on organizational context.",
+      "why_now": "Security scanning tools are fragmenting across multiple specialized projects; a unified platform with intelligent correlation and continuous improvement creates significant operational value for teams.",
+      "stack_hints": [
+        "Go",
+        "Rust",
+        "Kubernetes",
+        "OpenSearch",
+        "NATS",
+        "Terraform"
+      ]
+    },
+    {
+      "title": "AI-Native Model Training Orchestrator",
+      "topic_slug": "system-design-and-ai-infrastructure",
+      "scope": "long",
+      "pitch": "Develop a distributed training framework that abstracts Megatron-LM, DeepSpeed, and FSDP under a unified API. Auto-allocate GPU resources, manage checkpointing across failures, support multi-modal training (text + vision), and generate cost/performance tradeoff recommendations. Integrate with wandb for experiment tracking.",
+      "why_now": "Large-scale model training is becoming mainstream; a unified orchestration layer that hides infrastructure complexity while exposing cost optimization is a critical missing piece.",
+      "stack_hints": [
+        "Python",
+        "PyTorch",
+        "Ray",
+        "Kubernetes",
+        "FastAPI",
+        "wandb API"
+      ]
+    },
+    {
+      "title": "Rust Embedded Systems Runtime",
+      "topic_slug": "rust-systems-infrastructure",
+      "scope": "long",
+      "pitch": "Design a batteries-included Rust runtime for embedded and edge systems that combines async I/O (like Tokio), zero-copy serialization (serde), and deterministic resource management. Support WebAssembly compilation, OTA updates, and cross-device state sync. Ship with hardware abstraction layer for common MCUs.",
+      "why_now": "Rust's proven success in systems infrastructure (rustdesk, neon, bun) makes it a natural fit for embedded systems; a cohesive runtime eliminates fragmentation and accelerates adoption.",
+      "stack_hints": [
+        "Rust",
+        "tokio-embedded",
+        "embassy",
+        "serde",
+        "WebAssembly"
+      ]
+    }
+  ]
+}

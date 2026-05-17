@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-05-17",
+  "window_dates": [
+    "2026-05-11",
+    "2026-05-12",
+    "2026-05-13",
+    "2026-05-14",
+    "2026-05-15",
+    "2026-05-16",
+    "2026-05-17"
+  ],
+  "repos": [
+    {
+      "full_name": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 1454,
+      "peak_daily_stars": 295,
+      "persistence_score": 50.97932825723915
+    },
+    {
+      "full_name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 615,
+      "peak_daily_stars": 100,
+      "persistence_score": 44.96272874473463
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 963,
+      "peak_daily_stars": 174,
+      "persistence_score": 41.22654776766328
+    },
+    {
+      "full_name": "projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 543,
+      "peak_daily_stars": 265,
+      "persistence_score": 37.79369548113566
+    },
+    {
+      "full_name": "rust-unofficial/awesome-rust",
+      "description": "A curated list of Rust code and resources.",
+      "language": "Rust",
+      "url": "https://github.com/rust-unofficial/awesome-rust",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 206,
+      "peak_daily_stars": 36,
+      "persistence_score": 37.32903155285758
+    },
+    {
+      "full_name": "microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/playwright",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 477,
+      "peak_daily_stars": 96,
+      "persistence_score": 37.01766439494874
+    },
+    {
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "\ud83d\udcdd Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+      "language": "JavaScript",
+      "url": "https://github.com/trekhleb/javascript-algorithms",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 95,
+      "peak_daily_stars": 17,
+      "persistence_score": 31.950437340274853
+    },
+    {
+      "full_name": "helix-editor/helix",
+      "description": "A post-modern modal text editor.",
+      "language": "Rust",
+      "url": "https://github.com/helix-editor/helix",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 150,
+      "peak_daily_stars": 28,
+      "persistence_score": 30.103679020889544
+    },
+    {
+      "full_name": "makeplane/plane",
+      "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "url": "https://github.com/makeplane/plane",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 307,
+      "peak_daily_stars": 69,
+      "persistence_score": 28.65049891486787
+    },
+    {
+      "full_name": "sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "language": "JavaScript",
+      "url": "https://github.com/sveltejs/svelte",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 100,
+      "peak_daily_stars": 31,
+      "persistence_score": 27.69072310104756
+    },
+    {
+      "full_name": "huggingface/transformers",
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "language": "Python",
+      "url": "https://github.com/huggingface/transformers",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 205,
+      "peak_daily_stars": 47,
+      "persistence_score": 26.639380843947905
+    },
+    {
+      "full_name": "pmndrs/react-three-fiber",
+      "description": "\ud83c\udde8\ud83c\udded A React renderer for Three.js",
+      "language": "TypeScript",
+      "url": "https://github.com/pmndrs/react-three-fiber",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 167,
+      "peak_daily_stars": 55,
+      "persistence_score": 25.619819897016292
+    },
+    {
+      "full_name": "jgraph/drawio-desktop",
+      "description": "Official electron build of draw.io",
+      "language": "JavaScript",
+      "url": "https://github.com/jgraph/drawio-desktop",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 134,
+      "peak_daily_stars": 30,
+      "persistence_score": 24.526373892192147
+    },
+    {
+      "full_name": "rust-lang/miri",
+      "description": "An interpreter for Rust's mid-level intermediate representation",
+      "language": "Rust",
+      "url": "https://github.com/rust-lang/miri",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 58,
+      "peak_daily_stars": 23,
+      "persistence_score": 24.46522466343432
+    },
+    {
+      "full_name": "nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "url": "https://github.com/nats-io/nats-server",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 58,
+      "peak_daily_stars": 19,
+      "persistence_score": 24.46522466343432
+    },
+    {
+      "full_name": "immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "url": "https://github.com/immich-app/immich",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 434,
+      "peak_daily_stars": 119,
+      "persistence_score": 24.301384124354737
+    },
+    {
+      "full_name": "astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "url": "https://github.com/astral-sh/ruff",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 102,
+      "peak_daily_stars": 26,
+      "persistence_score": 23.17364494114818
+    },
+    {
+      "full_name": "pathwaycom/pathway",
+      "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+      "language": "Python",
+      "url": "https://github.com/pathwaycom/pathway",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 100,
+      "peak_daily_stars": 23,
+      "persistence_score": 23.075602584206298
+    },
+    {
+      "full_name": "projectdiscovery/nuclei-templates",
+      "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "language": "JavaScript",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 45,
+      "peak_daily_stars": 10,
+      "persistence_score": 22.97184837893457
+    },
+    {
+      "full_name": "DioxusLabs/dioxus",
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "language": "Rust",
+      "url": "https://github.com/DioxusLabs/dioxus",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 91,
+      "peak_daily_stars": 30,
+      "persistence_score": 22.608942885245202
+    },
+    {
+      "full_name": "elebumm/RedditVideoMakerBot",
+      "description": "Create Reddit Videos with just\u2728 one command \u2728",
+      "language": "Python",
+      "url": "https://github.com/elebumm/RedditVideoMakerBot",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 279,
+      "peak_daily_stars": 134,
+      "persistence_score": 22.539158412676997
+    },
+    {
+      "full_name": "apache/superset",
+      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+      "language": "TypeScript",
+      "url": "https://github.com/apache/superset",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 85,
+      "peak_daily_stars": 21,
+      "persistence_score": 22.27173648126754
+    },
+    {
+      "full_name": "n0-computer/iroh",
+      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "language": "Rust",
+      "url": "https://github.com/n0-computer/iroh",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 81,
+      "peak_daily_stars": 20,
+      "persistence_score": 22.033596236321266
+    },
+    {
+      "full_name": "trpc/trpc",
+      "description": "\ud83e\uddd9\u200d\u2640\ufe0f Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
+      "language": "TypeScript",
+      "url": "https://github.com/trpc/trpc",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 79,
+      "peak_daily_stars": 20,
+      "persistence_score": 21.910133173369406
+    },
+    {
+      "full_name": "supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "url": "https://github.com/supabase/supabase",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 220,
+      "peak_daily_stars": 62,
+      "persistence_score": 21.59265080607101
+    },
+    {
+      "full_name": "NVIDIA/Megatron-LM",
+      "description": "Ongoing research training transformer models at scale",
+      "language": "Python",
+      "url": "https://github.com/NVIDIA/Megatron-LM",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 70,
+      "peak_daily_stars": 18,
+      "persistence_score": 21.313399385206576
+    },
+    {
+      "full_name": "trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 200,
+      "peak_daily_stars": 110,
+      "persistence_score": 21.213219632236303
+    },
+    {
+      "full_name": "oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager \u2013 all in one",
+      "language": "Rust",
+      "url": "https://github.com/oven-sh/bun",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 1134,
+      "peak_daily_stars": 448,
+      "persistence_score": 21.10316378974651
+    },
+    {
+      "full_name": "mui/material-ui",
+      "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+      "language": "JavaScript",
+      "url": "https://github.com/mui/material-ui",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 66,
+      "peak_daily_stars": 17,
+      "persistence_score": 21.023463096954828
+    },
+    {
+      "full_name": "usememos/memos",
+      "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+      "language": "Go",
+      "url": "https://github.com/usememos/memos",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 189,
+      "peak_daily_stars": 71,
+      "persistence_score": 20.988096288641945
+    },
+    {
+      "full_name": "neondatabase/neon",
+      "description": "Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.",
+      "language": "Rust",
+      "url": "https://github.com/neondatabase/neon",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 189,
+      "peak_daily_stars": 67,
+      "persistence_score": 20.988096288641945
+    },
+    {
+      "full_name": "ajeetdsouza/zoxide",
+      "description": "A smarter cd command. Supports all major shells.",
+      "language": "Rust",
+      "url": "https://github.com/ajeetdsouza/zoxide",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 174,
+      "peak_daily_stars": 57,
+      "persistence_score": 20.659143895694058
+    },
+    {
+      "full_name": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 936,
+      "peak_daily_stars": 336,
+      "persistence_score": 20.528049846715266
+    },
+    {
+      "full_name": "Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 865,
+      "peak_daily_stars": 322,
+      "persistence_score": 20.291654725687305
+    },
+    {
+      "full_name": "hyprwm/Hyprland",
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "language": "C++",
+      "url": "https://github.com/hyprwm/Hyprland",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 158,
+      "peak_daily_stars": 48,
+      "persistence_score": 20.275616808880926
+    },
+    {
+      "full_name": "AykutSarac/jsoncrack.com",
+      "description": "\u2728 Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML and CSV into interactive graphs.",
+      "language": "TypeScript",
+      "url": "https://github.com/AykutSarac/jsoncrack.com",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 56,
+      "peak_daily_stars": 18,
+      "persistence_score": 20.21525633917275
+    },
+    {
+      "full_name": "apify/fingerprint-suite",
+      "description": "Browser fingerprinting tools for anonymizing your scrapers. Developed by Apify.",
+      "language": "TypeScript",
+      "url": "https://github.com/apify/fingerprint-suite",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 150,
+      "peak_daily_stars": 59,
+      "persistence_score": 20.069119347259697
+    },
+    {
+      "full_name": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 631,
+      "peak_daily_stars": 230,
+      "persistence_score": 19.346668182440574
+    },
+    {
+      "full_name": "gorilla/websocket",
+      "description": "Package gorilla/websocket is a fast, well-tested and widely used WebSocket implementation for Go.",
+      "language": "Go",
+      "url": "https://github.com/gorilla/websocket",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 24,
+      "peak_daily_stars": 5,
+      "persistence_score": 19.313254949209202
+    },
+    {
+      "full_name": "cloud-hypervisor/cloud-hypervisor",
+      "description": "A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.",
+      "language": "Rust",
+      "url": "https://github.com/cloud-hypervisor/cloud-hypervisor",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 24,
+      "peak_daily_stars": 7,
+      "persistence_score": 19.313254949209202
+    }
+  ]
+}

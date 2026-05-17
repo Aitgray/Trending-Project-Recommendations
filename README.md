@@ -1,137 +1,117 @@
 # Trending Project Ideas
 
-**Week of 2026-05-10** | [About this project](ABOUT.md)
+**Week of 2026-05-17** | [About this project](ABOUT.md)
 
 ---
 
 > **What's new this week**
 >
-> Rust infrastructure has strengthened further, with gitoxide, ruff, and burn entering the persistent trending window, signaling enterprise adoption of Rust for core developer tools. Agentic AI workflows have matured beyond generic automation into cost-optimized, intelligent routing systems—Manifest's continued prominence alongside n8n and LLamaIndex reflects consolidation around cost governance. Headless backends and API-first platforms (Directus, n8n) are now competing on feature richness and ease-of-use rather than existence. The emergence of Lance and expanded Chroma traction shows vector search is graduating from experimental to production-grade infrastructure, with explicit demand for AI-native storage layers that combine analytics and semantic capabilities.
+> Rust infrastructure has broadened significantly beyond backends into full-stack tooling (bun, dioxus) and emerging database layer (neon), while security scanning (nuclei, trufflehog) has emerged as a persistent theme with community-driven DSLs. Workflow automation consolidation continues, but now competing directly with project management tools (plane) for workspace integration. System design education and AI/ML infrastructure training have newly surfaced as durable topics, reflecting organizational focus on architectural knowledge and large-scale model training.
 
 ---
 
 ## Trending Topics
 
 
-### Rust-native infrastructure and developer tools
+### Rust systems infrastructure and developer tooling
 
-High-performance, memory-safe systems written in Rust continue to dominate infrastructure and tooling, spanning async runtimes, data processing, version control, and remote access. This reflects deepening adoption of Rust for production systems requiring reliability, speed, and strict safety guarantees.
+Rust continues dominating infrastructure, version control, and developer tools (rustdesk, ruff, helix, miri, neon, bun), reflecting production maturity and preference for memory-safe, high-performance systems. This extends beyond previous trends into frontend tooling and database infrastructure.
 
 <details>
-<summary>Supporting repos (10)</summary>
+<summary>Supporting repos (7)</summary>
 
 
 - [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
 
 - [astral-sh/ruff](https://github.com/astral-sh/ruff)
 
-- [GitoxideLabs/gitoxide](https://github.com/GitoxideLabs/gitoxide)
+- [helix-editor/helix](https://github.com/helix-editor/helix)
 
-- [pola-rs/polars](https://github.com/pola-rs/polars)
+- [rust-lang/miri](https://github.com/rust-lang/miri)
 
-- [tokio-rs/tokio](https://github.com/tokio-rs/tokio)
+- [neondatabase/neon](https://github.com/neondatabase/neon)
 
-- [emilk/egui](https://github.com/emilk/egui)
+- [oven-sh/bun](https://github.com/oven-sh/bun)
 
-- [jj-vcs/jj](https://github.com/jj-vcs/jj)
-
-- [lance-format/lance](https://github.com/lance-format/lance)
-
-- [tracel-ai/burn](https://github.com/tracel-ai/burn)
-
-- [chroma-core/chroma](https://github.com/chroma-core/chroma)
+- [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus)
 
 
 </details>
 
 
-### Agentic AI workflows and intelligent routing
+### Workflow automation and no-code/low-code platforms
 
-Tools for building, routing, and optimizing AI agent workflows are gaining momentum, emphasizing cost efficiency, multi-model routing, and seamless integration with enterprise automation platforms. Projects like Manifest, LLamaIndex, and n8n demonstrate demand for intelligent agent orchestration that balances performance with operational expense.
+n8n, plane, and superset represent a consolidation around visual automation, project management, and data tools that reduce custom development friction. These platforms emphasize integration-first architecture and rapid API generation without boilerplate.
 
 <details>
-<summary>Supporting repos (6)</summary>
+<summary>Supporting repos (4)</summary>
 
-
-- [mnfst/manifest](https://github.com/mnfst/manifest)
 
 - [n8n-io/n8n](https://github.com/n8n-io/n8n)
 
-- [run-llama/llama_index](https://github.com/run-llama/llama_index)
-
-- [activepieces/activepieces](https://github.com/activepieces/activepieces)
-
-- [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
-
-- [NangoHQ/nango](https://github.com/NangoHQ/nango)
-
-
-</details>
-
-
-### Headless backends, CMSes, and rapid API generation
-
-Platforms that transform databases into instant APIs, admin panels, and workflow automation are consolidating market share. Directus, n8n, and similar projects enable developers to ship backends and integrations without custom code, accelerating time-to-market for both internal tools and consumer applications.
-
-<details>
-<summary>Supporting repos (5)</summary>
-
-
-- [directus/directus](https://github.com/directus/directus)
-
-- [n8n-io/n8n](https://github.com/n8n-io/n8n)
-
-- [activepieces/activepieces](https://github.com/activepieces/activepieces)
-
-- [NangoHQ/nango](https://github.com/NangoHQ/nango)
+- [makeplane/plane](https://github.com/makeplane/plane)
 
 - [apache/superset](https://github.com/apache/superset)
 
-
-</details>
-
-
-### Modern version control and developer experience tooling
-
-Next-generation VCS tools and Git-compatible systems, alongside fast linters and modern terminal UIs, are redefining developer workflow efficiency. Projects like jj, gitoxide, and ruff show sustained interest in reimagining core development tools with better UX and performance.
-
-<details>
-<summary>Supporting repos (6)</summary>
-
-
-- [jj-vcs/jj](https://github.com/jj-vcs/jj)
-
-- [GitoxideLabs/gitoxide](https://github.com/GitoxideLabs/gitoxide)
-
-- [astral-sh/ruff](https://github.com/astral-sh/ruff)
-
-- [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
-
-- [Eugeny/tabby](https://github.com/Eugeny/tabby)
-
-- [helix-editor/helix](https://github.com/helix-editor/helix)
+- [usememos/memos](https://github.com/usememos/memos)
 
 
 </details>
 
 
-### AI-native data formats, vector search, and multimodal storage
+### Security scanning, vulnerability detection, and credential management
 
-New storage and indexing formats (Lance, Chroma) purpose-built for AI workloads—combining traditional analytics with vector search and embedding capabilities—are emerging as foundational infrastructure. These systems bridge columnar databases, unstructured data, and semantic search in a unified interface.
+nuclei, nuclei-templates, and trufflehog show sustained interest in automated security scanning, DSL-driven vulnerability detection, and secret detection across infrastructure. This reflects organizational shift toward continuous, community-driven security validation.
 
 <details>
-<summary>Supporting repos (5)</summary>
+<summary>Supporting repos (3)</summary>
 
 
-- [lance-format/lance](https://github.com/lance-format/lance)
+- [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
 
-- [chroma-core/chroma](https://github.com/chroma-core/chroma)
+- [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)
 
-- [pola-rs/polars](https://github.com/pola-rs/polars)
+- [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
 
-- [run-llama/llama_index](https://github.com/run-llama/llama_index)
 
-- [tracel-ai/burn](https://github.com/tracel-ai/burn)
+</details>
+
+
+### Fullstack type-safe APIs and end-to-end frameworks
+
+trpc, supabase, svelte, and react-three-fiber demonstrate demand for frameworks that unify frontend and backend with shared types, reducing API contract friction. These tools prioritize developer experience and compile-time safety.
+
+<details>
+<summary>Supporting repos (4)</summary>
+
+
+- [trpc/trpc](https://github.com/trpc/trpc)
+
+- [supabase/supabase](https://github.com/supabase/supabase)
+
+- [sveltejs/svelte](https://github.com/sveltejs/svelte)
+
+- [pmndrs/react-three-fiber](https://github.com/pmndrs/react-three-fiber)
+
+
+</details>
+
+
+### System design education and AI/ML pipeline infrastructure
+
+donnemartin/system-design-primer, huggingface/transformers, pathwaycom/pathway, and NVIDIA/Megatron-LM reflect growing demand for both architectural knowledge and production-grade AI infrastructure for training and inference at scale.
+
+<details>
+<summary>Supporting repos (4)</summary>
+
+
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
+
+- [huggingface/transformers](https://github.com/huggingface/transformers)
+
+- [pathwaycom/pathway](https://github.com/pathwaycom/pathway)
+
+- [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
 
 
 </details>
@@ -146,80 +126,67 @@ New storage and indexing formats (Lance, Chroma) purpose-built for AI workloads�
 
 
 
-#### Rust-native infrastructure and developer tools
+#### Rust systems infrastructure and developer tooling
 
 
-##### Rust Toolchain Performance Profiler
+##### Rust Compilation Timeline Analyzer
 
-Build a CLI tool that profiles Rust compilation and runtime performance across projects, identifying bottlenecks in incremental builds, linking, and LLVM codegen. Output actionable recommendations (e.g., enable codegen units, profile-guided optimization candidates). Integrate with popular Rust projects to benchmark against baseline metrics.
+Build a CLI tool that hooks into cargo's compilation lifecycle to generate detailed timelines of crate compilation, linking, and codegen. Produce interactive HTML reports showing per-module bottlenecks, incremental build efficiency, and LLVM optimization time. Suggest concrete optimizations (split work, enable thin-LTO, etc.).
 
-**Why now:** Rust's persistence in trends combined with compilation pain points in large codebases makes performance visibility a critical need for teams scaling Rust adoption.
+**Why now:** Rust's expansion into full-stack tooling (bun, dioxus, neon) makes compile-time visibility critical for teams scaling Rust adoption.
 
-**Stack hints:** `Rust`, `cargo`, `flamegraph`, `criterion`, `serde`
-
-
-
-
-
-
-#### Agentic AI workflows and intelligent routing
-
-
-##### Agent Execution Audit Logger
-
-Create a lightweight middleware that logs all LLM API calls made by agents (n8n, LangChain, LLamaIndex), capturing model name, token usage, latency, and cost. Expose a simple CLI dashboard showing spend trends, model distribution, and cost-per-task metrics. Alert on budget overruns.
-
-**Why now:** Manifest's success in cost reduction proves demand; teams need observability into agent spending without heavy instrumentation.
-
-**Stack hints:** `Node.js`, `Express`, `SQLite`, `OpenAI API`, `chalk`
+**Stack hints:** `Rust`, `cargo_metadata`, `serde`, `plotly.rs`
 
 
 
 
 
 
-#### Headless backends, CMSes, and rapid API generation
+#### Workflow automation and no-code/low-code platforms
 
 
-##### Headless CMS Schema Migrator
+##### Type-Safe Workflow Builder for n8n
 
-Build a tool that auto-generates Directus collection definitions from OpenAPI specs or existing database schemas. Support one-way sync and rollback of schema changes. Generate corresponding Node.js/Python client libraries automatically.
+Develop a TypeScript code generator that reads n8n workflow JSONs and generates fully typed, refactorable workflow definitions. Support IDE autocomplete for nodes, edge conditions, and variable bindings. Compile back to native n8n format with validation.
 
-**Why now:** Directus and similar platforms thrive when setup friction is minimized; automating schema migration from legacy systems accelerates adoption.
+**Why now:** As workflow automation matures, developers need programmatic, type-safe abstractions over visual builders to reduce manual errors and enable versioning.
 
-**Stack hints:** `Node.js`, `Directus API`, `TypeScript`, `OpenAPI Parser`, `database introspection`
-
-
-
-
-
-
-#### Modern version control and developer experience tooling
-
-
-##### Git Workflow Analyzer and Recommender
-
-Build a CLI tool that analyzes a repository's Git history (commits, branches, merge patterns) and recommends whether the team would benefit from jj or traditional Git, and which workflow patterns (trunk-based, feature branches) suit the observed behavior. Generate a report with migration guidance.
-
-**Why now:** jj's momentum combined with diverse Git workflow preferences creates demand for data-driven migration guidance.
-
-**Stack hints:** `Go`, `git2-rs`, `statistical analysis`, `terminal UI`
+**Stack hints:** `TypeScript`, `n8n API`, `zod`, `prettier`
 
 
 
 
 
 
-#### AI-native data formats, vector search, and multimodal storage
+#### Security scanning, vulnerability detection, and credential management
 
 
-##### Embedding Quality Regression Detector
+##### Security Policy DSL Validator
 
-Create a tool that monitors embeddings stored in Chroma or Qdrant for quality degradation over time. Detect when new embedding models or data drift causes semantic search relevance to drop, and automatically flag stale embeddings for re-generation. Integrate with CI/CD.
+Create a linter and validator for nuclei templates and custom security policies. Detect malformed DSL, suggest performance optimizations, identify unreachable conditions, and auto-generate test cases. Export reports as JSON for CI/CD integration.
 
-**Why now:** As vector databases move into production, developers need automated detection of embedding quality issues that silent degrade search relevance.
+**Why now:** nuclei's momentum as a community-driven scanning platform creates demand for policy tooling that ensures template quality and consistency at scale.
 
-**Stack hints:** `Python`, `Chroma SDK`, `similarity metrics`, `temporal analysis`
+**Stack hints:** `Rust`, `pest`, `serde_yaml`, `clap`
+
+
+
+
+
+
+
+
+
+#### System design education and AI/ML pipeline infrastructure
+
+
+##### AI Model Cost Attribution Dashboard
+
+Build a lightweight dashboard that aggregates compute costs from Megatron-LM training runs, fine-tuning jobs, and inference endpoints. Track per-model, per-layer, and per-task costs with projected ROI. Integrate with wandb or mlflow.
+
+**Why now:** Large-scale AI training is becoming accessible to more teams, and cost attribution remains opaque—this fills a critical observability gap.
+
+**Stack hints:** `Python`, `FastAPI`, `Plotly`, `SQLite`
 
 
 
@@ -232,80 +199,80 @@ Create a tool that monitors embeddings stored in Chroma or Qdrant for quality de
 
 
 
-#### Rust-native infrastructure and developer tools
+#### Rust systems infrastructure and developer tooling
 
 
-##### Rust Async Workload Generator and Benchmarker
+##### Rust-Native Database Migration Engine for Neon
 
-Build a comprehensive benchmarking suite that generates realistic async workloads (I/O saturation, task scheduling contention, mixed CPU/IO) and compares Tokio, async-std, and other runtimes. Produce flamegraphs, contention analysis, and detailed performance reports. Export metrics to standard observability formats.
+Build a migration manager for Neon (serverless Postgres) that safely handles branching, schema evolution, and automatic rollback. Include conflict detection, dry-run simulation, and time-travel recovery to any previous branch state. Expose both CLI and SDK.
 
-**Why now:** Tokio's dominance in systems infrastructure combined with increasing async adoption means runtime performance comparison is critical for architecture decisions.
+**Why now:** Neon's code-like branching model creates opportunities for developer-friendly migration tooling that manages the complexity of distributed schema changes.
 
-**Stack hints:** `Rust`, `Tokio`, `criterion`, `flamegraph`, `pprof`
-
-
-
-
-
-
-#### Agentic AI workflows and intelligent routing
-
-
-##### Multi-Model Agent Cost Optimizer Framework
-
-Develop a TypeScript framework that wraps n8n, LangChain, and LLamaIndex, automatically routing agent tasks to optimal models based on learned cost/quality/latency tradeoffs. Include fine-tuning recommendations, batch processing for non-latency-critical tasks, and integration with fallback chains. Ship with observability dashboard.
-
-**Why now:** Manifest's cost-reduction success combined with multi-framework demand shows market appetite for intelligent, framework-agnostic routing middleware.
-
-**Stack hints:** `TypeScript`, `LangChain`, `n8n SDK`, `PostgreSQL`, `OpenTelemetry`
+**Stack hints:** `Rust`, `tokio`, `sqlx`, `neon_api`
 
 
 
 
 
 
-#### Headless backends, CMSes, and rapid API generation
+#### Workflow automation and no-code/low-code platforms
 
 
-##### Directus + Workflow Automation Connector
+##### Distributed Workflow Orchestration for n8n
 
-Create a bidirectional integration bridge between Directus collections and n8n workflows. Auto-generate workflow templates when collections change (CRUD hooks, approval chains). Support real-time sync and conflict resolution. Include visual flow designer for common patterns.
+Design a distributed execution layer for n8n that enables workflow spans across multiple workers with fault tolerance, rate limiting, and job prioritization. Support dependency graphs, conditional branching across workers, and result aggregation. Include Kubernetes-native deployment.
 
-**Why now:** Directus and n8n's complementary strengths (backend + workflows) are ripe for tight integration that reduces boilerplate.
+**Why now:** As n8n scales to enterprise teams, execution bottlenecks and resource contention require enterprise-grade distributed orchestration.
 
-**Stack hints:** `Node.js`, `Directus SDK`, `n8n plugin API`, `WebSocket`, `TypeScript`
-
-
-
-
-
-
-#### Modern version control and developer experience tooling
-
-
-##### VCS Migration Toolkit with Automated Rewriting
-
-Build a tool that eases migration from Git to jj by preserving history, rewriting commits to jj's conflict-free model, and automating developer workflow training. Include pre/post migration testing, rollback capabilities, and team onboarding guides.
-
-**Why now:** jj's growing adoption combined with organizational hesitation about VCS migration creates demand for risk-mitigated, automated transition tooling.
-
-**Stack hints:** `Rust`, `jj API`, `git2-rs`, `schema inference`
+**Stack hints:** `TypeScript`, `Bull`, `Redis`, `n8n Plugin API`, `Kubernetes`
 
 
 
 
 
 
-#### AI-native data formats, vector search, and multimodal storage
+#### Security scanning, vulnerability detection, and credential management
 
 
-##### AI-Native Document Warehouse with Lance
+##### Vulnerability Remediation Suggestion Engine
 
-Develop a Python library that abstracts Lance as a unified document warehouse, combining structured metadata, unstructured text, vector embeddings, and version history. Support SQL queries alongside semantic search and automatic embedding generation. Expose a REST API and Jupyter notebook integration.
+Extend nuclei output with an AI-powered suggestion layer that proposes concrete fixes for detected vulnerabilities (code patches, configuration changes, WAF rules). Integrate with GitHub PRs to auto-create remediation branches. Include severity-based prioritization and false-positive feedback loop.
 
-**Why now:** Lance's 100x faster random access plus vector indexing creates an opportunity to unify document storage and AI workloads without separate systems.
+**Why now:** As teams adopt nuclei for continuous scanning, manual remediation becomes a bottleneck—intelligent suggestions bridge detection and action.
 
-**Stack hints:** `Python`, `Lance`, `Polars`, `Hugging Face`, `FastAPI`
+**Stack hints:** `TypeScript`, `LangChain`, `GitHub API`, `PostgreSQL`
+
+
+
+
+
+
+#### Fullstack type-safe APIs and end-to-end frameworks
+
+
+##### Full-Stack Type Safety Bridge for Svelte + tRPC
+
+Create an integrated framework that seamlessly bridges Svelte stores, tRPC client, and server procedures, ensuring end-to-end type safety. Auto-generate reactive form bindings, request/response validation, and error handling. Include dev-server with hot-reload.
+
+**Why now:** Svelte's momentum combined with tRPC's typesafe API design creates demand for a unified development experience that eliminates manual type duplication.
+
+**Stack hints:** `TypeScript`, `Svelte`, `tRPC`, `Zod`, `Vite`
+
+
+
+
+
+
+#### System design education and AI/ML pipeline infrastructure
+
+
+##### Interactive System Design Learning Platform
+
+Create an interactive web-based platform built on donnemartin/system-design-primer's content that includes hands-on simulations (capacity planning calculators, load balancing visualizers, consistency model explorers). Auto-generate interview prep modules from system designs. Support collaborative whiteboarding.
+
+**Why now:** System design education is reaching critical mass; interactive, immersive learning tools outperform static content and create stronger retention.
+
+**Stack hints:** `TypeScript`, `React`, `D3.js`, `FastAPI`, `PostgreSQL`
 
 
 
@@ -318,80 +285,76 @@ Develop a Python library that abstracts Lance as a unified document warehouse, c
 
 
 
-#### Rust-native infrastructure and developer tools
+#### Rust systems infrastructure and developer tooling
 
 
-##### Rust Native Application Server Framework
+##### Dioxus Component Visual Builder
 
-Create a batteries-included web server framework (similar to Rails/Django but Rust-native) optimized for high-concurrency services. Built on Tokio with integrated middleware for routing, auth, observability, graceful shutdown, and connection pooling. Include code generators, CLI scaffolding, and deployment helpers. Target sub-100ms latency for common workloads.
+Develop a drag-and-drop visual builder for Dioxus components that generates production-ready Rust code. Support component composition, event binding, state management (hooks), and hot-reload. Export as git-friendly Rust files with prop types enforced by compiler. Include preview and test harness.
 
-**Why now:** Tokio's maturity, combined with sustained Rust adoption in infrastructure, creates demand for opinionated, fast-track frameworks that abstract async complexity.
+**Why now:** Dioxus is maturing as a fullstack Rust framework; a visual builder lowers the barrier to entry while maintaining Rust's type safety and performance benefits.
 
-**Stack hints:** `Tokio`, `Hyper`, `Serde`, `Tower`, `OpenTelemetry`
-
-
+**Stack hints:** `TypeScript`, `React`, `Dioxus SDK`, `tree-sitter`, `WebSocket`
 
 
+##### Rust Embedded Systems Runtime
 
+Design a batteries-included Rust runtime for embedded and edge systems that combines async I/O (like Tokio), zero-copy serialization (serde), and deterministic resource management. Support WebAssembly compilation, OTA updates, and cross-device state sync. Ship with hardware abstraction layer for common MCUs.
 
-#### Agentic AI workflows and intelligent routing
+**Why now:** Rust's proven success in systems infrastructure (rustdesk, neon, bun) makes it a natural fit for embedded systems; a cohesive runtime eliminates fragmentation and accelerates adoption.
 
-
-##### Agent Resource Allocation and Rate Limiting Engine
-
-Design a comprehensive resource governance system for AI agents that enforces budget caps, token rate limits, concurrent task limits, and fallback strategies. Integrate with n8n, LangChain, and LLamaIndex. Include predictive cost modeling, anomaly detection, and auto-scaling of parallel agents. Expose metrics for fine-grained cost attribution.
-
-**Why now:** As agents scale across organizations, cost control and resource governance become mission-critical; Manifest's success validates the market.
-
-**Stack hints:** `TypeScript`, `node-redis`, `PostgreSQL`, `OpenTelemetry`, `GraphQL`
+**Stack hints:** `Rust`, `tokio-embedded`, `embassy`, `serde`, `WebAssembly`
 
 
 
 
 
 
-#### Headless backends, CMSes, and rapid API generation
+#### Workflow automation and no-code/low-code platforms
 
 
-##### Headless Backend Synthesis from Natural Language
+##### End-to-End Encrypted Workflow Execution Platform
 
-Build an AI-powered system that accepts natural language descriptions of data models, workflows, and APIs, then generates Directus collections, n8n automations, and REST endpoints. Include iterative refinement through conversation, auto-generated tests, and deployment to cloud platforms. Ship with fine-tuned LLM for backend domain knowledge.
+Build a privacy-first alternative to n8n/plane that encrypts workflow data in transit and at rest, supports zero-knowledge execution traces, and audits all access. Maintain full compatibility with n8n's JSON format for portability. Ship with FHIR/PII detection and compliance reporting.
 
-**Why now:** Directus and n8n's ease-of-use combined with LLM progress enables a new class of low-code platforms where natural language drives infrastructure.
+**Why now:** Enterprise adoption of workflow automation platforms creates demand for privacy-preserving alternatives that handle sensitive data without exposing execution details to platform operators.
 
-**Stack hints:** `TypeScript`, `LangChain`, `Directus SDK`, `n8n SDK`, `Claude/GPT API`
-
-
-
-
-
-
-#### Modern version control and developer experience tooling
-
-
-##### Polyglot VCS with AI-Assisted Conflict Resolution
-
-Design a Git-compatible VCS that natively supports multi-language codebases (AST-aware merging), leverages LLMs for intelligent merge conflict resolution, and provides time-travel debugging. Include web UI for collaborative rebasing and history visualization. Target teams with frequent merge conflicts.
-
-**Why now:** jj's conflict-free model combined with gitoxide's performance sets the stage for a modern VCS that makes Git merge workflows significantly safer.
-
-**Stack hints:** `Rust`, `gitoxide internals`, `tree-sitter`, `LLM API`, `React`
+**Stack hints:** `TypeScript`, `TweetNaCl.js`, `PostgreSQL`, `n8n SDK`, `OpenTelemetry`
 
 
 
 
 
 
-#### AI-native data formats, vector search, and multimodal storage
+#### Security scanning, vulnerability detection, and credential management
 
 
-##### Semantic Search and Analytics Unified Platform
+##### Automated Security Posture Continuous Improvement System
 
-Develop a full-stack platform combining Lance's storage, Polars' analytics, and Chroma's semantic search into a single query engine. Support SQL for structured analysis, vector similarity for unstructured data, and automatic embedding generation. Expose Python, JavaScript, and SQL interfaces. Include visualization dashboards and cost tracking.
+Create a comprehensive platform that orchestrates nuclei scanning, trufflehog credential detection, and policy compliance checking across multi-cloud infrastructure. Auto-correlate findings, detect exploit chains, and generate risk-scored remediation playbooks. Include feedback loop for nuclei template refinement based on organizational context.
 
-**Why now:** Lance, Polars, and Chroma's convergence creates an opportunity for a unified AI-native data layer that abstracts storage and search complexity.
+**Why now:** Security scanning tools are fragmenting across multiple specialized projects; a unified platform with intelligent correlation and continuous improvement creates significant operational value for teams.
 
-**Stack hints:** `Rust`, `Lance`, `Polars`, `Chroma SDK`, `Arrow`, `DuckDB`
+**Stack hints:** `Go`, `Rust`, `Kubernetes`, `OpenSearch`, `NATS`, `Terraform`
+
+
+
+
+
+
+
+
+
+#### System design education and AI/ML pipeline infrastructure
+
+
+##### AI-Native Model Training Orchestrator
+
+Develop a distributed training framework that abstracts Megatron-LM, DeepSpeed, and FSDP under a unified API. Auto-allocate GPU resources, manage checkpointing across failures, support multi-modal training (text + vision), and generate cost/performance tradeoff recommendations. Integrate with wandb for experiment tracking.
+
+**Why now:** Large-scale model training is becoming mainstream; a unified orchestration layer that hides infrastructure complexity while exposing cost optimization is a critical missing piece.
+
+**Stack hints:** `Python`, `PyTorch`, `Ray`, `Kubernetes`, `FastAPI`, `wandb API`
 
 
 
@@ -411,4 +374,4 @@ See [ABOUT.md](ABOUT.md) for full methodology details.
 
 ---
 
-*Generated 2026-05-10 13:20 UTC · commit `a195371`*
+*Generated 2026-05-17 13:21 UTC · commit `31c6993`*
