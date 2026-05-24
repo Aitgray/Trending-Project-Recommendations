@@ -1,0 +1,286 @@
+{
+  "week_of": "2026-05-24",
+  "topics": [
+    {
+      "slug": "ai-infrastructure-and-orchestration",
+      "title": "AI infrastructure and model orchestration",
+      "summary": "LLM-driven agents, speech recognition, and vector databases are coalescing into a coherent infrastructure layer for building AI applications at scale. Tools like LangChain, Whisper, Transformers, and vector stores (Chroma, Qdrant, Lance) form the backbone of production AI systems.",
+      "supporting_repos": [
+        "langchain-ai/langchain",
+        "openai/whisper",
+        "huggingface/transformers",
+        "chroma-core/chroma",
+        "qdrant/qdrant",
+        "lance-format/lance"
+      ]
+    },
+    {
+      "slug": "workflow-automation-and-integration",
+      "title": "Workflow automation and integration platforms",
+      "summary": "n8n, ActivePieces, and Directus represent a consolidation around no-code/low-code workflow execution, data integration, and rapid backend generation. These platforms prioritize visual builders, extensibility, and seamless third-party integration without custom boilerplate.",
+      "supporting_repos": [
+        "n8n-io/n8n",
+        "activepieces/activepieces",
+        "directus/directus",
+        "appsmithorg/appsmith"
+      ]
+    },
+    {
+      "slug": "security-and-compliance-tooling",
+      "title": "Security scanning, compliance, and data governance",
+      "summary": "Trivy, Nuclei Templates, and Presidio address automated vulnerability detection, secret scanning, and PII detection across infrastructure and data. Organizations increasingly adopt continuous security validation and compliance automation to reduce manual review overhead.",
+      "supporting_repos": [
+        "aquasecurity/trivy",
+        "projectdiscovery/nuclei-templates",
+        "microsoft/presidio"
+      ]
+    },
+    {
+      "slug": "rust-infrastructure-expansion",
+      "title": "Rust-native systems and infrastructure",
+      "summary": "Rust continues expanding from backend infrastructure into trading engines, search (Meilisearch), vector databases (Qdrant), data formats (Lance), and linting (Ruff). Production demand for memory-safe, high-performance systems drives adoption across increasingly diverse domains.",
+      "supporting_repos": [
+        "nautechsystems/nautilus_trader",
+        "meilisearch/meilisearch",
+        "qdrant/qdrant",
+        "lance-format/lance",
+        "astral-sh/ruff",
+        "rustdesk/rustdesk"
+      ]
+    },
+    {
+      "slug": "developer-tooling-and-observability",
+      "title": "Developer tools, observability, and operational dashboards",
+      "summary": "Tools like k9s, Playwright, SigNoz, Lazygit, and Tabby reflect demand for rich terminal UI, observability, and testing automation that reduce cognitive load in complex systems. These tools prioritize intuitive interaction patterns and real-time visibility.",
+      "supporting_repos": [
+        "derailed/k9s",
+        "microsoft/playwright",
+        "SigNoz/signoz",
+        "jesseduffield/lazygit",
+        "Eugeny/tabby"
+      ]
+    }
+  ],
+  "whats_new": "AI infrastructure has crystallized as a top-tier theme, with LangChain and vector database ecosystems (Chroma, Qdrant, Lance) now rivaling traditional backend infrastructure. Workflow automation platforms have diversified with ActivePieces challenging n8n by integrating AI agents and MCP servers directly. Security and compliance tooling (Trivy, Presidio) has emerged as durable, reflecting organizational shift toward continuous validation. Rust's expansion into financial systems (Nautilus Trader) and observability tools marks a new production frontier, while developer tooling emphasizes terminal-native experiences and operational transparency.",
+  "projects": [
+    {
+      "title": "LangChain Agent Observability Dashboard",
+      "topic_slug": "ai-infrastructure-and-orchestration",
+      "scope": "short",
+      "pitch": "Build a lightweight dashboard that captures LangChain agent execution traces\u2014including tool invocations, reasoning steps, and latency\u2014and surfaces them in real-time. Export detailed traces to OpenTelemetry format for integration with SigNoz or similar observability platforms. Include cost attribution per tool call.",
+      "why_now": "LangChain adoption is accelerating, but production visibility into agent behavior remains opaque; this bridges the gap between local development and production observability.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "Plotly",
+        "OpenTelemetry",
+        "SQLite"
+      ]
+    },
+    {
+      "title": "Vector Database Query Optimizer",
+      "topic_slug": "ai-infrastructure-and-orchestration",
+      "scope": "short",
+      "pitch": "Create a CLI tool that analyzes vector queries against Qdrant, Chroma, or Meilisearch indices, suggests index restructuring, query rewriting, and optimal distance metrics. Profile query latency and recall tradeoffs, then auto-generate configuration recommendations for indexing strategies.",
+      "why_now": "Vector databases are becoming bottlenecks in production AI systems; tools that optimize queries without manual tuning address a critical performance gap.",
+      "stack_hints": [
+        "Rust",
+        "Qdrant SDK",
+        "Chroma SDK",
+        "serde",
+        "clap"
+      ]
+    },
+    {
+      "title": "n8n Workflow Dependency Visualizer",
+      "topic_slug": "workflow-automation-and-integration",
+      "scope": "short",
+      "pitch": "Build a tool that parses n8n workflow JSONs and generates interactive dependency graphs showing node relationships, data flow, error paths, and conditional branching. Identify circular dependencies, unused nodes, and critical paths. Export as SVG or interactive HTML for documentation.",
+      "why_now": "As n8n workflows grow in complexity, understanding their topology and dependencies becomes critical for maintenance and troubleshooting.",
+      "stack_hints": [
+        "TypeScript",
+        "D3.js",
+        "n8n API",
+        "serde",
+        "GraphQL"
+      ]
+    },
+    {
+      "title": "Presidio-Powered Log Sanitizer for CI/CD",
+      "topic_slug": "security-and-compliance-tooling",
+      "scope": "short",
+      "pitch": "Develop a GitHub Actions and GitLab CI plugin that automatically scans build logs and test output for PII (API keys, tokens, email addresses, credit cards) using Presidio, redacts findings in real-time, and archives raw logs to encrypted storage. Generate compliance reports for audit trails.",
+      "why_now": "CI/CD logs routinely leak secrets and PII; automated detection and redaction fills a critical security gap that manual reviews miss.",
+      "stack_hints": [
+        "Python",
+        "Presidio",
+        "GitHub Actions",
+        "FastAPI",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Rust Trading Signal Backtester",
+      "topic_slug": "rust-infrastructure-expansion",
+      "scope": "short",
+      "pitch": "Create a lightweight CLI backtesting engine built on Nautilus Trader that loads historical OHLCV data, executes custom signal strategies (SMA crossovers, RSI, Bollinger Bands), and outputs performance metrics (Sharpe ratio, max drawdown, Calmar ratio). Support CSV and Parquet input, export to JSON.",
+      "why_now": "Nautilus Trader's production maturity makes Rust a viable choice for quantitative finance; a simple backtester enables strategy research without complex setup.",
+      "stack_hints": [
+        "Rust",
+        "Nautilus Trader",
+        "polars",
+        "serde",
+        "clap"
+      ]
+    },
+    {
+      "title": "k9s Plugin Ecosystem for Multi-Cluster Observability",
+      "topic_slug": "developer-tooling-and-observability",
+      "scope": "short",
+      "pitch": "Build a k9s plugin framework that aggregates metrics, logs, and events from multiple Kubernetes clusters into a unified terminal view. Support cluster-aware resource filtering, cross-cluster pod search, and unified event streaming. Integrate with SigNoz or Prometheus for metric overlay.",
+      "why_now": "Multi-cluster Kubernetes management is becoming standard; a unified terminal experience reduces context-switching and speeds troubleshooting.",
+      "stack_hints": [
+        "Go",
+        "k9s SDK",
+        "client-go",
+        "gRPC",
+        "Prometheus client"
+      ]
+    },
+    {
+      "title": "Agentic Workflow Builder with Type Safety",
+      "topic_slug": "ai-infrastructure-and-orchestration",
+      "scope": "medium",
+      "pitch": "Design a TypeScript framework that combines LangChain agents, n8n-style visual workflows, and end-to-end type safety. Generate TypeScript interfaces from LangChain tool schemas, enable IDE autocomplete for workflow definitions, and compile to executable agent code. Include replay and step-through debugging.",
+      "why_now": "LangChain and workflow automation are converging; a unified, type-safe abstraction enables developers to build complex agents without losing productivity or safety.",
+      "stack_hints": [
+        "TypeScript",
+        "LangChain",
+        "Zod",
+        "ts-morph",
+        "Vite"
+      ]
+    },
+    {
+      "title": "Multi-Source Log Compliance Auditor",
+      "topic_slug": "security-and-compliance-tooling",
+      "scope": "medium",
+      "pitch": "Build a compliance auditing platform that ingests logs from Kubernetes (via SigNoz/OpenTelemetry), cloud providers (AWS CloudTrail, Azure Monitor), and application servers, correlates events across sources, detects compliance violations (GDPR, HIPAA, SOC2), and auto-generates audit reports. Support custom policy rules.",
+      "why_now": "Organizations face fragmented security tooling; a unified audit platform that correlates multi-source logs creates compliance visibility at scale.",
+      "stack_hints": [
+        "Go",
+        "OpenSearch",
+        "NATS",
+        "OpenTelemetry Collector",
+        "FastAPI",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Rust-Native Financial Risk Engine",
+      "topic_slug": "rust-infrastructure-expansion",
+      "scope": "medium",
+      "pitch": "Develop a production-grade risk calculation library built on Nautilus Trader that computes Greeks (delta, gamma, theta, vega), portfolio volatility, Value-at-Risk (VaR), and stress testing across equity and derivatives portfolios. Support real-time updates from live market feeds, expose both Rust API and Python bindings.",
+      "why_now": "Rust's adoption in fintech is accelerating; a comprehensive risk engine addresses a critical need for institutions migrating from Python-only stacks.",
+      "stack_hints": [
+        "Rust",
+        "Nautilus Trader",
+        "polars",
+        "PyO3",
+        "ndarray"
+      ]
+    },
+    {
+      "title": "Vector Database Migration and Sync Tool",
+      "topic_slug": "ai-infrastructure-and-orchestration",
+      "scope": "medium",
+      "pitch": "Create a multi-driver tool for migrating, syncing, and reconciling embeddings between Qdrant, Chroma, Meilisearch, and Pinecone. Support incremental syncs, conflict resolution, and rollback. Include reconciliation reports showing divergence, missing vectors, and metadata mismatches. CLI and Python SDK.",
+      "why_now": "Vector database adoption is fragmenting across platforms; a unified migration tool enables teams to switch or scale across providers without data loss.",
+      "stack_hints": [
+        "Python",
+        "Qdrant SDK",
+        "Chroma SDK",
+        "Meilisearch SDK",
+        "FastAPI",
+        "SQLAlchemy"
+      ]
+    },
+    {
+      "title": "ActivePieces Custom Integration Framework",
+      "topic_slug": "workflow-automation-and-integration",
+      "scope": "medium",
+      "pitch": "Build a scaffolding and testing framework for developing ActivePieces integrations that auto-generates OAuth flows, webhook handlers, and data transformation pipelines from OpenAPI specs. Include local development mode, integration testing harness, and one-command deployment to the ActivePieces marketplace.",
+      "why_now": "ActivePieces is positioning itself as an open platform; tools that lower the barrier to custom integration development accelerate ecosystem growth.",
+      "stack_hints": [
+        "TypeScript",
+        "OpenAPI",
+        "ActivePieces SDK",
+        "Jest",
+        "Fastify"
+      ]
+    },
+    {
+      "title": "Terminal-Native Incident Management Dashboard",
+      "topic_slug": "developer-tooling-and-observability",
+      "scope": "medium",
+      "pitch": "Build a k9s-like TUI for incident management that aggregates alerts from Prometheus, SigNoz, and PagerDuty, surfaces critical traces and logs, enables one-click remediation actions (restart pods, trigger runbooks), and tracks incident timelines. Support tmux integration for multi-window workflows.",
+      "why_now": "Operators spend most time in terminals; a native TUI for incident response reduces context-switching and speeds MTTR compared to browser-based dashboards.",
+      "stack_hints": [
+        "Go",
+        "BubbleTea",
+        "Prometheus API",
+        "SigNoz API",
+        "PagerDuty API"
+      ]
+    },
+    {
+      "title": "Unified AI Agent Factory for Enterprise Workflows",
+      "topic_slug": "ai-infrastructure-and-orchestration",
+      "scope": "long",
+      "pitch": "Design a comprehensive platform that orchestrates LangChain agents, vector RAG pipelines (Qdrant/Chroma), workflow automation (n8n/ActivePieces), and observability (SigNoz) into a single agent deployment framework. Support multi-agent coordination, shared memory, and fallback routing. Include UI for agent monitoring, tool library management, and prompt versioning.",
+      "why_now": "Organizations building production AI systems face fragmentation across tools; a unified factory that integrates agents, workflows, and observability reduces integration overhead and enables scalable, maintainable AI deployments.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "Qdrant SDK",
+        "n8n API",
+        "OpenTelemetry",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    {
+      "title": "Rust-Native Real-Time Analytics Engine",
+      "topic_slug": "rust-infrastructure-expansion",
+      "scope": "long",
+      "pitch": "Develop a distributed analytics query engine written in Rust that ingests streaming data (via NATS or Kafka), materializes aggregates to in-memory indices (columnar), and exposes low-latency SQL query interfaces. Support time-series windows, approximate aggregations, and cross-shard joins. Include Kubernetes deployment manifests and Prometheus metrics.",
+      "why_now": "Rust's performance and safety characteristics make it ideal for high-throughput analytics; a native engine fills the gap between streaming message queues and batch data warehouses.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "Arrow",
+        "DuckDB",
+        "tonic",
+        "Kubernetes"
+      ]
+    },
+    {
+      "title": "Compliance-First Workflow Orchestrator",
+      "topic_slug": "workflow-automation-and-integration",
+      "scope": "long",
+      "pitch": "Build a privacy-first alternative to n8n that encrypts workflow execution state, enforces fine-grained access controls, auto-generates audit trails with Presidio-powered PII detection, and supports compliance policies (GDPR right-to-be-forgotten, data retention). Maintain backward compatibility with n8n workflows via transformation layer. Include certification templates for SOC2, ISO27001.",
+      "why_now": "Enterprise adoption of workflow platforms creates demand for compliance-first alternatives; a unified platform addressing encryption, audit, and policy enforcement captures a growing market segment.",
+      "stack_hints": [
+        "TypeScript",
+        "TweetNaCl.js",
+        "n8n SDK",
+        "Presidio",
+        "OpenTelemetry",
+        "PostgreSQL",
+        "Docker"
+      ]
+    }
+  ]
+}

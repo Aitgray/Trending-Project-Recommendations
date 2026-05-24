@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-05-24",
+  "window_dates": [
+    "2026-05-18",
+    "2026-05-19",
+    "2026-05-20",
+    "2026-05-21",
+    "2026-05-22",
+    "2026-05-23",
+    "2026-05-24"
+  ],
+  "repos": [
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 1274,
+      "peak_daily_stars": 249,
+      "persistence_score": 42.90420874555516
+    },
+    {
+      "full_name": "openai/whisper",
+      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "language": "Python",
+      "url": "https://github.com/openai/whisper",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 641,
+      "peak_daily_stars": 234,
+      "persistence_score": 38.78752982213977
+    },
+    {
+      "full_name": "langchain-ai/langchain",
+      "description": "The agent engineering platform.",
+      "language": "Python",
+      "url": "https://github.com/langchain-ai/langchain",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 621,
+      "peak_daily_stars": 117,
+      "persistence_score": 38.597640556435074
+    },
+    {
+      "full_name": "nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 232,
+      "peak_daily_stars": 38,
+      "persistence_score": 38.1572691749599
+    },
+    {
+      "full_name": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 2003,
+      "peak_daily_stars": 759,
+      "persistence_score": 38.014502311023776
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "url": "https://github.com/aquasecurity/trivy",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 134,
+      "peak_daily_stars": 30,
+      "persistence_score": 34.336923449069005
+    },
+    {
+      "full_name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 409,
+      "peak_daily_stars": 106,
+      "persistence_score": 30.080785798491767
+    },
+    {
+      "full_name": "calcom/cal.diy",
+      "description": "Scheduling infrastructure for absolutely everyone.",
+      "language": "TypeScript",
+      "url": "https://github.com/calcom/cal.diy",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 1739,
+      "peak_daily_stars": 538,
+      "persistence_score": 29.8465615688343
+    },
+    {
+      "full_name": "microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/playwright",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 373,
+      "peak_daily_stars": 83,
+      "persistence_score": 29.62127898707266
+    },
+    {
+      "full_name": "meilisearch/meilisearch",
+      "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
+      "language": "Rust",
+      "url": "https://github.com/meilisearch/meilisearch",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 117,
+      "peak_daily_stars": 25,
+      "persistence_score": 28.62410774679399
+    },
+    {
+      "full_name": "apache/superset",
+      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+      "language": "TypeScript",
+      "url": "https://github.com/apache/superset",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 106,
+      "peak_daily_stars": 23,
+      "persistence_score": 28.036973006771433
+    },
+    {
+      "full_name": "SigNoz/signoz",
+      "description": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. \ud83d\udd25 \ud83d\udda5. \ud83d\udc49 Open source Application Performance Monitoring (APM) & Observability tool",
+      "language": "TypeScript",
+      "url": "https://github.com/SigNoz/signoz",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 99,
+      "peak_daily_stars": 21,
+      "persistence_score": 27.63102111592855
+    },
+    {
+      "full_name": "huggingface/transformers",
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "language": "Python",
+      "url": "https://github.com/huggingface/transformers",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 242,
+      "peak_daily_stars": 53,
+      "persistence_score": 27.46530721670274
+    },
+    {
+      "full_name": "lance-format/lance",
+      "description": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
+      "language": "Rust",
+      "url": "https://github.com/lance-format/lance",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 75,
+      "peak_daily_stars": 27,
+      "persistence_score": 25.984400041717986
+    },
+    {
+      "full_name": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 650,
+      "peak_daily_stars": 210,
+      "persistence_score": 25.914038568834275
+    },
+    {
+      "full_name": "dgtlmoon/changedetection.io",
+      "description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring\u2014all for free or enjoy our SaaS plan!",
+      "language": "Python",
+      "url": "https://github.com/dgtlmoon/changedetection.io",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 162,
+      "peak_daily_stars": 51,
+      "persistence_score": 25.468751004033813
+    },
+    {
+      "full_name": "immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "url": "https://github.com/immich-app/immich",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 521,
+      "peak_daily_stars": 192,
+      "persistence_score": 25.030670351530556
+    },
+    {
+      "full_name": "qdrant/qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/",
+      "language": "Rust",
+      "url": "https://github.com/qdrant/qdrant",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 144,
+      "peak_daily_stars": 39,
+      "persistence_score": 24.88366871210287
+    },
+    {
+      "full_name": "bitwarden/clients",
+      "description": "Bitwarden client apps (web, browser extension, desktop, and cli).",
+      "language": "TypeScript",
+      "url": "https://github.com/bitwarden/clients",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 60,
+      "peak_daily_stars": 15,
+      "persistence_score": 24.66524318503987
+    },
+    {
+      "full_name": "microsoft/presidio",
+      "description": "An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, and structured data. Supports NLP, pattern matching, and customizable pipelines.",
+      "language": "Python",
+      "url": "https://github.com/microsoft/presidio",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 136,
+      "peak_daily_stars": 43,
+      "persistence_score": 24.599904629140624
+    },
+    {
+      "full_name": "jgraph/drawio-desktop",
+      "description": "Official electron build of draw.io",
+      "language": "JavaScript",
+      "url": "https://github.com/jgraph/drawio-desktop",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 114,
+      "peak_daily_stars": 31,
+      "persistence_score": 23.72466064181625
+    },
+    {
+      "full_name": "astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "url": "https://github.com/astral-sh/ruff",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 108,
+      "peak_daily_stars": 27,
+      "persistence_score": 23.45673941114572
+    },
+    {
+      "full_name": "docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "url": "https://github.com/docker/compose",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 47,
+      "peak_daily_stars": 15,
+      "persistence_score": 23.227206065447348
+    },
+    {
+      "full_name": "containerd/containerd",
+      "description": "An open and reliable container runtime",
+      "language": "Go",
+      "url": "https://github.com/containerd/containerd",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 47,
+      "peak_daily_stars": 13,
+      "persistence_score": 23.227206065447348
+    },
+    {
+      "full_name": "traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "url": "https://github.com/traefik/traefik",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 101,
+      "peak_daily_stars": 28,
+      "persistence_score": 23.124864066421353
+    },
+    {
+      "full_name": "usememos/memos",
+      "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+      "language": "Go",
+      "url": "https://github.com/usememos/memos",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 281,
+      "peak_daily_stars": 83,
+      "persistence_score": 22.567628283752455
+    },
+    {
+      "full_name": "chroma-core/chroma",
+      "description": "Search infrastructure for AI",
+      "language": "Rust",
+      "url": "https://github.com/chroma-core/chroma",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 80,
+      "peak_daily_stars": 19,
+      "persistence_score": 21.972245773362197
+    },
+    {
+      "full_name": "derailed/k9s",
+      "description": "\ud83d\udc36 Kubernetes CLI To Manage Your Clusters In Style!",
+      "language": "Go",
+      "url": "https://github.com/derailed/k9s",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 79,
+      "peak_daily_stars": 22,
+      "persistence_score": 21.910133173369406
+    },
+    {
+      "full_name": "jesseduffield/lazygit",
+      "description": "simple terminal UI for git commands",
+      "language": "Go",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 236,
+      "peak_daily_stars": 71,
+      "persistence_score": 21.872240564540526
+    },
+    {
+      "full_name": "deepinsight/insightface",
+      "description": "State-of-the-art 2D and 3D Face Analysis Project",
+      "language": "Python",
+      "url": "https://github.com/deepinsight/insightface",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 74,
+      "peak_daily_stars": 17,
+      "persistence_score": 21.58744056768155
+    },
+    {
+      "full_name": "directus/directus",
+      "description": "The flexible backend for all your projects \ud83d\udc30 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
+      "language": "TypeScript",
+      "url": "https://github.com/directus/directus",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 213,
+      "peak_daily_stars": 113,
+      "persistence_score": 21.463904060087405
+    },
+    {
+      "full_name": "projectdiscovery/nuclei-templates",
+      "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "language": "JavaScript",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 34,
+      "peak_daily_stars": 9,
+      "persistence_score": 21.332088368936482
+    },
+    {
+      "full_name": "sudheerj/javascript-interview-questions",
+      "description": "List of 1000 JavaScript Interview Questions",
+      "language": "JavaScript",
+      "url": "https://github.com/sudheerj/javascript-interview-questions",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 60,
+      "peak_daily_stars": 21,
+      "persistence_score": 20.554369320866556
+    },
+    {
+      "full_name": "tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "url": "https://github.com/tailscale/tailscale",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 165,
+      "peak_daily_stars": 50,
+      "persistence_score": 20.447951153426175
+    },
+    {
+      "full_name": "appsmithorg/appsmith",
+      "description": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.",
+      "language": "TypeScript",
+      "url": "https://github.com/appsmithorg/appsmith",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 58,
+      "peak_daily_stars": 14,
+      "persistence_score": 20.387687219528598
+    },
+    {
+      "full_name": "upscayl/upscayl",
+      "description": "\ud83c\udd99 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
+      "language": "TypeScript",
+      "url": "https://github.com/upscayl/upscayl",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 152,
+      "peak_daily_stars": 52,
+      "persistence_score": 20.12175168556974
+    },
+    {
+      "full_name": "activepieces/activepieces",
+      "description": "AI Agents & MCPs & AI Workflow Automation \u2022 (~400 MCP servers for AI agents) \u2022 AI Automation / AI Agent with MCPs \u2022 AI Workflows & AI Agents \u2022 MCPs for AI Agents",
+      "language": "TypeScript",
+      "url": "https://github.com/activepieces/activepieces",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 147,
+      "peak_daily_stars": 54,
+      "persistence_score": 19.98884909505646
+    },
+    {
+      "full_name": "bytedance/sonic",
+      "description": "A blazingly fast JSON serializing & deserializing library",
+      "language": "Go",
+      "url": "https://github.com/bytedance/sonic",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 53,
+      "peak_daily_stars": 19,
+      "persistence_score": 19.944920232821374
+    },
+    {
+      "full_name": "Eugeny/tabby",
+      "description": "A terminal for a more modern age",
+      "language": "TypeScript",
+      "url": "https://github.com/Eugeny/tabby",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 136,
+      "peak_daily_stars": 35,
+      "persistence_score": 19.6799237033125
+    },
+    {
+      "full_name": "pocketbase/pocketbase",
+      "description": "Open Source realtime backend in 1 file",
+      "language": "Go",
+      "url": "https://github.com/pocketbase/pocketbase",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 134,
+      "peak_daily_stars": 53,
+      "persistence_score": 19.62109911375372
+    }
+  ]
+}
