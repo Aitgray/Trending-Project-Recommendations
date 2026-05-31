@@ -1,0 +1,279 @@
+{
+  "week_of": "2026-05-31",
+  "topics": [
+    {
+      "slug": "educational-scaffolding-and-learning-platforms",
+      "title": "Educational scaffolding and learning platforms",
+      "summary": "Structured, hands-on learning platforms that teach programming through guided project building and interactive curriculum. These tools emphasize reproducible learning pathways and lower friction to competency.",
+      "supporting_repos": [
+        "codecrafters-io/build-your-own-x",
+        "microsoft/Web-Dev-For-Beginners",
+        "freeCodeCamp/freeCodeCamp"
+      ]
+    },
+    {
+      "slug": "speech-and-audio-ai",
+      "title": "Speech and audio AI",
+      "summary": "Industrial-grade speech recognition, audio processing, and voice-first interfaces that enable real-time, low-latency transcription and speaker analysis. These tools prioritize production reliability and multilingual support.",
+      "supporting_repos": [
+        "modelscope/FunASR",
+        "openai/whisper",
+        "huggingface/diffusers"
+      ]
+    },
+    {
+      "slug": "vector-database-and-similarity-search",
+      "title": "Vector database and similarity search",
+      "summary": "High-performance vector storage and retrieval systems (Qdrant, Milvus) designed for semantic search, RAG pipelines, and AI-driven retrieval at scale. These platforms emphasize horizontal scalability and integration with LLM ecosystems.",
+      "supporting_repos": [
+        "qdrant/qdrant",
+        "milvus-io/milvus",
+        "lance-format/lance"
+      ]
+    },
+    {
+      "slug": "developer-automation-and-integration",
+      "title": "Developer automation and integration",
+      "summary": "Platforms and tools that integrate third-party services, automate API consumption, and reduce boilerplate through AI-assisted integration and OpenAPI-first design. These tools target friction in building connectors and glue code.",
+      "supporting_repos": [
+        "NangoHQ/nango",
+        "n8n-io/n8n",
+        "directus/directus"
+      ]
+    },
+    {
+      "slug": "rust-native-systems-and-tooling",
+      "title": "Rust native systems and tooling",
+      "summary": "Production-grade systems built in Rust spanning remote access, version control, UI frameworks, and databases. Rust adoption expands beyond backend infrastructure into developer tools and distributed systems.",
+      "supporting_repos": [
+        "rustdesk/rustdesk",
+        "jj-vcs/jj",
+        "neondatabase/neon"
+      ]
+    }
+  ],
+  "whats_new": "Educational platforms have emerged as a durable theme, with structured learning pathways (Build Your Own X, freeCodeCamp, Web Dev for Beginners) sustaining consistent interest. Speech and audio AI has solidified as a production-grade infrastructure layer distinct from general LLM work, with FunASR's industrial-grade capabilities reflecting enterprise adoption. Vector databases (Qdrant, Milvus) have moved from specialized to mainstream, competing directly with traditional backend infrastructure for mindshare. Developer automation has reframed around AI-assisted integration (Nango) rather than purely visual workflow builders, signaling a shift toward intelligent glue code generation.",
+  "projects": [
+    {
+      "title": "Interactive Build-Your-Own Tutorial Generator",
+      "topic_slug": "educational-scaffolding-and-learning-platforms",
+      "scope": "short",
+      "pitch": "Create a CLI tool that takes a GitHub repo, extracts key implementation milestones, and auto-generates a structured tutorial with progressive checkpoints, hints, and automated test cases. Output tutorials in markdown format compatible with Build Your Own X and freeCodeCamp.",
+      "why_now": "Educational platforms are gaining traction; automating tutorial generation from working codebases dramatically lowers content creation burden and enables crowdsourced learning content.",
+      "stack_hints": [
+        "Python",
+        "AST parsing",
+        "Claude API",
+        "GitHub API",
+        "pytest"
+      ]
+    },
+    {
+      "title": "Real-Time Speech-to-Text Analytics Dashboard",
+      "topic_slug": "speech-and-audio-ai",
+      "scope": "short",
+      "pitch": "Build a lightweight web dashboard that streams audio from a microphone, processes it via FunASR, displays live transcription with confidence scores, detects speaker changes, and exports sentiment analysis per segment. Include multi-language detection and real-time latency metrics.",
+      "why_now": "Speech AI has matured to production-grade quality; a unified dashboard that surfaces real-time transcription, speaker diarization, and confidence metrics addresses adoption friction in speech-first applications.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "FunASR",
+        "WebSocket",
+        "Vue.js",
+        "librosa"
+      ]
+    },
+    {
+      "title": "Vector Database Cost and Performance Profiler",
+      "topic_slug": "vector-database-and-similarity-search",
+      "scope": "short",
+      "pitch": "Create a CLI tool that benchmarks vector search workloads across Qdrant, Milvus, and Pinecone in parallel, measuring query latency, recall accuracy, and cost per query. Generate comparison reports with recommendations for index configuration based on your access patterns.",
+      "why_now": "Vector databases are proliferating; teams need visibility into cost-performance tradeoffs before committing to a platform, and this tool bridges the evaluation gap.",
+      "stack_hints": [
+        "Rust",
+        "Qdrant SDK",
+        "Milvus SDK",
+        "Pinecone SDK",
+        "serde",
+        "clap"
+      ]
+    },
+    {
+      "title": "DevBox-Integrated Local Integration Sandbox",
+      "topic_slug": "developer-automation-and-integration",
+      "scope": "short",
+      "pitch": "Build a Devbox extension that scaffolds a local sandbox environment for testing n8n or Nango integrations in isolation, including mocked APIs, test data fixtures, and one-command assertion testing. Export integration configs for production deployment.",
+      "why_now": "Integration platforms are multiplying; a developer-friendly sandbox that integrates with reproducible dev environments (Devbox) reduces friction in testing integrations before production.",
+      "stack_hints": [
+        "TypeScript",
+        "Devbox SDK",
+        "Express",
+        "Jest",
+        "OpenAPI"
+      ]
+    },
+    {
+      "title": "Rust CLI Wrapper for Helix with Plugin System",
+      "topic_slug": "rust-native-systems-and-tooling",
+      "scope": "short",
+      "pitch": "Create a minimal Rust CLI wrapper around Helix editor that loads custom plugin binaries, exposes Helix's LSP integration and theme system via a plugin API, and enables one-command plugin installation from a registry. Include plugin templates for common use cases.",
+      "why_now": "Helix is gaining adoption as a post-modern editor; a plugin system bridges the gap between minimalism and extensibility, accelerating ecosystem growth.",
+      "stack_hints": [
+        "Rust",
+        "Helix SDK",
+        "tokio",
+        "serde",
+        "clap"
+      ]
+    },
+    {
+      "title": "Curriculum-as-Code Learning Path Engine",
+      "topic_slug": "educational-scaffolding-and-learning-platforms",
+      "scope": "medium",
+      "pitch": "Design a framework that defines learning paths as declarative, composable code (similar to Infrastructure as Code). Support progressive skill unlocking, adaptive difficulty branching based on quiz performance, and integration with external tutorial repos. Include a VS Code extension for path visualization and progress tracking.",
+      "why_now": "Educational platforms are maturing; enabling educators and community members to define learning paths as code democratizes curriculum design and enables collaboration.",
+      "stack_hints": [
+        "TypeScript",
+        "Zod",
+        "VS Code API",
+        "d3.js",
+        "Express"
+      ]
+    },
+    {
+      "title": "Multi-Language Speech Pipeline for Podcast Analytics",
+      "topic_slug": "speech-and-audio-ai",
+      "scope": "medium",
+      "pitch": "Build an end-to-end podcast processing pipeline that ingests audio feeds, uses FunASR for transcription with multi-language detection, performs speaker diarization, extracts topic segments via semantic chunking, and generates searchable, timestamped transcript indices. Expose REST API and include simple web UI for search.",
+      "why_now": "Speech AI quality has reached production grade; podcast discovery and searchability are currently manual; an automated pipeline unlocks new search and discovery patterns.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "FunASR",
+        "Qdrant",
+        "PostgreSQL",
+        "Celery"
+      ]
+    },
+    {
+      "title": "Vector-Semantic Hybrid Search Framework",
+      "topic_slug": "vector-database-and-similarity-search",
+      "scope": "medium",
+      "pitch": "Create a framework that combines dense vector search (Qdrant/Milvus) with BM25 sparse retrieval and entity-aware ranking to maximize recall and relevance. Expose a unified query API, auto-tune blend weights based on query intent, and generate performance reports across retrieval stages.",
+      "why_now": "Vector databases are dominant for semantic search, but hybrid retrieval significantly improves relevance; a framework that unifies both approaches lowers integration complexity.",
+      "stack_hints": [
+        "Python",
+        "Qdrant SDK",
+        "OpenSearch",
+        "FastAPI",
+        "scikit-learn"
+      ]
+    },
+    {
+      "title": "OpenAPI-to-Integration Code Generator with AI Augmentation",
+      "topic_slug": "developer-automation-and-integration",
+      "scope": "medium",
+      "pitch": "Build a tool that consumes OpenAPI specs, generates type-safe SDK stubs, auto-generates OAuth/API key handling, and uses Claude to infer data transformation rules between services. Output production-ready integration code and deployment manifests for n8n or Nango.",
+      "why_now": "Integration platforms demand custom glue code; AI-assisted code generation from OpenAPI specs dramatically accelerates integration development and reduces manual wiring.",
+      "stack_hints": [
+        "TypeScript",
+        "OpenAPI Parser",
+        "Claude API",
+        "ts-morph",
+        "prettier"
+      ]
+    },
+    {
+      "title": "Rust-Native Observability Agent for Distributed Systems",
+      "topic_slug": "rust-native-systems-and-tooling",
+      "scope": "medium",
+      "pitch": "Develop a lightweight Rust binary that collects traces, metrics, and logs from distributed services, buffers them efficiently, and ships to OpenTelemetry backends. Support dynamic sampling, trace correlation across process boundaries, and minimal CPU/memory overhead. Include deployment templates for Kubernetes.",
+      "why_now": "Rust's performance characteristics make it ideal for observability agents; a native implementation reduces observability overhead compared to Python or Go alternatives.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "OpenTelemetry",
+        "tonic",
+        "prost"
+      ]
+    },
+    {
+      "title": "Adaptive Learning Skill Graph with Spaced Repetition",
+      "topic_slug": "educational-scaffolding-and-learning-platforms",
+      "scope": "long",
+      "pitch": "Build a comprehensive learning platform that models skills as a directed acyclic graph, adapts exercise difficulty and sequencing based on learner performance, integrates spaced repetition, and provides personalized learning paths. Support custom skill definitions, integrate with existing tutorial content (freeCodeCamp, Build Your Own X), and expose APIs for third-party content creators.",
+      "why_now": "Educational platforms have proven durable; a unified skill graph that adapts to individual learners and integrates multiple content sources creates a personalized, scalable learning ecosystem.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "D3.js",
+        "Redis"
+      ]
+    },
+    {
+      "title": "Enterprise Speech Intelligence Platform with PII Detection",
+      "topic_slug": "speech-and-audio-ai",
+      "scope": "long",
+      "pitch": "Create a production-grade speech intelligence platform that ingests call recordings, performs transcription via FunASR, detects and redacts PII (credit cards, SSNs, phone numbers), generates compliance reports, and enables full-text search across anonymized transcripts. Include speaker profiling, quality metrics (background noise, audio clarity), and integration with CRM systems.",
+      "why_now": "Speech AI is production-ready; enterprises urgently need compliant speech analytics that simultaneously enable insights and protect sensitive data.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "FunASR",
+        "Presidio",
+        "Qdrant",
+        "PostgreSQL",
+        "Celery",
+        "OpenSearch"
+      ]
+    },
+    {
+      "title": "Distributed Vector Search Engine with Geo-Partitioning",
+      "topic_slug": "vector-database-and-similarity-search",
+      "scope": "long",
+      "pitch": "Build a distributed vector search engine written in Rust that partitions embeddings geographically for latency-optimized retrieval, supports multi-region replication with eventual consistency, and exposes a gRPC API compatible with LLM frameworks. Include Kubernetes operators for auto-scaling and failover.",
+      "why_now": "Vector databases are becoming critical infrastructure; a geo-distributed, highly available implementation addresses global deployment requirements that existing platforms struggle with.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "tonic",
+        "Arrow",
+        "RocksDB",
+        "Kubernetes"
+      ]
+    },
+    {
+      "title": "AI-Native Integration Platform with Declarative Workflows",
+      "topic_slug": "developer-automation-and-integration",
+      "scope": "long",
+      "pitch": "Design an integration platform that combines visual workflow authoring with AI-powered code generation, natural language flow definitions, and intelligent error recovery. Support workflow composition from natural language descriptions, auto-generate TypeScript/Python SDK bindings from OpenAPI specs, and include compliance templates (GDPR, HIPAA) for regulated use cases.",
+      "why_now": "Integration platforms are consolidating; a unified platform that merges visual workflows, AI code generation, and compliance automation captures both developer and enterprise buyer personas.",
+      "stack_hints": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Claude API",
+        "OpenAPI Parser",
+        "React"
+      ]
+    },
+    {
+      "title": "Rust Systems Programming Bootcamp with Real-World Projects",
+      "topic_slug": "rust-native-systems-and-tooling",
+      "scope": "long",
+      "pitch": "Create a comprehensive Rust bootcamp curriculum that guides learners from basics through systems programming, emphasizing real-world projects (build a network protocol, filesystem, or key-value store). Include interactive exercises with auto-grading, peer code review workflows, and job placement connections with Rust-native companies.",
+      "why_now": "Rust adoption is accelerating in production systems; a structured bootcamp that combines education with career outcomes addresses both skill gap and hiring challenges.",
+      "stack_hints": [
+        "Rust",
+        "TypeScript",
+        "React",
+        "PostgreSQL",
+        "GitHub API",
+        "Docker"
+      ]
+    }
+  ]
+}

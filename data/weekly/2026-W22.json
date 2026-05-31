@@ -1,0 +1,413 @@
+{
+  "week_of": "2026-05-31",
+  "window_dates": [
+    "2026-05-25",
+    "2026-05-27",
+    "2026-05-28",
+    "2026-05-29",
+    "2026-05-30",
+    "2026-05-31"
+  ],
+  "repos": [
+    {
+      "full_name": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 3943,
+      "peak_daily_stars": 867,
+      "persistence_score": 41.39975357861263
+    },
+    {
+      "full_name": "microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/playwright",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 538,
+      "peak_daily_stars": 140,
+      "persistence_score": 37.73829342545399
+    },
+    {
+      "full_name": "modelscope/FunASR",
+      "description": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API.",
+      "language": "Python",
+      "url": "https://github.com/modelscope/FunASR",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 517,
+      "peak_daily_stars": 165,
+      "persistence_score": 37.4998514535569
+    },
+    {
+      "full_name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 431,
+      "peak_daily_stars": 81,
+      "persistence_score": 36.410553529464664
+    },
+    {
+      "full_name": "directus/directus",
+      "description": "The flexible backend for all your projects \ud83d\udc30 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
+      "language": "TypeScript",
+      "url": "https://github.com/directus/directus",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 393,
+      "peak_daily_stars": 109,
+      "persistence_score": 29.88175454648967
+    },
+    {
+      "full_name": "milvus-io/milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "language": "Go",
+      "url": "https://github.com/milvus-io/milvus",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 142,
+      "peak_daily_stars": 35,
+      "persistence_score": 29.777067781559442
+    },
+    {
+      "full_name": "vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "language": "Python",
+      "url": "https://github.com/vinta/awesome-python",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 774,
+      "peak_daily_stars": 205,
+      "persistence_score": 26.61145211741339
+    },
+    {
+      "full_name": "jj-vcs/jj",
+      "description": "A Git-compatible VCS that is both simple and powerful",
+      "language": "Rust",
+      "url": "https://github.com/jj-vcs/jj",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 191,
+      "peak_daily_stars": 52,
+      "persistence_score": 26.28747686013891
+    },
+    {
+      "full_name": "poteto/hiring-without-whiteboards",
+      "description": "\u2b50\ufe0f Companies that don't have a broken hiring process",
+      "language": "JavaScript",
+      "url": "https://github.com/poteto/hiring-without-whiteboards",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 149,
+      "peak_daily_stars": 45,
+      "persistence_score": 25.053176470481276
+    },
+    {
+      "full_name": "jgraph/drawio-desktop",
+      "description": "Official electron build of draw.io",
+      "language": "JavaScript",
+      "url": "https://github.com/jgraph/drawio-desktop",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 119,
+      "peak_daily_stars": 33,
+      "persistence_score": 23.937458713910228
+    },
+    {
+      "full_name": "blacklanternsecurity/bbot",
+      "description": "The recursive internet scanner for hackers. \ud83e\udde1",
+      "language": "Python",
+      "url": "https://github.com/blacklanternsecurity/bbot",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 109,
+      "peak_daily_stars": 33,
+      "persistence_score": 23.502401828962082
+    },
+    {
+      "full_name": "apache/superset",
+      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+      "language": "TypeScript",
+      "url": "https://github.com/apache/superset",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 97,
+      "peak_daily_stars": 21,
+      "persistence_score": 22.92483739335286
+    },
+    {
+      "full_name": "invoke-ai/InvokeAI",
+      "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
+      "language": "TypeScript",
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 81,
+      "peak_daily_stars": 20,
+      "persistence_score": 22.033596236321266
+    },
+    {
+      "full_name": "supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "url": "https://github.com/supabase/supabase",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 238,
+      "peak_daily_stars": 62,
+      "persistence_score": 21.905854207726044
+    },
+    {
+      "full_name": "microsoft/qlib",
+      "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped withhttps://github.com/microsoft/RD-Agentto automate R&D process.",
+      "language": "Python",
+      "url": "https://github.com/microsoft/qlib",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 235,
+      "peak_daily_stars": 65,
+      "persistence_score": 21.855327220102442
+    },
+    {
+      "full_name": "jesseduffield/lazygit",
+      "description": "simple terminal UI for git commands",
+      "language": "Go",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 228,
+      "peak_daily_stars": 67,
+      "persistence_score": 21.73488801421696
+    },
+    {
+      "full_name": "NVIDIA/Megatron-LM",
+      "description": "Ongoing research training transformer models at scale",
+      "language": "Python",
+      "url": "https://github.com/NVIDIA/Megatron-LM",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 75,
+      "peak_daily_stars": 19,
+      "persistence_score": 21.653666701431654
+    },
+    {
+      "full_name": "microsoft/Web-Dev-For-Beginners",
+      "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
+      "language": "JavaScript",
+      "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 75,
+      "peak_daily_stars": 24,
+      "persistence_score": 21.653666701431654
+    },
+    {
+      "full_name": "NangoHQ/nango",
+      "description": "Build product integrations with AI.",
+      "language": "TypeScript",
+      "url": "https://github.com/NangoHQ/nango",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 1344,
+      "peak_daily_stars": 860,
+      "persistence_score": 21.61244787610782
+    },
+    {
+      "full_name": "pola-rs/polars",
+      "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+      "language": "Rust",
+      "url": "https://github.com/pola-rs/polars",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 53,
+      "peak_daily_stars": 12,
+      "persistence_score": 19.944920232821374
+    },
+    {
+      "full_name": "slint-ui/slint",
+      "description": "Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps.",
+      "language": "Rust",
+      "url": "https://github.com/slint-ui/slint",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 50,
+      "peak_daily_stars": 16,
+      "persistence_score": 19.659128163621627
+    },
+    {
+      "full_name": "projectdiscovery/katana",
+      "description": "A next-generation crawling and spidering framework.",
+      "language": "Go",
+      "url": "https://github.com/projectdiscovery/katana",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 130,
+      "peak_daily_stars": 43,
+      "persistence_score": 19.500789292804605
+    },
+    {
+      "full_name": "qdrant/qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/",
+      "language": "Rust",
+      "url": "https://github.com/qdrant/qdrant",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 126,
+      "peak_daily_stars": 40,
+      "persistence_score": 19.376748345834365
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 508,
+      "peak_daily_stars": 203,
+      "persistence_score": 18.69734404965157
+    },
+    {
+      "full_name": "vadimdemedes/ink",
+      "description": "\ud83c\udf08 React for interactive command-line apps",
+      "language": "TypeScript",
+      "url": "https://github.com/vadimdemedes/ink",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 104,
+      "peak_daily_stars": 34,
+      "persistence_score": 18.615841400630092
+    },
+    {
+      "full_name": "Infisical/infisical",
+      "description": "Infisical is the open-source platform for secrets, certificates, and privileged access management.",
+      "language": "TypeScript",
+      "url": "https://github.com/Infisical/infisical",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 102,
+      "peak_daily_stars": 33,
+      "persistence_score": 18.538915952918543
+    },
+    {
+      "full_name": "IceWhaleTech/CasaOS",
+      "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+      "language": "Go",
+      "url": "https://github.com/IceWhaleTech/CasaOS",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 90,
+      "peak_daily_stars": 31,
+      "persistence_score": 18.0434380260674
+    },
+    {
+      "full_name": "GitoxideLabs/gitoxide",
+      "description": "An idiomatic, lean, fast & safe pure Rust implementation of Git",
+      "language": "Rust",
+      "url": "https://github.com/GitoxideLabs/gitoxide",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 34,
+      "peak_daily_stars": 15,
+      "persistence_score": 17.776740307447067
+    },
+    {
+      "full_name": "Dao-AILab/flash-attention",
+      "description": "Fast and memory-efficient exact attention",
+      "language": "Python",
+      "url": "https://github.com/Dao-AILab/flash-attention",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 84,
+      "peak_daily_stars": 25,
+      "persistence_score": 17.770605025961267
+    },
+    {
+      "full_name": "helix-editor/helix",
+      "description": "A post-modern modal text editor.",
+      "language": "Rust",
+      "url": "https://github.com/helix-editor/helix",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 82,
+      "peak_daily_stars": 29,
+      "persistence_score": 17.675362431186393
+    },
+    {
+      "full_name": "WebGoat/WebGoat",
+      "description": "WebGoat is a deliberately insecure application",
+      "language": "JavaScript",
+      "url": "https://github.com/WebGoat/WebGoat",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 15,
+      "peak_daily_stars": 5,
+      "persistence_score": 16.635532333438686
+    },
+    {
+      "full_name": "pydantic/pydantic",
+      "description": "Data validation using Python type hints",
+      "language": "Python",
+      "url": "https://github.com/pydantic/pydantic",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 61,
+      "peak_daily_stars": 20,
+      "persistence_score": 16.508537540180367
+    },
+    {
+      "full_name": "sudheerj/reactjs-interview-questions",
+      "description": "List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!",
+      "language": "JavaScript",
+      "url": "https://github.com/sudheerj/reactjs-interview-questions",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 26,
+      "peak_daily_stars": 8,
+      "persistence_score": 16.479184330021646
+    },
+    {
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 233,
+      "peak_daily_stars": 83,
+      "persistence_score": 16.365963346073105
+    },
+    {
+      "full_name": "jetify-com/devbox",
+      "description": "Instant, easy, and predictable development environments",
+      "language": "Go",
+      "url": "https://github.com/jetify-com/devbox",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 201,
+      "peak_daily_stars": 136,
+      "persistence_score": 15.924803092203614
+    },
+    {
+      "full_name": "emilk/egui",
+      "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+      "language": "Rust",
+      "url": "https://github.com/emilk/egui",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 46,
+      "peak_daily_stars": 14,
+      "persistence_score": 15.400590406840234
+    },
+    {
+      "full_name": "neondatabase/neon",
+      "description": "Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.",
+      "language": "Rust",
+      "url": "https://github.com/neondatabase/neon",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 45,
+      "peak_daily_stars": 15,
+      "persistence_score": 15.31456558595638
+    },
+    {
+      "full_name": "colinhacks/zod",
+      "description": "TypeScript-first schema validation with static type inference",
+      "language": "TypeScript",
+      "url": "https://github.com/colinhacks/zod",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 43,
+      "peak_daily_stars": 13,
+      "persistence_score": 15.136758535673044
+    },
+    {
+      "full_name": "creusot-rs/creusot",
+      "description": "Creusot helps you prove your Rust code is correct.",
+      "language": "Rust",
+      "url": "https://github.com/creusot-rs/creusot",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 151,
+      "peak_daily_stars": 104,
+      "persistence_score": 15.07164156253883
+    },
+    {
+      "full_name": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "language": "Python",
+      "url": "https://github.com/huggingface/diffusers",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 38,
+      "peak_daily_stars": 11,
+      "persistence_score": 14.654246584518585
+    }
+  ]
+}

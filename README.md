@@ -1,121 +1,103 @@
 # Trending Project Ideas
 
-**Week of 2026-05-24** | [About this project](ABOUT.md)
+**Week of 2026-05-31** | [About this project](ABOUT.md)
 
 ---
 
 > **What's new this week**
 >
-> AI infrastructure has crystallized as a top-tier theme, with LangChain and vector database ecosystems (Chroma, Qdrant, Lance) now rivaling traditional backend infrastructure. Workflow automation platforms have diversified with ActivePieces challenging n8n by integrating AI agents and MCP servers directly. Security and compliance tooling (Trivy, Presidio) has emerged as durable, reflecting organizational shift toward continuous validation. Rust's expansion into financial systems (Nautilus Trader) and observability tools marks a new production frontier, while developer tooling emphasizes terminal-native experiences and operational transparency.
+> Educational platforms have emerged as a durable theme, with structured learning pathways (Build Your Own X, freeCodeCamp, Web Dev for Beginners) sustaining consistent interest. Speech and audio AI has solidified as a production-grade infrastructure layer distinct from general LLM work, with FunASR's industrial-grade capabilities reflecting enterprise adoption. Vector databases (Qdrant, Milvus) have moved from specialized to mainstream, competing directly with traditional backend infrastructure for mindshare. Developer automation has reframed around AI-assisted integration (Nango) rather than purely visual workflow builders, signaling a shift toward intelligent glue code generation.
 
 ---
 
 ## Trending Topics
 
 
-### AI infrastructure and model orchestration
+### Educational scaffolding and learning platforms
 
-LLM-driven agents, speech recognition, and vector databases are coalescing into a coherent infrastructure layer for building AI applications at scale. Tools like LangChain, Whisper, Transformers, and vector stores (Chroma, Qdrant, Lance) form the backbone of production AI systems.
-
-<details>
-<summary>Supporting repos (6)</summary>
-
-
-- [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
-
-- [openai/whisper](https://github.com/openai/whisper)
-
-- [huggingface/transformers](https://github.com/huggingface/transformers)
-
-- [chroma-core/chroma](https://github.com/chroma-core/chroma)
-
-- [qdrant/qdrant](https://github.com/qdrant/qdrant)
-
-- [lance-format/lance](https://github.com/lance-format/lance)
-
-
-</details>
-
-
-### Workflow automation and integration platforms
-
-n8n, ActivePieces, and Directus represent a consolidation around no-code/low-code workflow execution, data integration, and rapid backend generation. These platforms prioritize visual builders, extensibility, and seamless third-party integration without custom boilerplate.
-
-<details>
-<summary>Supporting repos (4)</summary>
-
-
-- [n8n-io/n8n](https://github.com/n8n-io/n8n)
-
-- [activepieces/activepieces](https://github.com/activepieces/activepieces)
-
-- [directus/directus](https://github.com/directus/directus)
-
-- [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith)
-
-
-</details>
-
-
-### Security scanning, compliance, and data governance
-
-Trivy, Nuclei Templates, and Presidio address automated vulnerability detection, secret scanning, and PII detection across infrastructure and data. Organizations increasingly adopt continuous security validation and compliance automation to reduce manual review overhead.
+Structured, hands-on learning platforms that teach programming through guided project building and interactive curriculum. These tools emphasize reproducible learning pathways and lower friction to competency.
 
 <details>
 <summary>Supporting repos (3)</summary>
 
 
-- [aquasecurity/trivy](https://github.com/aquasecurity/trivy)
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
 
-- [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)
+- [microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
 
-- [microsoft/presidio](https://github.com/microsoft/presidio)
+- [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
 
 
 </details>
 
 
-### Rust-native systems and infrastructure
+### Speech and audio AI
 
-Rust continues expanding from backend infrastructure into trading engines, search (Meilisearch), vector databases (Qdrant), data formats (Lance), and linting (Ruff). Production demand for memory-safe, high-performance systems drives adoption across increasingly diverse domains.
+Industrial-grade speech recognition, audio processing, and voice-first interfaces that enable real-time, low-latency transcription and speaker analysis. These tools prioritize production reliability and multilingual support.
 
 <details>
-<summary>Supporting repos (6)</summary>
+<summary>Supporting repos (3)</summary>
 
 
-- [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader)
+- [modelscope/FunASR](https://github.com/modelscope/FunASR)
 
-- [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
+- [openai/whisper](https://github.com/openai/whisper)
+
+- [huggingface/diffusers](https://github.com/huggingface/diffusers)
+
+
+</details>
+
+
+### Vector database and similarity search
+
+High-performance vector storage and retrieval systems (Qdrant, Milvus) designed for semantic search, RAG pipelines, and AI-driven retrieval at scale. These platforms emphasize horizontal scalability and integration with LLM ecosystems.
+
+<details>
+<summary>Supporting repos (3)</summary>
+
 
 - [qdrant/qdrant](https://github.com/qdrant/qdrant)
 
+- [milvus-io/milvus](https://github.com/milvus-io/milvus)
+
 - [lance-format/lance](https://github.com/lance-format/lance)
-
-- [astral-sh/ruff](https://github.com/astral-sh/ruff)
-
-- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
 
 
 </details>
 
 
-### Developer tools, observability, and operational dashboards
+### Developer automation and integration
 
-Tools like k9s, Playwright, SigNoz, Lazygit, and Tabby reflect demand for rich terminal UI, observability, and testing automation that reduce cognitive load in complex systems. These tools prioritize intuitive interaction patterns and real-time visibility.
+Platforms and tools that integrate third-party services, automate API consumption, and reduce boilerplate through AI-assisted integration and OpenAPI-first design. These tools target friction in building connectors and glue code.
 
 <details>
-<summary>Supporting repos (5)</summary>
+<summary>Supporting repos (3)</summary>
 
 
-- [derailed/k9s](https://github.com/derailed/k9s)
+- [NangoHQ/nango](https://github.com/NangoHQ/nango)
 
-- [microsoft/playwright](https://github.com/microsoft/playwright)
+- [n8n-io/n8n](https://github.com/n8n-io/n8n)
 
-- [SigNoz/signoz](https://github.com/SigNoz/signoz)
+- [directus/directus](https://github.com/directus/directus)
 
-- [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
 
-- [Eugeny/tabby](https://github.com/Eugeny/tabby)
+</details>
+
+
+### Rust native systems and tooling
+
+Production-grade systems built in Rust spanning remote access, version control, UI frameworks, and databases. Rust adoption expands beyond backend infrastructure into developer tools and distributed systems.
+
+<details>
+<summary>Supporting repos (3)</summary>
+
+
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
+
+- [jj-vcs/jj](https://github.com/jj-vcs/jj)
+
+- [neondatabase/neon](https://github.com/neondatabase/neon)
 
 
 </details>
@@ -130,89 +112,80 @@ Tools like k9s, Playwright, SigNoz, Lazygit, and Tabby reflect demand for rich t
 
 
 
-#### AI infrastructure and model orchestration
+#### Educational scaffolding and learning platforms
 
 
-##### LangChain Agent Observability Dashboard
+##### Interactive Build-Your-Own Tutorial Generator
 
-Build a lightweight dashboard that captures LangChain agent execution traces—including tool invocations, reasoning steps, and latency—and surfaces them in real-time. Export detailed traces to OpenTelemetry format for integration with SigNoz or similar observability platforms. Include cost attribution per tool call.
+Create a CLI tool that takes a GitHub repo, extracts key implementation milestones, and auto-generates a structured tutorial with progressive checkpoints, hints, and automated test cases. Output tutorials in markdown format compatible with Build Your Own X and freeCodeCamp.
 
-**Why now:** LangChain adoption is accelerating, but production visibility into agent behavior remains opaque; this bridges the gap between local development and production observability.
+**Why now:** Educational platforms are gaining traction; automating tutorial generation from working codebases dramatically lowers content creation burden and enables crowdsourced learning content.
 
-**Stack hints:** `Python`, `FastAPI`, `LangChain`, `Plotly`, `OpenTelemetry`, `SQLite`
-
-
-##### Vector Database Query Optimizer
-
-Create a CLI tool that analyzes vector queries against Qdrant, Chroma, or Meilisearch indices, suggests index restructuring, query rewriting, and optimal distance metrics. Profile query latency and recall tradeoffs, then auto-generate configuration recommendations for indexing strategies.
-
-**Why now:** Vector databases are becoming bottlenecks in production AI systems; tools that optimize queries without manual tuning address a critical performance gap.
-
-**Stack hints:** `Rust`, `Qdrant SDK`, `Chroma SDK`, `serde`, `clap`
+**Stack hints:** `Python`, `AST parsing`, `Claude API`, `GitHub API`, `pytest`
 
 
 
 
 
 
-#### Workflow automation and integration platforms
+#### Speech and audio AI
 
 
-##### n8n Workflow Dependency Visualizer
+##### Real-Time Speech-to-Text Analytics Dashboard
 
-Build a tool that parses n8n workflow JSONs and generates interactive dependency graphs showing node relationships, data flow, error paths, and conditional branching. Identify circular dependencies, unused nodes, and critical paths. Export as SVG or interactive HTML for documentation.
+Build a lightweight web dashboard that streams audio from a microphone, processes it via FunASR, displays live transcription with confidence scores, detects speaker changes, and exports sentiment analysis per segment. Include multi-language detection and real-time latency metrics.
 
-**Why now:** As n8n workflows grow in complexity, understanding their topology and dependencies becomes critical for maintenance and troubleshooting.
+**Why now:** Speech AI has matured to production-grade quality; a unified dashboard that surfaces real-time transcription, speaker diarization, and confidence metrics addresses adoption friction in speech-first applications.
 
-**Stack hints:** `TypeScript`, `D3.js`, `n8n API`, `serde`, `GraphQL`
-
-
-
-
-
-
-#### Security scanning, compliance, and data governance
-
-
-##### Presidio-Powered Log Sanitizer for CI/CD
-
-Develop a GitHub Actions and GitLab CI plugin that automatically scans build logs and test output for PII (API keys, tokens, email addresses, credit cards) using Presidio, redacts findings in real-time, and archives raw logs to encrypted storage. Generate compliance reports for audit trails.
-
-**Why now:** CI/CD logs routinely leak secrets and PII; automated detection and redaction fills a critical security gap that manual reviews miss.
-
-**Stack hints:** `Python`, `Presidio`, `GitHub Actions`, `FastAPI`, `PostgreSQL`
+**Stack hints:** `Python`, `FastAPI`, `FunASR`, `WebSocket`, `Vue.js`, `librosa`
 
 
 
 
 
 
-#### Rust-native systems and infrastructure
+#### Vector database and similarity search
 
 
-##### Rust Trading Signal Backtester
+##### Vector Database Cost and Performance Profiler
 
-Create a lightweight CLI backtesting engine built on Nautilus Trader that loads historical OHLCV data, executes custom signal strategies (SMA crossovers, RSI, Bollinger Bands), and outputs performance metrics (Sharpe ratio, max drawdown, Calmar ratio). Support CSV and Parquet input, export to JSON.
+Create a CLI tool that benchmarks vector search workloads across Qdrant, Milvus, and Pinecone in parallel, measuring query latency, recall accuracy, and cost per query. Generate comparison reports with recommendations for index configuration based on your access patterns.
 
-**Why now:** Nautilus Trader's production maturity makes Rust a viable choice for quantitative finance; a simple backtester enables strategy research without complex setup.
+**Why now:** Vector databases are proliferating; teams need visibility into cost-performance tradeoffs before committing to a platform, and this tool bridges the evaluation gap.
 
-**Stack hints:** `Rust`, `Nautilus Trader`, `polars`, `serde`, `clap`
-
-
-
+**Stack hints:** `Rust`, `Qdrant SDK`, `Milvus SDK`, `Pinecone SDK`, `serde`, `clap`
 
 
 
-#### Developer tools, observability, and operational dashboards
 
 
-##### k9s Plugin Ecosystem for Multi-Cluster Observability
 
-Build a k9s plugin framework that aggregates metrics, logs, and events from multiple Kubernetes clusters into a unified terminal view. Support cluster-aware resource filtering, cross-cluster pod search, and unified event streaming. Integrate with SigNoz or Prometheus for metric overlay.
+#### Developer automation and integration
 
-**Why now:** Multi-cluster Kubernetes management is becoming standard; a unified terminal experience reduces context-switching and speeds troubleshooting.
 
-**Stack hints:** `Go`, `k9s SDK`, `client-go`, `gRPC`, `Prometheus client`
+##### DevBox-Integrated Local Integration Sandbox
+
+Build a Devbox extension that scaffolds a local sandbox environment for testing n8n or Nango integrations in isolation, including mocked APIs, test data fixtures, and one-command assertion testing. Export integration configs for production deployment.
+
+**Why now:** Integration platforms are multiplying; a developer-friendly sandbox that integrates with reproducible dev environments (Devbox) reduces friction in testing integrations before production.
+
+**Stack hints:** `TypeScript`, `Devbox SDK`, `Express`, `Jest`, `OpenAPI`
+
+
+
+
+
+
+#### Rust native systems and tooling
+
+
+##### Rust CLI Wrapper for Helix with Plugin System
+
+Create a minimal Rust CLI wrapper around Helix editor that loads custom plugin binaries, exposes Helix's LSP integration and theme system via a plugin API, and enables one-command plugin installation from a registry. Include plugin templates for common use cases.
+
+**Why now:** Helix is gaining adoption as a post-modern editor; a plugin system bridges the gap between minimalism and extensibility, accelerating ecosystem growth.
+
+**Stack hints:** `Rust`, `Helix SDK`, `tokio`, `serde`, `clap`
 
 
 
@@ -225,89 +198,80 @@ Build a k9s plugin framework that aggregates metrics, logs, and events from mult
 
 
 
-#### AI infrastructure and model orchestration
+#### Educational scaffolding and learning platforms
 
 
-##### Agentic Workflow Builder with Type Safety
+##### Curriculum-as-Code Learning Path Engine
 
-Design a TypeScript framework that combines LangChain agents, n8n-style visual workflows, and end-to-end type safety. Generate TypeScript interfaces from LangChain tool schemas, enable IDE autocomplete for workflow definitions, and compile to executable agent code. Include replay and step-through debugging.
+Design a framework that defines learning paths as declarative, composable code (similar to Infrastructure as Code). Support progressive skill unlocking, adaptive difficulty branching based on quiz performance, and integration with external tutorial repos. Include a VS Code extension for path visualization and progress tracking.
 
-**Why now:** LangChain and workflow automation are converging; a unified, type-safe abstraction enables developers to build complex agents without losing productivity or safety.
+**Why now:** Educational platforms are maturing; enabling educators and community members to define learning paths as code democratizes curriculum design and enables collaboration.
 
-**Stack hints:** `TypeScript`, `LangChain`, `Zod`, `ts-morph`, `Vite`
-
-
-##### Vector Database Migration and Sync Tool
-
-Create a multi-driver tool for migrating, syncing, and reconciling embeddings between Qdrant, Chroma, Meilisearch, and Pinecone. Support incremental syncs, conflict resolution, and rollback. Include reconciliation reports showing divergence, missing vectors, and metadata mismatches. CLI and Python SDK.
-
-**Why now:** Vector database adoption is fragmenting across platforms; a unified migration tool enables teams to switch or scale across providers without data loss.
-
-**Stack hints:** `Python`, `Qdrant SDK`, `Chroma SDK`, `Meilisearch SDK`, `FastAPI`, `SQLAlchemy`
+**Stack hints:** `TypeScript`, `Zod`, `VS Code API`, `d3.js`, `Express`
 
 
 
 
 
 
-#### Workflow automation and integration platforms
+#### Speech and audio AI
 
 
-##### ActivePieces Custom Integration Framework
+##### Multi-Language Speech Pipeline for Podcast Analytics
 
-Build a scaffolding and testing framework for developing ActivePieces integrations that auto-generates OAuth flows, webhook handlers, and data transformation pipelines from OpenAPI specs. Include local development mode, integration testing harness, and one-command deployment to the ActivePieces marketplace.
+Build an end-to-end podcast processing pipeline that ingests audio feeds, uses FunASR for transcription with multi-language detection, performs speaker diarization, extracts topic segments via semantic chunking, and generates searchable, timestamped transcript indices. Expose REST API and include simple web UI for search.
 
-**Why now:** ActivePieces is positioning itself as an open platform; tools that lower the barrier to custom integration development accelerate ecosystem growth.
+**Why now:** Speech AI quality has reached production grade; podcast discovery and searchability are currently manual; an automated pipeline unlocks new search and discovery patterns.
 
-**Stack hints:** `TypeScript`, `OpenAPI`, `ActivePieces SDK`, `Jest`, `Fastify`
-
-
-
-
-
-
-#### Security scanning, compliance, and data governance
-
-
-##### Multi-Source Log Compliance Auditor
-
-Build a compliance auditing platform that ingests logs from Kubernetes (via SigNoz/OpenTelemetry), cloud providers (AWS CloudTrail, Azure Monitor), and application servers, correlates events across sources, detects compliance violations (GDPR, HIPAA, SOC2), and auto-generates audit reports. Support custom policy rules.
-
-**Why now:** Organizations face fragmented security tooling; a unified audit platform that correlates multi-source logs creates compliance visibility at scale.
-
-**Stack hints:** `Go`, `OpenSearch`, `NATS`, `OpenTelemetry Collector`, `FastAPI`, `PostgreSQL`
+**Stack hints:** `Python`, `FastAPI`, `FunASR`, `Qdrant`, `PostgreSQL`, `Celery`
 
 
 
 
 
 
-#### Rust-native systems and infrastructure
+#### Vector database and similarity search
 
 
-##### Rust-Native Financial Risk Engine
+##### Vector-Semantic Hybrid Search Framework
 
-Develop a production-grade risk calculation library built on Nautilus Trader that computes Greeks (delta, gamma, theta, vega), portfolio volatility, Value-at-Risk (VaR), and stress testing across equity and derivatives portfolios. Support real-time updates from live market feeds, expose both Rust API and Python bindings.
+Create a framework that combines dense vector search (Qdrant/Milvus) with BM25 sparse retrieval and entity-aware ranking to maximize recall and relevance. Expose a unified query API, auto-tune blend weights based on query intent, and generate performance reports across retrieval stages.
 
-**Why now:** Rust's adoption in fintech is accelerating; a comprehensive risk engine addresses a critical need for institutions migrating from Python-only stacks.
+**Why now:** Vector databases are dominant for semantic search, but hybrid retrieval significantly improves relevance; a framework that unifies both approaches lowers integration complexity.
 
-**Stack hints:** `Rust`, `Nautilus Trader`, `polars`, `PyO3`, `ndarray`
-
-
-
+**Stack hints:** `Python`, `Qdrant SDK`, `OpenSearch`, `FastAPI`, `scikit-learn`
 
 
 
-#### Developer tools, observability, and operational dashboards
 
 
-##### Terminal-Native Incident Management Dashboard
 
-Build a k9s-like TUI for incident management that aggregates alerts from Prometheus, SigNoz, and PagerDuty, surfaces critical traces and logs, enables one-click remediation actions (restart pods, trigger runbooks), and tracks incident timelines. Support tmux integration for multi-window workflows.
+#### Developer automation and integration
 
-**Why now:** Operators spend most time in terminals; a native TUI for incident response reduces context-switching and speeds MTTR compared to browser-based dashboards.
 
-**Stack hints:** `Go`, `BubbleTea`, `Prometheus API`, `SigNoz API`, `PagerDuty API`
+##### OpenAPI-to-Integration Code Generator with AI Augmentation
+
+Build a tool that consumes OpenAPI specs, generates type-safe SDK stubs, auto-generates OAuth/API key handling, and uses Claude to infer data transformation rules between services. Output production-ready integration code and deployment manifests for n8n or Nango.
+
+**Why now:** Integration platforms demand custom glue code; AI-assisted code generation from OpenAPI specs dramatically accelerates integration development and reduces manual wiring.
+
+**Stack hints:** `TypeScript`, `OpenAPI Parser`, `Claude API`, `ts-morph`, `prettier`
+
+
+
+
+
+
+#### Rust native systems and tooling
+
+
+##### Rust-Native Observability Agent for Distributed Systems
+
+Develop a lightweight Rust binary that collects traces, metrics, and logs from distributed services, buffers them efficiently, and ships to OpenTelemetry backends. Support dynamic sampling, trace correlation across process boundaries, and minimal CPU/memory overhead. Include deployment templates for Kubernetes.
+
+**Why now:** Rust's performance characteristics make it ideal for observability agents; a native implementation reduces observability overhead compared to Python or Go alternatives.
+
+**Stack hints:** `Rust`, `tokio`, `OpenTelemetry`, `tonic`, `prost`
 
 
 
@@ -320,54 +284,80 @@ Build a k9s-like TUI for incident management that aggregates alerts from Prometh
 
 
 
-#### AI infrastructure and model orchestration
+#### Educational scaffolding and learning platforms
 
 
-##### Unified AI Agent Factory for Enterprise Workflows
+##### Adaptive Learning Skill Graph with Spaced Repetition
 
-Design a comprehensive platform that orchestrates LangChain agents, vector RAG pipelines (Qdrant/Chroma), workflow automation (n8n/ActivePieces), and observability (SigNoz) into a single agent deployment framework. Support multi-agent coordination, shared memory, and fallback routing. Include UI for agent monitoring, tool library management, and prompt versioning.
+Build a comprehensive learning platform that models skills as a directed acyclic graph, adapts exercise difficulty and sequencing based on learner performance, integrates spaced repetition, and provides personalized learning paths. Support custom skill definitions, integrate with existing tutorial content (freeCodeCamp, Build Your Own X), and expose APIs for third-party content creators.
 
-**Why now:** Organizations building production AI systems face fragmentation across tools; a unified factory that integrates agents, workflows, and observability reduces integration overhead and enables scalable, maintainable AI deployments.
+**Why now:** Educational platforms have proven durable; a unified skill graph that adapts to individual learners and integrates multiple content sources creates a personalized, scalable learning ecosystem.
 
-**Stack hints:** `Python`, `FastAPI`, `LangChain`, `Qdrant SDK`, `n8n API`, `OpenTelemetry`, `PostgreSQL`, `Redis`
-
-
-
-
-
-
-#### Workflow automation and integration platforms
-
-
-##### Compliance-First Workflow Orchestrator
-
-Build a privacy-first alternative to n8n that encrypts workflow execution state, enforces fine-grained access controls, auto-generates audit trails with Presidio-powered PII detection, and supports compliance policies (GDPR right-to-be-forgotten, data retention). Maintain backward compatibility with n8n workflows via transformation layer. Include certification templates for SOC2, ISO27001.
-
-**Why now:** Enterprise adoption of workflow platforms creates demand for compliance-first alternatives; a unified platform addressing encryption, audit, and policy enforcement captures a growing market segment.
-
-**Stack hints:** `TypeScript`, `TweetNaCl.js`, `n8n SDK`, `Presidio`, `OpenTelemetry`, `PostgreSQL`, `Docker`
+**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `React`, `D3.js`, `Redis`
 
 
 
 
 
 
+#### Speech and audio AI
+
+
+##### Enterprise Speech Intelligence Platform with PII Detection
+
+Create a production-grade speech intelligence platform that ingests call recordings, performs transcription via FunASR, detects and redacts PII (credit cards, SSNs, phone numbers), generates compliance reports, and enables full-text search across anonymized transcripts. Include speaker profiling, quality metrics (background noise, audio clarity), and integration with CRM systems.
+
+**Why now:** Speech AI is production-ready; enterprises urgently need compliant speech analytics that simultaneously enable insights and protect sensitive data.
+
+**Stack hints:** `Python`, `FastAPI`, `FunASR`, `Presidio`, `Qdrant`, `PostgreSQL`, `Celery`, `OpenSearch`
 
 
 
-#### Rust-native systems and infrastructure
-
-
-##### Rust-Native Real-Time Analytics Engine
-
-Develop a distributed analytics query engine written in Rust that ingests streaming data (via NATS or Kafka), materializes aggregates to in-memory indices (columnar), and exposes low-latency SQL query interfaces. Support time-series windows, approximate aggregations, and cross-shard joins. Include Kubernetes deployment manifests and Prometheus metrics.
-
-**Why now:** Rust's performance and safety characteristics make it ideal for high-throughput analytics; a native engine fills the gap between streaming message queues and batch data warehouses.
-
-**Stack hints:** `Rust`, `tokio`, `Arrow`, `DuckDB`, `tonic`, `Kubernetes`
 
 
 
+#### Vector database and similarity search
+
+
+##### Distributed Vector Search Engine with Geo-Partitioning
+
+Build a distributed vector search engine written in Rust that partitions embeddings geographically for latency-optimized retrieval, supports multi-region replication with eventual consistency, and exposes a gRPC API compatible with LLM frameworks. Include Kubernetes operators for auto-scaling and failover.
+
+**Why now:** Vector databases are becoming critical infrastructure; a geo-distributed, highly available implementation addresses global deployment requirements that existing platforms struggle with.
+
+**Stack hints:** `Rust`, `tokio`, `tonic`, `Arrow`, `RocksDB`, `Kubernetes`
+
+
+
+
+
+
+#### Developer automation and integration
+
+
+##### AI-Native Integration Platform with Declarative Workflows
+
+Design an integration platform that combines visual workflow authoring with AI-powered code generation, natural language flow definitions, and intelligent error recovery. Support workflow composition from natural language descriptions, auto-generate TypeScript/Python SDK bindings from OpenAPI specs, and include compliance templates (GDPR, HIPAA) for regulated use cases.
+
+**Why now:** Integration platforms are consolidating; a unified platform that merges visual workflows, AI code generation, and compliance automation captures both developer and enterprise buyer personas.
+
+**Stack hints:** `TypeScript`, `Python`, `FastAPI`, `PostgreSQL`, `Claude API`, `OpenAPI Parser`, `React`
+
+
+
+
+
+
+#### Rust native systems and tooling
+
+
+##### Rust Systems Programming Bootcamp with Real-World Projects
+
+Create a comprehensive Rust bootcamp curriculum that guides learners from basics through systems programming, emphasizing real-world projects (build a network protocol, filesystem, or key-value store). Include interactive exercises with auto-grading, peer code review workflows, and job placement connections with Rust-native companies.
+
+**Why now:** Rust adoption is accelerating in production systems; a structured bootcamp that combines education with career outcomes addresses both skill gap and hiring challenges.
+
+**Stack hints:** `Rust`, `TypeScript`, `React`, `PostgreSQL`, `GitHub API`, `Docker`
 
 
 
@@ -387,4 +377,4 @@ See [ABOUT.md](ABOUT.md) for full methodology details.
 
 ---
 
-*Generated 2026-05-24 13:27 UTC · commit `3bfb3dc`*
+*Generated 2026-05-31 13:46 UTC · commit `37e1f7b`*
