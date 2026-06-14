@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-06-14",
+  "window_dates": [
+    "2026-06-08",
+    "2026-06-09",
+    "2026-06-10",
+    "2026-06-11",
+    "2026-06-12",
+    "2026-06-13",
+    "2026-06-14"
+  ],
+  "repos": [
+    {
+      "full_name": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 976,
+      "peak_daily_stars": 181,
+      "persistence_score": 41.306919912256696
+    },
+    {
+      "full_name": "helix-editor/helix",
+      "description": "A post-modern modal text editor.",
+      "language": "Rust",
+      "url": "https://github.com/helix-editor/helix",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 350,
+      "peak_daily_stars": 82,
+      "persistence_score": 35.16471734079519
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 911,
+      "peak_daily_stars": 212,
+      "persistence_score": 34.078199950371655
+    },
+    {
+      "full_name": "qdrant/qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/",
+      "language": "Rust",
+      "url": "https://github.com/qdrant/qdrant",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 285,
+      "peak_daily_stars": 100,
+      "persistence_score": 33.935950864919114
+    },
+    {
+      "full_name": "withastro/astro",
+      "description": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!",
+      "language": "TypeScript",
+      "url": "https://github.com/withastro/astro",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 264,
+      "peak_daily_stars": 52,
+      "persistence_score": 33.478378955917336
+    },
+    {
+      "full_name": "chroma-core/chroma",
+      "description": "Search infrastructure for AI",
+      "language": "Rust",
+      "url": "https://github.com/chroma-core/chroma",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 174,
+      "peak_daily_stars": 48,
+      "persistence_score": 30.988715843541087
+    },
+    {
+      "full_name": "jesseduffield/lazygit",
+      "description": "simple terminal UI for git commands",
+      "language": "Go",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 402,
+      "peak_daily_stars": 114,
+      "persistence_score": 29.994682809733412
+    },
+    {
+      "full_name": "microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/playwright",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 377,
+      "peak_daily_stars": 89,
+      "persistence_score": 29.67447097809794
+    },
+    {
+      "full_name": "jgraph/drawio-desktop",
+      "description": "Official electron build of draw.io",
+      "language": "JavaScript",
+      "url": "https://github.com/jgraph/drawio-desktop",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 117,
+      "peak_daily_stars": 22,
+      "persistence_score": 28.62410774679399
+    },
+    {
+      "full_name": "milvus-io/milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "language": "Go",
+      "url": "https://github.com/milvus-io/milvus",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 112,
+      "peak_daily_stars": 22,
+      "persistence_score": 28.364326912274045
+    },
+    {
+      "full_name": "terrastruct/d2",
+      "description": "D2 is a modern diagram scripting language that turns text to diagrams.",
+      "language": "Go",
+      "url": "https://github.com/terrastruct/d2",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 268,
+      "peak_daily_stars": 64,
+      "persistence_score": 27.973556898009196
+    },
+    {
+      "full_name": "iced-rs/iced",
+      "description": "A cross-platform GUI library for Rust, inspired by Elm",
+      "language": "Rust",
+      "url": "https://github.com/iced-rs/iced",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 74,
+      "peak_daily_stars": 16,
+      "persistence_score": 25.90492868121786
+    },
+    {
+      "full_name": "microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "language": "C#",
+      "url": "https://github.com/microsoft/PowerToys",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 637,
+      "peak_daily_stars": 370,
+      "persistence_score": 25.83335313337916
+    },
+    {
+      "full_name": "ClementTsang/bottom",
+      "description": "Yet another cross-platform graphical process/system monitor.",
+      "language": "Rust",
+      "url": "https://github.com/ClementTsang/bottom",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 138,
+      "peak_daily_stars": 50,
+      "persistence_score": 24.672369665653456
+    },
+    {
+      "full_name": "emilk/egui",
+      "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+      "language": "Rust",
+      "url": "https://github.com/emilk/egui",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 56,
+      "peak_daily_stars": 12,
+      "persistence_score": 24.258307607007303
+    },
+    {
+      "full_name": "ajeetdsouza/zoxide",
+      "description": "A smarter cd command. Supports all major shells.",
+      "language": "Rust",
+      "url": "https://github.com/ajeetdsouza/zoxide",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 393,
+      "peak_daily_stars": 128,
+      "persistence_score": 23.905403637191736
+    },
+    {
+      "full_name": "langchain-ai/langchain",
+      "description": "The agent engineering platform.",
+      "language": "Python",
+      "url": "https://github.com/langchain-ai/langchain",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 358,
+      "peak_daily_stars": 99,
+      "persistence_score": 23.533289553953114
+    },
+    {
+      "full_name": "simple-icons/simple-icons",
+      "description": "SVG icons for popular brands",
+      "language": "JavaScript",
+      "url": "https://github.com/simple-icons/simple-icons",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 48,
+      "peak_daily_stars": 11,
+      "persistence_score": 23.350921788663758
+    },
+    {
+      "full_name": "juicedata/juicefs",
+      "description": "JuiceFS is a distributed POSIX file system built on top of Redis and S3.",
+      "language": "Go",
+      "url": "https://github.com/juicedata/juicefs",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 333,
+      "peak_daily_stars": 119,
+      "persistence_score": 23.244563971906803
+    },
+    {
+      "full_name": "windmill-labs/windmill",
+      "description": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal.",
+      "language": "Rust",
+      "url": "https://github.com/windmill-labs/windmill",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 100,
+      "peak_daily_stars": 32,
+      "persistence_score": 23.075602584206298
+    },
+    {
+      "full_name": "SigNoz/signoz",
+      "description": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. \ud83d\udd25 \ud83d\udda5. \ud83d\udc49 Open source Application Performance Monitoring (APM) & Observability tool",
+      "language": "TypeScript",
+      "url": "https://github.com/SigNoz/signoz",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 97,
+      "peak_daily_stars": 23,
+      "persistence_score": 22.92483739335286
+    },
+    {
+      "full_name": "paradigmxyz/reth",
+      "description": "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust",
+      "language": "Rust",
+      "url": "https://github.com/paradigmxyz/reth",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 25,
+      "peak_daily_stars": 13,
+      "persistence_score": 22.806675766150374
+    },
+    {
+      "full_name": "calcom/cal.diy",
+      "description": "Scheduling infrastructure for absolutely everyone.",
+      "language": "TypeScript",
+      "url": "https://github.com/calcom/cal.diy",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 262,
+      "peak_daily_stars": 69,
+      "persistence_score": 22.28861612871106
+    },
+    {
+      "full_name": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 1590,
+      "peak_daily_stars": 578,
+      "persistence_score": 22.11635408501336
+    },
+    {
+      "full_name": "apache/airflow",
+      "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+      "language": "Python",
+      "url": "https://github.com/apache/airflow",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 79,
+      "peak_daily_stars": 19,
+      "persistence_score": 21.910133173369406
+    },
+    {
+      "full_name": "GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your Internet traffic \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "language": "Rust",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 1458,
+      "peak_daily_stars": 640,
+      "persistence_score": 21.856519645568355
+    },
+    {
+      "full_name": "oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager \u2013 all in one",
+      "language": "Rust",
+      "url": "https://github.com/oven-sh/bun",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 233,
+      "peak_daily_stars": 76,
+      "persistence_score": 21.821284461430807
+    },
+    {
+      "full_name": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 949,
+      "peak_daily_stars": 362,
+      "persistence_score": 20.56938595378376
+    },
+    {
+      "full_name": "fastify/fastify",
+      "description": "Fast and low overhead web framework, for Node.js",
+      "language": "JavaScript",
+      "url": "https://github.com/fastify/fastify",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 56,
+      "peak_daily_stars": 23,
+      "persistence_score": 20.21525633917275
+    },
+    {
+      "full_name": "projectdiscovery/nuclei-templates",
+      "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "language": "JavaScript",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 28,
+      "peak_daily_stars": 7,
+      "persistence_score": 20.203774979918844
+    },
+    {
+      "full_name": "OpenAPITools/openapi-generator",
+      "description": "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)",
+      "language": "Java",
+      "url": "https://github.com/OpenAPITools/openapi-generator",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 52,
+      "peak_daily_stars": 17,
+      "persistence_score": 19.85145956776061
+    },
+    {
+      "full_name": "activepieces/activepieces",
+      "description": "AI Agents & MCPs & AI Workflow Automation \u2022 (~400 MCP servers for AI agents) \u2022 AI Automation / AI Agent with MCPs \u2022 AI Workflows & AI Agents \u2022 MCPs for AI Agents",
+      "language": "TypeScript",
+      "url": "https://github.com/activepieces/activepieces",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 115,
+      "peak_daily_stars": 33,
+      "persistence_score": 19.014360764425458
+    },
+    {
+      "full_name": "goauthentik/authentik",
+      "description": "The authentication glue you need.",
+      "language": "Python",
+      "url": "https://github.com/goauthentik/authentik",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 105,
+      "peak_daily_stars": 31,
+      "persistence_score": 18.653756376448268
+    },
+    {
+      "full_name": "enfein/mieru",
+      "description": "mieru is a socks5 / HTTP / HTTPS proxy to bypass censorship. \u898b\u3048\u308b\u662f\u4e00\u6b3e socks5 / HTTP / HTTPS \u7f51\u7edc\u4ee3\u7406\u7ffb\u5899\u5de5\u5177\u3002",
+      "language": "Go",
+      "url": "https://github.com/enfein/mieru",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 95,
+      "peak_daily_stars": 30,
+      "persistence_score": 18.257392765871344
+    },
+    {
+      "full_name": "PostHog/posthog",
+      "description": "\ud83e\udd94 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+      "language": "Python",
+      "url": "https://github.com/PostHog/posthog",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 92,
+      "peak_daily_stars": 37,
+      "persistence_score": 18.130397972613025
+    },
+    {
+      "full_name": "mnfst/manifest",
+      "description": "Connect Your Agents And Harnesses With Any Provider \ud83e\udd9a",
+      "language": "TypeScript",
+      "url": "https://github.com/mnfst/manifest",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 86,
+      "peak_daily_stars": 27,
+      "persistence_score": 17.863632474618335
+    },
+    {
+      "full_name": "coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "url": "https://github.com/coder/coder",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 86,
+      "peak_daily_stars": 29,
+      "persistence_score": 17.863632474618335
+    },
+    {
+      "full_name": "astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "url": "https://github.com/astral-sh/ruff",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 85,
+      "peak_daily_stars": 28,
+      "persistence_score": 17.81738918501403
+    },
+    {
+      "full_name": "rust-unofficial/awesome-rust",
+      "description": "A curated list of Rust code and resources.",
+      "language": "Rust",
+      "url": "https://github.com/rust-unofficial/awesome-rust",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 83,
+      "peak_daily_stars": 32,
+      "persistence_score": 17.723267195373253
+    },
+    {
+      "full_name": "aldinokemal/go-whatsapp-web-multidevice",
+      "description": "GOWA - WhatsApp REST API with support for UI, Multi Account, Webhooks, and MCP, and Chatwoot. Built with Golang for efficient memory use.",
+      "language": "Go",
+      "url": "https://github.com/aldinokemal/go-whatsapp-web-multidevice",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 77,
+      "peak_daily_stars": 24,
+      "persistence_score": 17.426835306758367
+    }
+  ]
+}

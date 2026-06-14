@@ -1,12 +1,12 @@
 # Trending Project Ideas
 
-**Week of 2026-06-07** | [About this project](ABOUT.md)
+**Week of 2026-06-15** | [About this project](ABOUT.md)
 
 ---
 
 > **What's new this week**
 >
-> Workflow automation platforms (n8n, Plane, Airflow) have surged in persistence this week, consolidating around code-first, self-hostable orchestration—a shift from last week's focus on glue code integration toward full workflow ownership. Speech AI infrastructure remains production-grade and persistent, now competing directly with enterprise platforms for transcription and compliance use cases. Rust-native infrastructure has significantly expanded beyond the five repos of last week, now spanning editors, vector databases, and version control—indicating ecosystem maturation and broader adoption pressure. Educational platforms have stabilized as durable, with new emphasis on algorithmic thinking and system design alongside project-based learning. Security and compliance tooling has emerged as a sustained theme absent from last week, reflecting heightened enterprise focus on vulnerability management and secrets detection.
+> AI agent orchestration has emerged as a distinct new theme with multiple competing platforms (Manifest, ActivePieces) focused on connecting agents to MCPs and LLM providers—a shift from generic workflow automation toward specialized agent tooling. Rust-native infrastructure has substantially expanded, now spanning 7+ repos across monitoring, blockchain, and runtimes, indicating ecosystem maturation beyond databases and editors. Developer experience tools have consolidated as a durable theme around reducing friction in git, API generation, and environment management. Educational platforms remain persistent, though now emphasizing system design interview prep alongside hands-on construction.
 
 ---
 
@@ -15,35 +15,19 @@
 
 ### Workflow automation platforms
 
-Declarative, code-first workflow orchestration tools (n8n, Plane) that combine visual building with custom logic, emphasizing self-hosting, extensibility, and AI-native integration patterns.
+Declarative, code-first workflow orchestration tools (n8n, Windmill, Airflow) emphasizing self-hosting, extensibility, AI integration, and performance optimization for enterprise automation.
 
 <details>
-<summary>Supporting repos (3)</summary>
+<summary>Supporting repos (4)</summary>
 
 
 - [n8n-io/n8n](https://github.com/n8n-io/n8n)
 
-- [makeplane/plane](https://github.com/makeplane/plane)
+- [windmill-labs/windmill](https://github.com/windmill-labs/windmill)
 
 - [apache/airflow](https://github.com/apache/airflow)
 
-
-</details>
-
-
-### Speech and audio AI infrastructure
-
-Production-grade speech recognition, transcription, and diarization systems (FunASR, Whisper) that prioritize industrial reliability, multilingual support, and real-time performance at scale.
-
-<details>
-<summary>Supporting repos (3)</summary>
-
-
-- [modelscope/FunASR](https://github.com/modelscope/FunASR)
-
-- [openai/whisper](https://github.com/openai/whisper)
-
-- [huggingface/transformers](https://github.com/huggingface/transformers)
+- [activepieces/activepieces](https://github.com/activepieces/activepieces)
 
 
 </details>
@@ -51,39 +35,41 @@ Production-grade speech recognition, transcription, and diarization systems (Fun
 
 ### Rust-native infrastructure and developer tools
 
-High-performance systems written in Rust spanning databases (Qdrant, Chroma), editors (Helix), version control (jj), and observability, driven by safety guarantees and performance requirements.
+High-performance systems written in Rust spanning vector databases (Qdrant, Chroma), editors (Helix), system monitoring (bottom, sniffnet), and blockchain (reth), driven by memory safety and blazing-fast execution.
 
 <details>
-<summary>Supporting repos (5)</summary>
+<summary>Supporting repos (7)</summary>
 
 
 - [helix-editor/helix](https://github.com/helix-editor/helix)
 
 - [qdrant/qdrant](https://github.com/qdrant/qdrant)
 
-- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
+- [chroma-core/chroma](https://github.com/chroma-core/chroma)
 
-- [jj-vcs/jj](https://github.com/jj-vcs/jj)
+- [ClementTsang/bottom](https://github.com/ClementTsang/bottom)
 
-- [slint-ui/slint](https://github.com/slint-ui/slint)
+- [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)
+
+- [paradigmxyz/reth](https://github.com/paradigmxyz/reth)
+
+- [oven-sh/bun](https://github.com/oven-sh/bun)
 
 
 </details>
 
 
-### Educational learning systems and content scaffolding
+### Educational learning platforms and system design
 
-Structured, project-based learning platforms (freeCodeCamp, Build Your Own X, system-design-primer) that emphasize hands-on skill building, reproducible progression, and community-driven curriculum.
+Structured, hands-on learning systems (system-design-primer, build-your-own-x) that emphasize reproducible project-based progression, algorithm visualization, and interview preparation.
 
 <details>
-<summary>Supporting repos (4)</summary>
+<summary>Supporting repos (3)</summary>
 
-
-- [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
-
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
 
 - [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
+
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
 
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 
@@ -91,19 +77,43 @@ Structured, project-based learning platforms (freeCodeCamp, Build Your Own X, sy
 </details>
 
 
-### Security, vulnerability, and compliance scanning
+### AI agent orchestration and tool integration
 
-Specialized tools for finding secrets, vulnerabilities, and misconfigurations (Trivy, TruffleHog, Nuclei) that integrate into CI/CD pipelines and emphasize comprehensive, automated compliance.
+Platforms that connect AI agents to external tools, MCPs (Model Context Protocol), and multiple LLM providers (Manifest, ActivePieces), enabling composable agentic workflows and multi-provider interoperability.
 
 <details>
-<summary>Supporting repos (3)</summary>
+<summary>Supporting repos (4)</summary>
 
 
-- [aquasecurity/trivy](https://github.com/aquasecurity/trivy)
+- [activepieces/activepieces](https://github.com/activepieces/activepieces)
 
-- [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
+- [mnfst/manifest](https://github.com/mnfst/manifest)
 
-- [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
+
+- [calcom/cal.diy](https://github.com/calcom/cal.diy)
+
+
+</details>
+
+
+### Developer experience and infrastructure tools
+
+CLI tools and platforms that reduce friction in common workflows: git operations (lazygit), dependency management (OpenAPITools), dev environment management (coder), and observability (SigNoz).
+
+<details>
+<summary>Supporting repos (5)</summary>
+
+
+- [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
+
+- [coder/coder](https://github.com/coder/coder)
+
+- [SigNoz/signoz](https://github.com/SigNoz/signoz)
+
+- [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator)
+
+- [goauthentik/authentik](https://github.com/goauthentik/authentik)
 
 
 </details>
@@ -121,29 +131,13 @@ Specialized tools for finding secrets, vulnerabilities, and misconfigurations (T
 #### Workflow automation platforms
 
 
-##### Workflow Template Marketplace with AI-Assisted Configuration
+##### Workflow Template Analyzer and Generator
 
-Build a CLI tool that discovers n8n and Airflow workflow templates from GitHub, extracts configuration requirements via LLM analysis, and generates interactive prompts that auto-fill credentials and service bindings. Output ready-to-deploy workflow manifests.
+Build a CLI tool that analyzes n8n and Airflow workflows from GitHub, extracts common patterns (error handling, retries, notifications), and generates boilerplate code with configurable parameters. Output as reusable workflow blocks or JSON schemas that can be imported into either platform.
 
-**Why now:** Workflow automation adoption is accelerating; reducing template friction and configuration complexity lowers barrier to adopting platforms like n8n and Plane.
+**Why now:** Workflow automation adoption is accelerating; reducing boilerplate and pattern discovery lowers friction for teams migrating between platforms or standardizing on org-wide workflows.
 
-**Stack hints:** `Python`, `Click`, `Claude API`, `GitHub API`, `YAML`
-
-
-
-
-
-
-#### Speech and audio AI infrastructure
-
-
-##### Multi-Language Speech Labeling and Annotation Tool
-
-Create a web UI that streams audio, uses FunASR for live transcription with confidence scores, and enables click-to-correct annotation for training data. Export labeled datasets with audio segments, timestamps, and corrections for fine-tuning speech models.
-
-**Why now:** Speech AI quality is production-ready; teams need efficient tools to generate labeled training data and validate transcription accuracy for domain-specific models.
-
-**Stack hints:** `Python`, `FastAPI`, `FunASR`, `Vue.js`, `librosa`, `SQLite`
+**Stack hints:** `Python`, `Click`, `GitHub API`, `YAML`, `jinja2`
 
 
 
@@ -153,45 +147,61 @@ Create a web UI that streams audio, uses FunASR for live transcription with conf
 #### Rust-native infrastructure and developer tools
 
 
-##### Helix Plugin Registry and Package Manager
+##### Rust CLI Metrics Exporter for System Monitoring
 
-Design a Rust-native plugin registry and CLI installer for Helix editor, enabling one-command plugin discovery, installation, and updates. Include plugin templates for language servers, themes, and custom keybindings.
+Build a lightweight Rust CLI that captures system metrics (CPU, memory, I/O, process stats) in real-time, formats as Prometheus or OpenMetrics, and ships to SigNoz or Grafana Cloud. Include flamegraph profiling integration for Rust binaries.
 
-**Why now:** Helix adoption is growing; a centralized plugin ecosystem bridges the minimalism-extensibility gap and accelerates community contributions.
+**Why now:** Rust adoption in infrastructure is accelerating; native observability tooling that integrates with established stacks bridges the monitoring gap for Rust-written services.
 
-**Stack hints:** `Rust`, `tokio`, `serde_json`, `clap`, `reqwest`
-
-
-
-
-
-
-#### Educational learning systems and content scaffolding
-
-
-##### Interactive Algorithm Visualizer with Step-Through Debugger
-
-Build a web tool that visualizes algorithm execution (sorting, graph traversal, dynamic programming) with step-through debugging, variable inspection, and time-complexity annotations. Support importing algorithms from JavaScript or Python, with sharable benchmark comparisons.
-
-**Why now:** Algorithm learning platforms are durable; visual debugging significantly improves comprehension and retention for complex data structure concepts.
-
-**Stack hints:** `TypeScript`, `React`, `D3.js`, `Pyodide`, `Esprima`
+**Stack hints:** `Rust`, `tokio`, `prometheus`, `sysinfo`, `clap`
 
 
 
 
 
 
-#### Security, vulnerability, and compliance scanning
+#### Educational learning platforms and system design
 
 
-##### SBOM-Driven Dependency Risk Dashboard
+##### Algorithm Step-Through Debugger with Complexity Analyzer
 
-Create a dashboard that ingests SBOM files generated by Trivy, visualizes dependency graphs with vulnerability risk scoring, and recommends patch priorities based on exploit prevalence and transitive exposure.
+Create an interactive web tool that visualizes algorithm execution (sorting, graph traversal, dynamic programming) with step-through controls, variable state inspection, and automatic time/space complexity annotation. Support importing algorithms from JavaScript or Python.
 
-**Why now:** Security scanning is now mainstream; teams need visual SBOM analysis and risk prioritization to make informed patching decisions at scale.
+**Why now:** Algorithm learning platforms are durable; interactive debugging significantly improves comprehension by bridging the gap between theoretical complexity analysis and observable execution.
 
-**Stack hints:** `TypeScript`, `React`, `D3.js`, `Express`, `SQLite`
+**Stack hints:** `TypeScript`, `React`, `D3.js`, `Pyodide`, `Monaco Editor`
+
+
+
+
+
+
+#### AI agent orchestration and tool integration
+
+
+##### Agentic Workflow Debugger with LLM Inspector
+
+Create a browser-based debugger that visualizes agent execution traces, inspects LLM prompts and completions, logs tool calls with arguments and results, and provides one-click playback of agent failures. Export execution logs for post-mortem analysis.
+
+**Why now:** AI agents are rapidly proliferating; debugging opaque agent behavior requires visibility into LLM reasoning and tool interactions, enabling faster iteration and production reliability.
+
+**Stack hints:** `TypeScript`, `React`, `Express`, `SQLite`, `D3.js`
+
+
+
+
+
+
+#### Developer experience and infrastructure tools
+
+
+##### Developer Environment Provisioning from Declarative Templates
+
+Build a CLI that provisions development environments (via Coder or Docker) from declarative YAML templates specifying tools, language versions, IDE extensions, git repos, and secrets. Generate reproducible onboarding scripts for new team members.
+
+**Why now:** Developer experience is a sustained focus; automating environment setup reduces onboarding friction and ensures consistency across teams.
+
+**Stack hints:** `Go`, `YAML`, `Docker`, `Coder API`, `Cobra CLI`
 
 
 
@@ -207,29 +217,13 @@ Create a dashboard that ingests SBOM files generated by Trivy, visualizes depend
 #### Workflow automation platforms
 
 
-##### Declarative Workflow Testing Framework
+##### Workflow Reliability Testing Framework with Mocking
 
-Design a testing framework for n8n and Airflow workflows that supports declarative test definitions (input fixtures, assertions, mocked service responses), generates test reports with coverage metrics, and integrates with CI/CD pipelines for continuous validation.
+Design a testing framework for n8n, Windmill, and Airflow workflows that supports declarative test definitions, mocks external service responses, captures execution metrics, generates test reports with coverage, and integrates with CI/CD for regression detection.
 
-**Why now:** Workflow platforms are proliferating; robust testing infrastructure is critical to ensure reliability and prevent production data pipeline failures.
+**Why now:** Workflow platforms are consolidating; robust testing infrastructure prevents production data pipeline failures and enables safe refactoring of automation logic.
 
-**Stack hints:** `TypeScript`, `Jest`, `Express`, `PostgreSQL`, `Docker`
-
-
-
-
-
-
-#### Speech and audio AI infrastructure
-
-
-##### Real-Time Speech Intelligence for Contact Centers
-
-Build an end-to-end contact center analytics platform using FunASR for transcription, speaker diarization for multi-party detection, and NLP for sentiment and topic extraction. Expose REST API with real-time dashboards, compliance redaction, and searchable transcript indices.
-
-**Why now:** Speech AI has reached production maturity; enterprises urgently need real-time insights from call recordings with built-in PII protection and compliance reporting.
-
-**Stack hints:** `Python`, `FastAPI`, `FunASR`, `spaCy`, `Qdrant`, `PostgreSQL`, `Celery`, `React`
+**Stack hints:** `TypeScript`, `Jest`, `Express`, `PostgreSQL`, `Docker`, `Testcontainers`
 
 
 
@@ -239,45 +233,61 @@ Build an end-to-end contact center analytics platform using FunASR for transcrip
 #### Rust-native infrastructure and developer tools
 
 
-##### Rust-Native Edge Vector Database with Embedded ML
+##### Rust Systems Programming Bootcamp with Peer Code Review
 
-Develop a lightweight, embeddable Rust library for vector search optimized for edge deployment (mobile, wasm, embedded), supporting dynamic indexing, offline-first operation, and automatic sync when connectivity resumes.
+Create a structured 8-week curriculum that teaches Rust systems programming through hands-on projects (kernel modules, filesystems, databases, network stacks). Include peer code review workflows, automated testing for submissions, and mentorship matching with experienced Rust developers.
 
-**Why now:** Rust's performance and safety are ideal for edge infrastructure; Qdrant and Chroma are server-centric; edge-optimized alternatives unlock on-device ML inference and privacy-preserving search.
+**Why now:** Rust infrastructure adoption is accelerating; a focused bootcamp with peer mentorship and career outcomes addresses both the skill gap and hiring bottleneck for systems roles.
 
-**Stack hints:** `Rust`, `tokio`, `Arrow`, `RocksDB`, `wasm-bindgen`
-
-
-
-
-
-
-#### Educational learning systems and content scaffolding
-
-
-##### Adaptive Skill Graph Learning Engine
-
-Create a learning platform that models programming skills as a directed graph, adapts exercise difficulty and sequencing based on learner performance, integrates spaced repetition scheduling, and recommends personalized learning paths. Support importing external tutorials and peer skill validation.
-
-**Why now:** Educational platforms are maturing; a unified skill graph that personalizes learning across multiple content sources creates scalable, adaptive education experiences.
-
-**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `React`, `D3.js`, `Redis`
+**Stack hints:** `Rust`, `TypeScript`, `React`, `PostgreSQL`, `Docker`, `GitHub Actions`
 
 
 
 
 
 
-#### Security, vulnerability, and compliance scanning
+#### Educational learning platforms and system design
 
 
-##### Container Supply Chain Security Attestation System
+##### Interactive System Design Interview Prep Platform
 
-Build a system that generates cryptographic attestations for container builds using Trivy scans, tracks provenance across CI/CD pipelines, and validates artifact signatures at deployment time. Include policy enforcement and audit logging for compliance frameworks (SLSA, Supply Chain Levels for Software Artifacts).
+Build a collaborative learning platform that combines system design interview prep (tradeoff visualizations, design patterns, failure mode simulations) with peer whiteboarding, expert code review, and timed practice interviews with feedback.
 
-**Why now:** Container security is critical; teams need verifiable provenance and signed attestations to satisfy compliance requirements and prevent supply chain attacks.
+**Why now:** System design learning is durable; adding collaborative tools, expert feedback, and timed practice transforms passive learning into realistic interview simulation.
 
-**Stack hints:** `Go`, `TypeScript`, `Sigstore`, `Docker`, `Kubernetes`, `PostgreSQL`
+**Stack hints:** `TypeScript`, `React`, `FastAPI`, `PostgreSQL`, `WebSocket`, `Redis`
+
+
+
+
+
+
+#### AI agent orchestration and tool integration
+
+
+##### Agent MCP Server Marketplace with Discovery and Registration
+
+Build a centralized registry for Model Context Protocol (MCP) servers, enabling agents to discover tools by capability tags, version constraints, and cost/latency characteristics. Include CLI for publishing, a dashboard for browsing, and auto-generated client stubs.
+
+**Why now:** AI agents are multiplying rapidly; a centralized, versioned MCP marketplace reduces duplication and enables agents to dynamically discover and bind tools at runtime.
+
+**Stack hints:** `TypeScript`, `Express`, `PostgreSQL`, `React`, `Docker`, `OpenAPI`
+
+
+
+
+
+
+#### Developer experience and infrastructure tools
+
+
+##### Developer Experience Metrics and Adoption Tracker
+
+Build an observability tool that integrates with lazygit, Coder, authentication systems, and API generators to track developer productivity metrics (commit frequency, environment setup time, API-first adoption rates). Generate insights and bottleneck recommendations.
+
+**Why now:** Developer experience is a sustained focus; quantifying productivity and identifying friction points enables data-driven infrastructure investments.
+
+**Stack hints:** `Python`, `FastAPI`, `Prometheus`, `React`, `PostgreSQL`, `Grafana`
 
 
 
@@ -293,29 +303,13 @@ Build a system that generates cryptographic attestations for container builds us
 #### Workflow automation platforms
 
 
-##### AI-Optimized Workflow Composition Engine
+##### Multi-Cloud Workflow Orchestration and Cost Optimizer
 
-Design an intelligent workflow platform that translates natural language descriptions into executable workflows, auto-generates error handling and retry logic, and optimizes task parallelization using cost and latency models. Include visual workflow authoring, multi-cloud support, and compliance templating for HIPAA and GDPR.
+Design a production-grade workflow platform that translates natural language descriptions into optimized execution plans, automatically distributes tasks across AWS, Azure, and GCP based on cost and latency models, implements intelligent retries and failure handling, and includes visual authoring with compliance templating (HIPAA, GDPR, SOC 2).
 
-**Why now:** Workflow automation is consolidating; a platform combining natural language composition, intelligent optimization, and compliance automation captures both developer and enterprise personas simultaneously.
+**Why now:** Workflow automation is consolidating as a critical platform; a system combining natural language composition, multi-cloud optimization, and compliance automation captures enterprise and developer personas simultaneously.
 
-**Stack hints:** `TypeScript`, `Python`, `FastAPI`, `PostgreSQL`, `Claude API`, `OpenAPI Parser`, `React`, `Kubernetes`
-
-
-
-
-
-
-#### Speech and audio AI infrastructure
-
-
-##### Distributed Multi-Modal Speech Intelligence Platform
-
-Build a production-grade platform that processes speech, video, and text streams in parallel, performs cross-modal analysis (lip-sync verification, visual emotion correlation), detects deepfakes and synthetic speech, and generates compliance-ready transcripts with speaker profiling. Include Kubernetes operators for auto-scaling.
-
-**Why now:** Speech AI is enterprise-ready; integrating multi-modal analysis, fraud detection, and compliance in a single distributed system addresses emerging security and authentication needs.
-
-**Stack hints:** `Python`, `FastAPI`, `FunASR`, `OpenCV`, `ONNX`, `Kubernetes`, `PostgreSQL`, `Redis`, `Kafka`
+**Stack hints:** `TypeScript`, `Python`, `FastAPI`, `PostgreSQL`, `Kubernetes`, `Terraform`, `Claude API`
 
 
 
@@ -325,45 +319,61 @@ Build a production-grade platform that processes speech, video, and text streams
 #### Rust-native infrastructure and developer tools
 
 
-##### Rust Systems Programming University with Job Placement
+##### Rust-Native Embedded Vector Database with Offline Sync
 
-Create a comprehensive Rust systems programming curriculum with hands-on projects (build a kernel module, filesystem, database, network protocol). Include automated code review, mentorship matching, portfolio generation, and direct connections with Rust-native companies for hiring.
+Develop a lightweight, embeddable Rust library for vector search optimized for edge deployment (mobile, wasm, IoT), supporting dynamic indexing, offline-first operation, automatic sync when connectivity resumes, and transparent encryption. Include SDKs for mobile platforms.
 
-**Why now:** Rust adoption is accelerating in systems roles; a structured bootcamp with career outcomes addresses both the skill gap and hiring bottleneck for infrastructure roles.
+**Why now:** Rust's safety and performance are ideal for edge infrastructure; Qdrant and Chroma are server-centric; a privacy-first, edge-optimized alternative enables on-device ML inference and offline-capable applications.
 
-**Stack hints:** `Rust`, `TypeScript`, `React`, `PostgreSQL`, `GitHub API`, `Docker`
-
-
-
-
-
-
-#### Educational learning systems and content scaffolding
-
-
-##### Personalized Learning Dashboard with Peer Collaboration
-
-Develop a comprehensive learning platform that combines adaptive skill graphs, real-time collaborative coding environments, peer code review workflows, and mentor matching. Support multiple programming languages and domains, integrate with external tutorials and job boards, and track employment outcomes.
-
-**Why now:** Educational platforms have proven durable and scalable; adding peer collaboration, mentorship, and career integration transforms learning into a community-driven, outcome-focused experience.
-
-**Stack hints:** `TypeScript`, `Python`, `FastAPI`, `PostgreSQL`, `React`, `WebSocket`, `Docker`, `Redis`
+**Stack hints:** `Rust`, `tokio`, `Arrow`, `RocksDB`, `wasm-bindgen`, `tonic`, `SQLite`
 
 
 
 
 
 
-#### Security, vulnerability, and compliance scanning
+#### Educational learning platforms and system design
 
 
-##### Enterprise Supply Chain Risk Intelligence Platform
+##### Comprehensive Programming Curriculum with Skill Graphs and Career Outcomes
 
-Build a comprehensive platform that aggregates vulnerability data across Trivy, TruffleHog, and Nuclei scans, correlates risks across dependencies and transitive chains, predicts exploit probability using threat intelligence feeds, and generates automated remediation workflows. Include compliance reporting for SOC 2, HIPAA, and PCI-DSS.
+Create a full-stack learning platform that models programming skills as an adaptive directed graph, personalizes learning paths based on goals and performance, integrates project-based assignments with peer code review, tracks employment outcomes, and connects learners with job placements. Support multiple languages, domains, and external tutorial imports.
 
-**Why now:** Security scanning is now standard practice; enterprises need unified risk intelligence, predictive models, and automated remediation to manage complexity at scale.
+**Why now:** Educational platforms have proven durable and scalable; a unified, outcome-focused system combining adaptive learning, community collaboration, and career integration transforms online education from content delivery into career acceleration.
 
-**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `React`, `Kafka`, `Elasticsearch`, `Kubernetes`
+**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `TypeScript`, `React`, `D3.js`, `Redis`, `Kubernetes`
+
+
+
+
+
+
+#### AI agent orchestration and tool integration
+
+
+##### Agent Intelligence Platform with Tool Performance Analytics
+
+Build a production-grade agent platform that provisions AI agents with dynamic tool binding, tracks tool invocation performance (success rates, latency, cost), learns from failures to optimize tool selection, and provides agents with context-aware decision-making based on aggregated telemetry. Include a visual orchestration canvas and multi-provider LLM support.
+
+**Why now:** AI agents are production-critical; understanding tool performance and enabling agents to learn from execution history transforms manual orchestration into self-optimizing systems.
+
+**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `React`, `Redis`, `Kafka`, `Kubernetes`, `Claude API`
+
+
+
+
+
+
+#### Developer experience and infrastructure tools
+
+
+##### Enterprise Developer Productivity and Velocity Platform
+
+Build a comprehensive developer platform that integrates git workflows (lazygit-like), environment provisioning (Coder-like), authentication (Authentik), observability (SigNoz), and API governance (OpenAPI). Provide unified dashboards for team velocity, infrastructure health, and automated recommendations for reducing bottlenecks.
+
+**Why now:** Developer experience is a sustained theme across multiple tools; unifying these previously fragmented tools into a single coherent platform enables teams to measure and systematically improve overall productivity.
+
+**Stack hints:** `TypeScript`, `Python`, `FastAPI`, `PostgreSQL`, `React`, `Kubernetes`, `Prometheus`, `Grafana`
 
 
 
@@ -383,4 +393,4 @@ See [ABOUT.md](ABOUT.md) for full methodology details.
 
 ---
 
-*Generated 2026-06-07 13:53 UTC · commit `e08d601`*
+*Generated 2026-06-14 14:03 UTC · commit `7e5dcb0`*
