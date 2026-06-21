@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-06-21",
+  "window_dates": [
+    "2026-06-15",
+    "2026-06-16",
+    "2026-06-17",
+    "2026-06-18",
+    "2026-06-19",
+    "2026-06-20",
+    "2026-06-21"
+  ],
+  "repos": [
+    {
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 3391,
+      "peak_daily_stars": 764,
+      "persistence_score": 48.77504998147076
+    },
+    {
+      "full_name": "makeplane/plane",
+      "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "url": "https://github.com/makeplane/plane",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 1635,
+      "peak_daily_stars": 610,
+      "persistence_score": 44.40005710297615
+    },
+    {
+      "full_name": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 1080,
+      "peak_daily_stars": 219,
+      "persistence_score": 41.91385090583525
+    },
+    {
+      "full_name": "n0-computer/iroh",
+      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "language": "Rust",
+      "url": "https://github.com/n0-computer/iroh",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 1726,
+      "peak_daily_stars": 422,
+      "persistence_score": 37.27070539073339
+    },
+    {
+      "full_name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 436,
+      "peak_daily_stars": 81,
+      "persistence_score": 36.479599170573536
+    },
+    {
+      "full_name": "immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "url": "https://github.com/immich-app/immich",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 574,
+      "peak_daily_stars": 124,
+      "persistence_score": 31.77185020398675
+    },
+    {
+      "full_name": "nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 522,
+      "peak_daily_stars": 343,
+      "persistence_score": 31.297907320324615
+    },
+    {
+      "full_name": "supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "url": "https://github.com/supabase/supabase",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 440,
+      "peak_daily_stars": 98,
+      "persistence_score": 30.44522437723423
+    },
+    {
+      "full_name": "microsoft/qlib",
+      "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped withhttps://github.com/microsoft/RD-Agentto automate R&D process.",
+      "language": "Python",
+      "url": "https://github.com/microsoft/qlib",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 388,
+      "peak_daily_stars": 144,
+      "persistence_score": 29.81789671809223
+    },
+    {
+      "full_name": "LibreTranslate/LibreTranslate",
+      "description": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup.",
+      "language": "Python",
+      "url": "https://github.com/LibreTranslate/LibreTranslate",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 946,
+      "peak_daily_stars": 321,
+      "persistence_score": 27.413196372744313
+    },
+    {
+      "full_name": "meshery/meshery",
+      "description": "Meshery, the cloud native manager",
+      "language": "TypeScript",
+      "url": "https://github.com/meshery/meshery",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 823,
+      "peak_daily_stars": 229,
+      "persistence_score": 26.856682119637888
+    },
+    {
+      "full_name": "microsoft/presidio",
+      "description": "An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, and structured data. Supports NLP, pattern matching, and customizable pipelines.",
+      "language": "Python",
+      "url": "https://github.com/microsoft/presidio",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 770,
+      "peak_daily_stars": 421,
+      "persistence_score": 26.590753494253317
+    },
+    {
+      "full_name": "sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "language": "JavaScript",
+      "url": "https://github.com/sveltejs/svelte",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 187,
+      "peak_daily_stars": 46,
+      "persistence_score": 26.182209814149747
+    },
+    {
+      "full_name": "leptos-rs/leptos",
+      "description": "Build fast web applications with Rust.",
+      "language": "Rust",
+      "url": "https://github.com/leptos-rs/leptos",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 77,
+      "peak_daily_stars": 17,
+      "persistence_score": 26.140252960137552
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 621,
+      "peak_daily_stars": 179,
+      "persistence_score": 25.731760370956717
+    },
+    {
+      "full_name": "slint-ui/slint",
+      "description": "Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps.",
+      "language": "Rust",
+      "url": "https://github.com/slint-ui/slint",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 66,
+      "peak_daily_stars": 18,
+      "persistence_score": 25.228155716345796
+    },
+    {
+      "full_name": "google/osv-scanner",
+      "description": "Vulnerability scanner written in Go which uses the data provided byhttps://osv.dev",
+      "language": "Go",
+      "url": "https://github.com/google/osv-scanner",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 61,
+      "peak_daily_stars": 14,
+      "persistence_score": 24.76280631027055
+    },
+    {
+      "full_name": "projectdiscovery/nuclei-templates",
+      "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "language": "JavaScript",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 32,
+      "peak_daily_stars": 8,
+      "persistence_score": 24.475552930265362
+    },
+    {
+      "full_name": "apache/superset",
+      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+      "language": "TypeScript",
+      "url": "https://github.com/apache/superset",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 132,
+      "peak_daily_stars": 30,
+      "persistence_score": 24.45174564110877
+    },
+    {
+      "full_name": "vitejs/vite",
+      "description": "Next generation frontend tooling. It's fast!",
+      "language": "TypeScript",
+      "url": "https://github.com/vitejs/vite",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 126,
+      "peak_daily_stars": 30,
+      "persistence_score": 24.220935432292954
+    },
+    {
+      "full_name": "VictoriaMetrics/VictoriaMetrics",
+      "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
+      "language": "Go",
+      "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 53,
+      "peak_daily_stars": 12,
+      "persistence_score": 23.933904279385647
+    },
+    {
+      "full_name": "laurent22/joplin",
+      "description": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
+      "language": "TypeScript",
+      "url": "https://github.com/laurent22/joplin",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 112,
+      "peak_daily_stars": 27,
+      "persistence_score": 23.636939093561704
+    },
+    {
+      "full_name": "openai/whisper",
+      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "language": "Python",
+      "url": "https://github.com/openai/whisper",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 351,
+      "peak_daily_stars": 105,
+      "persistence_score": 23.454524702392387
+    },
+    {
+      "full_name": "projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 102,
+      "peak_daily_stars": 38,
+      "persistence_score": 23.17364494114818
+    },
+    {
+      "full_name": "meilisearch/meilisearch",
+      "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
+      "language": "Rust",
+      "url": "https://github.com/meilisearch/meilisearch",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 101,
+      "peak_daily_stars": 29,
+      "persistence_score": 23.124864066421353
+    },
+    {
+      "full_name": "yairm210/Unciv",
+      "description": "Open-source Android/Desktop remake of Civ V",
+      "language": "Kotlin",
+      "url": "https://github.com/yairm210/Unciv",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 292,
+      "peak_daily_stars": 227,
+      "persistence_score": 22.72069043606827
+    },
+    {
+      "full_name": "mikeroyal/Self-Hosting-Guide",
+      "description": "Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.",
+      "language": "Dockerfile",
+      "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 1816,
+      "peak_daily_stars": 814,
+      "persistence_score": 22.514826205188513
+    },
+    {
+      "full_name": "formbricks/formbricks",
+      "description": "Open Source Qualtrics Alternative",
+      "language": "TypeScript",
+      "url": "https://github.com/formbricks/formbricks",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 40,
+      "peak_daily_stars": 11,
+      "persistence_score": 22.281432400225846
+    },
+    {
+      "full_name": "getlago/lago",
+      "description": "Open Source Metering and Usage Based Billing API \u2b50\ufe0f Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics",
+      "language": "Go",
+      "url": "https://github.com/getlago/lago",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 211,
+      "peak_daily_stars": 60,
+      "persistence_score": 21.42634509868805
+    },
+    {
+      "full_name": "neondatabase/neon",
+      "description": "Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.",
+      "language": "Rust",
+      "url": "https://github.com/neondatabase/neon",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 71,
+      "peak_daily_stars": 24,
+      "persistence_score": 21.383330595080277
+    },
+    {
+      "full_name": "astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "url": "https://github.com/astral-sh/ruff",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 185,
+      "peak_daily_stars": 55,
+      "persistence_score": 20.902986694852807
+    },
+    {
+      "full_name": "pola-rs/polars",
+      "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+      "language": "Rust",
+      "url": "https://github.com/pola-rs/polars",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 63,
+      "peak_daily_stars": 21,
+      "persistence_score": 20.79441541679836
+    },
+    {
+      "full_name": "oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager \u2013 all in one",
+      "language": "Rust",
+      "url": "https://github.com/oven-sh/bun",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 179,
+      "peak_daily_stars": 70,
+      "persistence_score": 20.77182740356084
+    },
+    {
+      "full_name": "juanfont/headscale",
+      "description": "An open source, self-hosted implementation of the Tailscale control server",
+      "language": "Go",
+      "url": "https://github.com/juanfont/headscale",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 174,
+      "peak_daily_stars": 47,
+      "persistence_score": 20.659143895694058
+    },
+    {
+      "full_name": "nushell/nushell",
+      "description": "A new type of shell",
+      "language": "Rust",
+      "url": "https://github.com/nushell/nushell",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 48,
+      "peak_daily_stars": 12,
+      "persistence_score": 19.45910149055313
+    },
+    {
+      "full_name": "vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "language": "Python",
+      "url": "https://github.com/vinta/awesome-python",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 586,
+      "peak_daily_stars": 199,
+      "persistence_score": 19.12507445948429
+    },
+    {
+      "full_name": "mui/material-ui",
+      "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+      "language": "JavaScript",
+      "url": "https://github.com/mui/material-ui",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 42,
+      "peak_daily_stars": 11,
+      "persistence_score": 18.806000578467813
+    },
+    {
+      "full_name": "run-llama/llama_index",
+      "description": "LlamaIndex is the leading document agent and OCR platform",
+      "language": "Python",
+      "url": "https://github.com/run-llama/llama_index",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 103,
+      "peak_daily_stars": 32,
+      "persistence_score": 18.57756359656549
+    },
+    {
+      "full_name": "novuhq/novu",
+      "description": "The open-source communication infrastructure for agents and products",
+      "language": "TypeScript",
+      "url": "https://github.com/novuhq/novu",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 39,
+      "peak_daily_stars": 10,
+      "persistence_score": 18.44439727056968
+    },
+    {
+      "full_name": "tracel-ai/burn",
+      "description": "Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.",
+      "language": "Rust",
+      "url": "https://github.com/tracel-ai/burn",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 34,
+      "peak_daily_stars": 14,
+      "persistence_score": 17.776740307447067
+    }
+  ]
+}

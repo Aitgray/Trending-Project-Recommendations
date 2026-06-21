@@ -1,0 +1,279 @@
+{
+  "week_of": "2026-06-21",
+  "topics": [
+    {
+      "slug": "educational-learning-platforms",
+      "title": "Educational learning platforms and structured curriculum",
+      "summary": "Comprehensive, open-source learning systems (freeCodeCamp, system-design-primer) that emphasize hands-on project-based progression, skill visualization, and reproducible outcomes across programming domains.",
+      "supporting_repos": [
+        "freeCodeCamp/freeCodeCamp",
+        "donnemartin/system-design-primer",
+        "codecrafters-io/build-your-own-x"
+      ]
+    },
+    {
+      "slug": "rust-native-infrastructure",
+      "title": "Rust-native infrastructure and systems tooling",
+      "summary": "High-performance, memory-safe systems written in Rust spanning search (Meilisearch), databases (Neon), CLIs (Ruff, Bun), networking (Iroh), and data processing (Polars), driven by both performance and ecosystem maturation.",
+      "supporting_repos": [
+        "meilisearch/meilisearch",
+        "neondatabase/neon",
+        "astral-sh/ruff",
+        "oven-sh/bun",
+        "n0-computer/iroh",
+        "pola-rs/polars",
+        "nushell/nushell"
+      ]
+    },
+    {
+      "slug": "open-source-business-platforms",
+      "title": "Open-source business and operations platforms",
+      "summary": "Self-hostable alternatives to commercial SaaS (Jira/Linear, Qualtrics, Stripe billing) that emphasize control, transparency, and extensibility via composable workflows and native integrations (Plane, Formbricks, Lago).",
+      "supporting_repos": [
+        "makeplane/plane",
+        "formbricks/formbricks",
+        "getlago/lago",
+        "novuhq/novu"
+      ]
+    },
+    {
+      "slug": "data-governance-and-privacy",
+      "title": "Data governance, PII detection, and privacy-first infrastructure",
+      "summary": "Tools and frameworks for sensitive data handling, detection, and anonymization (Presidio, OSV-Scanner, Nuclei) alongside privacy-focused self-hosted alternatives (LibreTranslate, Immich), reflecting enterprise compliance and user privacy concerns.",
+      "supporting_repos": [
+        "microsoft/presidio",
+        "google/osv-scanner",
+        "projectdiscovery/nuclei",
+        "LibreTranslate/LibreTranslate",
+        "immich-app/immich"
+      ]
+    },
+    {
+      "slug": "workflow-automation-and-orchestration",
+      "title": "Workflow automation and intelligent orchestration platforms",
+      "summary": "Fair-code and open-source platforms (n8n) for declarative, extensible workflow composition with native AI integration and self-hosting support, consolidating as foundational infrastructure for business automation.",
+      "supporting_repos": [
+        "n8n-io/n8n",
+        "apache/superset"
+      ]
+    }
+  ],
+  "whats_new": "Educational platforms have solidified as a durable, high-persistence theme with freeCodeCamp leading; Rust-native infrastructure has substantially broadened beyond databases to span CLIs, networking, and data processing, signaling ecosystem maturity. Data governance and privacy tools (Presidio, OSV-Scanner) have emerged as a distinct new theme driven by enterprise compliance and supply-chain security concerns. Open-source business platforms (Plane, Lago, Formbricks) now represent a cohesive alternative to incumbent SaaS, displacing generic workflow automation as the primary business-facing vertical.",
+  "projects": [
+    {
+      "title": "Skill Graph Visualizer with Prerequisite Inference",
+      "topic_slug": "educational-learning-platforms",
+      "scope": "short",
+      "pitch": "Build a tool that parses open-source curriculum repos (freeCodeCamp, build-your-own-x) to extract learning objectives, automatically infer prerequisite dependencies, and generate interactive skill graphs showing mastery paths. Export as D3 visualizations or JSON schemas for integration into learning platforms.",
+      "why_now": "Educational platforms are durable; automating skill graph construction from existing curricula enables rapid personalization and adaptive learning across domains.",
+      "stack_hints": [
+        "TypeScript",
+        "D3.js",
+        "GraphQL",
+        "GitHub API"
+      ]
+    },
+    {
+      "title": "Rust Performance Profiling Dashboard for Production Systems",
+      "topic_slug": "rust-native-infrastructure",
+      "scope": "short",
+      "pitch": "Create a lightweight CLI and web dashboard that instruments Rust binaries with flamegraph profiling, exports metrics to Prometheus, and highlights performance regressions by comparing execution profiles across builds. Include integration with CI/CD for continuous benchmarking.",
+      "why_now": "Rust infrastructure adoption is accelerating; native observability tooling that tracks performance over time helps teams identify bottlenecks in production systems.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "flamegraph",
+        "prometheus",
+        "React"
+      ]
+    },
+    {
+      "title": "Self-Hosted Business Operations Audit Trail",
+      "topic_slug": "open-source-business-platforms",
+      "scope": "short",
+      "pitch": "Build a CLI that generates comprehensive audit logs and compliance reports from self-hosted business platforms (Plane, Lago, Formbricks) in SIEM-compatible formats (CEF, JSON), tracks data lineage, and detects anomalous operations via simple heuristics.",
+      "why_now": "Open-source business platforms are consolidating; enterprises need compliance-grade audit trails to justify internal tool adoption over SaaS alternatives.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "SQLite",
+        "Click"
+      ]
+    },
+    {
+      "title": "PII Detection and Redaction for Custom Data Pipelines",
+      "topic_slug": "data-governance-and-privacy",
+      "scope": "short",
+      "pitch": "Develop a standalone Python library wrapping Presidio with support for custom PII patterns, batch processing, and streaming redaction. Include CLI for scanning local files, databases, and S3 buckets, with exportable redaction rules in JSON for team sharing.",
+      "why_now": "Data governance is critical; lightweight, customizable PII detection enables small teams and startups to implement privacy controls without enterprise solutions.",
+      "stack_hints": [
+        "Python",
+        "Presidio",
+        "Click",
+        "Boto3"
+      ]
+    },
+    {
+      "title": "n8n Workflow Portability and Cross-Platform Translator",
+      "topic_slug": "workflow-automation-and-orchestration",
+      "scope": "short",
+      "pitch": "Build a translator that converts n8n workflow JSON into equivalent definitions for Windmill, Airflow, or Temporal, preserving error handling, retry logic, and variable bindings. Enable teams to migrate workflows or run identical logic across multiple platforms.",
+      "why_now": "Workflow platforms are consolidating; workflow portability reduces vendor lock-in and enables teams to standardize across heterogeneous infrastructure.",
+      "stack_hints": [
+        "TypeScript",
+        "JSON Schema",
+        "Zod"
+      ]
+    },
+    {
+      "title": "Adaptive Programming Curriculum with Skill Decay Modeling",
+      "topic_slug": "educational-learning-platforms",
+      "scope": "medium",
+      "pitch": "Design a learning platform that models programming skills as a directed graph with spaced-repetition scheduling, automatically adjusts review frequency based on historical performance and skill decay rates, and personalizes project recommendations to combat knowledge attrition. Integrate peer code review and mentor feedback loops.",
+      "why_now": "Educational platforms are durable; combining adaptive scheduling with peer review transforms passive learning into retention-focused mastery across multiple domains.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "Redis"
+      ]
+    },
+    {
+      "title": "Rust Cross-Platform Binary Build and Distribution System",
+      "topic_slug": "rust-native-infrastructure",
+      "scope": "medium",
+      "pitch": "Create a managed build system for Rust CLI tools that automates multi-target compilation (Linux, macOS, Windows, WASM), generates checksums and signatures, publishes to crates.io and GitHub releases, and maintains a searchable registry of open-source Rust tools with health metrics (maintenance status, install count, vulnerability scans).",
+      "why_now": "Rust CLI adoption is accelerating; reducing friction in multi-platform distribution and discovery enables broader ecosystem adoption and reduces duplication.",
+      "stack_hints": [
+        "Rust",
+        "GitHub Actions",
+        "TypeScript",
+        "React",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Open-Source SaaS Replacement Advisor and Migration Planner",
+      "topic_slug": "open-source-business-platforms",
+      "scope": "medium",
+      "pitch": "Build an interactive web tool that analyzes a team's current SaaS stack (auth, billing, surveys, project management), recommends open-source alternatives, estimates migration effort and costs, generates deployment blueprints via Docker Compose or Kubernetes, and provides side-by-side feature comparison matrices.",
+      "why_now": "Open-source business platforms have matured; teams need objective guidance to evaluate tradeoffs and plan migrations, reducing switching costs and uncertainty.",
+      "stack_hints": [
+        "TypeScript",
+        "React",
+        "FastAPI",
+        "PostgreSQL",
+        "OpenAI API"
+      ]
+    },
+    {
+      "title": "Privacy-First Data Classification and Governance Dashboard",
+      "topic_slug": "data-governance-and-privacy",
+      "scope": "medium",
+      "pitch": "Develop a dashboard that discovers sensitive data across databases, data lakes, and APIs using Presidio and custom classifiers, auto-tags datasets with PII risk scores, tracks data lineage via query logs, and generates compliance reports (GDPR, CCPA, HIPAA). Include access control policy recommendations.",
+      "why_now": "Data governance is increasingly critical; unifying discovery, classification, and compliance tracking enables teams to audit and control sensitive data without manual spreadsheets.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "Presidio"
+      ]
+    },
+    {
+      "title": "n8n Workflow Performance Optimization and Cost Analyzer",
+      "topic_slug": "workflow-automation-and-orchestration",
+      "scope": "medium",
+      "pitch": "Build a profiling tool for n8n workflows that tracks execution time per node, identifies bottlenecks, estimates cloud costs based on execution patterns, and recommends parallelization or caching strategies. Generate optimization reports with before/after metrics and export as GitHub issues or Slack notifications.",
+      "why_now": "Workflow automation is consolidating; cost and performance visibility enable teams to optimize cloud spending and identify efficiency improvements in production workflows.",
+      "stack_hints": [
+        "TypeScript",
+        "n8n API",
+        "FastAPI",
+        "PostgreSQL",
+        "D3.js"
+      ]
+    },
+    {
+      "title": "Comprehensive Programming and Career Progression Platform",
+      "topic_slug": "educational-learning-platforms",
+      "scope": "long",
+      "pitch": "Build a unified learning ecosystem that combines adaptive skill graphs, hands-on project assignments with peer code review, live mentorship matching with experienced engineers, job placement assistance, and outcome tracking. Support multiple programming languages, frameworks, and specializations (ML, systems, web). Include employer partnerships and salary benchmarking.",
+      "why_now": "Educational platforms are durable and scaling; unifying curriculum, community, and career outcomes transforms online learning into a comprehensive pathway from novice to employed engineer.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "TypeScript",
+        "React",
+        "WebSocket",
+        "Redis",
+        "Kubernetes"
+      ]
+    },
+    {
+      "title": "Rust-Native Edge AI Inference Engine with Dynamic Model Loading",
+      "topic_slug": "rust-native-infrastructure",
+      "scope": "long",
+      "pitch": "Develop a production-grade Rust library for edge AI inference optimized for mobile, IoT, and WASM environments. Support dynamic model loading, quantization, batching, and resource-aware scheduling. Include SDKs for iOS, Android, and browsers, with automatic model caching and versioning. Integrate with vector databases for semantic search at the edge.",
+      "why_now": "Rust infrastructure is maturing; privacy-first, edge-native inference enables offline AI capabilities without vendor lock-in or data transmission overhead.",
+      "stack_hints": [
+        "Rust",
+        "ONNX",
+        "tokio",
+        "wasm-bindgen",
+        "tonic",
+        "ndarray"
+      ]
+    },
+    {
+      "title": "Enterprise Self-Hosted Operations Platform with Unified Governance",
+      "topic_slug": "open-source-business-platforms",
+      "scope": "long",
+      "pitch": "Create an integrated platform combining project management (Plane-like), billing and metering (Lago-like), survey and feedback (Formbricks-like), and notifications (Novu-like) with unified RBAC, audit logging, compliance automation (GDPR, HIPAA), and API-first extensibility. Include pre-built integrations with payment processors and data warehouses.",
+      "why_now": "Open-source business platforms are consolidating as SaaS alternatives; a unified suite with governance and compliance features enables enterprises to adopt open-source without sacrificing control or auditability.",
+      "stack_hints": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "Kubernetes",
+        "Terraform"
+      ]
+    },
+    {
+      "title": "Automated Data Compliance and Privacy Engineering Framework",
+      "topic_slug": "data-governance-and-privacy",
+      "scope": "long",
+      "pitch": "Build an end-to-end framework that automates PII detection, data classification, access control, and compliance reporting across data warehouses, APIs, and applications. Include pluggable classifiers (Presidio, custom ML models), automated data masking and anonymization, audit trail generation, and policy enforcement. Provide CLI, SDKs, and API interfaces for integration.",
+      "why_now": "Data governance is critical and manual; an automated, composable framework enables teams to implement privacy controls at scale without hiring dedicated compliance engineers.",
+      "stack_hints": [
+        "Python",
+        "Presidio",
+        "FastAPI",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "Kafka",
+        "Kubernetes"
+      ]
+    },
+    {
+      "title": "Intelligent Workflow Orchestration with Multi-Cloud Cost and Latency Optimization",
+      "topic_slug": "workflow-automation-and-orchestration",
+      "scope": "long",
+      "pitch": "Design a production-grade workflow platform that compiles high-level workflow definitions into optimized execution plans, automatically distributes tasks across AWS, Azure, GCP, and on-prem infrastructure based on real-time cost models and latency predictions, and intelligently handles retries, failures, and resource constraints. Include visual authoring, compliance templating, and nested workflow composition.",
+      "why_now": "Workflow automation is consolidating; a system combining natural language composition, multi-cloud optimization, and compliance automation captures both developer and enterprise personas simultaneously.",
+      "stack_hints": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Kubernetes",
+        "Terraform",
+        "Claude API"
+      ]
+    }
+  ]
+}
