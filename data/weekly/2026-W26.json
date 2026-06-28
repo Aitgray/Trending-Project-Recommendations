@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-06-28",
+  "window_dates": [
+    "2026-06-22",
+    "2026-06-23",
+    "2026-06-24",
+    "2026-06-25",
+    "2026-06-26",
+    "2026-06-27",
+    "2026-06-28"
+  ],
+  "repos": [
+    {
+      "full_name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 642,
+      "peak_daily_stars": 110,
+      "persistence_score": 45.26301306966333
+    },
+    {
+      "full_name": "IceWhaleTech/CasaOS",
+      "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+      "language": "Go",
+      "url": "https://github.com/IceWhaleTech/CasaOS",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 1608,
+      "peak_daily_stars": 619,
+      "persistence_score": 44.300208881954305
+    },
+    {
+      "full_name": "sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "language": "JavaScript",
+      "url": "https://github.com/sveltejs/svelte",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 299,
+      "peak_daily_stars": 111,
+      "persistence_score": 39.926477322593406
+    },
+    {
+      "full_name": "oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager \u2013 all in one",
+      "language": "Rust",
+      "url": "https://github.com/oven-sh/bun",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 272,
+      "peak_daily_stars": 74,
+      "persistence_score": 39.26630256629472
+    },
+    {
+      "full_name": "SimplifyJobs/Summer2026-Internships",
+      "description": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.",
+      "language": "Python",
+      "url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 147,
+      "peak_daily_stars": 31,
+      "persistence_score": 34.980485916348805
+    },
+    {
+      "full_name": "jj-vcs/jj",
+      "description": "A Git-compatible VCS that is both simple and powerful",
+      "language": "Rust",
+      "url": "https://github.com/jj-vcs/jj",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 127,
+      "peak_daily_stars": 20,
+      "persistence_score": 33.96421184743732
+    },
+    {
+      "full_name": "junegunn/fzf",
+      "description": "\ud83c\udf38 A command-line fuzzy finder",
+      "language": "Go",
+      "url": "https://github.com/junegunn/fzf",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 286,
+      "peak_daily_stars": 67,
+      "persistence_score": 33.95689329455773
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 868,
+      "peak_daily_stars": 199,
+      "persistence_score": 33.83671562632696
+    },
+    {
+      "full_name": "withastro/astro",
+      "description": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!",
+      "language": "TypeScript",
+      "url": "https://github.com/withastro/astro",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 263,
+      "peak_daily_stars": 62,
+      "persistence_score": 33.4556946188779
+    },
+    {
+      "full_name": "nocodb/nocodb",
+      "description": "\ud83d\udd25 \ud83d\udd25 \ud83d\udd25 A Free & Self-hostable Airtable Alternative",
+      "language": "TypeScript",
+      "url": "https://github.com/nocodb/nocodb",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 180,
+      "peak_daily_stars": 43,
+      "persistence_score": 31.190982187594955
+    },
+    {
+      "full_name": "supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "url": "https://github.com/supabase/supabase",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 369,
+      "peak_daily_stars": 101,
+      "persistence_score": 29.567515028191348
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "url": "https://github.com/aquasecurity/trivy",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 123,
+      "peak_daily_stars": 32,
+      "persistence_score": 28.921689393630224
+    },
+    {
+      "full_name": "docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "url": "https://github.com/docker/compose",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 117,
+      "peak_daily_stars": 31,
+      "persistence_score": 28.62410774679399
+    },
+    {
+      "full_name": "jgraph/drawio-desktop",
+      "description": "Official electron build of draw.io",
+      "language": "JavaScript",
+      "url": "https://github.com/jgraph/drawio-desktop",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 116,
+      "peak_daily_stars": 24,
+      "persistence_score": 28.573043608786538
+    },
+    {
+      "full_name": "sharkdp/fd",
+      "description": "A simple, fast and user-friendly alternative to 'find'",
+      "language": "Rust",
+      "url": "https://github.com/sharkdp/fd",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 102,
+      "peak_daily_stars": 28,
+      "persistence_score": 27.808373929377815
+    },
+    {
+      "full_name": "chroma-core/chroma",
+      "description": "Search infrastructure for AI",
+      "language": "Rust",
+      "url": "https://github.com/chroma-core/chroma",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 96,
+      "peak_daily_stars": 19,
+      "persistence_score": 27.448265871020297
+    },
+    {
+      "full_name": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 670,
+      "peak_daily_stars": 200,
+      "persistence_score": 26.035076547886728
+    },
+    {
+      "full_name": "ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "language": "HTML",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 646,
+      "peak_daily_stars": 459,
+      "persistence_score": 25.889385178003604
+    },
+    {
+      "full_name": "mui/material-ui",
+      "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+      "language": "JavaScript",
+      "url": "https://github.com/mui/material-ui",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 70,
+      "peak_daily_stars": 22,
+      "persistence_score": 25.576079262247895
+    },
+    {
+      "full_name": "astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "url": "https://github.com/astral-sh/ruff",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 159,
+      "peak_daily_stars": 56,
+      "persistence_score": 25.37586907616913
+    },
+    {
+      "full_name": "siyuan-note/siyuan",
+      "description": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
+      "language": "TypeScript",
+      "url": "https://github.com/siyuan-note/siyuan",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 130,
+      "peak_daily_stars": 50,
+      "persistence_score": 24.375986616005754
+    },
+    {
+      "full_name": "langchain-ai/langchain",
+      "description": "The agent engineering platform.",
+      "language": "Python",
+      "url": "https://github.com/langchain-ai/langchain",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 436,
+      "peak_daily_stars": 126,
+      "persistence_score": 24.31973278038236
+    },
+    {
+      "full_name": "immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "url": "https://github.com/immich-app/immich",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 413,
+      "peak_daily_stars": 144,
+      "persistence_score": 24.103463895301257
+    },
+    {
+      "full_name": "GoogleChrome/lighthouse",
+      "description": "Automated auditing, performance metrics, and best practices for the web.",
+      "language": "JavaScript",
+      "url": "https://github.com/GoogleChrome/lighthouse",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 54,
+      "peak_daily_stars": 15,
+      "persistence_score": 24.043999111394825
+    },
+    {
+      "full_name": "windmill-labs/windmill",
+      "description": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal.",
+      "language": "Rust",
+      "url": "https://github.com/windmill-labs/windmill",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 112,
+      "peak_daily_stars": 28,
+      "persistence_score": 23.636939093561704
+    },
+    {
+      "full_name": "milvus-io/milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "language": "Go",
+      "url": "https://github.com/milvus-io/milvus",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 105,
+      "peak_daily_stars": 27,
+      "persistence_score": 23.317195470560335
+    },
+    {
+      "full_name": "microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/playwright",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 313,
+      "peak_daily_stars": 94,
+      "persistence_score": 22.997571943633012
+    },
+    {
+      "full_name": "simplex-chat/simplex-chat",
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps \ud83d\udcf1!",
+      "language": "Haskell",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 2092,
+      "peak_daily_stars": 1469,
+      "persistence_score": 22.939061167337996
+    },
+    {
+      "full_name": "SigNoz/signoz",
+      "description": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. \ud83d\udd25 \ud83d\udda5. \ud83d\udc49 Open source Application Performance Monitoring (APM) & Observability tool",
+      "language": "TypeScript",
+      "url": "https://github.com/SigNoz/signoz",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 95,
+      "peak_daily_stars": 28,
+      "persistence_score": 22.82174095733918
+    },
+    {
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "\ud83d\udcdd Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+      "language": "JavaScript",
+      "url": "https://github.com/trekhleb/javascript-algorithms",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 67,
+      "peak_daily_stars": 16,
+      "persistence_score": 21.097538525880534
+    },
+    {
+      "full_name": "electerm/electerm",
+      "description": "\ud83d\udcfbTerminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(linux, mac, win)",
+      "language": "JavaScript",
+      "url": "https://github.com/electerm/electerm",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 67,
+      "peak_daily_stars": 16,
+      "persistence_score": 21.097538525880534
+    },
+    {
+      "full_name": "labring/sealos",
+      "description": "Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfect for building and scaling modern AI applications, managed databases (MySQL, PostgreSQL, Redis, MongoDB) and complex microservice architectures.",
+      "language": "TypeScript",
+      "url": "https://github.com/labring/sealos",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 65,
+      "peak_daily_stars": 21,
+      "persistence_score": 20.948273710132128
+    },
+    {
+      "full_name": "simple-icons/simple-icons",
+      "description": "SVG icons for popular brands",
+      "language": "JavaScript",
+      "url": "https://github.com/simple-icons/simple-icons",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 31,
+      "peak_daily_stars": 8,
+      "persistence_score": 20.79441541679836
+    },
+    {
+      "full_name": "paperless-ngx/paperless-ngx",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "language": "Python",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 177,
+      "peak_daily_stars": 56,
+      "persistence_score": 20.72713420116834
+    },
+    {
+      "full_name": "GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your Internet traffic \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "language": "Rust",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 164,
+      "peak_daily_stars": 59,
+      "persistence_score": 20.42378189560232
+    },
+    {
+      "full_name": "ventoy/Ventoy",
+      "description": "A new bootable USB solution.",
+      "language": "C",
+      "url": "https://github.com/ventoy/Ventoy",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 157,
+      "peak_daily_stars": 49,
+      "persistence_score": 20.250380132107868
+    },
+    {
+      "full_name": "run-llama/llama_index",
+      "description": "LlamaIndex is the leading document agent and OCR platform",
+      "language": "Python",
+      "url": "https://github.com/run-llama/llama_index",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 153,
+      "peak_daily_stars": 55,
+      "persistence_score": 20.147810409654518
+    },
+    {
+      "full_name": "calcom/cal.diy",
+      "description": "Scheduling infrastructure for absolutely everyone.",
+      "language": "TypeScript",
+      "url": "https://github.com/calcom/cal.diy",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 133,
+      "peak_daily_stars": 39,
+      "persistence_score": 19.591359199803644
+    },
+    {
+      "full_name": "Eugeny/tabby",
+      "description": "A terminal for a more modern age",
+      "language": "TypeScript",
+      "url": "https://github.com/Eugeny/tabby",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 125,
+      "peak_daily_stars": 35,
+      "persistence_score": 19.345127627805912
+    },
+    {
+      "full_name": "apache/superset",
+      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+      "language": "TypeScript",
+      "url": "https://github.com/apache/superset",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 118,
+      "peak_daily_stars": 51,
+      "persistence_score": 19.11649397244612
+    }
+  ]
+}

@@ -1,107 +1,81 @@
 # Trending Project Ideas
 
-**Week of 2026-06-21** | [About this project](ABOUT.md)
+**Week of 2026-06-28** | [About this project](ABOUT.md)
 
 ---
 
 > **What's new this week**
 >
-> Educational platforms have solidified as a durable, high-persistence theme with freeCodeCamp leading; Rust-native infrastructure has substantially broadened beyond databases to span CLIs, networking, and data processing, signaling ecosystem maturity. Data governance and privacy tools (Presidio, OSV-Scanner) have emerged as a distinct new theme driven by enterprise compliance and supply-chain security concerns. Open-source business platforms (Plane, Lago, Formbricks) now represent a cohesive alternative to incumbent SaaS, displacing generic workflow automation as the primary business-facing vertical.
+> Personal cloud platforms have emerged as a cohesive theme, displacing some previously dominant SaaS-replacement patterns with emphasis on privacy-first, self-hosted infrastructure. Rust-native systems tools have expanded from databases and CLIs into network monitoring and version control, reinforcing ecosystem maturity and developer adoption. Web frameworks are consolidating around lighter, component-driven architectures (Svelte, Astro) over traditional React-heavy SPAs. Workflow automation remains durable, joined by infrastructure observability and security scanning as enterprises seek integrated, self-hosted alternatives to closed platforms.
 
 ---
 
 ## Trending Topics
 
 
-### Educational learning platforms and structured curriculum
+### Personal cloud and self-hosting platforms
 
-Comprehensive, open-source learning systems (freeCodeCamp, system-design-primer) that emphasize hands-on project-based progression, skill visualization, and reproducible outcomes across programming domains.
-
-<details>
-<summary>Supporting repos (3)</summary>
-
-
-- [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
-
-- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
-
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
-
-
-</details>
-
-
-### Rust-native infrastructure and systems tooling
-
-High-performance, memory-safe systems written in Rust spanning search (Meilisearch), databases (Neon), CLIs (Ruff, Bun), networking (Iroh), and data processing (Polars), driven by both performance and ecosystem maturation.
-
-<details>
-<summary>Supporting repos (7)</summary>
-
-
-- [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
-
-- [neondatabase/neon](https://github.com/neondatabase/neon)
-
-- [astral-sh/ruff](https://github.com/astral-sh/ruff)
-
-- [oven-sh/bun](https://github.com/oven-sh/bun)
-
-- [n0-computer/iroh](https://github.com/n0-computer/iroh)
-
-- [pola-rs/polars](https://github.com/pola-rs/polars)
-
-- [nushell/nushell](https://github.com/nushell/nushell)
-
-
-</details>
-
-
-### Open-source business and operations platforms
-
-Self-hostable alternatives to commercial SaaS (Jira/Linear, Qualtrics, Stripe billing) that emphasize control, transparency, and extensibility via composable workflows and native integrations (Plane, Formbricks, Lago).
+Open-source alternatives to commercial cloud services (CasaOS, Immich, Paperless-NGX, SiyuanNote) that emphasize privacy, control, and local-first architecture for personal data management, note-taking, and media libraries.
 
 <details>
 <summary>Supporting repos (4)</summary>
 
 
-- [makeplane/plane](https://github.com/makeplane/plane)
+- [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS)
 
-- [formbricks/formbricks](https://github.com/formbricks/formbricks)
+- [immich-app/immich](https://github.com/immich-app/immich)
 
-- [getlago/lago](https://github.com/getlago/lago)
+- [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
 
-- [novuhq/novu](https://github.com/novuhq/novu)
+- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)
 
 
 </details>
 
 
-### Data governance, PII detection, and privacy-first infrastructure
+### Rust-native systems tools and performance utilities
 
-Tools and frameworks for sensitive data handling, detection, and anonymization (Presidio, OSV-Scanner, Nuclei) alongside privacy-focused self-hosted alternatives (LibreTranslate, Immich), reflecting enterprise compliance and user privacy concerns.
+High-performance command-line utilities and infrastructure components written in Rust (Bun, Ruff, jj, fd, sniffnet) targeting developer productivity, version control, linting, and network monitoring with emphasis on speed and memory safety.
 
 <details>
 <summary>Supporting repos (5)</summary>
 
 
-- [microsoft/presidio](https://github.com/microsoft/presidio)
+- [oven-sh/bun](https://github.com/oven-sh/bun)
 
-- [google/osv-scanner](https://github.com/google/osv-scanner)
+- [astral-sh/ruff](https://github.com/astral-sh/ruff)
 
-- [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
+- [jj-vcs/jj](https://github.com/jj-vcs/jj)
 
-- [LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate)
+- [sharkdp/fd](https://github.com/sharkdp/fd)
 
-- [immich-app/immich](https://github.com/immich-app/immich)
+- [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)
 
 
 </details>
 
 
-### Workflow automation and intelligent orchestration platforms
+### Modern web frameworks and content-driven development
 
-Fair-code and open-source platforms (n8n) for declarative, extensible workflow composition with native AI integration and self-hosting support, consolidating as foundational infrastructure for business automation.
+Next-generation web frameworks (Svelte, Astro, Windmill) that prioritize developer experience, performance, and component-driven architecture, moving away from heavyweight SPAs toward leaner, more maintainable solutions.
+
+<details>
+<summary>Supporting repos (3)</summary>
+
+
+- [sveltejs/svelte](https://github.com/sveltejs/svelte)
+
+- [withastro/astro](https://github.com/withastro/astro)
+
+- [windmill-labs/windmill](https://github.com/windmill-labs/windmill)
+
+
+</details>
+
+
+### Declarative workflow and orchestration platforms
+
+Open-source, self-hosted workflow platforms (n8n, Windmill) that combine visual composition with programmatic extensibility, supporting complex automation without vendor lock-in.
 
 <details>
 <summary>Supporting repos (2)</summary>
@@ -109,7 +83,27 @@ Fair-code and open-source platforms (n8n) for declarative, extensible workflow c
 
 - [n8n-io/n8n](https://github.com/n8n-io/n8n)
 
-- [apache/superset](https://github.com/apache/superset)
+- [windmill-labs/windmill](https://github.com/windmill-labs/windmill)
+
+
+</details>
+
+
+### Cloud infrastructure, observability, and security scanning
+
+Tools for container orchestration, security scanning, observability, and infrastructure management (Docker Compose, Trivy, SigNoz, Sealos) addressing deployment and monitoring at scale.
+
+<details>
+<summary>Supporting repos (4)</summary>
+
+
+- [docker/compose](https://github.com/docker/compose)
+
+- [aquasecurity/trivy](https://github.com/aquasecurity/trivy)
+
+- [SigNoz/signoz](https://github.com/SigNoz/signoz)
+
+- [labring/sealos](https://github.com/labring/sealos)
 
 
 </details>
@@ -124,80 +118,80 @@ Fair-code and open-source platforms (n8n) for declarative, extensible workflow c
 
 
 
-#### Educational learning platforms and structured curriculum
+#### Personal cloud and self-hosting platforms
 
 
-##### Skill Graph Visualizer with Prerequisite Inference
+##### Personal Cloud Storage Sync Engine with Conflict Resolution
 
-Build a tool that parses open-source curriculum repos (freeCodeCamp, build-your-own-x) to extract learning objectives, automatically infer prerequisite dependencies, and generate interactive skill graphs showing mastery paths. Export as D3 visualizations or JSON schemas for integration into learning platforms.
+Build a lightweight CLI and daemon that syncs files bidirectionally between local directories and self-hosted cloud storage (NextCloud, Immich, CasaOS), handling version conflicts via smart merge strategies and file metadata preservation. Support partial sync, bandwidth throttling, and offline-first queueing with a simple TOML config.
 
-**Why now:** Educational platforms are durable; automating skill graph construction from existing curricula enables rapid personalization and adaptive learning across domains.
+**Why now:** Personal cloud platforms are multiplying; unified sync tooling reduces friction in managing multi-device personal data across self-hosted services.
 
-**Stack hints:** `TypeScript`, `D3.js`, `GraphQL`, `GitHub API`
-
-
-
-
-
-
-#### Rust-native infrastructure and systems tooling
-
-
-##### Rust Performance Profiling Dashboard for Production Systems
-
-Create a lightweight CLI and web dashboard that instruments Rust binaries with flamegraph profiling, exports metrics to Prometheus, and highlights performance regressions by comparing execution profiles across builds. Include integration with CI/CD for continuous benchmarking.
-
-**Why now:** Rust infrastructure adoption is accelerating; native observability tooling that tracks performance over time helps teams identify bottlenecks in production systems.
-
-**Stack hints:** `Rust`, `tokio`, `flamegraph`, `prometheus`, `React`
+**Stack hints:** `Rust`, `tokio`, `SQLite`, `WebDAV`, `clap`
 
 
 
 
 
 
-#### Open-source business and operations platforms
+#### Rust-native systems tools and performance utilities
 
 
-##### Self-Hosted Business Operations Audit Trail
+##### Rust CLI Performance Benchmarking Harness
 
-Build a CLI that generates comprehensive audit logs and compliance reports from self-hosted business platforms (Plane, Lago, Formbricks) in SIEM-compatible formats (CEF, JSON), tracks data lineage, and detects anomalous operations via simple heuristics.
+Create a standalone Rust library and CLI for benchmarking command-line tools across platforms, capturing execution time, memory usage, and system calls. Export results as JSON, compare across versions, and detect performance regressions in CI/CD with configurable thresholds.
 
-**Why now:** Open-source business platforms are consolidating; enterprises need compliance-grade audit trails to justify internal tool adoption over SaaS alternatives.
+**Why now:** Rust CLI tooling is accelerating; automated performance regression detection enables maintainers to catch slowdowns before release.
 
-**Stack hints:** `Python`, `FastAPI`, `SQLite`, `Click`
-
-
-
-
-
-
-#### Data governance, PII detection, and privacy-first infrastructure
-
-
-##### PII Detection and Redaction for Custom Data Pipelines
-
-Develop a standalone Python library wrapping Presidio with support for custom PII patterns, batch processing, and streaming redaction. Include CLI for scanning local files, databases, and S3 buckets, with exportable redaction rules in JSON for team sharing.
-
-**Why now:** Data governance is critical; lightweight, customizable PII detection enables small teams and startups to implement privacy controls without enterprise solutions.
-
-**Stack hints:** `Python`, `Presidio`, `Click`, `Boto3`
+**Stack hints:** `Rust`, `criterion`, `serde`, `tempfile`
 
 
 
 
 
 
-#### Workflow automation and intelligent orchestration platforms
+#### Modern web frameworks and content-driven development
 
 
-##### n8n Workflow Portability and Cross-Platform Translator
+##### Web Framework Migration Analyzer and Code Transformer
 
-Build a translator that converts n8n workflow JSON into equivalent definitions for Windmill, Airflow, or Temporal, preserving error handling, retry logic, and variable bindings. Enable teams to migrate workflows or run identical logic across multiple platforms.
+Build a static analysis tool that audits React codebases for patterns that map to Svelte or Astro equivalents, identifies refactoring opportunities (e.g., lifting state, removing hooks), and generates TypeScript snippets showing the target framework equivalent. Include a report showing estimated effort and bundle size savings.
 
-**Why now:** Workflow platforms are consolidating; workflow portability reduces vendor lock-in and enables teams to standardize across heterogeneous infrastructure.
+**Why now:** Modern web frameworks are gaining adoption; helping teams objectively evaluate migration paths reduces uncertainty and accelerates adoption.
 
-**Stack hints:** `TypeScript`, `JSON Schema`, `Zod`
+**Stack hints:** `TypeScript`, `AST parsing`, `ts-morph`, `Commander.js`
+
+
+
+
+
+
+#### Declarative workflow and orchestration platforms
+
+
+##### Workflow Health Dashboard with Execution Analytics
+
+Develop a standalone dashboard that connects to n8n or Windmill APIs, visualizes workflow execution history, detects failure patterns and bottleneck nodes, and recommends optimization strategies (parallelization, caching, batching). Export analytics as reports for stakeholders.
+
+**Why now:** Workflow platforms are consolidating; visibility into execution patterns helps teams optimize automation ROI and identify reliability issues early.
+
+**Stack hints:** `React`, `TypeScript`, `D3.js`, `FastAPI`
+
+
+
+
+
+
+#### Cloud infrastructure, observability, and security scanning
+
+
+##### Container Security Scanning CI/CD Integration with Policy Enforcement
+
+Build a GitHub Actions / GitLab CI integration that scans container images for vulnerabilities (Trivy), generates SBOM, enforces organization-defined security policies (severity thresholds, license restrictions), and blocks deployments with detailed reports. Cache results across runs to minimize overhead.
+
+**Why now:** Security scanning is critical in enterprise workflows; seamless CI/CD integration with policy enforcement reduces manual overhead and ensures compliance.
+
+**Stack hints:** `TypeScript`, `Go`, `Trivy API`, `GitHub/GitLab Actions`
 
 
 
@@ -210,80 +204,80 @@ Build a translator that converts n8n workflow JSON into equivalent definitions f
 
 
 
-#### Educational learning platforms and structured curriculum
+#### Personal cloud and self-hosting platforms
 
 
-##### Adaptive Programming Curriculum with Skill Decay Modeling
+##### Personal Cloud Data Backup and Recovery Orchestrator
 
-Design a learning platform that models programming skills as a directed graph with spaced-repetition scheduling, automatically adjusts review frequency based on historical performance and skill decay rates, and personalizes project recommendations to combat knowledge attrition. Integrate peer code review and mentor feedback loops.
+Design a system that discovers data across multiple self-hosted services (CasaOS, Immich, Paperless-NGX, SiyuanNote), creates incremental backups to local or external storage, tests recovery procedures automatically, and generates compliance reports. Include a web UI for backup scheduling, retention policies, and recovery simulation.
 
-**Why now:** Educational platforms are durable; combining adaptive scheduling with peer review transforms passive learning into retention-focused mastery across multiple domains.
+**Why now:** Personal cloud adoption is rising; automated backup and recovery orchestration gives users confidence in data durability without manual scripting.
 
-**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `React`, `Redis`
-
-
-
-
-
-
-#### Rust-native infrastructure and systems tooling
-
-
-##### Rust Cross-Platform Binary Build and Distribution System
-
-Create a managed build system for Rust CLI tools that automates multi-target compilation (Linux, macOS, Windows, WASM), generates checksums and signatures, publishes to crates.io and GitHub releases, and maintains a searchable registry of open-source Rust tools with health metrics (maintenance status, install count, vulnerability scans).
-
-**Why now:** Rust CLI adoption is accelerating; reducing friction in multi-platform distribution and discovery enables broader ecosystem adoption and reduces duplication.
-
-**Stack hints:** `Rust`, `GitHub Actions`, `TypeScript`, `React`, `PostgreSQL`
+**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `React`, `SQLAlchemy`, `Celery`
 
 
 
 
 
 
-#### Open-source business and operations platforms
+#### Rust-native systems tools and performance utilities
 
 
-##### Open-Source SaaS Replacement Advisor and Migration Planner
+##### Rust Binary Distribution Registry and Update Manager
 
-Build an interactive web tool that analyzes a team's current SaaS stack (auth, billing, surveys, project management), recommends open-source alternatives, estimates migration effort and costs, generates deployment blueprints via Docker Compose or Kubernetes, and provides side-by-side feature comparison matrices.
+Create a centralized registry and update manager for Rust CLI tools (similar to Homebrew but optimized for binary distribution). Include metadata on tool health, maintenance status, vulnerability scans, and download stats. Provide a CLI for discovering, installing, and auto-updating tools across platforms with signature verification.
 
-**Why now:** Open-source business platforms have matured; teams need objective guidance to evaluate tradeoffs and plan migrations, reducing switching costs and uncertainty.
+**Why now:** Rust CLI ecosystem is maturing; a unified distribution and discovery platform reduces fragmentation and accelerates adoption of high-quality community tools.
 
-**Stack hints:** `TypeScript`, `React`, `FastAPI`, `PostgreSQL`, `OpenAI API`
-
-
-
-
-
-
-#### Data governance, PII detection, and privacy-first infrastructure
-
-
-##### Privacy-First Data Classification and Governance Dashboard
-
-Develop a dashboard that discovers sensitive data across databases, data lakes, and APIs using Presidio and custom classifiers, auto-tags datasets with PII risk scores, tracks data lineage via query logs, and generates compliance reports (GDPR, CCPA, HIPAA). Include access control policy recommendations.
-
-**Why now:** Data governance is increasingly critical; unifying discovery, classification, and compliance tracking enables teams to audit and control sensitive data without manual spreadsheets.
-
-**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `React`, `Presidio`
+**Stack hints:** `Rust`, `PostgreSQL`, `S3`, `tokio`, `TypeScript`, `React`
 
 
 
 
 
 
-#### Workflow automation and intelligent orchestration platforms
+#### Modern web frameworks and content-driven development
 
 
-##### n8n Workflow Performance Optimization and Cost Analyzer
+##### Svelte/Astro Component Library Generator from Figma Designs
 
-Build a profiling tool for n8n workflows that tracks execution time per node, identifies bottlenecks, estimates cloud costs based on execution patterns, and recommends parallelization or caching strategies. Generate optimization reports with before/after metrics and export as GitHub issues or Slack notifications.
+Build a tool that connects to Figma, extracts component designs, and generates production-ready Svelte or Astro components with TypeScript types, Storybook stories, and unit test stubs. Support variant mapping, responsive breakpoints, and design token export for consistent theming.
 
-**Why now:** Workflow automation is consolidating; cost and performance visibility enable teams to optimize cloud spending and identify efficiency improvements in production workflows.
+**Why now:** Modern web frameworks prioritize developer experience; automating component generation from design reduces boilerplate and keeps code in sync with design systems.
 
-**Stack hints:** `TypeScript`, `n8n API`, `FastAPI`, `PostgreSQL`, `D3.js`
+**Stack hints:** `TypeScript`, `Figma API`, `Svelte`, `Astro`, `Storybook`
+
+
+
+
+
+
+#### Declarative workflow and orchestration platforms
+
+
+##### Workflow Versioning and A/B Testing Framework
+
+Design a framework that enables versioning of n8n/Windmill workflows, canary deployment to a percentage of traffic, automatic rollback on error thresholds, and A/B testing across workflow variants. Include UI for comparing execution metrics and promoting winners to production.
+
+**Why now:** Workflow platforms are critical business infrastructure; safe deployment and testing of workflow changes enables faster iteration without production risk.
+
+**Stack hints:** `TypeScript`, `PostgreSQL`, `React`, `FastAPI`, `Redis`
+
+
+
+
+
+
+#### Cloud infrastructure, observability, and security scanning
+
+
+##### Multi-Cloud Observability Aggregator with Unified Alerting
+
+Build a platform that ingests metrics, logs, and traces from SigNoz, Prometheus, and cloud-native observability tools, correlates signals across sources, detects anomalies with ML models, and routes alerts to Slack/PagerDuty based on custom rules. Include a unified dashboard and root cause analysis suggestions.
+
+**Why now:** Infrastructure observability is critical; unifying signals across tools eliminates siloed alerting and reduces MTTR for production incidents.
+
+**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `React`, `OpenTelemetry`, `scikit-learn`
 
 
 
@@ -296,80 +290,80 @@ Build a profiling tool for n8n workflows that tracks execution time per node, id
 
 
 
-#### Educational learning platforms and structured curriculum
+#### Personal cloud and self-hosting platforms
 
 
-##### Comprehensive Programming and Career Progression Platform
+##### Personal Cloud Privacy Audit and Compliance Reporter
 
-Build a unified learning ecosystem that combines adaptive skill graphs, hands-on project assignments with peer code review, live mentorship matching with experienced engineers, job placement assistance, and outcome tracking. Support multiple programming languages, frameworks, and specializations (ML, systems, web). Include employer partnerships and salary benchmarking.
+Develop a comprehensive audit platform for self-hosted personal cloud services that discovers data across CasaOS, Immich, Paperless-NGX, and SiyuanNote, classifies sensitive information, tracks data lineage, generates GDPR/CCPA compliance reports, and recommends retention policies. Include automated remediation workflows (deletion, anonymization) and audit trail export for regulators.
 
-**Why now:** Educational platforms are durable and scaling; unifying curriculum, community, and career outcomes transforms online learning into a comprehensive pathway from novice to employed engineer.
+**Why now:** Personal cloud adoption is rising; privacy and compliance tooling enables users to maintain regulatory compliance without external auditors or legal overhead.
 
-**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `TypeScript`, `React`, `WebSocket`, `Redis`, `Kubernetes`
-
-
-
-
-
-
-#### Rust-native infrastructure and systems tooling
-
-
-##### Rust-Native Edge AI Inference Engine with Dynamic Model Loading
-
-Develop a production-grade Rust library for edge AI inference optimized for mobile, IoT, and WASM environments. Support dynamic model loading, quantization, batching, and resource-aware scheduling. Include SDKs for iOS, Android, and browsers, with automatic model caching and versioning. Integrate with vector databases for semantic search at the edge.
-
-**Why now:** Rust infrastructure is maturing; privacy-first, edge-native inference enables offline AI capabilities without vendor lock-in or data transmission overhead.
-
-**Stack hints:** `Rust`, `ONNX`, `tokio`, `wasm-bindgen`, `tonic`, `ndarray`
+**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `React`, `Presidio`, `SQLAlchemy`, `Celery`
 
 
 
 
 
 
-#### Open-source business and operations platforms
+#### Rust-native systems tools and performance utilities
 
 
-##### Enterprise Self-Hosted Operations Platform with Unified Governance
+##### Rust-to-WebAssembly Optimization and Bundling Toolkit
 
-Create an integrated platform combining project management (Plane-like), billing and metering (Lago-like), survey and feedback (Formbricks-like), and notifications (Novu-like) with unified RBAC, audit logging, compliance automation (GDPR, HIPAA), and API-first extensibility. Include pre-built integrations with payment processors and data warehouses.
+Create an end-to-end toolkit that compiles Rust libraries to WebAssembly, optimizes for size and performance across edge devices, generates JavaScript bindings automatically, and provides profiling tools to identify bottlenecks. Support lazy loading, code splitting, and integration with popular bundlers (Webpack, Vite). Include benchmarking against native Rust and Go implementations.
 
-**Why now:** Open-source business platforms are consolidating as SaaS alternatives; a unified suite with governance and compliance features enables enterprises to adopt open-source without sacrificing control or auditability.
+**Why now:** Rust systems tools are expanding to the web; seamless WASM compilation and optimization enables Rust's performance benefits in browser and edge contexts.
 
-**Stack hints:** `TypeScript`, `Python`, `FastAPI`, `PostgreSQL`, `React`, `Kubernetes`, `Terraform`
-
-
-
-
-
-
-#### Data governance, PII detection, and privacy-first infrastructure
-
-
-##### Automated Data Compliance and Privacy Engineering Framework
-
-Build an end-to-end framework that automates PII detection, data classification, access control, and compliance reporting across data warehouses, APIs, and applications. Include pluggable classifiers (Presidio, custom ML models), automated data masking and anonymization, audit trail generation, and policy enforcement. Provide CLI, SDKs, and API interfaces for integration.
-
-**Why now:** Data governance is critical and manual; an automated, composable framework enables teams to implement privacy controls at scale without hiring dedicated compliance engineers.
-
-**Stack hints:** `Python`, `Presidio`, `FastAPI`, `PostgreSQL`, `SQLAlchemy`, `Kafka`, `Kubernetes`
+**Stack hints:** `Rust`, `wasm-bindgen`, `wasm-pack`, `TypeScript`, `Wasmtime`, `twiggy`
 
 
 
 
 
 
-#### Workflow automation and intelligent orchestration platforms
+#### Modern web frameworks and content-driven development
 
 
-##### Intelligent Workflow Orchestration with Multi-Cloud Cost and Latency Optimization
+##### Next-Generation Site Builder on Astro with AI Content Generation
 
-Design a production-grade workflow platform that compiles high-level workflow definitions into optimized execution plans, automatically distributes tasks across AWS, Azure, GCP, and on-prem infrastructure based on real-time cost models and latency predictions, and intelligently handles retries, failures, and resource constraints. Include visual authoring, compliance templating, and nested workflow composition.
+Build a visual site builder on Astro that enables non-technical users to compose content-driven websites with drag-and-drop components, AI-assisted content generation from prompts, automatic SEO optimization, and multi-channel publishing (web, email, social). Include analytics integration, A/B testing, and export to static hosting.
 
-**Why now:** Workflow automation is consolidating; a system combining natural language composition, multi-cloud optimization, and compliance automation captures both developer and enterprise personas simultaneously.
+**Why now:** Astro prioritizes content-driven development; combining visual authoring with AI generation and static site performance creates a modern alternative to Wordpress and Webflow.
 
-**Stack hints:** `TypeScript`, `Python`, `FastAPI`, `PostgreSQL`, `Kubernetes`, `Terraform`, `Claude API`
+**Stack hints:** `TypeScript`, `Astro`, `React`, `PostgreSQL`, `OpenAI API`, `Tailwind CSS`, `Vercel SDK`
+
+
+
+
+
+
+#### Declarative workflow and orchestration platforms
+
+
+##### Enterprise Workflow Orchestration Platform with Cost Attribution and Governance
+
+Design a production-grade workflow orchestration system that builds on open standards (n8n, Temporal patterns), adds comprehensive cost attribution (per-node, per-execution), enforces governance policies (approval gates, resource limits, audit trails), and optimizes for cost across cloud providers. Include workflow marketplace, reusable templates, and API for integration.
+
+**Why now:** Workflow platforms are consolidating as critical infrastructure; cost visibility and governance are essential for enterprise adoption and preventing runaway cloud bills.
+
+**Stack hints:** `TypeScript`, `Python`, `FastAPI`, `PostgreSQL`, `Kubernetes`, `Temporal`, `React`
+
+
+
+
+
+
+#### Cloud infrastructure, observability, and security scanning
+
+
+##### Cloud-Native Security Platform with Runtime Threat Detection
+
+Develop a comprehensive security platform that combines image scanning (Trivy), runtime threat detection via eBPF, policy enforcement, and incident response automation. Integrate with container orchestration, detect zero-day exploits via behavioral analysis, correlate events across the infrastructure, and provide playbooks for automated remediation. Include SIEM export and compliance reporting.
+
+**Why now:** Container security and observability are critical; unified threat detection and automated response reduce response time and eliminate manual security operations.
+
+**Stack hints:** `Rust`, `Go`, `eBPF`, `PostgreSQL`, `Kubernetes`, `TypeScript`, `React`
 
 
 
@@ -389,4 +383,4 @@ See [ABOUT.md](ABOUT.md) for full methodology details.
 
 ---
 
-*Generated 2026-06-21 14:12 UTC · commit `5d563e5`*
+*Generated 2026-06-28 13:47 UTC · commit `1a6cbf3`*
