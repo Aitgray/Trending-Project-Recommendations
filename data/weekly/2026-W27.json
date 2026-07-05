@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-07-05",
+  "window_dates": [
+    "2026-06-29",
+    "2026-06-30",
+    "2026-07-01",
+    "2026-07-02",
+    "2026-07-03",
+    "2026-07-04",
+    "2026-07-05"
+  ],
+  "repos": [
+    {
+      "full_name": "immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "url": "https://github.com/immich-app/immich",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 975,
+      "peak_daily_stars": 308,
+      "persistence_score": 48.18423810489165
+    },
+    {
+      "full_name": "siyuan-note/siyuan",
+      "description": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
+      "language": "TypeScript",
+      "url": "https://github.com/siyuan-note/siyuan",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 244,
+      "peak_daily_stars": 50,
+      "persistence_score": 38.50880747381309
+    },
+    {
+      "full_name": "supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "url": "https://github.com/supabase/supabase",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 886,
+      "peak_daily_stars": 402,
+      "persistence_score": 33.939224911547896
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 799,
+      "peak_daily_stars": 192,
+      "persistence_score": 33.42305863833963
+    },
+    {
+      "full_name": "jj-vcs/jj",
+      "description": "A Git-compatible VCS that is both simple and powerful",
+      "language": "Rust",
+      "url": "https://github.com/jj-vcs/jj",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 220,
+      "peak_daily_stars": 60,
+      "persistence_score": 32.38897620910652
+    },
+    {
+      "full_name": "helix-editor/helix",
+      "description": "A post-modern modal text editor.",
+      "language": "Rust",
+      "url": "https://github.com/helix-editor/helix",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 178,
+      "peak_daily_stars": 62,
+      "persistence_score": 31.12431483504453
+    },
+    {
+      "full_name": "juanfont/headscale",
+      "description": "An open source, self-hosted implementation of the Tailscale control server",
+      "language": "Go",
+      "url": "https://github.com/juanfont/headscale",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 440,
+      "peak_daily_stars": 132,
+      "persistence_score": 30.44522437723423
+    },
+    {
+      "full_name": "sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "language": "JavaScript",
+      "url": "https://github.com/sveltejs/svelte",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 396,
+      "peak_daily_stars": 129,
+      "persistence_score": 29.919681403435952
+    },
+    {
+      "full_name": "PostHog/posthog",
+      "description": "\ud83e\udd94 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+      "language": "Python",
+      "url": "https://github.com/PostHog/posthog",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 125,
+      "peak_daily_stars": 29,
+      "persistence_score": 29.01769144170887
+    },
+    {
+      "full_name": "oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager \u2013 all in one",
+      "language": "Rust",
+      "url": "https://github.com/oven-sh/bun",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 310,
+      "peak_daily_stars": 96,
+      "persistence_score": 28.69896456089617
+    },
+    {
+      "full_name": "refinedev/refine",
+      "description": "A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.",
+      "language": "TypeScript",
+      "url": "https://github.com/refinedev/refine",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 281,
+      "peak_daily_stars": 95,
+      "persistence_score": 28.20953535469057
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "url": "https://github.com/aquasecurity/trivy",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 104,
+      "peak_daily_stars": 23,
+      "persistence_score": 27.92376210094514
+    },
+    {
+      "full_name": "n0-computer/iroh",
+      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "language": "Rust",
+      "url": "https://github.com/n0-computer/iroh",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 228,
+      "peak_daily_stars": 71,
+      "persistence_score": 27.1686100177712
+    },
+    {
+      "full_name": "huggingface/transformers",
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "language": "Python",
+      "url": "https://github.com/huggingface/transformers",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 209,
+      "peak_daily_stars": 47,
+      "persistence_score": 26.735537653587343
+    },
+    {
+      "full_name": "tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "url": "https://github.com/tailscale/tailscale",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 188,
+      "peak_daily_stars": 43,
+      "persistence_score": 26.208735075298215
+    },
+    {
+      "full_name": "neondatabase/neon",
+      "description": "Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.",
+      "language": "Rust",
+      "url": "https://github.com/neondatabase/neon",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 75,
+      "peak_daily_stars": 14,
+      "persistence_score": 25.984400041717986
+    },
+    {
+      "full_name": "microsoft/Web-Dev-For-Beginners",
+      "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
+      "language": "JavaScript",
+      "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 69,
+      "peak_daily_stars": 14,
+      "persistence_score": 25.490971452296158
+    },
+    {
+      "full_name": "ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "language": "HTML",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 4648,
+      "peak_daily_stars": 1971,
+      "persistence_score": 25.333222265071754
+    },
+    {
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 429,
+      "peak_daily_stars": 145,
+      "persistence_score": 24.25514083475043
+    },
+    {
+      "full_name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 389,
+      "peak_daily_stars": 105,
+      "persistence_score": 23.86458695649477
+    },
+    {
+      "full_name": "langchain-ai/langchain",
+      "description": "The agent engineering platform.",
+      "language": "Python",
+      "url": "https://github.com/langchain-ai/langchain",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 375,
+      "peak_daily_stars": 104,
+      "persistence_score": 23.71835657355958
+    },
+    {
+      "full_name": "ranaroussi/yfinance",
+      "description": "Download market data from Yahoo! Finance's API",
+      "language": "Python",
+      "url": "https://github.com/ranaroussi/yfinance",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 107,
+      "peak_daily_stars": 27,
+      "persistence_score": 23.4106561356211
+    },
+    {
+      "full_name": "GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your Internet traffic \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "language": "Rust",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 321,
+      "peak_daily_stars": 120,
+      "persistence_score": 23.098206182177634
+    },
+    {
+      "full_name": "fastify/fastify",
+      "description": "Fast and low overhead web framework, for Node.js",
+      "language": "JavaScript",
+      "url": "https://github.com/fastify/fastify",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 188,
+      "peak_daily_stars": 104,
+      "persistence_score": 20.96698806023857
+    },
+    {
+      "full_name": "upscayl/upscayl",
+      "description": "\ud83c\udd99 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
+      "language": "TypeScript",
+      "url": "https://github.com/upscayl/upscayl",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 148,
+      "peak_daily_stars": 43,
+      "persistence_score": 20.015785223781837
+    },
+    {
+      "full_name": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 757,
+      "peak_daily_stars": 273,
+      "persistence_score": 19.892050156927116
+    },
+    {
+      "full_name": "docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "url": "https://github.com/docker/compose",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 136,
+      "peak_daily_stars": 44,
+      "persistence_score": 19.6799237033125
+    },
+    {
+      "full_name": "vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "language": "Python",
+      "url": "https://github.com/vinta/awesome-python",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 638,
+      "peak_daily_stars": 235,
+      "persistence_score": 19.379713363132602
+    },
+    {
+      "full_name": "caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "url": "https://github.com/caddyserver/caddy",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 122,
+      "peak_daily_stars": 40,
+      "persistence_score": 19.24873742148967
+    },
+    {
+      "full_name": "nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 116,
+      "peak_daily_stars": 37,
+      "persistence_score": 19.048695739191025
+    },
+    {
+      "full_name": "containerd/containerd",
+      "description": "An open and reliable container runtime",
+      "language": "Go",
+      "url": "https://github.com/containerd/containerd",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 43,
+      "peak_daily_stars": 13,
+      "persistence_score": 18.920948169591306
+    },
+    {
+      "full_name": "veracrypt/VeraCrypt",
+      "description": "Disk encryption with strong security based on TrueCrypt",
+      "language": "C",
+      "url": "https://github.com/veracrypt/VeraCrypt",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 546,
+      "peak_daily_stars": 246,
+      "persistence_score": 18.913346407265944
+    },
+    {
+      "full_name": "withastro/astro",
+      "description": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!",
+      "language": "TypeScript",
+      "url": "https://github.com/withastro/astro",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 112,
+      "peak_daily_stars": 33,
+      "persistence_score": 18.909551274849363
+    },
+    {
+      "full_name": "astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "url": "https://github.com/astral-sh/ruff",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 106,
+      "peak_daily_stars": 48,
+      "persistence_score": 18.691315337847623
+    },
+    {
+      "full_name": "servo/servo",
+      "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+      "language": "Rust",
+      "url": "https://github.com/servo/servo",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 99,
+      "peak_daily_stars": 37,
+      "persistence_score": 18.420680743952367
+    },
+    {
+      "full_name": "samber/lo",
+      "description": "\ud83d\udca5 A Lodash-style Go library based on Go 1.18+ Generics (map, filter, contains, find...)",
+      "language": "Go",
+      "url": "https://github.com/samber/lo",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 20,
+      "peak_daily_stars": 8,
+      "persistence_score": 18.26713462634054
+    },
+    {
+      "full_name": "SimplifyJobs/Summer2026-Internships",
+      "description": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.",
+      "language": "Python",
+      "url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 91,
+      "peak_daily_stars": 26,
+      "persistence_score": 18.087154308196162
+    },
+    {
+      "full_name": "sharkdp/fd",
+      "description": "A simple, fast and user-friendly alternative to 'find'",
+      "language": "Rust",
+      "url": "https://github.com/sharkdp/fd",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 82,
+      "peak_daily_stars": 24,
+      "persistence_score": 17.675362431186393
+    },
+    {
+      "full_name": "marcelscruz/public-apis",
+      "description": "A collaborative list of public APIs for developers",
+      "language": "JavaScript",
+      "url": "https://github.com/marcelscruz/public-apis",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 33,
+      "peak_daily_stars": 10,
+      "persistence_score": 17.63180262308081
+    },
+    {
+      "full_name": "rust-unofficial/awesome-rust",
+      "description": "A curated list of Rust code and resources.",
+      "language": "Rust",
+      "url": "https://github.com/rust-unofficial/awesome-rust",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 81,
+      "peak_daily_stars": 25,
+      "persistence_score": 17.626876989057013
+    }
+  ]
+}

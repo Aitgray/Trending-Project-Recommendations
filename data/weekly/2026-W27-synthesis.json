@@ -1,0 +1,281 @@
+{
+  "week_of": "2026-07-05",
+  "topics": [
+    {
+      "slug": "personal-cloud-platforms",
+      "title": "Personal cloud and self-hosting platforms",
+      "summary": "Open-source alternatives to commercial cloud services emphasizing privacy, control, and local-first architecture for personal data management across photo libraries, note-taking, document archival, and file sync.",
+      "supporting_repos": [
+        "immich-app/immich",
+        "siyuan-note/siyuan",
+        "supabase/supabase"
+      ]
+    },
+    {
+      "slug": "rust-systems-infrastructure",
+      "title": "Rust-native systems tools and infrastructure",
+      "summary": "High-performance, memory-safe implementations of critical infrastructure components including VCS alternatives, terminal editors, networking stacks, and language runtimes written in Rust.",
+      "supporting_repos": [
+        "jj-vcs/jj",
+        "helix-editor/helix",
+        "oven-sh/bun",
+        "n0-computer/iroh",
+        "neondatabase/neon"
+      ]
+    },
+    {
+      "slug": "modern-web-frameworks",
+      "title": "Modern web frameworks and content-driven development",
+      "summary": "Next-generation frameworks (Svelte, Astro) prioritizing lean component architecture, content-first design, and developer experience over heavyweight SPAs and traditional React patterns.",
+      "supporting_repos": [
+        "sveltejs/svelte",
+        "withastro/astro",
+        "refinedev/refine"
+      ]
+    },
+    {
+      "slug": "workflow-automation-orchestration",
+      "title": "Declarative workflow and orchestration platforms",
+      "summary": "Self-hosted, visual workflow platforms combining low-code composition with programmatic extensibility for enterprise automation without vendor lock-in.",
+      "supporting_repos": [
+        "n8n-io/n8n",
+        "PostHog/posthog"
+      ]
+    },
+    {
+      "slug": "infrastructure-security-observability",
+      "title": "Infrastructure security, scanning, and observability",
+      "summary": "Integrated platforms for vulnerability scanning, runtime security, network monitoring, and observability that enable unified threat detection and compliance across container and cloud infrastructure.",
+      "supporting_repos": [
+        "aquasecurity/trivy",
+        "GyulyVGC/sniffnet",
+        "juanfont/headscale",
+        "tailscale/tailscale"
+      ]
+    }
+  ],
+  "whats_new": "Personal cloud platforms and Rust systems tools continue to dominate with sustained persistence, now joined by observable infrastructure-as-code maturity (Tailscale/Headscale network orchestration). Modern web frameworks shift focus from component libraries to site builders and internal tools (Refine's admin panel emphasis). Workflow automation remains critical but has diversified to include product analytics (PostHog), indicating convergence of automation, observability, and data platforms under unified self-hosted stacks.",
+  "projects": [
+    {
+      "title": "Personal Cloud Backup Validator with Automated Recovery Testing",
+      "topic_slug": "personal-cloud-platforms",
+      "scope": "short",
+      "pitch": "Build a CLI tool that connects to Immich, SiyuanNote, and similar self-hosted services, performs incremental backups to local or S3 storage, and runs non-destructive recovery simulations to verify backup integrity. Output a JSON report showing what could be recovered and estimated recovery time.",
+      "why_now": "Users adopting personal cloud platforms need confidence that data is truly recoverable without manual testing.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "serde",
+        "clap",
+        "aws-sdk-s3"
+      ]
+    },
+    {
+      "title": "Cross-Platform Rust Binary Registry and Package Discovery CLI",
+      "topic_slug": "rust-systems-infrastructure",
+      "scope": "short",
+      "pitch": "Create a lightweight registry CLI (similar to `cargo install` but for any Rust CLI tool) that indexes community Rust tools, detects new releases, verifies signatures, and auto-updates installed binaries. Include metadata on maintenance status, recent vulnerabilities, and usage statistics.",
+      "why_now": "Rust CLI ecosystem is maturing but fragmented; a unified discovery and update mechanism reduces friction in adopting high-quality community tools.",
+      "stack_hints": [
+        "Rust",
+        "reqwest",
+        "tokio",
+        "sqlite",
+        "semver"
+      ]
+    },
+    {
+      "title": "Astro Component Migration Linter for Legacy Static Site Generators",
+      "topic_slug": "modern-web-frameworks",
+      "scope": "short",
+      "pitch": "Build a static analysis tool that scans Jekyll, Hugo, or 11ty projects and identifies patterns that map directly to Astro components, suggesting refactoring paths with before/after code snippets. Generate a migration roadmap showing effort and modernization benefits.",
+      "why_now": "Astro's content-first model appeals to legacy static site maintainers; a migration analyzer reduces friction in adopting modern tooling.",
+      "stack_hints": [
+        "TypeScript",
+        "AST parsing",
+        "ts-morph",
+        "Commander.js"
+      ]
+    },
+    {
+      "title": "Workflow Execution Cost Attribution and Anomaly Detector",
+      "topic_slug": "workflow-automation-orchestration",
+      "scope": "short",
+      "pitch": "Develop a dashboard that connects to n8n API, breaks down execution costs by node type and frequency, detects unusual patterns (e.g., runaway loops, unexpected parallelism), and recommends optimizations. Export findings as a shareable cost report.",
+      "why_now": "Workflow platforms are critical business infrastructure; cost visibility prevents surprises and enables teams to optimize automation ROI.",
+      "stack_hints": [
+        "React",
+        "TypeScript",
+        "D3.js",
+        "FastAPI",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Network Anomaly Detection for Self-Hosted Infra via Tailscale/Headscale",
+      "topic_slug": "infrastructure-security-observability",
+      "scope": "short",
+      "pitch": "Build a lightweight agent that taps into Tailscale or Headscale logs, applies behavioral baselines (connection patterns, bandwidth usage), flags anomalies (lateral movement, data exfiltration indicators), and outputs alerts as Slack messages. Focus on false-positive reduction via smart thresholding.",
+      "why_now": "Self-hosted networks (Headscale) lack integrated threat detection; behavioral analytics at the network layer enable early detection of compromise.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "regex",
+        "slack-api"
+      ]
+    },
+    {
+      "title": "Personal Cloud Data Classification and GDPR Audit Platform",
+      "topic_slug": "personal-cloud-platforms",
+      "scope": "medium",
+      "pitch": "Design a system that discovers and crawls data across Immich, SiyuanNote, Paperless, and CasaOS, classifies content using ML models (PII, financial, health, etc.), tracks data lineage, generates GDPR/CCPA compliance reports, and recommends automated deletion or anonymization policies. Include audit trail export for regulators.",
+      "why_now": "Personal cloud adoption is rising; privacy and compliance tooling enables users to maintain regulatory compliance without external auditors.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "Presidio",
+        "spaCy"
+      ]
+    },
+    {
+      "title": "Rust WebAssembly Performance Profiler and Optimization Toolkit",
+      "topic_slug": "rust-systems-infrastructure",
+      "scope": "medium",
+      "pitch": "Create an end-to-end toolkit that compiles Rust libraries to WebAssembly, profiles execution bottlenecks via browser DevTools integration, auto-generates JavaScript bindings with TypeScript types, and produces a report comparing WASM vs native performance. Include lazy loading and code splitting strategies for large libraries.",
+      "why_now": "Rust is expanding to the web; seamless WASM profiling and optimization enables developers to leverage Rust's performance in browser contexts.",
+      "stack_hints": [
+        "Rust",
+        "wasm-bindgen",
+        "wasm-pack",
+        "TypeScript",
+        "wasmtime",
+        "twiggy"
+      ]
+    },
+    {
+      "title": "Astro to Email Campaign Builder with AI Content Generation",
+      "topic_slug": "modern-web-frameworks",
+      "scope": "medium",
+      "pitch": "Build a visual editor that lets users compose content in Astro components, auto-generates email-safe HTML variants, integrates with OpenAI for prompt-based content generation (headlines, CTAs), and syncs to SendGrid or similar. Include A/B testing setup, preview across email clients, and analytics integration.",
+      "why_now": "Astro excels at content-driven sites; extending it to email authoring and distribution closes the gap to multi-channel marketing platforms like Webflow.",
+      "stack_hints": [
+        "TypeScript",
+        "Astro",
+        "React",
+        "FastAPI",
+        "OpenAI API",
+        "SendGrid API"
+      ]
+    },
+    {
+      "title": "Workflow Policy Engine with Cost Governance and Approval Gates",
+      "topic_slug": "workflow-automation-orchestration",
+      "scope": "medium",
+      "pitch": "Design a governance layer for n8n and Windmill that enforces organization-defined policies (resource limits per workflow, approval gates for sensitive actions, cost budgets), tracks compliance violations, and integrates with identity providers. Include a dashboard for policy authoring and audit logging.",
+      "why_now": "Workflow platforms are consolidating as critical business infrastructure; governance prevents runaway costs and unauthorized automations.",
+      "stack_hints": [
+        "TypeScript",
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "OIDC",
+        "Redis"
+      ]
+    },
+    {
+      "title": "Multi-Cloud Security Event Correlation with Automated Response",
+      "topic_slug": "infrastructure-security-observability",
+      "scope": "medium",
+      "pitch": "Build a platform that ingests security events from Trivy scans, container runtimes, and Headscale network logs, correlates signals across sources (e.g., suspicious image + lateral movement), detects attack patterns via MITRE ATT&CK mapping, and auto-triggers remediation playbooks (quarantine, notify, rollback). Include a timeline view and root cause analysis suggestions.",
+      "why_now": "Enterprise infrastructure needs unified threat detection; correlating signals across tools eliminates blind spots and reduces response time.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "OpenTelemetry",
+        "scikit-learn"
+      ]
+    },
+    {
+      "title": "Personal Cloud Distributed Sync Protocol with Conflict Resolution Engine",
+      "topic_slug": "personal-cloud-platforms",
+      "scope": "long",
+      "pitch": "Develop a robust, open protocol and reference implementation for syncing files bidirectionally between personal cloud services (Immich, Nextcloud, self-hosted S3), handling complex conflicts (rename + modify, delete + modify), partial sync, bandwidth throttling, and offline-first queueing. Include implementations for CLI, web UI, and native clients. Design for extensibility to support custom storage backends.",
+      "why_now": "Personal cloud platforms are multiplying; a unified sync layer reduces friction in managing multi-device data across heterogeneous self-hosted services.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "Protocol Buffers",
+        "SQLite",
+        "React",
+        "WebDAV"
+      ]
+    },
+    {
+      "title": "Rust Runtime and Language Interop Layer for Embedded Systems",
+      "topic_slug": "rust-systems-infrastructure",
+      "scope": "long",
+      "pitch": "Create a comprehensive runtime that enables Rust binaries to run on resource-constrained devices (IoT, embedded), with automatic memory optimization, cross-platform compilation toolchain, foreign function interface for C libraries, and live profiling to detect and recommend memory leaks. Include a package manager for embedded Rust libraries.",
+      "why_now": "Rust is expanding beyond servers and web; enabling Rust on embedded systems unlocks memory safety benefits in IoT and edge contexts where C dominates.",
+      "stack_hints": [
+        "Rust",
+        "LLVM",
+        "bindgen",
+        "cross",
+        "cargo-embed",
+        "heapless"
+      ]
+    },
+    {
+      "title": "Next-Generation Site Builder on Astro with AI Content and Multi-Channel Publishing",
+      "topic_slug": "modern-web-frameworks",
+      "scope": "long",
+      "pitch": "Build a visual site builder (Webflow alternative) on Astro that enables non-technical users to compose content-driven websites via drag-and-drop, AI-assisted content generation from prompts, automatic SEO optimization, and multi-channel publishing (web, email, social feeds, RSS). Include analytics, A/B testing, and export to static hosting (Vercel, Netlify). Design for extensibility via a plugin system for custom components.",
+      "why_now": "Astro prioritizes content-driven development; combining visual authoring with AI generation and edge deployment creates a modern, privacy-first alternative to Wordpress and Webflow.",
+      "stack_hints": [
+        "TypeScript",
+        "Astro",
+        "React",
+        "PostgreSQL",
+        "OpenAI API",
+        "Tailwind CSS",
+        "Vercel SDK"
+      ]
+    },
+    {
+      "title": "Enterprise Workflow Platform with Cost Attribution, Governance, and Marketplace",
+      "topic_slug": "workflow-automation-orchestration",
+      "scope": "long",
+      "pitch": "Design a production-grade workflow orchestration system built on open standards (n8n/Temporal patterns) that adds comprehensive cost attribution (per-node, per-execution, per-user), enforces governance policies (approval gates, resource limits, audit trails), includes a workflow marketplace for sharing reusable templates, and optimizes costs across cloud providers. Include comprehensive observability, A/B testing of workflow variants, and API for integration with existing tools.",
+      "why_now": "Workflow platforms are consolidating as critical business infrastructure; cost visibility, governance, and reusability are essential for enterprise adoption and preventing runaway cloud bills.",
+      "stack_hints": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Kubernetes",
+        "Temporal",
+        "React"
+      ]
+    },
+    {
+      "title": "Zero-Trust Cloud-Native Security Platform with eBPF Runtime Detection",
+      "topic_slug": "infrastructure-security-observability",
+      "scope": "long",
+      "pitch": "Develop a comprehensive security platform that combines image scanning (Trivy), runtime threat detection via eBPF, network anomaly detection (Sniffnet patterns), policy enforcement, and incident response automation. Integrate with container orchestration, detect zero-day exploits via behavioral analysis, correlate events across infrastructure, and provide automated remediation playbooks. Include SIEM export, compliance reporting (PCI-DSS, CIS), and a security posture dashboard.",
+      "why_now": "Container security and observability are critical; unified threat detection and automated response via eBPF reduce response time and eliminate manual security operations.",
+      "stack_hints": [
+        "Rust",
+        "Go",
+        "eBPF",
+        "PostgreSQL",
+        "Kubernetes",
+        "TypeScript",
+        "React"
+      ]
+    }
+  ]
+}

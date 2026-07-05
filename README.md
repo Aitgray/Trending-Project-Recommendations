@@ -1,12 +1,12 @@
 # Trending Project Ideas
 
-**Week of 2026-06-28** | [About this project](ABOUT.md)
+**Week of 2026-07-05** | [About this project](ABOUT.md)
 
 ---
 
 > **What's new this week**
 >
-> Personal cloud platforms have emerged as a cohesive theme, displacing some previously dominant SaaS-replacement patterns with emphasis on privacy-first, self-hosted infrastructure. Rust-native systems tools have expanded from databases and CLIs into network monitoring and version control, reinforcing ecosystem maturity and developer adoption. Web frameworks are consolidating around lighter, component-driven architectures (Svelte, Astro) over traditional React-heavy SPAs. Workflow automation remains durable, joined by infrastructure observability and security scanning as enterprises seek integrated, self-hosted alternatives to closed platforms.
+> Personal cloud platforms and Rust systems tools continue to dominate with sustained persistence, now joined by observable infrastructure-as-code maturity (Tailscale/Headscale network orchestration). Modern web frameworks shift focus from component libraries to site builders and internal tools (Refine's admin panel emphasis). Workflow automation remains critical but has diversified to include product analytics (PostHog), indicating convergence of automation, observability, and data platforms under unified self-hosted stacks.
 
 ---
 
@@ -15,41 +15,39 @@
 
 ### Personal cloud and self-hosting platforms
 
-Open-source alternatives to commercial cloud services (CasaOS, Immich, Paperless-NGX, SiyuanNote) that emphasize privacy, control, and local-first architecture for personal data management, note-taking, and media libraries.
+Open-source alternatives to commercial cloud services emphasizing privacy, control, and local-first architecture for personal data management across photo libraries, note-taking, document archival, and file sync.
 
 <details>
-<summary>Supporting repos (4)</summary>
+<summary>Supporting repos (3)</summary>
 
-
-- [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS)
 
 - [immich-app/immich](https://github.com/immich-app/immich)
 
-- [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
-
 - [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)
+
+- [supabase/supabase](https://github.com/supabase/supabase)
 
 
 </details>
 
 
-### Rust-native systems tools and performance utilities
+### Rust-native systems tools and infrastructure
 
-High-performance command-line utilities and infrastructure components written in Rust (Bun, Ruff, jj, fd, sniffnet) targeting developer productivity, version control, linting, and network monitoring with emphasis on speed and memory safety.
+High-performance, memory-safe implementations of critical infrastructure components including VCS alternatives, terminal editors, networking stacks, and language runtimes written in Rust.
 
 <details>
 <summary>Supporting repos (5)</summary>
 
 
-- [oven-sh/bun](https://github.com/oven-sh/bun)
-
-- [astral-sh/ruff](https://github.com/astral-sh/ruff)
-
 - [jj-vcs/jj](https://github.com/jj-vcs/jj)
 
-- [sharkdp/fd](https://github.com/sharkdp/fd)
+- [helix-editor/helix](https://github.com/helix-editor/helix)
 
-- [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)
+- [oven-sh/bun](https://github.com/oven-sh/bun)
+
+- [n0-computer/iroh](https://github.com/n0-computer/iroh)
+
+- [neondatabase/neon](https://github.com/neondatabase/neon)
 
 
 </details>
@@ -57,7 +55,7 @@ High-performance command-line utilities and infrastructure components written in
 
 ### Modern web frameworks and content-driven development
 
-Next-generation web frameworks (Svelte, Astro, Windmill) that prioritize developer experience, performance, and component-driven architecture, moving away from heavyweight SPAs toward leaner, more maintainable solutions.
+Next-generation frameworks (Svelte, Astro) prioritizing lean component architecture, content-first design, and developer experience over heavyweight SPAs and traditional React patterns.
 
 <details>
 <summary>Supporting repos (3)</summary>
@@ -67,7 +65,7 @@ Next-generation web frameworks (Svelte, Astro, Windmill) that prioritize develop
 
 - [withastro/astro](https://github.com/withastro/astro)
 
-- [windmill-labs/windmill](https://github.com/windmill-labs/windmill)
+- [refinedev/refine](https://github.com/refinedev/refine)
 
 
 </details>
@@ -75,7 +73,7 @@ Next-generation web frameworks (Svelte, Astro, Windmill) that prioritize develop
 
 ### Declarative workflow and orchestration platforms
 
-Open-source, self-hosted workflow platforms (n8n, Windmill) that combine visual composition with programmatic extensibility, supporting complex automation without vendor lock-in.
+Self-hosted, visual workflow platforms combining low-code composition with programmatic extensibility for enterprise automation without vendor lock-in.
 
 <details>
 <summary>Supporting repos (2)</summary>
@@ -83,27 +81,27 @@ Open-source, self-hosted workflow platforms (n8n, Windmill) that combine visual 
 
 - [n8n-io/n8n](https://github.com/n8n-io/n8n)
 
-- [windmill-labs/windmill](https://github.com/windmill-labs/windmill)
+- [PostHog/posthog](https://github.com/PostHog/posthog)
 
 
 </details>
 
 
-### Cloud infrastructure, observability, and security scanning
+### Infrastructure security, scanning, and observability
 
-Tools for container orchestration, security scanning, observability, and infrastructure management (Docker Compose, Trivy, SigNoz, Sealos) addressing deployment and monitoring at scale.
+Integrated platforms for vulnerability scanning, runtime security, network monitoring, and observability that enable unified threat detection and compliance across container and cloud infrastructure.
 
 <details>
 <summary>Supporting repos (4)</summary>
 
 
-- [docker/compose](https://github.com/docker/compose)
-
 - [aquasecurity/trivy](https://github.com/aquasecurity/trivy)
 
-- [SigNoz/signoz](https://github.com/SigNoz/signoz)
+- [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)
 
-- [labring/sealos](https://github.com/labring/sealos)
+- [juanfont/headscale](https://github.com/juanfont/headscale)
+
+- [tailscale/tailscale](https://github.com/tailscale/tailscale)
 
 
 </details>
@@ -121,29 +119,29 @@ Tools for container orchestration, security scanning, observability, and infrast
 #### Personal cloud and self-hosting platforms
 
 
-##### Personal Cloud Storage Sync Engine with Conflict Resolution
+##### Personal Cloud Backup Validator with Automated Recovery Testing
 
-Build a lightweight CLI and daemon that syncs files bidirectionally between local directories and self-hosted cloud storage (NextCloud, Immich, CasaOS), handling version conflicts via smart merge strategies and file metadata preservation. Support partial sync, bandwidth throttling, and offline-first queueing with a simple TOML config.
+Build a CLI tool that connects to Immich, SiyuanNote, and similar self-hosted services, performs incremental backups to local or S3 storage, and runs non-destructive recovery simulations to verify backup integrity. Output a JSON report showing what could be recovered and estimated recovery time.
 
-**Why now:** Personal cloud platforms are multiplying; unified sync tooling reduces friction in managing multi-device personal data across self-hosted services.
+**Why now:** Users adopting personal cloud platforms need confidence that data is truly recoverable without manual testing.
 
-**Stack hints:** `Rust`, `tokio`, `SQLite`, `WebDAV`, `clap`
-
-
+**Stack hints:** `Rust`, `tokio`, `serde`, `clap`, `aws-sdk-s3`
 
 
 
 
-#### Rust-native systems tools and performance utilities
 
 
-##### Rust CLI Performance Benchmarking Harness
+#### Rust-native systems tools and infrastructure
 
-Create a standalone Rust library and CLI for benchmarking command-line tools across platforms, capturing execution time, memory usage, and system calls. Export results as JSON, compare across versions, and detect performance regressions in CI/CD with configurable thresholds.
 
-**Why now:** Rust CLI tooling is accelerating; automated performance regression detection enables maintainers to catch slowdowns before release.
+##### Cross-Platform Rust Binary Registry and Package Discovery CLI
 
-**Stack hints:** `Rust`, `criterion`, `serde`, `tempfile`
+Create a lightweight registry CLI (similar to `cargo install` but for any Rust CLI tool) that indexes community Rust tools, detects new releases, verifies signatures, and auto-updates installed binaries. Include metadata on maintenance status, recent vulnerabilities, and usage statistics.
+
+**Why now:** Rust CLI ecosystem is maturing but fragmented; a unified discovery and update mechanism reduces friction in adopting high-quality community tools.
+
+**Stack hints:** `Rust`, `reqwest`, `tokio`, `sqlite`, `semver`
 
 
 
@@ -153,11 +151,11 @@ Create a standalone Rust library and CLI for benchmarking command-line tools acr
 #### Modern web frameworks and content-driven development
 
 
-##### Web Framework Migration Analyzer and Code Transformer
+##### Astro Component Migration Linter for Legacy Static Site Generators
 
-Build a static analysis tool that audits React codebases for patterns that map to Svelte or Astro equivalents, identifies refactoring opportunities (e.g., lifting state, removing hooks), and generates TypeScript snippets showing the target framework equivalent. Include a report showing estimated effort and bundle size savings.
+Build a static analysis tool that scans Jekyll, Hugo, or 11ty projects and identifies patterns that map directly to Astro components, suggesting refactoring paths with before/after code snippets. Generate a migration roadmap showing effort and modernization benefits.
 
-**Why now:** Modern web frameworks are gaining adoption; helping teams objectively evaluate migration paths reduces uncertainty and accelerates adoption.
+**Why now:** Astro's content-first model appeals to legacy static site maintainers; a migration analyzer reduces friction in adopting modern tooling.
 
 **Stack hints:** `TypeScript`, `AST parsing`, `ts-morph`, `Commander.js`
 
@@ -169,29 +167,29 @@ Build a static analysis tool that audits React codebases for patterns that map t
 #### Declarative workflow and orchestration platforms
 
 
-##### Workflow Health Dashboard with Execution Analytics
+##### Workflow Execution Cost Attribution and Anomaly Detector
 
-Develop a standalone dashboard that connects to n8n or Windmill APIs, visualizes workflow execution history, detects failure patterns and bottleneck nodes, and recommends optimization strategies (parallelization, caching, batching). Export analytics as reports for stakeholders.
+Develop a dashboard that connects to n8n API, breaks down execution costs by node type and frequency, detects unusual patterns (e.g., runaway loops, unexpected parallelism), and recommends optimizations. Export findings as a shareable cost report.
 
-**Why now:** Workflow platforms are consolidating; visibility into execution patterns helps teams optimize automation ROI and identify reliability issues early.
+**Why now:** Workflow platforms are critical business infrastructure; cost visibility prevents surprises and enables teams to optimize automation ROI.
 
-**Stack hints:** `React`, `TypeScript`, `D3.js`, `FastAPI`
-
-
+**Stack hints:** `React`, `TypeScript`, `D3.js`, `FastAPI`, `PostgreSQL`
 
 
 
 
-#### Cloud infrastructure, observability, and security scanning
 
 
-##### Container Security Scanning CI/CD Integration with Policy Enforcement
+#### Infrastructure security, scanning, and observability
 
-Build a GitHub Actions / GitLab CI integration that scans container images for vulnerabilities (Trivy), generates SBOM, enforces organization-defined security policies (severity thresholds, license restrictions), and blocks deployments with detailed reports. Cache results across runs to minimize overhead.
 
-**Why now:** Security scanning is critical in enterprise workflows; seamless CI/CD integration with policy enforcement reduces manual overhead and ensures compliance.
+##### Network Anomaly Detection for Self-Hosted Infra via Tailscale/Headscale
 
-**Stack hints:** `TypeScript`, `Go`, `Trivy API`, `GitHub/GitLab Actions`
+Build a lightweight agent that taps into Tailscale or Headscale logs, applies behavioral baselines (connection patterns, bandwidth usage), flags anomalies (lateral movement, data exfiltration indicators), and outputs alerts as Slack messages. Focus on false-positive reduction via smart thresholding.
+
+**Why now:** Self-hosted networks (Headscale) lack integrated threat detection; behavioral analytics at the network layer enable early detection of compromise.
+
+**Stack hints:** `Rust`, `tokio`, `regex`, `slack-api`
 
 
 
@@ -207,29 +205,29 @@ Build a GitHub Actions / GitLab CI integration that scans container images for v
 #### Personal cloud and self-hosting platforms
 
 
-##### Personal Cloud Data Backup and Recovery Orchestrator
+##### Personal Cloud Data Classification and GDPR Audit Platform
 
-Design a system that discovers data across multiple self-hosted services (CasaOS, Immich, Paperless-NGX, SiyuanNote), creates incremental backups to local or external storage, tests recovery procedures automatically, and generates compliance reports. Include a web UI for backup scheduling, retention policies, and recovery simulation.
+Design a system that discovers and crawls data across Immich, SiyuanNote, Paperless, and CasaOS, classifies content using ML models (PII, financial, health, etc.), tracks data lineage, generates GDPR/CCPA compliance reports, and recommends automated deletion or anonymization policies. Include audit trail export for regulators.
 
-**Why now:** Personal cloud adoption is rising; automated backup and recovery orchestration gives users confidence in data durability without manual scripting.
+**Why now:** Personal cloud adoption is rising; privacy and compliance tooling enables users to maintain regulatory compliance without external auditors.
 
-**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `React`, `SQLAlchemy`, `Celery`
-
-
+**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `React`, `Presidio`, `spaCy`
 
 
 
 
-#### Rust-native systems tools and performance utilities
 
 
-##### Rust Binary Distribution Registry and Update Manager
+#### Rust-native systems tools and infrastructure
 
-Create a centralized registry and update manager for Rust CLI tools (similar to Homebrew but optimized for binary distribution). Include metadata on tool health, maintenance status, vulnerability scans, and download stats. Provide a CLI for discovering, installing, and auto-updating tools across platforms with signature verification.
 
-**Why now:** Rust CLI ecosystem is maturing; a unified distribution and discovery platform reduces fragmentation and accelerates adoption of high-quality community tools.
+##### Rust WebAssembly Performance Profiler and Optimization Toolkit
 
-**Stack hints:** `Rust`, `PostgreSQL`, `S3`, `tokio`, `TypeScript`, `React`
+Create an end-to-end toolkit that compiles Rust libraries to WebAssembly, profiles execution bottlenecks via browser DevTools integration, auto-generates JavaScript bindings with TypeScript types, and produces a report comparing WASM vs native performance. Include lazy loading and code splitting strategies for large libraries.
+
+**Why now:** Rust is expanding to the web; seamless WASM profiling and optimization enables developers to leverage Rust's performance in browser contexts.
+
+**Stack hints:** `Rust`, `wasm-bindgen`, `wasm-pack`, `TypeScript`, `wasmtime`, `twiggy`
 
 
 
@@ -239,13 +237,13 @@ Create a centralized registry and update manager for Rust CLI tools (similar to 
 #### Modern web frameworks and content-driven development
 
 
-##### Svelte/Astro Component Library Generator from Figma Designs
+##### Astro to Email Campaign Builder with AI Content Generation
 
-Build a tool that connects to Figma, extracts component designs, and generates production-ready Svelte or Astro components with TypeScript types, Storybook stories, and unit test stubs. Support variant mapping, responsive breakpoints, and design token export for consistent theming.
+Build a visual editor that lets users compose content in Astro components, auto-generates email-safe HTML variants, integrates with OpenAI for prompt-based content generation (headlines, CTAs), and syncs to SendGrid or similar. Include A/B testing setup, preview across email clients, and analytics integration.
 
-**Why now:** Modern web frameworks prioritize developer experience; automating component generation from design reduces boilerplate and keeps code in sync with design systems.
+**Why now:** Astro excels at content-driven sites; extending it to email authoring and distribution closes the gap to multi-channel marketing platforms like Webflow.
 
-**Stack hints:** `TypeScript`, `Figma API`, `Svelte`, `Astro`, `Storybook`
+**Stack hints:** `TypeScript`, `Astro`, `React`, `FastAPI`, `OpenAI API`, `SendGrid API`
 
 
 
@@ -255,27 +253,27 @@ Build a tool that connects to Figma, extracts component designs, and generates p
 #### Declarative workflow and orchestration platforms
 
 
-##### Workflow Versioning and A/B Testing Framework
+##### Workflow Policy Engine with Cost Governance and Approval Gates
 
-Design a framework that enables versioning of n8n/Windmill workflows, canary deployment to a percentage of traffic, automatic rollback on error thresholds, and A/B testing across workflow variants. Include UI for comparing execution metrics and promoting winners to production.
+Design a governance layer for n8n and Windmill that enforces organization-defined policies (resource limits per workflow, approval gates for sensitive actions, cost budgets), tracks compliance violations, and integrates with identity providers. Include a dashboard for policy authoring and audit logging.
 
-**Why now:** Workflow platforms are critical business infrastructure; safe deployment and testing of workflow changes enables faster iteration without production risk.
+**Why now:** Workflow platforms are consolidating as critical business infrastructure; governance prevents runaway costs and unauthorized automations.
 
-**Stack hints:** `TypeScript`, `PostgreSQL`, `React`, `FastAPI`, `Redis`
-
-
+**Stack hints:** `TypeScript`, `FastAPI`, `PostgreSQL`, `React`, `OIDC`, `Redis`
 
 
 
 
-#### Cloud infrastructure, observability, and security scanning
 
 
-##### Multi-Cloud Observability Aggregator with Unified Alerting
+#### Infrastructure security, scanning, and observability
 
-Build a platform that ingests metrics, logs, and traces from SigNoz, Prometheus, and cloud-native observability tools, correlates signals across sources, detects anomalies with ML models, and routes alerts to Slack/PagerDuty based on custom rules. Include a unified dashboard and root cause analysis suggestions.
 
-**Why now:** Infrastructure observability is critical; unifying signals across tools eliminates siloed alerting and reduces MTTR for production incidents.
+##### Multi-Cloud Security Event Correlation with Automated Response
+
+Build a platform that ingests security events from Trivy scans, container runtimes, and Headscale network logs, correlates signals across sources (e.g., suspicious image + lateral movement), detects attack patterns via MITRE ATT&CK mapping, and auto-triggers remediation playbooks (quarantine, notify, rollback). Include a timeline view and root cause analysis suggestions.
+
+**Why now:** Enterprise infrastructure needs unified threat detection; correlating signals across tools eliminates blind spots and reduces response time.
 
 **Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `React`, `OpenTelemetry`, `scikit-learn`
 
@@ -293,29 +291,29 @@ Build a platform that ingests metrics, logs, and traces from SigNoz, Prometheus,
 #### Personal cloud and self-hosting platforms
 
 
-##### Personal Cloud Privacy Audit and Compliance Reporter
+##### Personal Cloud Distributed Sync Protocol with Conflict Resolution Engine
 
-Develop a comprehensive audit platform for self-hosted personal cloud services that discovers data across CasaOS, Immich, Paperless-NGX, and SiyuanNote, classifies sensitive information, tracks data lineage, generates GDPR/CCPA compliance reports, and recommends retention policies. Include automated remediation workflows (deletion, anonymization) and audit trail export for regulators.
+Develop a robust, open protocol and reference implementation for syncing files bidirectionally between personal cloud services (Immich, Nextcloud, self-hosted S3), handling complex conflicts (rename + modify, delete + modify), partial sync, bandwidth throttling, and offline-first queueing. Include implementations for CLI, web UI, and native clients. Design for extensibility to support custom storage backends.
 
-**Why now:** Personal cloud adoption is rising; privacy and compliance tooling enables users to maintain regulatory compliance without external auditors or legal overhead.
+**Why now:** Personal cloud platforms are multiplying; a unified sync layer reduces friction in managing multi-device data across heterogeneous self-hosted services.
 
-**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `React`, `Presidio`, `SQLAlchemy`, `Celery`
-
-
+**Stack hints:** `Rust`, `tokio`, `Protocol Buffers`, `SQLite`, `React`, `WebDAV`
 
 
 
 
-#### Rust-native systems tools and performance utilities
 
 
-##### Rust-to-WebAssembly Optimization and Bundling Toolkit
+#### Rust-native systems tools and infrastructure
 
-Create an end-to-end toolkit that compiles Rust libraries to WebAssembly, optimizes for size and performance across edge devices, generates JavaScript bindings automatically, and provides profiling tools to identify bottlenecks. Support lazy loading, code splitting, and integration with popular bundlers (Webpack, Vite). Include benchmarking against native Rust and Go implementations.
 
-**Why now:** Rust systems tools are expanding to the web; seamless WASM compilation and optimization enables Rust's performance benefits in browser and edge contexts.
+##### Rust Runtime and Language Interop Layer for Embedded Systems
 
-**Stack hints:** `Rust`, `wasm-bindgen`, `wasm-pack`, `TypeScript`, `Wasmtime`, `twiggy`
+Create a comprehensive runtime that enables Rust binaries to run on resource-constrained devices (IoT, embedded), with automatic memory optimization, cross-platform compilation toolchain, foreign function interface for C libraries, and live profiling to detect and recommend memory leaks. Include a package manager for embedded Rust libraries.
+
+**Why now:** Rust is expanding beyond servers and web; enabling Rust on embedded systems unlocks memory safety benefits in IoT and edge contexts where C dominates.
+
+**Stack hints:** `Rust`, `LLVM`, `bindgen`, `cross`, `cargo-embed`, `heapless`
 
 
 
@@ -325,11 +323,11 @@ Create an end-to-end toolkit that compiles Rust libraries to WebAssembly, optimi
 #### Modern web frameworks and content-driven development
 
 
-##### Next-Generation Site Builder on Astro with AI Content Generation
+##### Next-Generation Site Builder on Astro with AI Content and Multi-Channel Publishing
 
-Build a visual site builder on Astro that enables non-technical users to compose content-driven websites with drag-and-drop components, AI-assisted content generation from prompts, automatic SEO optimization, and multi-channel publishing (web, email, social). Include analytics integration, A/B testing, and export to static hosting.
+Build a visual site builder (Webflow alternative) on Astro that enables non-technical users to compose content-driven websites via drag-and-drop, AI-assisted content generation from prompts, automatic SEO optimization, and multi-channel publishing (web, email, social feeds, RSS). Include analytics, A/B testing, and export to static hosting (Vercel, Netlify). Design for extensibility via a plugin system for custom components.
 
-**Why now:** Astro prioritizes content-driven development; combining visual authoring with AI generation and static site performance creates a modern alternative to Wordpress and Webflow.
+**Why now:** Astro prioritizes content-driven development; combining visual authoring with AI generation and edge deployment creates a modern, privacy-first alternative to Wordpress and Webflow.
 
 **Stack hints:** `TypeScript`, `Astro`, `React`, `PostgreSQL`, `OpenAI API`, `Tailwind CSS`, `Vercel SDK`
 
@@ -341,11 +339,11 @@ Build a visual site builder on Astro that enables non-technical users to compose
 #### Declarative workflow and orchestration platforms
 
 
-##### Enterprise Workflow Orchestration Platform with Cost Attribution and Governance
+##### Enterprise Workflow Platform with Cost Attribution, Governance, and Marketplace
 
-Design a production-grade workflow orchestration system that builds on open standards (n8n, Temporal patterns), adds comprehensive cost attribution (per-node, per-execution), enforces governance policies (approval gates, resource limits, audit trails), and optimizes for cost across cloud providers. Include workflow marketplace, reusable templates, and API for integration.
+Design a production-grade workflow orchestration system built on open standards (n8n/Temporal patterns) that adds comprehensive cost attribution (per-node, per-execution, per-user), enforces governance policies (approval gates, resource limits, audit trails), includes a workflow marketplace for sharing reusable templates, and optimizes costs across cloud providers. Include comprehensive observability, A/B testing of workflow variants, and API for integration with existing tools.
 
-**Why now:** Workflow platforms are consolidating as critical infrastructure; cost visibility and governance are essential for enterprise adoption and preventing runaway cloud bills.
+**Why now:** Workflow platforms are consolidating as critical business infrastructure; cost visibility, governance, and reusability are essential for enterprise adoption and preventing runaway cloud bills.
 
 **Stack hints:** `TypeScript`, `Python`, `FastAPI`, `PostgreSQL`, `Kubernetes`, `Temporal`, `React`
 
@@ -354,14 +352,14 @@ Design a production-grade workflow orchestration system that builds on open stan
 
 
 
-#### Cloud infrastructure, observability, and security scanning
+#### Infrastructure security, scanning, and observability
 
 
-##### Cloud-Native Security Platform with Runtime Threat Detection
+##### Zero-Trust Cloud-Native Security Platform with eBPF Runtime Detection
 
-Develop a comprehensive security platform that combines image scanning (Trivy), runtime threat detection via eBPF, policy enforcement, and incident response automation. Integrate with container orchestration, detect zero-day exploits via behavioral analysis, correlate events across the infrastructure, and provide playbooks for automated remediation. Include SIEM export and compliance reporting.
+Develop a comprehensive security platform that combines image scanning (Trivy), runtime threat detection via eBPF, network anomaly detection (Sniffnet patterns), policy enforcement, and incident response automation. Integrate with container orchestration, detect zero-day exploits via behavioral analysis, correlate events across infrastructure, and provide automated remediation playbooks. Include SIEM export, compliance reporting (PCI-DSS, CIS), and a security posture dashboard.
 
-**Why now:** Container security and observability are critical; unified threat detection and automated response reduce response time and eliminate manual security operations.
+**Why now:** Container security and observability are critical; unified threat detection and automated response via eBPF reduce response time and eliminate manual security operations.
 
 **Stack hints:** `Rust`, `Go`, `eBPF`, `PostgreSQL`, `Kubernetes`, `TypeScript`, `React`
 
@@ -383,4 +381,4 @@ See [ABOUT.md](ABOUT.md) for full methodology details.
 
 ---
 
-*Generated 2026-06-28 13:47 UTC · commit `1a6cbf3`*
+*Generated 2026-07-05 13:40 UTC · commit `8a30d71`*
