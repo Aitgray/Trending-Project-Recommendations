@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-07-12",
+  "window_dates": [
+    "2026-07-06",
+    "2026-07-07",
+    "2026-07-08",
+    "2026-07-09",
+    "2026-07-10",
+    "2026-07-11",
+    "2026-07-12"
+  ],
+  "repos": [
+    {
+      "full_name": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 2288,
+      "peak_daily_stars": 488,
+      "persistence_score": 54.15109223966797
+    },
+    {
+      "full_name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 505,
+      "peak_daily_stars": 85,
+      "persistence_score": 43.58575668501226
+    },
+    {
+      "full_name": "tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "url": "https://github.com/tailscale/tailscale",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 700,
+      "peak_daily_stars": 368,
+      "persistence_score": 39.31504732220754
+    },
+    {
+      "full_name": "openai/whisper",
+      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "language": "Python",
+      "url": "https://github.com/openai/whisper",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 536,
+      "peak_daily_stars": 113,
+      "persistence_score": 37.71598856705319
+    },
+    {
+      "full_name": "Eugeny/tabby",
+      "description": "A terminal for a more modern age",
+      "language": "TypeScript",
+      "url": "https://github.com/Eugeny/tabby",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 515,
+      "peak_daily_stars": 133,
+      "persistence_score": 37.476640592889375
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "url": "https://github.com/aquasecurity/trivy",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 178,
+      "peak_daily_stars": 41,
+      "persistence_score": 36.311700640885284
+    },
+    {
+      "full_name": "n0-computer/iroh",
+      "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
+      "language": "Rust",
+      "url": "https://github.com/n0-computer/iroh",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 367,
+      "peak_daily_stars": 139,
+      "persistence_score": 35.44849762901359
+    },
+    {
+      "full_name": "oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager \u2013 all in one",
+      "language": "Rust",
+      "url": "https://github.com/oven-sh/bun",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 1053,
+      "peak_daily_stars": 658,
+      "persistence_score": 34.80173864550654
+    },
+    {
+      "full_name": "SigNoz/signoz",
+      "description": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. \ud83d\udd25 \ud83d\udda5. \ud83d\udc49 Open source Application Performance Monitoring (APM) & Observability tool",
+      "language": "TypeScript",
+      "url": "https://github.com/SigNoz/signoz",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 1023,
+      "peak_daily_stars": 360,
+      "persistence_score": 34.657359027997266
+    },
+    {
+      "full_name": "jgraph/drawio-desktop",
+      "description": "Official electron build of draw.io",
+      "language": "JavaScript",
+      "url": "https://github.com/jgraph/drawio-desktop",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 127,
+      "peak_daily_stars": 22,
+      "persistence_score": 33.96421184743732
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 830,
+      "peak_daily_stars": 187,
+      "persistence_score": 33.613148974277244
+    },
+    {
+      "full_name": "qdrant/qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/",
+      "language": "Rust",
+      "url": "https://github.com/qdrant/qdrant",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 244,
+      "peak_daily_stars": 62,
+      "persistence_score": 33.007549263268366
+    },
+    {
+      "full_name": "juanfont/headscale",
+      "description": "An open source, self-hosted implementation of the Tailscale control server",
+      "language": "Go",
+      "url": "https://github.com/juanfont/headscale",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 605,
+      "peak_daily_stars": 235,
+      "persistence_score": 32.034399930346574
+    },
+    {
+      "full_name": "cloud-hypervisor/cloud-hypervisor",
+      "description": "A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.",
+      "language": "Rust",
+      "url": "https://github.com/cloud-hypervisor/cloud-hypervisor",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 77,
+      "peak_daily_stars": 24,
+      "persistence_score": 30.496961786827143
+    },
+    {
+      "full_name": "ggml-org/whisper.cpp",
+      "description": "Port of OpenAI's Whisper model in C/C++",
+      "language": "C++",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 384,
+      "peak_daily_stars": 131,
+      "persistence_score": 29.766216671438922
+    },
+    {
+      "full_name": "microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/playwright",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 355,
+      "peak_daily_stars": 84,
+      "persistence_score": 29.37465365426015
+    },
+    {
+      "full_name": "GoogleChrome/lighthouse",
+      "description": "Automated auditing, performance metrics, and best practices for the web.",
+      "language": "JavaScript",
+      "url": "https://github.com/GoogleChrome/lighthouse",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 63,
+      "peak_daily_stars": 15,
+      "persistence_score": 29.1121815835177
+    },
+    {
+      "full_name": "AUTOMATIC1111/stable-diffusion-webui",
+      "description": "Stable Diffusion web UI",
+      "language": "Python",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 307,
+      "peak_daily_stars": 117,
+      "persistence_score": 28.65049891486787
+    },
+    {
+      "full_name": "projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 305,
+      "peak_daily_stars": 112,
+      "persistence_score": 28.617925509761903
+    },
+    {
+      "full_name": "PostHog/posthog",
+      "description": "\ud83e\udd94 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+      "language": "Python",
+      "url": "https://github.com/PostHog/posthog",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 115,
+      "peak_daily_stars": 27,
+      "persistence_score": 28.521541146638185
+    },
+    {
+      "full_name": "vitejs/vite",
+      "description": "Next generation frontend tooling. It's fast!",
+      "language": "TypeScript",
+      "url": "https://github.com/vitejs/vite",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 283,
+      "peak_daily_stars": 104,
+      "persistence_score": 28.24487119080603
+    },
+    {
+      "full_name": "GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your Internet traffic \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "language": "Rust",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 254,
+      "peak_daily_stars": 86,
+      "persistence_score": 27.70631772579213
+    },
+    {
+      "full_name": "nestjs/nest",
+      "description": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript \ud83d\ude80",
+      "language": "TypeScript",
+      "url": "https://github.com/nestjs/nest",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 227,
+      "peak_daily_stars": 103,
+      "persistence_score": 27.146728144772204
+    },
+    {
+      "full_name": "nushell/nushell",
+      "description": "A new type of shell",
+      "language": "Rust",
+      "url": "https://github.com/nushell/nushell",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 82,
+      "peak_daily_stars": 20,
+      "persistence_score": 26.51304364677959
+    },
+    {
+      "full_name": "fastify/fastify",
+      "description": "Fast and low overhead web framework, for Node.js",
+      "language": "JavaScript",
+      "url": "https://github.com/fastify/fastify",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 198,
+      "peak_daily_stars": 102,
+      "persistence_score": 26.466524123622463
+    },
+    {
+      "full_name": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 732,
+      "peak_daily_stars": 197,
+      "persistence_score": 26.388582807546605
+    },
+    {
+      "full_name": "projectdiscovery/nuclei-templates",
+      "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "language": "JavaScript",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 40,
+      "peak_daily_stars": 14,
+      "persistence_score": 25.995004466930155
+    },
+    {
+      "full_name": "tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "language": "Rust",
+      "url": "https://github.com/tokio-rs/tokio",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 73,
+      "peak_daily_stars": 16,
+      "persistence_score": 25.824390559225023
+    },
+    {
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 589,
+      "peak_daily_stars": 208,
+      "persistence_score": 25.52049014759906
+    },
+    {
+      "full_name": "nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 154,
+      "peak_daily_stars": 37,
+      "persistence_score": 25.217125584596232
+    },
+    {
+      "full_name": "datahub-project/datahub",
+      "description": "The Context Platform for your Data and AI Stack",
+      "language": "Python",
+      "url": "https://github.com/datahub-project/datahub",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 64,
+      "peak_daily_stars": 15,
+      "persistence_score": 25.046323619373823
+    },
+    {
+      "full_name": "paperless-ngx/paperless-ngx",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "language": "Python",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 147,
+      "peak_daily_stars": 35,
+      "persistence_score": 24.98606136882057
+    },
+    {
+      "full_name": "binwiederhier/ntfy",
+      "description": "Send push notifications to your phone or desktop using PUT/POST",
+      "language": "Go",
+      "url": "https://github.com/binwiederhier/ntfy",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 465,
+      "peak_daily_stars": 141,
+      "persistence_score": 24.576742536502582
+    },
+    {
+      "full_name": "jesseduffield/lazydocker",
+      "description": "The lazier way to manage everything docker",
+      "language": "Go",
+      "url": "https://github.com/jesseduffield/lazydocker",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 434,
+      "peak_daily_stars": 136,
+      "persistence_score": 24.301384124354737
+    },
+    {
+      "full_name": "apache/superset",
+      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+      "language": "TypeScript",
+      "url": "https://github.com/apache/superset",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 116,
+      "peak_daily_stars": 28,
+      "persistence_score": 23.810869673988783
+    },
+    {
+      "full_name": "sundowndev/phoneinfoga",
+      "description": "Information gathering framework for phone numbers",
+      "language": "Go",
+      "url": "https://github.com/sundowndev/phoneinfoga",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 114,
+      "peak_daily_stars": 52,
+      "persistence_score": 23.72466064181625
+    },
+    {
+      "full_name": "OpenBB-finance/OpenBB",
+      "description": "Open Data Platform for analysts, quants and AI agents.",
+      "language": "Python",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 336,
+      "peak_daily_stars": 114,
+      "persistence_score": 23.280331721409446
+    },
+    {
+      "full_name": "makeplane/plane",
+      "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "url": "https://github.com/makeplane/plane",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 328,
+      "peak_daily_stars": 100,
+      "persistence_score": 23.184231003061488
+    },
+    {
+      "full_name": "sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "language": "JavaScript",
+      "url": "https://github.com/sveltejs/svelte",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 289,
+      "peak_daily_stars": 97,
+      "persistence_score": 22.67952369192208
+    },
+    {
+      "full_name": "sharkdp/fd",
+      "description": "A simple, fast and user-friendly alternative to 'find'",
+      "language": "Rust",
+      "url": "https://github.com/sharkdp/fd",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 89,
+      "peak_daily_stars": 22,
+      "persistence_score": 22.499048351651325
+    }
+  ]
+}
