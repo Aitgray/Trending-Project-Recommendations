@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-07-19",
+  "window_dates": [
+    "2026-07-13",
+    "2026-07-14",
+    "2026-07-15",
+    "2026-07-16",
+    "2026-07-17",
+    "2026-07-18",
+    "2026-07-19"
+  ],
+  "repos": [
+    {
+      "full_name": "SigNoz/signoz",
+      "description": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. \ud83d\udd25 \ud83d\udda5. \ud83d\udc49 Open source Application Performance Monitoring (APM) & Observability tool",
+      "language": "TypeScript",
+      "url": "https://github.com/SigNoz/signoz",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 1864,
+      "peak_daily_stars": 432,
+      "persistence_score": 52.717114324545406
+    },
+    {
+      "full_name": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 3729,
+      "peak_daily_stars": 1126,
+      "persistence_score": 49.34498107582717
+    },
+    {
+      "full_name": "PostHog/posthog",
+      "description": "\ud83e\udd94 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+      "language": "Python",
+      "url": "https://github.com/PostHog/posthog",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 1004,
+      "peak_daily_stars": 438,
+      "persistence_score": 48.38919974345223
+    },
+    {
+      "full_name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 517,
+      "peak_daily_stars": 88,
+      "persistence_score": 43.74982669581638
+    },
+    {
+      "full_name": "poteto/hiring-without-whiteboards",
+      "description": "\u2b50\ufe0f Companies that don't have a broken hiring process",
+      "language": "JavaScript",
+      "url": "https://github.com/poteto/hiring-without-whiteboards",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 257,
+      "peak_daily_stars": 74,
+      "persistence_score": 38.87071709445132
+    },
+    {
+      "full_name": "Infisical/infisical",
+      "description": "Infisical is the open-source platform for secrets, certificates, and privileged access management.",
+      "language": "TypeScript",
+      "url": "https://github.com/Infisical/infisical",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 355,
+      "peak_daily_stars": 76,
+      "persistence_score": 35.249584385112186
+    },
+    {
+      "full_name": "vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "language": "Python",
+      "url": "https://github.com/vinta/awesome-python",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 1081,
+      "peak_daily_stars": 268,
+      "persistence_score": 34.932832297032135
+    },
+    {
+      "full_name": "DioxusLabs/dioxus",
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "language": "Rust",
+      "url": "https://github.com/DioxusLabs/dioxus",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 142,
+      "peak_daily_stars": 35,
+      "persistence_score": 34.73991241181935
+    },
+    {
+      "full_name": "paperless-ngx/paperless-ngx",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "language": "Python",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 251,
+      "peak_daily_stars": 59,
+      "persistence_score": 33.17657452506854
+    },
+    {
+      "full_name": "calcom/cal.diy",
+      "description": "Scheduling infrastructure for absolutely everyone.",
+      "language": "TypeScript",
+      "url": "https://github.com/calcom/cal.diy",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 250,
+      "peak_daily_stars": 49,
+      "persistence_score": 33.152717634790704
+    },
+    {
+      "full_name": "helix-editor/helix",
+      "description": "A post-modern modal text editor.",
+      "language": "Rust",
+      "url": "https://github.com/helix-editor/helix",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 235,
+      "peak_daily_stars": 57,
+      "persistence_score": 32.782990830153665
+    },
+    {
+      "full_name": "qdrant/qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/",
+      "language": "Rust",
+      "url": "https://github.com/qdrant/qdrant",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 198,
+      "peak_daily_stars": 59,
+      "persistence_score": 31.759828948346954
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "url": "https://github.com/aquasecurity/trivy",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 91,
+      "peak_daily_stars": 18,
+      "persistence_score": 31.652520039343283
+    },
+    {
+      "full_name": "mui/material-ui",
+      "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+      "language": "JavaScript",
+      "url": "https://github.com/mui/material-ui",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 63,
+      "peak_daily_stars": 17,
+      "persistence_score": 29.1121815835177
+    },
+    {
+      "full_name": "apache/superset",
+      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+      "language": "TypeScript",
+      "url": "https://github.com/apache/superset",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 119,
+      "peak_daily_stars": 28,
+      "persistence_score": 28.724950456692277
+    },
+    {
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "\ud83d\udcdd Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+      "language": "JavaScript",
+      "url": "https://github.com/trekhleb/javascript-algorithms",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 92,
+      "peak_daily_stars": 21,
+      "persistence_score": 27.195596958919538
+    },
+    {
+      "full_name": "nocodb/nocodb",
+      "description": "\ud83d\udd25 \ud83d\udd25 \ud83d\udd25 A Free & Self-hostable Airtable Alternative",
+      "language": "TypeScript",
+      "url": "https://github.com/nocodb/nocodb",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 210,
+      "peak_daily_stars": 52,
+      "persistence_score": 26.759290667380334
+    },
+    {
+      "full_name": "chidiwilliams/buzz",
+      "description": "Buzz transcribes and translates audio offline on your personal computer. Powered by OpenAI's Whisper.",
+      "language": "Python",
+      "url": "https://github.com/chidiwilliams/buzz",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 194,
+      "peak_daily_stars": 62,
+      "persistence_score": 26.364997792818734
+    },
+    {
+      "full_name": "jesseduffield/lazygit",
+      "description": "simple terminal UI for git commands",
+      "language": "Go",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 189,
+      "peak_daily_stars": 41,
+      "persistence_score": 26.23512036080243
+    },
+    {
+      "full_name": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 649,
+      "peak_daily_stars": 180,
+      "persistence_score": 25.90788945155873
+    },
+    {
+      "full_name": "slint-ui/slint",
+      "description": "Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps.",
+      "language": "Rust",
+      "url": "https://github.com/slint-ui/slint",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 74,
+      "peak_daily_stars": 23,
+      "persistence_score": 25.90492868121786
+    },
+    {
+      "full_name": "astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "url": "https://github.com/astral-sh/ruff",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 173,
+      "peak_daily_stars": 49,
+      "persistence_score": 25.795276496072646
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 612,
+      "peak_daily_stars": 162,
+      "persistence_score": 25.673459743744846
+    },
+    {
+      "full_name": "schollz/croc",
+      "description": "Easily and securely send things from one computer to another \ud83d\udc0a \ud83d\udce6",
+      "language": "Go",
+      "url": "https://github.com/schollz/croc",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 162,
+      "peak_daily_stars": 74,
+      "persistence_score": 25.468751004033813
+    },
+    {
+      "full_name": "nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 155,
+      "peak_daily_stars": 39,
+      "persistence_score": 25.249280036247686
+    },
+    {
+      "full_name": "Project-HAMi/HAMi",
+      "description": "Heterogeneous GPU Sharing on Kubernetes",
+      "language": "Go",
+      "url": "https://github.com/Project-HAMi/HAMi",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 151,
+      "peak_daily_stars": 38,
+      "persistence_score": 25.119402604231382
+    },
+    {
+      "full_name": "usememos/memos",
+      "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+      "language": "Go",
+      "url": "https://github.com/usememos/memos",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 144,
+      "peak_daily_stars": 34,
+      "persistence_score": 24.88366871210287
+    },
+    {
+      "full_name": "neondatabase/neon",
+      "description": "Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.",
+      "language": "Rust",
+      "url": "https://github.com/neondatabase/neon",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 60,
+      "peak_daily_stars": 12,
+      "persistence_score": 24.66524318503987
+    },
+    {
+      "full_name": "upscayl/upscayl",
+      "description": "\ud83c\udd99 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
+      "language": "TypeScript",
+      "url": "https://github.com/upscayl/upscayl",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 403,
+      "peak_daily_stars": 213,
+      "persistence_score": 24.005659511844602
+    },
+    {
+      "full_name": "emilk/egui",
+      "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+      "language": "Rust",
+      "url": "https://github.com/emilk/egui",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 113,
+      "peak_daily_stars": 42,
+      "persistence_score": 23.68099224197248
+    },
+    {
+      "full_name": "coollabsio/coolify",
+      "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.",
+      "language": "PHP",
+      "url": "https://github.com/coollabsio/coolify",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 315,
+      "peak_daily_stars": 97,
+      "persistence_score": 23.02296885434765
+    },
+    {
+      "full_name": "openai/whisper",
+      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "language": "Python",
+      "url": "https://github.com/openai/whisper",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 310,
+      "peak_daily_stars": 86,
+      "persistence_score": 22.959171648716936
+    },
+    {
+      "full_name": "pingcap/tidb",
+      "description": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.",
+      "language": "Go",
+      "url": "https://github.com/pingcap/tidb",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 43,
+      "peak_daily_stars": 9,
+      "persistence_score": 22.705137803509565
+    },
+    {
+      "full_name": "novuhq/novu",
+      "description": "The open-source communication infrastructure for agents and products",
+      "language": "TypeScript",
+      "url": "https://github.com/novuhq/novu",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 42,
+      "peak_daily_stars": 13,
+      "persistence_score": 22.567200694161375
+    },
+    {
+      "full_name": "traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "url": "https://github.com/traefik/traefik",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 86,
+      "peak_daily_stars": 23,
+      "persistence_score": 22.329540593272917
+    },
+    {
+      "full_name": "jgraph/drawio-desktop",
+      "description": "Official electron build of draw.io",
+      "language": "JavaScript",
+      "url": "https://github.com/jgraph/drawio-desktop",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 78,
+      "peak_daily_stars": 19,
+      "persistence_score": 21.84723926233511
+    },
+    {
+      "full_name": "lima-vm/lima",
+      "description": "Linux virtual machines, with a focus on running containers",
+      "language": "Go",
+      "url": "https://github.com/lima-vm/lima",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 78,
+      "peak_daily_stars": 19,
+      "persistence_score": 21.84723926233511
+    },
+    {
+      "full_name": "axios/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "language": "JavaScript",
+      "url": "https://github.com/axios/axios",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 37,
+      "peak_daily_stars": 10,
+      "persistence_score": 21.825516958358314
+    },
+    {
+      "full_name": "sindresorhus/awesome",
+      "description": "\ud83d\ude0e Awesome lists about all kinds of interesting topics",
+      "language": null,
+      "url": "https://github.com/sindresorhus/awesome",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 1306,
+      "peak_daily_stars": 496,
+      "persistence_score": 21.526469140872663
+    },
+    {
+      "full_name": "servo/servo",
+      "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+      "language": "Rust",
+      "url": "https://github.com/servo/servo",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 68,
+      "peak_daily_stars": 18,
+      "persistence_score": 21.1705325229863
+    }
+  ]
+}

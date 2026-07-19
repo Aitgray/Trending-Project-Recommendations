@@ -1,0 +1,263 @@
+{
+  "week_of": "2026-07-20",
+  "topics": [
+    {
+      "slug": "observability-and-analytics-platforms",
+      "title": "Observability and analytics platforms",
+      "summary": "Unified platforms combining logs, traces, metrics, product analytics, and session replay to provide comprehensive visibility into application performance and user behavior. These tools emphasize self-hosting, OpenTelemetry-native design, and cost transparency.",
+      "supporting_repos": [
+        "SigNoz/signoz",
+        "PostHog/posthog",
+        "apache/superset"
+      ]
+    },
+    {
+      "slug": "rust-infrastructure-and-systems",
+      "title": "Rust-native infrastructure and systems tools",
+      "summary": "High-performance, memory-safe infrastructure and data tools written in Rust, spanning databases, runtimes, text editors, and distributed systems. Focus on performance guarantees, minimal resource overhead, and production-grade reliability.",
+      "supporting_repos": [
+        "rustdesk/rustdesk",
+        "qdrant/qdrant",
+        "helix-editor/helix",
+        "neondatabase/neon"
+      ]
+    },
+    {
+      "slug": "self-hosted-platforms-and-paas",
+      "title": "Self-hosted platforms and PaaS alternatives",
+      "summary": "Open-source, deployable-on-premise alternatives to SaaS platforms (Airtable, Vercel, Heroku) that emphasize user data ownership, cost control, and infrastructure autonomy. Includes no-code databases, scheduling, deployment, and document management.",
+      "supporting_repos": [
+        "nocodb/nocodb",
+        "coollabsio/coolify",
+        "paperless-ngx/paperless-ngx",
+        "calcom/cal.diy"
+      ]
+    },
+    {
+      "slug": "media-processing-and-transcription",
+      "title": "Media processing and offline transcription",
+      "summary": "Local, privacy-respecting tools for transcribing, translating, and processing audio and video without relying on cloud APIs. Emphasizes Whisper-based speech recognition and offline-first workflows.",
+      "supporting_repos": [
+        "openai/whisper",
+        "chidiwilliams/buzz"
+      ]
+    },
+    {
+      "slug": "learning-and-system-design",
+      "title": "Learning resources and system design education",
+      "summary": "Curated educational content and hands-on learning platforms for building core software systems from scratch, preparing for technical interviews, and understanding large-scale system design patterns.",
+      "supporting_repos": [
+        "codecrafters-io/build-your-own-x",
+        "donnemartin/system-design-primer",
+        "trekhleb/javascript-algorithms"
+      ]
+    }
+  ],
+  "whats_new": "Observability and analytics platforms surge to prominence (SigNoz, PostHog, Superset) with sustained trending, reflecting enterprise demand for unified logging, tracing, and product intelligence in a single self-hostable stack. Rust-native infrastructure tools expand significantly beyond networking into databases (Qdrant, Neon), editors, and remote desktop, emphasizing performance and memory safety as differentiators. Self-hosted PaaS alternatives (Coolify, NocoDB, Paperless) consolidate around data ownership and cost control, addressing burnout from cloud vendor lock-in. Media processing (Whisper, Buzz) persists but remains niche; learning resources (CodeCrafters, System Design Primer) emerge as a durable theme reflecting broad interest in hands-on technical education.",
+  "projects": [
+    {
+      "title": "OpenTelemetry Metrics Exporter for Edge Devices",
+      "topic_slug": "observability-and-analytics-platforms",
+      "scope": "short",
+      "pitch": "Build a lightweight CLI exporter that instruments edge devices (Raspberry Pi, IoT gateways) to emit OpenTelemetry metrics and traces, then forwards them to SigNoz or other OTEL-compatible backends. Include auto-discovery of local network instances and zero-config deployment via systemd service templates.",
+      "why_now": "Edge deployments lack observability; OTEL-native exporters enable operators to monitor distributed edge fleets without custom instrumentation.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "opentelemetry-rs",
+        "prometheus",
+        "clap"
+      ]
+    },
+    {
+      "title": "Session Replay Deduplication and Compression Engine",
+      "topic_slug": "observability-and-analytics-platforms",
+      "scope": "medium",
+      "pitch": "Develop a post-processing pipeline that compresses and deduplicates session replay data (common in PostHog) by detecting repeated UI patterns, idle windows, and similar user interactions. Generate replay summaries highlighting key events and anomalies. Output optimized replay bundles that reduce storage by 70-80% while preserving investigative value.",
+      "why_now": "Session replay storage costs grow linearly with user count; intelligent compression enables long-term retention and cost optimization without data loss.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "numpy",
+        "SQLite",
+        "ffmpeg"
+      ]
+    },
+    {
+      "title": "AI-Powered Analytics Anomaly Detection and Alert Correlation",
+      "topic_slug": "observability-and-analytics-platforms",
+      "scope": "long",
+      "pitch": "Build a machine learning system that ingests metrics, traces, and product analytics from PostHog/SigNoz, detects anomalies in user behavior and system performance using unsupervised learning, correlates alerts across signals, and automatically generates incident severity scores with remediation suggestions. Include Slack/PagerDuty integration and root cause analysis dashboards.",
+      "why_now": "Organizations struggle to distinguish signal from noise in observability data; ML-powered correlation reduces alert fatigue and accelerates incident response.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "scikit-learn",
+        "PostgreSQL",
+        "React",
+        "OpenTelemetry"
+      ]
+    },
+    {
+      "title": "Rust Static Analyzer for Memory Safety in C Bindings",
+      "topic_slug": "rust-infrastructure-and-systems",
+      "scope": "short",
+      "pitch": "Create a Rust linter that validates unsafe FFI code by checking C binding correctness: lifetime annotations, null pointer handling, memory alignment, and data layout compatibility. Output detailed reports with suggested fixes and safe wrapper recommendations.",
+      "why_now": "Rust's C interop is growing; developers need automated validation to prevent memory unsafety when bridging Rust and C libraries.",
+      "stack_hints": [
+        "Rust",
+        "syn",
+        "quote",
+        "clap",
+        "bindgen"
+      ]
+    },
+    {
+      "title": "Distributed Vector Database Consistency Verification Tool",
+      "topic_slug": "rust-infrastructure-and-systems",
+      "scope": "medium",
+      "pitch": "Develop a CLI and dashboard that audits consistency and replication lag across distributed Qdrant instances in multi-region deployments. Detect divergence in vector indices, verify quorum writes, simulate network partitions to test failover, and generate consistency reports with remediation strategies.",
+      "why_now": "Multi-region vector database deployments need automated verification of data consistency; operators lack visibility into replication correctness across regions.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "tonic",
+        "PostgreSQL",
+        "React",
+        "Qdrant API"
+      ]
+    },
+    {
+      "title": "Rust WebAssembly Linker with Incremental Compilation Support",
+      "topic_slug": "rust-infrastructure-and-systems",
+      "scope": "long",
+      "pitch": "Build a production-grade Rust-to-WASM linker that supports incremental compilation, parallel linking, and module-level code splitting. Optimize for startup time and bundle size on constrained environments. Include profiling tools to identify bottlenecks, benchmarking against native targets, and automated performance regression detection in CI.",
+      "why_now": "Edge computing and serverless platforms demand efficient WASM compilation; Rust needs a dedicated linker optimizing for size, speed, and incremental builds.",
+      "stack_hints": [
+        "Rust",
+        "wasm-pack",
+        "wasmtime",
+        "cranelift",
+        "serde",
+        "rayon"
+      ]
+    },
+    {
+      "title": "Self-Hosted PaaS Billing and Usage Attribution Engine",
+      "topic_slug": "self-hosted-platforms-and-paas",
+      "scope": "short",
+      "pitch": "Create a billing module for Coolify (or compatible PaaS) that auto-calculates resource costs (compute, storage, bandwidth) per deployment, tracks multi-tenant usage attribution, and generates CSV/JSON invoices. Include simple rate card configuration and cost forecasting.",
+      "why_now": "Self-hosted PaaS operators need cost transparency to charge back departments or tenants; lack of native billing prevents adoption in multi-team environments.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "SQLite",
+        "pandas"
+      ]
+    },
+    {
+      "title": "Multi-Tenant NocoDB Instance Manager with Role-Based Access Control",
+      "topic_slug": "self-hosted-platforms-and-paas",
+      "scope": "medium",
+      "pitch": "Build a wrapper service around NocoDB that provisions isolated instances per tenant, enforces RBAC policies (read/write/admin per team), syncs user identity from OIDC providers, and provides consolidated dashboards for admins to monitor instance health and data usage. Include audit logging and automated backup orchestration.",
+      "why_now": "Enterprises want to self-host NocoDB but need multi-tenancy and RBAC; wrapping NocoDB with tenant isolation enables SaaS-like deployments on-premise.",
+      "stack_hints": [
+        "TypeScript",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker API",
+        "OIDC",
+        "React"
+      ]
+    },
+    {
+      "title": "Paperless-NGX Advanced OCR and Classification Pipeline",
+      "topic_slug": "self-hosted-platforms-and-paas",
+      "scope": "long",
+      "pitch": "Extend Paperless-NGX with a sophisticated document classification engine that auto-labels documents by type (invoice, contract, receipt), extracts structured data (dates, amounts, vendors), auto-organizes into smart folders, and enables semantic search across document content. Integrate with ML models for document understanding and include fine-tuning workflows for custom document types.",
+      "why_now": "Document management without smart classification and extraction requires manual effort; ML-powered workflows transform Paperless from archive to searchable knowledge base.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "transformers",
+        "PostgreSQL",
+        "Paperless-NGX",
+        "React"
+      ]
+    },
+    {
+      "title": "Offline Whisper Batch Transcription Orchestrator",
+      "topic_slug": "media-processing-and-transcription",
+      "scope": "short",
+      "pitch": "Create a CLI tool that queues audio files for offline transcription using Whisper, monitors GPU/CPU availability, auto-batches transcriptions for efficiency, and stores results in a searchable SQLite index with speaker diarization tags. Output VTT/SRT subtitles and searchable transcripts.",
+      "why_now": "Users with large audio archives need efficient batch transcription without cloud upload; offline orchestration enables privacy and cost control.",
+      "stack_hints": [
+        "Python",
+        "whisper",
+        "pyannote.audio",
+        "SQLite",
+        "click"
+      ]
+    },
+    {
+      "title": "Cross-Language Media Subtitle Generator with Translation",
+      "topic_slug": "media-processing-and-transcription",
+      "scope": "medium",
+      "pitch": "Build a service that transcribes video/audio offline using Whisper, auto-detects language, generates subtitles, and translates them into multiple target languages. Output SRT/VTT files and overlay subtitled video. Include speaker identification, custom glossary support for technical terms, and integration with popular video players.",
+      "why_now": "Content creators need offline, privacy-respecting subtitle generation at scale; multi-language support enables global distribution without external APIs.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "whisper",
+        "transformers",
+        "ffmpeg-python",
+        "minio"
+      ]
+    },
+    {
+      "title": "Interactive System Design Learning Platform with Auto-Generated Quizzes",
+      "topic_slug": "learning-and-system-design",
+      "scope": "short",
+      "pitch": "Create an interactive web tool that lets users sketch system architecture diagrams (databases, services, caches, queues), auto-generates quiz questions about failure modes, bottlenecks, and scaling strategies, and provides instant feedback with explanations. Include pre-built templates for common patterns (microservices, CQRS, event sourcing).",
+      "why_now": "System design education is self-directed; interactive learning tools with instant feedback accelerate skill development and interview preparation.",
+      "stack_hints": [
+        "TypeScript",
+        "React",
+        "D3.js",
+        "FastAPI",
+        "gpt-4"
+      ]
+    },
+    {
+      "title": "Build-Your-Own-X Video Tutorial Generator with Step-by-Step Guidance",
+      "topic_slug": "learning-and-system-design",
+      "scope": "medium",
+      "pitch": "Develop a platform that converts CodeCrafters-style programming challenges into narrated video tutorials with interactive step-by-step walkthroughs. Auto-generate code snippets, pause points for learners to solve independently, and comparison views of reference vs. student implementations. Include progress tracking and difficulty scaling.",
+      "why_now": "Hands-on learning content is labor-intensive to produce; automation enables scaling coding education to reach more learners efficiently.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "React",
+        "ffmpeg",
+        "AST parsing",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Polyglot Algorithm Complexity Analyzer with Visualization",
+      "topic_slug": "learning-and-system-design",
+      "scope": "long",
+      "pitch": "Build an IDE plugin and web platform that analyzes algorithm implementations (C++, Python, JavaScript, Rust) submitted by learners, auto-extracts time/space complexity annotations, generates complexity proofs, visualizes trade-offs via interactive charts, and compares solutions against reference implementations. Include benchmarking on various input sizes and automated feedback on optimization opportunities.",
+      "why_now": "Algorithm learners struggle to understand complexity beyond Big-O notation; automated analysis with visualization bridges theory and practice.",
+      "stack_hints": [
+        "Python",
+        "TypeScript",
+        "FastAPI",
+        "React",
+        "sympy",
+        "Docker",
+        "tree-sitter"
+      ]
+    }
+  ]
+}
