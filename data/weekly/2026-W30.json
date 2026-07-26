@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-07-26",
+  "window_dates": [
+    "2026-07-20",
+    "2026-07-21",
+    "2026-07-22",
+    "2026-07-23",
+    "2026-07-24",
+    "2026-07-25",
+    "2026-07-26"
+  ],
+  "repos": [
+    {
+      "full_name": "schollz/croc",
+      "description": "Easily and securely send things from one computer to another \ud83d\udc0a \ud83d\udce6",
+      "language": "Go",
+      "url": "https://github.com/schollz/croc",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 3003,
+      "peak_daily_stars": 797,
+      "persistence_score": 48.04620007730416
+    },
+    {
+      "full_name": "DioxusLabs/dioxus",
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "language": "Rust",
+      "url": "https://github.com/DioxusLabs/dioxus",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 1812,
+      "peak_daily_stars": 420,
+      "persistence_score": 45.01642926452911
+    },
+    {
+      "full_name": "jellyfin/jellyfin",
+      "description": "The Free Software Media System - Server Backend & API",
+      "language": "C#",
+      "url": "https://github.com/jellyfin/jellyfin",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 589,
+      "peak_daily_stars": 285,
+      "persistence_score": 44.660857758298356
+    },
+    {
+      "full_name": "hyprwm/Hyprland",
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "language": "C++",
+      "url": "https://github.com/hyprwm/Hyprland",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 696,
+      "peak_daily_stars": 356,
+      "persistence_score": 39.280712464563145
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 875,
+      "peak_daily_stars": 198,
+      "persistence_score": 33.87683045468196
+    },
+    {
+      "full_name": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 816,
+      "peak_daily_stars": 188,
+      "persistence_score": 33.52819547430001
+    },
+    {
+      "full_name": "avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "language": "Go",
+      "url": "https://github.com/avelino/awesome-go",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 561,
+      "peak_daily_stars": 128,
+      "persistence_score": 31.657509249468454
+    },
+    {
+      "full_name": "jj-vcs/jj",
+      "description": "A Git-compatible VCS that is both simple and powerful",
+      "language": "Rust",
+      "url": "https://github.com/jj-vcs/jj",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 156,
+      "peak_daily_stars": 45,
+      "persistence_score": 30.337474832089846
+    },
+    {
+      "full_name": "GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your Internet traffic \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "language": "Rust",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 134,
+      "peak_daily_stars": 27,
+      "persistence_score": 29.43164867063058
+    },
+    {
+      "full_name": "paperless-ngx/paperless-ngx",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "language": "Python",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 264,
+      "peak_daily_stars": 69,
+      "persistence_score": 27.89864912993111
+    },
+    {
+      "full_name": "tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "language": "Rust",
+      "url": "https://github.com/tokio-rs/tokio",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 96,
+      "peak_daily_stars": 23,
+      "persistence_score": 27.448265871020297
+    },
+    {
+      "full_name": "pola-rs/polars",
+      "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+      "language": "Rust",
+      "url": "https://github.com/pola-rs/polars",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 72,
+      "peak_daily_stars": 16,
+      "persistence_score": 25.742756646890346
+    },
+    {
+      "full_name": "projectdiscovery/nuclei-templates",
+      "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "language": "JavaScript",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 37,
+      "peak_daily_stars": 9,
+      "persistence_score": 25.4631031180847
+    },
+    {
+      "full_name": "withastro/astro",
+      "description": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!",
+      "language": "TypeScript",
+      "url": "https://github.com/withastro/astro",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 159,
+      "peak_daily_stars": 35,
+      "persistence_score": 25.37586907616913
+    },
+    {
+      "full_name": "skypilot-org/skypilot",
+      "description": "The AI Compute Platform for frontier teams. SkyPilot turns fragmented AI compute into one AI supercomputer, so frontier AI teams build custom intelligence faster.",
+      "language": "Python",
+      "url": "https://github.com/skypilot-org/skypilot",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 99,
+      "peak_daily_stars": 25,
+      "persistence_score": 23.02585092994046
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "url": "https://github.com/aquasecurity/trivy",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 98,
+      "peak_daily_stars": 24,
+      "persistence_score": 22.97559925067295
+    },
+    {
+      "full_name": "rclone/rclone",
+      "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+      "language": "Go",
+      "url": "https://github.com/rclone/rclone",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 300,
+      "peak_daily_stars": 99,
+      "persistence_score": 22.8284410589955
+    },
+    {
+      "full_name": "makeplane/plane",
+      "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "url": "https://github.com/makeplane/plane",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 256,
+      "peak_daily_stars": 69,
+      "persistence_score": 22.19630433958088
+    },
+    {
+      "full_name": "microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/playwright",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 247,
+      "peak_daily_stars": 66,
+      "persistence_score": 22.05371498465993
+    },
+    {
+      "full_name": "sharkdp/fd",
+      "description": "A simple, fast and user-friendly alternative to 'find'",
+      "language": "Rust",
+      "url": "https://github.com/sharkdp/fd",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 80,
+      "peak_daily_stars": 24,
+      "persistence_score": 21.972245773362197
+    },
+    {
+      "full_name": "sindresorhus/awesome",
+      "description": "\ud83d\ude0e Awesome lists about all kinds of interesting topics",
+      "language": null,
+      "url": "https://github.com/sindresorhus/awesome",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 1331,
+      "peak_daily_stars": 463,
+      "persistence_score": 21.583310553301004
+    },
+    {
+      "full_name": "huggingface/transformers",
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "language": "Python",
+      "url": "https://github.com/huggingface/transformers",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 203,
+      "peak_daily_stars": 66,
+      "persistence_score": 21.272479975376864
+    },
+    {
+      "full_name": "chroma-core/chroma",
+      "description": "Search infrastructure for AI",
+      "language": "Rust",
+      "url": "https://github.com/chroma-core/chroma",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 67,
+      "peak_daily_stars": 17,
+      "persistence_score": 21.097538525880534
+    },
+    {
+      "full_name": "GoogleCloudPlatform/microservices-demo",
+      "description": "Sample cloud-first application with 10 microservices showcasing Kubernetes, Istio, and gRPC.",
+      "language": "Go",
+      "url": "https://github.com/GoogleCloudPlatform/microservices-demo",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 62,
+      "peak_daily_stars": 25,
+      "persistence_score": 20.715673631957664
+    },
+    {
+      "full_name": "directus/directus",
+      "description": "The flexible backend for all your projects \ud83d\udc30 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
+      "language": "TypeScript",
+      "url": "https://github.com/directus/directus",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 171,
+      "peak_daily_stars": 69,
+      "persistence_score": 20.58997790725381
+    },
+    {
+      "full_name": "iced-rs/iced",
+      "description": "A cross-platform GUI library for Rust, inspired by Elm",
+      "language": "Rust",
+      "url": "https://github.com/iced-rs/iced",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 58,
+      "peak_daily_stars": 18,
+      "persistence_score": 20.387687219528598
+    },
+    {
+      "full_name": "servo/servo",
+      "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+      "language": "Rust",
+      "url": "https://github.com/servo/servo",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 58,
+      "peak_daily_stars": 20,
+      "persistence_score": 20.387687219528598
+    },
+    {
+      "full_name": "aldinokemal/go-whatsapp-web-multidevice",
+      "description": "GOWA - WhatsApp REST API with support for UI, Multi Account, Webhooks, and MCP, and Chatwoot. Built with Golang for efficient memory use.",
+      "language": "Go",
+      "url": "https://github.com/aldinokemal/go-whatsapp-web-multidevice",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 148,
+      "peak_daily_stars": 65,
+      "persistence_score": 20.015785223781837
+    },
+    {
+      "full_name": "chidiwilliams/buzz",
+      "description": "Buzz transcribes and translates audio offline on your personal computer. Powered by OpenAI's Whisper.",
+      "language": "Python",
+      "url": "https://github.com/chidiwilliams/buzz",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 126,
+      "peak_daily_stars": 38,
+      "persistence_score": 19.376748345834365
+    },
+    {
+      "full_name": "qdrant/qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/",
+      "language": "Rust",
+      "url": "https://github.com/qdrant/qdrant",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 124,
+      "peak_daily_stars": 38,
+      "persistence_score": 19.313254949209206
+    },
+    {
+      "full_name": "Eugeny/tabby",
+      "description": "A terminal for a more modern age",
+      "language": "TypeScript",
+      "url": "https://github.com/Eugeny/tabby",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 121,
+      "peak_daily_stars": 34,
+      "persistence_score": 19.216084178933027
+    },
+    {
+      "full_name": "WebGoat/WebGoat",
+      "description": "WebGoat is a deliberately insecure application",
+      "language": "JavaScript",
+      "url": "https://github.com/WebGoat/WebGoat",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 23,
+      "peak_daily_stars": 6,
+      "persistence_score": 19.068322982087675
+    },
+    {
+      "full_name": "caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "url": "https://github.com/caddyserver/caddy",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 116,
+      "peak_daily_stars": 34,
+      "persistence_score": 19.048695739191025
+    },
+    {
+      "full_name": "windmill-labs/windmill",
+      "description": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal.",
+      "language": "Rust",
+      "url": "https://github.com/windmill-labs/windmill",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 101,
+      "peak_daily_stars": 35,
+      "persistence_score": 18.499891253137083
+    },
+    {
+      "full_name": "formbricks/formbricks",
+      "description": "Open Source Qualtrics Alternative",
+      "language": "TypeScript",
+      "url": "https://github.com/formbricks/formbricks",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 83,
+      "peak_daily_stars": 27,
+      "persistence_score": 17.723267195373253
+    },
+    {
+      "full_name": "helix-editor/helix",
+      "description": "A post-modern modal text editor.",
+      "language": "Rust",
+      "url": "https://github.com/helix-editor/helix",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 82,
+      "peak_daily_stars": 26,
+      "persistence_score": 17.675362431186393
+    },
+    {
+      "full_name": "gfx-rs/wgpu",
+      "description": "A cross-platform, safe, pure-Rust graphics API.",
+      "language": "Rust",
+      "url": "https://github.com/gfx-rs/wgpu",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 33,
+      "peak_daily_stars": 11,
+      "persistence_score": 17.63180262308081
+    },
+    {
+      "full_name": "airbnb/javascript",
+      "description": "JavaScript Style Guide",
+      "language": "JavaScript",
+      "url": "https://github.com/airbnb/javascript",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 33,
+      "peak_daily_stars": 9,
+      "persistence_score": 17.63180262308081
+    },
+    {
+      "full_name": "anchore/syft",
+      "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
+      "language": "Go",
+      "url": "https://github.com/anchore/syft",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 33,
+      "peak_daily_stars": 11,
+      "persistence_score": 17.63180262308081
+    },
+    {
+      "full_name": "langchain-ai/langchain",
+      "description": "The agent engineering platform.",
+      "language": "Python",
+      "url": "https://github.com/langchain-ai/langchain",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 299,
+      "peak_daily_stars": 104,
+      "persistence_score": 17.111347423968603
+    }
+  ]
+}

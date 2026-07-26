@@ -1,105 +1,115 @@
 # Trending Project Ideas
 
-**Week of 2026-07-20** | [About this project](ABOUT.md)
+**Week of 2026-07-27** | [About this project](ABOUT.md)
 
 ---
 
 > **What's new this week**
 >
-> Observability and analytics platforms surge to prominence (SigNoz, PostHog, Superset) with sustained trending, reflecting enterprise demand for unified logging, tracing, and product intelligence in a single self-hostable stack. Rust-native infrastructure tools expand significantly beyond networking into databases (Qdrant, Neon), editors, and remote desktop, emphasizing performance and memory safety as differentiators. Self-hosted PaaS alternatives (Coolify, NocoDB, Paperless) consolidate around data ownership and cost control, addressing burnout from cloud vendor lock-in. Media processing (Whisper, Buzz) persists but remains niche; learning resources (CodeCrafters, System Design Primer) emerge as a durable theme reflecting broad interest in hands-on technical education.
+> Rust fullstack frameworks emerge as a cohesive theme, unifying desktop, web, and mobile development with async/await foundations—a shift from last week's infrastructure focus toward developer experience. Offline media processing solidifies with Whisper derivatives gaining practical traction. Self-hosted platforms (Jellyfin, Directus, Windmill) displace niche document management to become diverse, multi-category SaaS alternatives. AI/vector data infrastructure surges as a distinct theme, reflecting enterprise demand for purpose-built embeddings infrastructure beyond general observability.
 
 ---
 
 ## Trending Topics
 
 
-### Observability and analytics platforms
+### Rust fullstack and systems frameworks
 
-Unified platforms combining logs, traces, metrics, product analytics, and session replay to provide comprehensive visibility into application performance and user behavior. These tools emphasize self-hosting, OpenTelemetry-native design, and cost transparency.
+Emerging Rust-based frameworks (Dioxus, Tauri-adjacent ecosystems) that unify web, desktop, and mobile development with native performance, complemented by foundational async runtimes (Tokio) and high-performance data processing libraries (Polars). Reflects demand for polyglot, memory-safe development across all tiers.
 
 <details>
-<summary>Supporting repos (3)</summary>
+<summary>Supporting repos (5)</summary>
 
 
-- [SigNoz/signoz](https://github.com/SigNoz/signoz)
+- [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus)
 
-- [PostHog/posthog](https://github.com/PostHog/posthog)
+- [tokio-rs/tokio](https://github.com/tokio-rs/tokio)
 
-- [apache/superset](https://github.com/apache/superset)
+- [pola-rs/polars](https://github.com/pola-rs/polars)
+
+- [iced-rs/iced](https://github.com/iced-rs/iced)
+
+- [servo/servo](https://github.com/servo/servo)
 
 
 </details>
 
 
-### Rust-native infrastructure and systems tools
+### Offline media processing and transcription
 
-High-performance, memory-safe infrastructure and data tools written in Rust, spanning databases, runtimes, text editors, and distributed systems. Focus on performance guarantees, minimal resource overhead, and production-grade reliability.
-
-<details>
-<summary>Supporting repos (4)</summary>
-
-
-- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
-
-- [qdrant/qdrant](https://github.com/qdrant/qdrant)
-
-- [helix-editor/helix](https://github.com/helix-editor/helix)
-
-- [neondatabase/neon](https://github.com/neondatabase/neon)
-
-
-</details>
-
-
-### Self-hosted platforms and PaaS alternatives
-
-Open-source, deployable-on-premise alternatives to SaaS platforms (Airtable, Vercel, Heroku) that emphasize user data ownership, cost control, and infrastructure autonomy. Includes no-code databases, scheduling, deployment, and document management.
-
-<details>
-<summary>Supporting repos (4)</summary>
-
-
-- [nocodb/nocodb](https://github.com/nocodb/nocodb)
-
-- [coollabsio/coolify](https://github.com/coollabsio/coolify)
-
-- [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
-
-- [calcom/cal.diy](https://github.com/calcom/cal.diy)
-
-
-</details>
-
-
-### Media processing and offline transcription
-
-Local, privacy-respecting tools for transcribing, translating, and processing audio and video without relying on cloud APIs. Emphasizes Whisper-based speech recognition and offline-first workflows.
+Privacy-first, offline audio/video processing tools (Whisper-based transcription, subtitle generation) that avoid cloud dependencies and enable local, batch-scale media workflows. Emphasis on Whisper and derivative projects gaining practical adoption.
 
 <details>
 <summary>Supporting repos (2)</summary>
 
 
-- [openai/whisper](https://github.com/openai/whisper)
-
 - [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz)
+
+- [openai/whisper](https://github.com/openai/whisper)
 
 
 </details>
 
 
-### Learning resources and system design education
+### Self-hosted and open infrastructure platforms
 
-Curated educational content and hands-on learning platforms for building core software systems from scratch, preparing for technical interviews, and understanding large-scale system design patterns.
+Deployable alternatives to commercial SaaS (Jellyfin, Directus, Plane, Windmill) emphasizing data ownership, extensibility, and cost control. Includes media servers, headless CMS, project management, and workflow automation platforms.
 
 <details>
-<summary>Supporting repos (3)</summary>
+<summary>Supporting repos (5)</summary>
 
 
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
+- [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin)
 
-- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
+- [directus/directus](https://github.com/directus/directus)
 
-- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+- [makeplane/plane](https://github.com/makeplane/plane)
+
+- [windmill-labs/windmill](https://github.com/windmill-labs/windmill)
+
+- [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
+
+
+</details>
+
+
+### Developer tool ergonomics and UX
+
+Modern CLI tools and terminal applications (croc for file transfer, fd for faster directory search, Hyprland desktop environment, Tabby terminal) prioritizing user experience, speed, and accessibility over traditional command-line verbosity.
+
+<details>
+<summary>Supporting repos (5)</summary>
+
+
+- [schollz/croc](https://github.com/schollz/croc)
+
+- [sharkdp/fd](https://github.com/sharkdp/fd)
+
+- [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland)
+
+- [Eugeny/tabby](https://github.com/Eugeny/tabby)
+
+- [jj-vcs/jj](https://github.com/jj-vcs/jj)
+
+
+</details>
+
+
+### AI and vector data infrastructure
+
+Specialized databases and infrastructure for embedding and vector operations (Qdrant, Chroma) alongside broader ML platforms (Transformers, LangChain) that power AI applications at scale. Reflects enterprise AI workload acceleration and the need for purpose-built data layers.
+
+<details>
+<summary>Supporting repos (4)</summary>
+
+
+- [qdrant/qdrant](https://github.com/qdrant/qdrant)
+
+- [chroma-core/chroma](https://github.com/chroma-core/chroma)
+
+- [huggingface/transformers](https://github.com/huggingface/transformers)
+
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
 
 
 </details>
@@ -114,80 +124,76 @@ Curated educational content and hands-on learning platforms for building core so
 
 
 
-#### Observability and analytics platforms
+#### Rust fullstack and systems frameworks
 
 
-##### OpenTelemetry Metrics Exporter for Edge Devices
+##### Rust Fullstack Template Generator with TypeScript Codegen
 
-Build a lightweight CLI exporter that instruments edge devices (Raspberry Pi, IoT gateways) to emit OpenTelemetry metrics and traces, then forwards them to SigNoz or other OTEL-compatible backends. Include auto-discovery of local network instances and zero-config deployment via systemd service templates.
+Create a CLI tool that scaffolds a Dioxus fullstack project with end-to-end type safety by auto-generating TypeScript client types from Rust server types via serde schema extraction. Include starter templates for common patterns (CRUD, auth, real-time), pre-configured Tokio runtime, and database schema binding.
 
-**Why now:** Edge deployments lack observability; OTEL-native exporters enable operators to monitor distributed edge fleets without custom instrumentation.
+**Why now:** Dioxus and Tokio adoption is accelerating; developers need scaffolding that bridges Rust backend and frontend type systems to eliminate serialization bugs at development time.
 
-**Stack hints:** `Rust`, `tokio`, `opentelemetry-rs`, `prometheus`, `clap`
-
-
-
-
-
-
-#### Rust-native infrastructure and systems tools
-
-
-##### Rust Static Analyzer for Memory Safety in C Bindings
-
-Create a Rust linter that validates unsafe FFI code by checking C binding correctness: lifetime annotations, null pointer handling, memory alignment, and data layout compatibility. Output detailed reports with suggested fixes and safe wrapper recommendations.
-
-**Why now:** Rust's C interop is growing; developers need automated validation to prevent memory unsafety when bridging Rust and C libraries.
-
-**Stack hints:** `Rust`, `syn`, `quote`, `clap`, `bindgen`
+**Stack hints:** `Rust`, `dioxus`, `tokio`, `serde_json`, `ts-rs`, `clap`
 
 
 
 
 
 
-#### Self-hosted platforms and PaaS alternatives
+#### Offline media processing and transcription
 
 
-##### Self-Hosted PaaS Billing and Usage Attribution Engine
+##### Real-Time Collaborative Audio Transcription with Offline Fallback
 
-Create a billing module for Coolify (or compatible PaaS) that auto-calculates resource costs (compute, storage, bandwidth) per deployment, tracks multi-tenant usage attribution, and generates CSV/JSON invoices. Include simple rate card configuration and cost forecasting.
+Build a lightweight service that listens to system audio or microphone input, transcribes in real-time using Whisper (offline), and streams results to a web dashboard. Include speaker detection, auto-save to searchable SQLite, and export to VTT/SRT with optional cloud sync fallback.
 
-**Why now:** Self-hosted PaaS operators need cost transparency to charge back departments or tenants; lack of native billing prevents adoption in multi-team environments.
+**Why now:** Content creators and researchers need real-time transcription without cloud upload; offline Whisper deployment enables privacy-first workflows with persistent local archives.
 
-**Stack hints:** `Python`, `FastAPI`, `SQLite`, `pandas`
-
-
-
-
-
-
-#### Media processing and offline transcription
-
-
-##### Offline Whisper Batch Transcription Orchestrator
-
-Create a CLI tool that queues audio files for offline transcription using Whisper, monitors GPU/CPU availability, auto-batches transcriptions for efficiency, and stores results in a searchable SQLite index with speaker diarization tags. Output VTT/SRT subtitles and searchable transcripts.
-
-**Why now:** Users with large audio archives need efficient batch transcription without cloud upload; offline orchestration enables privacy and cost control.
-
-**Stack hints:** `Python`, `whisper`, `pyannote.audio`, `SQLite`, `click`
+**Stack hints:** `Python`, `whisper`, `pyaudio`, `FastAPI`, `WebSocket`, `SQLite`
 
 
 
 
 
 
-#### Learning resources and system design education
 
 
-##### Interactive System Design Learning Platform with Auto-Generated Quizzes
 
-Create an interactive web tool that lets users sketch system architecture diagrams (databases, services, caches, queues), auto-generates quiz questions about failure modes, bottlenecks, and scaling strategies, and provides instant feedback with explanations. Include pre-built templates for common patterns (microservices, CQRS, event sourcing).
+#### Developer tool ergonomics and UX
 
-**Why now:** System design education is self-directed; interactive learning tools with instant feedback accelerate skill development and interview preparation.
 
-**Stack hints:** `TypeScript`, `React`, `D3.js`, `FastAPI`, `gpt-4`
+##### VCS History Browser with Jujutsu Backend
+
+Create a TUI (terminal UI) that visualizes commit history, branches, and diffs using Jujutsu as the underlying VCS. Enable intuitive navigation (arrow keys, vim bindings), instant search by author/message, and one-keystroke bisect/rebase workflows. Export visualizations as SVG.
+
+**Why now:** Jujutsu is gaining traction as a Git alternative; developers need ergonomic tooling to explore its capabilities without learning complex CLI syntax.
+
+**Stack hints:** `Rust`, `jj`, `ratatui`, `tokio`, `regex`
+
+
+##### Encrypted File-Sharing Protocol Benchmarker for Croc-like Tools
+
+Develop a micro-benchmark suite that measures transfer speed, latency, and memory overhead of popular peer-to-peer file-sharing tools (croc, magic-wormhole, etc.) across network conditions. Visualize results in HTML reports and enable community contribution of new tools.
+
+**Why now:** Developers need objective performance comparisons of P2P tools; a benchmarking framework establishes trust in ergonomic tools' reliability claims.
+
+**Stack hints:** `Python`, `iperf`, `pytest-benchmark`, `plotly`, `docker`
+
+
+
+
+
+
+#### AI and vector data infrastructure
+
+
+##### Self-Hosted Vector Embedding Search UI for Qdrant
+
+Build a web UI that connects to a Qdrant instance and enables semantic search across stored embeddings with faceted filtering, relevance tuning, and batch operations. Include import/export of embedding collections and a Python SDK for programmatic queries.
+
+**Why now:** Qdrant deployments lack user-friendly query interfaces; a web UI unlocks non-technical stakeholders to explore embeddings without REST API knowledge.
+
+**Stack hints:** `TypeScript`, `React`, `qdrant-client`, `fastapi`, `plotly.js`
 
 
 
@@ -200,80 +206,85 @@ Create an interactive web tool that lets users sketch system architecture diagra
 
 
 
-#### Observability and analytics platforms
+#### Rust fullstack and systems frameworks
 
 
-##### Session Replay Deduplication and Compression Engine
+##### Polars-Based Data Profiling and Anomaly Detection Engine
 
-Develop a post-processing pipeline that compresses and deduplicates session replay data (common in PostHog) by detecting repeated UI patterns, idle windows, and similar user interactions. Generate replay summaries highlighting key events and anomalies. Output optimized replay bundles that reduce storage by 70-80% while preserving investigative value.
+Build a Rust library that profiles large datasets using Polars, auto-generates data quality reports (cardinality, nulls, skew, outliers), detects schema drift, and flags anomalies. Expose as a FastAPI service with interactive dashboard. Include integration with Directus data sources.
 
-**Why now:** Session replay storage costs grow linearly with user count; intelligent compression enables long-term retention and cost optimization without data loss.
+**Why now:** Polars adoption is accelerating for data processing; teams need efficient, in-process data profiling to catch quality issues before analytics. Directus integration enables self-hosted data governance.
 
-**Stack hints:** `Python`, `FastAPI`, `numpy`, `SQLite`, `ffmpeg`
-
-
+**Stack hints:** `Rust`, `polars`, `tokio`, `fastapi`, `react`, `statistical libraries`
 
 
+##### Rust-to-Polars Type Bridge with Automatic Schema Inference
 
+Create a Rust crate that auto-derives Polars DataFrame schemas from Rust struct definitions using proc-macros, enabling zero-copy data ingestion from Rust collections. Include CLI to generate Polars-compatible CSV imports and optimize schema compression based on data cardinality.
 
-#### Rust-native infrastructure and systems tools
+**Why now:** Polars adoption in Rust is growing; teams need seamless interop between Rust types and DataFrames to reduce serialization overhead in data pipelines.
 
-
-##### Distributed Vector Database Consistency Verification Tool
-
-Develop a CLI and dashboard that audits consistency and replication lag across distributed Qdrant instances in multi-region deployments. Detect divergence in vector indices, verify quorum writes, simulate network partitions to test failover, and generate consistency reports with remediation strategies.
-
-**Why now:** Multi-region vector database deployments need automated verification of data consistency; operators lack visibility into replication correctness across regions.
-
-**Stack hints:** `Rust`, `tokio`, `tonic`, `PostgreSQL`, `React`, `Qdrant API`
+**Stack hints:** `Rust`, `polars`, `syn`, `quote`, `serde`
 
 
 
 
 
 
-#### Self-hosted platforms and PaaS alternatives
+#### Offline media processing and transcription
 
 
-##### Multi-Tenant NocoDB Instance Manager with Role-Based Access Control
+##### Multi-Language Subtitle Burn-In Service with AI Translation and Styling
 
-Build a wrapper service around NocoDB that provisions isolated instances per tenant, enforces RBAC policies (read/write/admin per team), syncs user identity from OIDC providers, and provides consolidated dashboards for admins to monitor instance health and data usage. Include audit logging and automated backup orchestration.
+Build a service that transcribes video offline using Whisper, auto-detects language, generates subtitles, translates to multiple languages, and burns them into video with customizable fonts, colors, and positioning. Support SRT/VTT output and real-time preview. Expose via web UI and CLI.
 
-**Why now:** Enterprises want to self-host NocoDB but need multi-tenancy and RBAC; wrapping NocoDB with tenant isolation enables SaaS-like deployments on-premise.
+**Why now:** Content creators need affordable, privacy-respecting multi-language subtitle generation; offline processing eliminates per-minute cloud API costs and data exposure.
 
-**Stack hints:** `TypeScript`, `FastAPI`, `PostgreSQL`, `Docker API`, `OIDC`, `React`
-
-
-
-
-
-
-#### Media processing and offline transcription
-
-
-##### Cross-Language Media Subtitle Generator with Translation
-
-Build a service that transcribes video/audio offline using Whisper, auto-detects language, generates subtitles, and translates them into multiple target languages. Output SRT/VTT files and overlay subtitled video. Include speaker identification, custom glossary support for technical terms, and integration with popular video players.
-
-**Why now:** Content creators need offline, privacy-respecting subtitle generation at scale; multi-language support enables global distribution without external APIs.
-
-**Stack hints:** `Python`, `FastAPI`, `whisper`, `transformers`, `ffmpeg-python`, `minio`
+**Stack hints:** `Python`, `FastAPI`, `whisper`, `transformers`, `ffmpeg-python`, `pillow`, `React`
 
 
 
 
 
 
-#### Learning resources and system design education
+#### Self-hosted and open infrastructure platforms
 
 
-##### Build-Your-Own-X Video Tutorial Generator with Step-by-Step Guidance
+##### Windmill Workflow Debugger with Step-Through and Variable Inspector
 
-Develop a platform that converts CodeCrafters-style programming challenges into narrated video tutorials with interactive step-by-step walkthroughs. Auto-generate code snippets, pause points for learners to solve independently, and comparison views of reference vs. student implementations. Include progress tracking and difficulty scaling.
+Extend Windmill with a visual debugger that allows step-through execution of workflows, inspect variable state at each step, set breakpoints, and replay with modified inputs. Generate execution traces and performance flamegraphs. Integrate with Windmill's web UI.
 
-**Why now:** Hands-on learning content is labor-intensive to produce; automation enables scaling coding education to reach more learners efficiently.
+**Why now:** Workflow automation tools lack production debugging; a native debugger reduces iteration time and helps teams diagnose complex multi-step orchestrations.
 
-**Stack hints:** `Python`, `FastAPI`, `React`, `ffmpeg`, `AST parsing`, `PostgreSQL`
+**Stack hints:** `TypeScript`, `Rust`, `windmill-labs/windmill`, `React`, `tokio`
+
+
+##### Jellyfin Media Library Analyzer with Genre and Mood Classification
+
+Develop a plugin for Jellyfin that analyzes media metadata and content (via ML models), auto-classifies into genres, moods, and themes, suggests watch-next recommendations, and generates personalized collections. Include a dashboard showing library statistics and trending patterns.
+
+**Why now:** Self-hosted media servers like Jellyfin lack intelligent curation; ML-powered classification enables better user discovery and library organization without external services.
+
+**Stack hints:** `Python`, `FastAPI`, `transformers`, `scikit-learn`, `sqlite`, `Jellyfin API`
+
+
+
+
+
+
+#### Developer tool ergonomics and UX
+
+
+##### Threat Intelligence Feedback Loop for Security Scanning (Trivy + Nuclei)
+
+Build a service that ingests vulnerability reports from Trivy scans, correlates findings across projects, extracts indicators of compromise, and automatically generates Nuclei templates for community threat hunting. Expose a web dashboard for team collaboration on vulnerability triage.
+
+**Why now:** Security teams struggle to act on vulnerability data; automating Nuclei template generation from Trivy findings enables threat hunting and validates fixes at scale.
+
+**Stack hints:** `Python`, `FastAPI`, `trivy`, `nuclei`, `React`, `PostgreSQL`
+
+
+
 
 
 
@@ -286,67 +297,67 @@ Develop a platform that converts CodeCrafters-style programming challenges into 
 
 
 
-#### Observability and analytics platforms
+#### Rust fullstack and systems frameworks
 
 
-##### AI-Powered Analytics Anomaly Detection and Alert Correlation
+##### Polyglot Dioxus Component Library with Accessibility Auditing
 
-Build a machine learning system that ingests metrics, traces, and product analytics from PostHog/SigNoz, detects anomalies in user behavior and system performance using unsupervised learning, correlates alerts across signals, and automatically generates incident severity scores with remediation suggestions. Include Slack/PagerDuty integration and root cause analysis dashboards.
+Develop a comprehensive, production-ready Dioxus component library covering forms, tables, modals, charts, and navigation. Include built-in accessibility auditing (WCAG 2.1), visual regression testing across browsers, and auto-generated Storybook. Publish with TypeScript type definitions for API clarity.
 
-**Why now:** Organizations struggle to distinguish signal from noise in observability data; ML-powered correlation reduces alert fatigue and accelerates incident response.
+**Why now:** Dioxus adoption requires battle-tested, accessible components; a mature library accelerates team onboarding and reduces security/accessibility risks in production fullstack apps.
 
-**Stack hints:** `Python`, `FastAPI`, `scikit-learn`, `PostgreSQL`, `React`, `OpenTelemetry`
-
-
-
-
-
-
-#### Rust-native infrastructure and systems tools
-
-
-##### Rust WebAssembly Linker with Incremental Compilation Support
-
-Build a production-grade Rust-to-WASM linker that supports incremental compilation, parallel linking, and module-level code splitting. Optimize for startup time and bundle size on constrained environments. Include profiling tools to identify bottlenecks, benchmarking against native targets, and automated performance regression detection in CI.
-
-**Why now:** Edge computing and serverless platforms demand efficient WASM compilation; Rust needs a dedicated linker optimizing for size, speed, and incremental builds.
-
-**Stack hints:** `Rust`, `wasm-pack`, `wasmtime`, `cranelift`, `serde`, `rayon`
+**Stack hints:** `Rust`, `dioxus`, `axe-core`, `playwright`, `storybook`, `tokio`
 
 
 
 
 
 
-#### Self-hosted platforms and PaaS alternatives
+#### Offline media processing and transcription
 
 
-##### Paperless-NGX Advanced OCR and Classification Pipeline
+##### End-to-End Encrypted Media Archive with Offline-First Search Index
 
-Extend Paperless-NGX with a sophisticated document classification engine that auto-labels documents by type (invoice, contract, receipt), extracts structured data (dates, amounts, vendors), auto-organizes into smart folders, and enables semantic search across document content. Integrate with ML models for document understanding and include fine-tuning workflows for custom document types.
+Create a system for archiving large media libraries with client-side encryption, offline-first searchable transcripts (Whisper-powered), and synchronized metadata across devices. Include zero-knowledge architecture, encrypted backups to S3-compatible storage, and progressive search index sync. Expose as desktop app and web UI.
 
-**Why now:** Document management without smart classification and extraction requires manual effort; ML-powered workflows transform Paperless from archive to searchable knowledge base.
+**Why now:** Privacy-conscious users need to archive sensitive media locally without exposing content to cloud providers; offline transcription + encrypted sync enables personal media archives with search.
 
-**Stack hints:** `Python`, `FastAPI`, `transformers`, `PostgreSQL`, `Paperless-NGX`, `React`
-
-
-
+**Stack hints:** `Rust`, `Tauri`, `whisper`, `tantivy`, `age-encryption`, `s3`, `React`
 
 
 
 
 
 
-#### Learning resources and system design education
+#### Self-hosted and open infrastructure platforms
 
 
-##### Polyglot Algorithm Complexity Analyzer with Visualization
+##### Decentralized Directus Content Sync with Conflict Resolution Engine
 
-Build an IDE plugin and web platform that analyzes algorithm implementations (C++, Python, JavaScript, Rust) submitted by learners, auto-extracts time/space complexity annotations, generates complexity proofs, visualizes trade-offs via interactive charts, and compares solutions against reference implementations. Include benchmarking on various input sizes and automated feedback on optimization opportunities.
+Extend Directus with a decentralized content sync layer that replicates databases across geographically distributed self-hosted instances, auto-detects and resolves conflicts using configurable rules (last-write-wins, schema-aware merging), and maintains audit trails. Enable edge-local writes with eventual consistency.
 
-**Why now:** Algorithm learners struggle to understand complexity beyond Big-O notation; automated analysis with visualization bridges theory and practice.
+**Why now:** Teams operating multiple Directus instances lack robust sync; decentralized conflict resolution enables edge-deployed headless CMS with global content coherence.
 
-**Stack hints:** `Python`, `TypeScript`, `FastAPI`, `React`, `sympy`, `Docker`, `tree-sitter`
+**Stack hints:** `TypeScript`, `Rust`, `directus`, `crdt`, `websocket`, `PostgreSQL`, `tokio`
+
+
+
+
+
+
+
+
+
+#### AI and vector data infrastructure
+
+
+##### AI Model-as-Data Platform for Qdrant with Fine-Tuning Orchestration
+
+Build a platform that treats embedding models as versioned data assets stored in Qdrant, enabling teams to version, compare, and serve multiple model variants simultaneously. Include automated fine-tuning workflows on custom datasets, A/B testing of embedding quality, and rollback capabilities. Expose via SDK and web UI.
+
+**Why now:** Enterprises need to manage embedding model drift and A/B test variants; a model registry integrated with Qdrant enables rapid iteration on vector search quality without disrupting production.
+
+**Stack hints:** `Python`, `FastAPI`, `qdrant-client`, `transformers`, `ray`, `PostgreSQL`, `React`
 
 
 
@@ -366,4 +377,4 @@ See [ABOUT.md](ABOUT.md) for full methodology details.
 
 ---
 
-*Generated 2026-07-19 13:18 UTC · commit `01056b2`*
+*Generated 2026-07-26 13:22 UTC · commit `47e3e8e`*

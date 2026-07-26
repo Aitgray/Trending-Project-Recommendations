@@ -1,0 +1,288 @@
+{
+  "week_of": "2026-07-27",
+  "topics": [
+    {
+      "slug": "rust-fullstack-frameworks",
+      "title": "Rust fullstack and systems frameworks",
+      "summary": "Emerging Rust-based frameworks (Dioxus, Tauri-adjacent ecosystems) that unify web, desktop, and mobile development with native performance, complemented by foundational async runtimes (Tokio) and high-performance data processing libraries (Polars). Reflects demand for polyglot, memory-safe development across all tiers.",
+      "supporting_repos": [
+        "DioxusLabs/dioxus",
+        "tokio-rs/tokio",
+        "pola-rs/polars",
+        "iced-rs/iced",
+        "servo/servo"
+      ]
+    },
+    {
+      "slug": "media-processing-transcription",
+      "title": "Offline media processing and transcription",
+      "summary": "Privacy-first, offline audio/video processing tools (Whisper-based transcription, subtitle generation) that avoid cloud dependencies and enable local, batch-scale media workflows. Emphasis on Whisper and derivative projects gaining practical adoption.",
+      "supporting_repos": [
+        "chidiwilliams/buzz",
+        "openai/whisper"
+      ]
+    },
+    {
+      "slug": "open-source-infrastructure",
+      "title": "Self-hosted and open infrastructure platforms",
+      "summary": "Deployable alternatives to commercial SaaS (Jellyfin, Directus, Plane, Windmill) emphasizing data ownership, extensibility, and cost control. Includes media servers, headless CMS, project management, and workflow automation platforms.",
+      "supporting_repos": [
+        "jellyfin/jellyfin",
+        "directus/directus",
+        "makeplane/plane",
+        "windmill-labs/windmill",
+        "paperless-ngx/paperless-ngx"
+      ]
+    },
+    {
+      "slug": "dev-tool-ergonomics",
+      "title": "Developer tool ergonomics and UX",
+      "summary": "Modern CLI tools and terminal applications (croc for file transfer, fd for faster directory search, Hyprland desktop environment, Tabby terminal) prioritizing user experience, speed, and accessibility over traditional command-line verbosity.",
+      "supporting_repos": [
+        "schollz/croc",
+        "sharkdp/fd",
+        "hyprwm/Hyprland",
+        "Eugeny/tabby",
+        "jj-vcs/jj"
+      ]
+    },
+    {
+      "slug": "ai-data-infrastructure",
+      "title": "AI and vector data infrastructure",
+      "summary": "Specialized databases and infrastructure for embedding and vector operations (Qdrant, Chroma) alongside broader ML platforms (Transformers, LangChain) that power AI applications at scale. Reflects enterprise AI workload acceleration and the need for purpose-built data layers.",
+      "supporting_repos": [
+        "qdrant/qdrant",
+        "chroma-core/chroma",
+        "huggingface/transformers",
+        "langchain-ai/langchain"
+      ]
+    }
+  ],
+  "whats_new": "Rust fullstack frameworks emerge as a cohesive theme, unifying desktop, web, and mobile development with async/await foundations\u2014a shift from last week's infrastructure focus toward developer experience. Offline media processing solidifies with Whisper derivatives gaining practical traction. Self-hosted platforms (Jellyfin, Directus, Windmill) displace niche document management to become diverse, multi-category SaaS alternatives. AI/vector data infrastructure surges as a distinct theme, reflecting enterprise demand for purpose-built embeddings infrastructure beyond general observability.",
+  "projects": [
+    {
+      "title": "Rust Fullstack Template Generator with TypeScript Codegen",
+      "topic_slug": "rust-fullstack-frameworks",
+      "scope": "short",
+      "pitch": "Create a CLI tool that scaffolds a Dioxus fullstack project with end-to-end type safety by auto-generating TypeScript client types from Rust server types via serde schema extraction. Include starter templates for common patterns (CRUD, auth, real-time), pre-configured Tokio runtime, and database schema binding.",
+      "why_now": "Dioxus and Tokio adoption is accelerating; developers need scaffolding that bridges Rust backend and frontend type systems to eliminate serialization bugs at development time.",
+      "stack_hints": [
+        "Rust",
+        "dioxus",
+        "tokio",
+        "serde_json",
+        "ts-rs",
+        "clap"
+      ]
+    },
+    {
+      "title": "Real-Time Collaborative Audio Transcription with Offline Fallback",
+      "topic_slug": "media-processing-transcription",
+      "scope": "short",
+      "pitch": "Build a lightweight service that listens to system audio or microphone input, transcribes in real-time using Whisper (offline), and streams results to a web dashboard. Include speaker detection, auto-save to searchable SQLite, and export to VTT/SRT with optional cloud sync fallback.",
+      "why_now": "Content creators and researchers need real-time transcription without cloud upload; offline Whisper deployment enables privacy-first workflows with persistent local archives.",
+      "stack_hints": [
+        "Python",
+        "whisper",
+        "pyaudio",
+        "FastAPI",
+        "WebSocket",
+        "SQLite"
+      ]
+    },
+    {
+      "title": "VCS History Browser with Jujutsu Backend",
+      "topic_slug": "dev-tool-ergonomics",
+      "scope": "short",
+      "pitch": "Create a TUI (terminal UI) that visualizes commit history, branches, and diffs using Jujutsu as the underlying VCS. Enable intuitive navigation (arrow keys, vim bindings), instant search by author/message, and one-keystroke bisect/rebase workflows. Export visualizations as SVG.",
+      "why_now": "Jujutsu is gaining traction as a Git alternative; developers need ergonomic tooling to explore its capabilities without learning complex CLI syntax.",
+      "stack_hints": [
+        "Rust",
+        "jj",
+        "ratatui",
+        "tokio",
+        "regex"
+      ]
+    },
+    {
+      "title": "Self-Hosted Vector Embedding Search UI for Qdrant",
+      "topic_slug": "ai-data-infrastructure",
+      "scope": "short",
+      "pitch": "Build a web UI that connects to a Qdrant instance and enables semantic search across stored embeddings with faceted filtering, relevance tuning, and batch operations. Include import/export of embedding collections and a Python SDK for programmatic queries.",
+      "why_now": "Qdrant deployments lack user-friendly query interfaces; a web UI unlocks non-technical stakeholders to explore embeddings without REST API knowledge.",
+      "stack_hints": [
+        "TypeScript",
+        "React",
+        "qdrant-client",
+        "fastapi",
+        "plotly.js"
+      ]
+    },
+    {
+      "title": "Encrypted File-Sharing Protocol Benchmarker for Croc-like Tools",
+      "topic_slug": "dev-tool-ergonomics",
+      "scope": "short",
+      "pitch": "Develop a micro-benchmark suite that measures transfer speed, latency, and memory overhead of popular peer-to-peer file-sharing tools (croc, magic-wormhole, etc.) across network conditions. Visualize results in HTML reports and enable community contribution of new tools.",
+      "why_now": "Developers need objective performance comparisons of P2P tools; a benchmarking framework establishes trust in ergonomic tools' reliability claims.",
+      "stack_hints": [
+        "Python",
+        "iperf",
+        "pytest-benchmark",
+        "plotly",
+        "docker"
+      ]
+    },
+    {
+      "title": "Polars-Based Data Profiling and Anomaly Detection Engine",
+      "topic_slug": "rust-fullstack-frameworks",
+      "scope": "medium",
+      "pitch": "Build a Rust library that profiles large datasets using Polars, auto-generates data quality reports (cardinality, nulls, skew, outliers), detects schema drift, and flags anomalies. Expose as a FastAPI service with interactive dashboard. Include integration with Directus data sources.",
+      "why_now": "Polars adoption is accelerating for data processing; teams need efficient, in-process data profiling to catch quality issues before analytics. Directus integration enables self-hosted data governance.",
+      "stack_hints": [
+        "Rust",
+        "polars",
+        "tokio",
+        "fastapi",
+        "react",
+        "statistical libraries"
+      ]
+    },
+    {
+      "title": "Multi-Language Subtitle Burn-In Service with AI Translation and Styling",
+      "topic_slug": "media-processing-transcription",
+      "scope": "medium",
+      "pitch": "Build a service that transcribes video offline using Whisper, auto-detects language, generates subtitles, translates to multiple languages, and burns them into video with customizable fonts, colors, and positioning. Support SRT/VTT output and real-time preview. Expose via web UI and CLI.",
+      "why_now": "Content creators need affordable, privacy-respecting multi-language subtitle generation; offline processing eliminates per-minute cloud API costs and data exposure.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "whisper",
+        "transformers",
+        "ffmpeg-python",
+        "pillow",
+        "React"
+      ]
+    },
+    {
+      "title": "Windmill Workflow Debugger with Step-Through and Variable Inspector",
+      "topic_slug": "open-source-infrastructure",
+      "scope": "medium",
+      "pitch": "Extend Windmill with a visual debugger that allows step-through execution of workflows, inspect variable state at each step, set breakpoints, and replay with modified inputs. Generate execution traces and performance flamegraphs. Integrate with Windmill's web UI.",
+      "why_now": "Workflow automation tools lack production debugging; a native debugger reduces iteration time and helps teams diagnose complex multi-step orchestrations.",
+      "stack_hints": [
+        "TypeScript",
+        "Rust",
+        "windmill-labs/windmill",
+        "React",
+        "tokio"
+      ]
+    },
+    {
+      "title": "Jellyfin Media Library Analyzer with Genre and Mood Classification",
+      "topic_slug": "open-source-infrastructure",
+      "scope": "medium",
+      "pitch": "Develop a plugin for Jellyfin that analyzes media metadata and content (via ML models), auto-classifies into genres, moods, and themes, suggests watch-next recommendations, and generates personalized collections. Include a dashboard showing library statistics and trending patterns.",
+      "why_now": "Self-hosted media servers like Jellyfin lack intelligent curation; ML-powered classification enables better user discovery and library organization without external services.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "transformers",
+        "scikit-learn",
+        "sqlite",
+        "Jellyfin API"
+      ]
+    },
+    {
+      "title": "Rust-to-Polars Type Bridge with Automatic Schema Inference",
+      "topic_slug": "rust-fullstack-frameworks",
+      "scope": "medium",
+      "pitch": "Create a Rust crate that auto-derives Polars DataFrame schemas from Rust struct definitions using proc-macros, enabling zero-copy data ingestion from Rust collections. Include CLI to generate Polars-compatible CSV imports and optimize schema compression based on data cardinality.",
+      "why_now": "Polars adoption in Rust is growing; teams need seamless interop between Rust types and DataFrames to reduce serialization overhead in data pipelines.",
+      "stack_hints": [
+        "Rust",
+        "polars",
+        "syn",
+        "quote",
+        "serde"
+      ]
+    },
+    {
+      "title": "Threat Intelligence Feedback Loop for Security Scanning (Trivy + Nuclei)",
+      "topic_slug": "dev-tool-ergonomics",
+      "scope": "medium",
+      "pitch": "Build a service that ingests vulnerability reports from Trivy scans, correlates findings across projects, extracts indicators of compromise, and automatically generates Nuclei templates for community threat hunting. Expose a web dashboard for team collaboration on vulnerability triage.",
+      "why_now": "Security teams struggle to act on vulnerability data; automating Nuclei template generation from Trivy findings enables threat hunting and validates fixes at scale.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "trivy",
+        "nuclei",
+        "React",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "AI Model-as-Data Platform for Qdrant with Fine-Tuning Orchestration",
+      "topic_slug": "ai-data-infrastructure",
+      "scope": "long",
+      "pitch": "Build a platform that treats embedding models as versioned data assets stored in Qdrant, enabling teams to version, compare, and serve multiple model variants simultaneously. Include automated fine-tuning workflows on custom datasets, A/B testing of embedding quality, and rollback capabilities. Expose via SDK and web UI.",
+      "why_now": "Enterprises need to manage embedding model drift and A/B test variants; a model registry integrated with Qdrant enables rapid iteration on vector search quality without disrupting production.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "qdrant-client",
+        "transformers",
+        "ray",
+        "PostgreSQL",
+        "React"
+      ]
+    },
+    {
+      "title": "Polyglot Dioxus Component Library with Accessibility Auditing",
+      "topic_slug": "rust-fullstack-frameworks",
+      "scope": "long",
+      "pitch": "Develop a comprehensive, production-ready Dioxus component library covering forms, tables, modals, charts, and navigation. Include built-in accessibility auditing (WCAG 2.1), visual regression testing across browsers, and auto-generated Storybook. Publish with TypeScript type definitions for API clarity.",
+      "why_now": "Dioxus adoption requires battle-tested, accessible components; a mature library accelerates team onboarding and reduces security/accessibility risks in production fullstack apps.",
+      "stack_hints": [
+        "Rust",
+        "dioxus",
+        "axe-core",
+        "playwright",
+        "storybook",
+        "tokio"
+      ]
+    },
+    {
+      "title": "Decentralized Directus Content Sync with Conflict Resolution Engine",
+      "topic_slug": "open-source-infrastructure",
+      "scope": "long",
+      "pitch": "Extend Directus with a decentralized content sync layer that replicates databases across geographically distributed self-hosted instances, auto-detects and resolves conflicts using configurable rules (last-write-wins, schema-aware merging), and maintains audit trails. Enable edge-local writes with eventual consistency.",
+      "why_now": "Teams operating multiple Directus instances lack robust sync; decentralized conflict resolution enables edge-deployed headless CMS with global content coherence.",
+      "stack_hints": [
+        "TypeScript",
+        "Rust",
+        "directus",
+        "crdt",
+        "websocket",
+        "PostgreSQL",
+        "tokio"
+      ]
+    },
+    {
+      "title": "End-to-End Encrypted Media Archive with Offline-First Search Index",
+      "topic_slug": "media-processing-transcription",
+      "scope": "long",
+      "pitch": "Create a system for archiving large media libraries with client-side encryption, offline-first searchable transcripts (Whisper-powered), and synchronized metadata across devices. Include zero-knowledge architecture, encrypted backups to S3-compatible storage, and progressive search index sync. Expose as desktop app and web UI.",
+      "why_now": "Privacy-conscious users need to archive sensitive media locally without exposing content to cloud providers; offline transcription + encrypted sync enables personal media archives with search.",
+      "stack_hints": [
+        "Rust",
+        "Tauri",
+        "whisper",
+        "tantivy",
+        "age-encryption",
+        "s3",
+        "React"
+      ]
+    }
+  ]
+}
