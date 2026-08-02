@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-08-02",
+  "window_dates": [
+    "2026-07-27",
+    "2026-07-28",
+    "2026-07-29",
+    "2026-07-30",
+    "2026-07-31",
+    "2026-08-01",
+    "2026-08-02"
+  ],
+  "repos": [
+    {
+      "full_name": "paperswithbacktest/awesome-systematic-trading",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "language": "Python",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 3306,
+      "peak_daily_stars": 945,
+      "persistence_score": 56.72657699087256
+    },
+    {
+      "full_name": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 1896,
+      "peak_daily_stars": 360,
+      "persistence_score": 52.8362027895451
+    },
+    {
+      "full_name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 613,
+      "peak_daily_stars": 121,
+      "persistence_score": 44.93996449703
+    },
+    {
+      "full_name": "openai/whisper",
+      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "language": "Python",
+      "url": "https://github.com/openai/whisper",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 794,
+      "peak_daily_stars": 149,
+      "persistence_score": 40.070052687925994
+    },
+    {
+      "full_name": "seerr-team/seerr",
+      "description": "Open-source media request and discovery manager for Jellyfin, Plex, and Emby.",
+      "language": "TypeScript",
+      "url": "https://github.com/seerr-team/seerr",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 133,
+      "peak_daily_stars": 35,
+      "persistence_score": 34.28487859965638
+    },
+    {
+      "full_name": "fastify/fastify",
+      "description": "Fast and low overhead web framework, for Node.js",
+      "language": "JavaScript",
+      "url": "https://github.com/fastify/fastify",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 104,
+      "peak_daily_stars": 26,
+      "persistence_score": 32.57772245110266
+    },
+    {
+      "full_name": "grokability/snipe-it",
+      "description": "A free open source IT asset/license management system",
+      "language": "PHP",
+      "url": "https://github.com/grokability/snipe-it",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 555,
+      "peak_daily_stars": 351,
+      "persistence_score": 31.603841471252913
+    },
+    {
+      "full_name": "langchain-ai/langchain",
+      "description": "The agent engineering platform.",
+      "language": "Python",
+      "url": "https://github.com/langchain-ai/langchain",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 500,
+      "peak_daily_stars": 109,
+      "persistence_score": 31.083030505424322
+    },
+    {
+      "full_name": "qdrant/qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/",
+      "language": "Rust",
+      "url": "https://github.com/qdrant/qdrant",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 124,
+      "peak_daily_stars": 29,
+      "persistence_score": 28.969882423813807
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "url": "https://github.com/aquasecurity/trivy",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 119,
+      "peak_daily_stars": 26,
+      "persistence_score": 28.724950456692277
+    },
+    {
+      "full_name": "microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/playwright",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 288,
+      "peak_daily_stars": 63,
+      "persistence_score": 28.33213344056216
+    },
+    {
+      "full_name": "iluwatar/java-design-patterns",
+      "description": "Design patterns implemented in Java",
+      "language": "Java",
+      "url": "https://github.com/iluwatar/java-design-patterns",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 288,
+      "peak_daily_stars": 93,
+      "persistence_score": 28.33213344056216
+    },
+    {
+      "full_name": "meilisearch/meilisearch",
+      "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
+      "language": "Rust",
+      "url": "https://github.com/meilisearch/meilisearch",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 108,
+      "peak_daily_stars": 20,
+      "persistence_score": 28.14808729337486
+    },
+    {
+      "full_name": "lance-format/lance",
+      "description": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
+      "language": "Rust",
+      "url": "https://github.com/lance-format/lance",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 49,
+      "peak_daily_stars": 15,
+      "persistence_score": 27.38416103799702
+    },
+    {
+      "full_name": "reflex-dev/reflex",
+      "description": "\ud83d\udd78\ufe0f Web apps in pure Python \ud83d\udc0d",
+      "language": "Python",
+      "url": "https://github.com/reflex-dev/reflex",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 88,
+      "peak_daily_stars": 28,
+      "persistence_score": 26.931818218392838
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 736,
+      "peak_daily_stars": 197,
+      "persistence_score": 26.410351568757346
+    },
+    {
+      "full_name": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 584,
+      "peak_daily_stars": 161,
+      "persistence_score": 25.486447388927427
+    },
+    {
+      "full_name": "microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "language": "C",
+      "url": "https://github.com/microsoft/PowerToys",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 521,
+      "peak_daily_stars": 352,
+      "persistence_score": 25.030670351530556
+    },
+    {
+      "full_name": "Dao-AILab/flash-attention",
+      "description": "Fast and memory-efficient exact attention",
+      "language": "Python",
+      "url": "https://github.com/Dao-AILab/flash-attention",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 60,
+      "peak_daily_stars": 15,
+      "persistence_score": 24.66524318503987
+    },
+    {
+      "full_name": "tracel-ai/burn",
+      "description": "Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.",
+      "language": "Rust",
+      "url": "https://github.com/tracel-ai/burn",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 57,
+      "peak_daily_stars": 18,
+      "persistence_score": 24.362658063278516
+    },
+    {
+      "full_name": "immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "url": "https://github.com/immich-app/immich",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 434,
+      "peak_daily_stars": 144,
+      "persistence_score": 24.301384124354737
+    },
+    {
+      "full_name": "apache/superset",
+      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+      "language": "Python",
+      "url": "https://github.com/apache/superset",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 112,
+      "peak_daily_stars": 28,
+      "persistence_score": 23.636939093561704
+    },
+    {
+      "full_name": "gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks \ud83d\udd11",
+      "language": "Go",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 103,
+      "peak_daily_stars": 25,
+      "persistence_score": 23.22195449570686
+    },
+    {
+      "full_name": "projectdiscovery/nuclei-templates",
+      "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "language": "JavaScript",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 46,
+      "peak_daily_stars": 10,
+      "persistence_score": 23.10088561026035
+    },
+    {
+      "full_name": "mui/material-ui",
+      "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+      "language": "JavaScript",
+      "url": "https://github.com/mui/material-ui",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 46,
+      "peak_daily_stars": 11,
+      "persistence_score": 23.10088561026035
+    },
+    {
+      "full_name": "Project-HAMi/HAMi",
+      "description": "Heterogeneous GPU Sharing on Kubernetes",
+      "language": "Go",
+      "url": "https://github.com/Project-HAMi/HAMi",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 89,
+      "peak_daily_stars": 23,
+      "persistence_score": 22.499048351651325
+    },
+    {
+      "full_name": "traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "url": "https://github.com/traefik/traefik",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 80,
+      "peak_daily_stars": 22,
+      "persistence_score": 21.972245773362197
+    },
+    {
+      "full_name": "bitwarden/clients",
+      "description": "Bitwarden client apps (web, browser extension, desktop, and cli).",
+      "language": "TypeScript",
+      "url": "https://github.com/bitwarden/clients",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 78,
+      "peak_daily_stars": 18,
+      "persistence_score": 21.84723926233511
+    },
+    {
+      "full_name": "tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "url": "https://github.com/tailscale/tailscale",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 196,
+      "peak_daily_stars": 67,
+      "persistence_score": 21.132814914951954
+    },
+    {
+      "full_name": "windmill-labs/windmill",
+      "description": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal.",
+      "language": "Rust",
+      "url": "https://github.com/windmill-labs/windmill",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 65,
+      "peak_daily_stars": 18,
+      "persistence_score": 20.948273710132128
+    },
+    {
+      "full_name": "servo/servo",
+      "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+      "language": "Rust",
+      "url": "https://github.com/servo/servo",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 65,
+      "peak_daily_stars": 21,
+      "persistence_score": 20.948273710132128
+    },
+    {
+      "full_name": "voxel51/fiftyone",
+      "description": "Refine high-quality datasets and visual AI models",
+      "language": "TypeScript",
+      "url": "https://github.com/voxel51/fiftyone",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 31,
+      "peak_daily_stars": 9,
+      "persistence_score": 20.79441541679836
+    },
+    {
+      "full_name": "meshery/meshery",
+      "description": "Meshery, the cloud native manager",
+      "language": "TypeScript",
+      "url": "https://github.com/meshery/meshery",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 29,
+      "peak_daily_stars": 8,
+      "persistence_score": 20.407184289972932
+    },
+    {
+      "full_name": "iced-rs/iced",
+      "description": "A cross-platform GUI library for Rust, inspired by Elm",
+      "language": "Rust",
+      "url": "https://github.com/iced-rs/iced",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 58,
+      "peak_daily_stars": 18,
+      "persistence_score": 20.387687219528598
+    },
+    {
+      "full_name": "sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "language": "JavaScript",
+      "url": "https://github.com/sveltejs/svelte",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 55,
+      "peak_daily_stars": 14,
+      "persistence_score": 20.12675845367575
+    },
+    {
+      "full_name": "jesseduffield/lazygit",
+      "description": "simple terminal UI for git commands",
+      "language": "Go",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 150,
+      "peak_daily_stars": 45,
+      "persistence_score": 20.069119347259697
+    },
+    {
+      "full_name": "bobeff/open-source-games",
+      "description": "A list of open source games.",
+      "language": "Python",
+      "url": "https://github.com/bobeff/open-source-games",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 142,
+      "peak_daily_stars": 58,
+      "persistence_score": 19.851378521039628
+    },
+    {
+      "full_name": "cvat-ai/cvat",
+      "description": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs.",
+      "language": "Python",
+      "url": "https://github.com/cvat-ai/cvat",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 50,
+      "peak_daily_stars": 17,
+      "persistence_score": 19.659128163621627
+    },
+    {
+      "full_name": "nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "url": "https://github.com/nats-io/nats-server",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 44,
+      "peak_daily_stars": 17,
+      "persistence_score": 19.033312448851596
+    },
+    {
+      "full_name": "cli/cli",
+      "description": "GitHub\u2019s official command line tool",
+      "language": "Go",
+      "url": "https://github.com/cli/cli",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 103,
+      "peak_daily_stars": 28,
+      "persistence_score": 18.57756359656549
+    }
+  ]
+}

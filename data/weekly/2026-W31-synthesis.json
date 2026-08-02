@@ -1,0 +1,272 @@
+{
+  "week_of": "2026-08-02",
+  "topics": [
+    {
+      "slug": "systematic-trading-infrastructure",
+      "title": "Systematic trading infrastructure",
+      "summary": "Curated ecosystems and libraries for backtesting, quantitative strategy development, and data-driven market analysis. Reflects growing demand for reproducible, self-hosted trading workflows without reliance on commercial platforms.",
+      "supporting_repos": [
+        "paperswithbacktest/awesome-systematic-trading",
+        "langchain-ai/langchain",
+        "meilisearch/meilisearch"
+      ]
+    },
+    {
+      "slug": "media-download-and-lifecycle",
+      "title": "Media download and lifecycle management",
+      "summary": "Tools for downloading, archiving, and managing media content (video, audio, photos) with emphasis on self-hosted infrastructure and offline-first workflows. Combines content capture, transcription, and organized retrieval.",
+      "supporting_repos": [
+        "yt-dlp/yt-dlp",
+        "openai/whisper",
+        "immich-app/immich"
+      ]
+    },
+    {
+      "slug": "remote-access-and-networking",
+      "title": "Remote access and networking",
+      "summary": "Open-source infrastructure for secure remote connectivity, self-hosted deployment, and privacy-preserving network management. Shifts away from proprietary commercial solutions toward user-controlled alternatives.",
+      "supporting_repos": [
+        "rustdesk/rustdesk",
+        "tailscale/tailscale",
+        "traefik/traefik"
+      ]
+    },
+    {
+      "slug": "ai-workflow-orchestration",
+      "title": "AI workflow orchestration and low-code platforms",
+      "summary": "Visual workflow builders and automation platforms with AI-native capabilities, enabling non-engineers to compose complex multi-step processes. Combines agent frameworks with accessible UIs.",
+      "supporting_repos": [
+        "n8n-io/n8n",
+        "langchain-ai/langchain",
+        "reflex-dev/reflex"
+      ]
+    },
+    {
+      "slug": "high-performance-data-layers",
+      "title": "High-performance data layers and vector search",
+      "summary": "Specialized storage and retrieval systems optimized for multimodal AI workloads, vector search, and efficient data access patterns. Includes lakehouse formats, vector databases, and memory-efficient indexing.",
+      "supporting_repos": [
+        "qdrant/qdrant",
+        "lance-format/lance",
+        "meilisearch/meilisearch"
+      ]
+    }
+  ],
+  "whats_new": "Systematic trading infrastructure emerges as a dominant new theme, reflecting financial engineering adoption trends. Media download/lifecycle and remote-access themes gain prominence alongside persistent AI infrastructure focus. Last week's emphasis on Rust fullstack frameworks and self-hosted platforms (Windmill, Directus) persists but recedes in relative trending, replaced by more industry-specific use cases: trading automation, media management, and low-code AI orchestration. Vector data infrastructure remains strong but now competes with emerging workflow automation demand.",
+  "projects": [
+    {
+      "title": "Quantitative Strategy Backtester with Walk-Forward Analysis",
+      "topic_slug": "systematic-trading-infrastructure",
+      "scope": "short",
+      "pitch": "Build a Python CLI that accepts a strategy definition (via YAML config), backtests against historical market data, and generates walk-forward validation reports. Output HTML dashboards showing Sharpe ratio, max drawdown, and parameter sensitivity. Integrate with a free data API (Alpha Vantage or IEX Cloud).",
+      "why_now": "Systematic trading is trending; developers need lightweight backtesting tools that validate strategies before live deployment without commercial platform lock-in.",
+      "stack_hints": [
+        "Python",
+        "pandas",
+        "numpy",
+        "plotly",
+        "pydantic"
+      ]
+    },
+    {
+      "title": "Media Metadata Enrichment Pipeline with Offline ML",
+      "topic_slug": "media-download-and-lifecycle",
+      "scope": "short",
+      "pitch": "Create a service that monitors a downloaded media directory, auto-extracts metadata using Whisper and EXIF parsing, generates keywords via zero-shot classification, and populates a searchable SQLite index. Expose via simple web UI with faceted filtering.",
+      "why_now": "As yt-dlp and offline transcription tools mature, users need integrated metadata extraction to make downloaded archives discoverable without relying on external tagging services.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "whisper",
+        "transformers",
+        "sqlite"
+      ]
+    },
+    {
+      "title": "Self-Hosted VPN Health Monitor and Failover Manager",
+      "topic_slug": "remote-access-and-networking",
+      "scope": "short",
+      "pitch": "Develop a lightweight daemon that monitors Tailscale/WireGuard connections, measures latency and packet loss, logs metrics to time-series DB, and automatically triggers failover to secondary nodes on degradation. Expose status via web dashboard.",
+      "why_now": "Remote-access tools like Tailscale are gaining adoption; teams need observability and automatic recovery for critical network links without vendor dependency.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "prometheus",
+        "warp",
+        "SQLite"
+      ]
+    },
+    {
+      "title": "Multi-Step Workflow Validator and Cost Estimator",
+      "topic_slug": "ai-workflow-orchestration",
+      "scope": "short",
+      "pitch": "Build a static analyzer that parses workflow definitions (n8n/Windmill format), detects undefined variables, infinite loops, missing error handlers, and estimates cloud API costs. Output machine-readable lint reports and integration suggestions.",
+      "why_now": "As teams adopt low-code workflow platforms, they need pre-deployment validation to catch bugs and control runaway costs without manual QA overhead.",
+      "stack_hints": [
+        "Python",
+        "pydantic",
+        "graphlib",
+        "FastAPI"
+      ]
+    },
+    {
+      "title": "Vector Embedding Drift Detector with Alerting",
+      "topic_slug": "high-performance-data-layers",
+      "scope": "short",
+      "pitch": "Create a service that periodically samples embeddings from Qdrant, computes statistical moments (mean, covariance, entropy), detects distribution shifts via Kolmogorov-Smirnov test, and triggers alerts via webhook. Generate drift reports with visualization.",
+      "why_now": "Vector databases are proliferating; production systems need automated drift detection to maintain embedding quality without manual retraining decisions.",
+      "stack_hints": [
+        "Python",
+        "scipy",
+        "qdrant-client",
+        "numpy",
+        "plotly"
+      ]
+    },
+    {
+      "title": "Strategy Portfolio Optimizer with Risk Constraints",
+      "topic_slug": "systematic-trading-infrastructure",
+      "scope": "medium",
+      "pitch": "Build a Python library that takes multiple backtested strategies as inputs, optimizes portfolio allocation using Markowitz mean-variance or risk-parity, respects sector/correlation constraints, and generates rebalancing schedules. Include Monte Carlo simulation, stress testing, and live monitoring against actual portfolio.",
+      "why_now": "Quant traders need practical portfolio construction tools that combine multiple strategies; current offerings are either academic or behind expensive paywalls.",
+      "stack_hints": [
+        "Python",
+        "cvxpy",
+        "pandas",
+        "numpy",
+        "scipy",
+        "plotly"
+      ]
+    },
+    {
+      "title": "Unified Media Archive with Deduplication and Smart Curation",
+      "topic_slug": "media-download-and-lifecycle",
+      "scope": "medium",
+      "pitch": "Create an application that consolidates media from yt-dlp downloads, local files, and optional cloud sync, deduplicates by content hash and perceptual fingerprinting, applies AI-powered tagging (mood, genre, subject), and surfaces personalized recommendations. Include conflict resolution for near-duplicates.",
+      "why_now": "Offline media collections are growing; users need unified curation without manual organization, combining Whisper transcription and ML classification into a cohesive archive.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "transformers",
+        "sqlite",
+        "imagehash",
+        "React"
+      ]
+    },
+    {
+      "title": "Zero-Trust Network Gateway with Audit and Compliance Logging",
+      "topic_slug": "remote-access-and-networking",
+      "scope": "medium",
+      "pitch": "Extend Tailscale/WireGuard with a policy-enforcement gateway that logs all connection attempts, enforces device posture checks, implements device-scoped IP allocation, and generates compliance reports (SOC 2, HIPAA). Include UI for policy management and audit trail export.",
+      "why_now": "Teams deploying self-hosted remote access need compliance-grade visibility; Tailscale lacks built-in audit trails for regulated environments.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "PostgreSQL",
+        "tonic",
+        "React"
+      ]
+    },
+    {
+      "title": "AI Agent Framework with Debugging and Trace Visualization",
+      "topic_slug": "ai-workflow-orchestration",
+      "scope": "medium",
+      "pitch": "Build a Python framework that wraps LangChain agents with step-by-step tracing, variable inspection, cost attribution, and interactive replay. Generate flamegraphs of agent execution, support breakpoint debugging, and export traces as DAGs for analysis.",
+      "why_now": "LangChain and agentic workflows lack production debugging; developers need visibility into multi-step reasoning without manually adding logging everywhere.",
+      "stack_hints": [
+        "Python",
+        "langchain",
+        "fastapi",
+        "pydantic",
+        "plotly"
+      ]
+    },
+    {
+      "title": "Hybrid Vector-Keyword Search Engine with Re-Ranking",
+      "topic_slug": "high-performance-data-layers",
+      "scope": "medium",
+      "pitch": "Develop a Python service that fuses keyword search (Meilisearch) and semantic search (Qdrant) results via learned re-ranking, supports iterative query refinement, and caches embedding computations. Include A/B testing framework to evaluate ranking quality.",
+      "why_now": "Production RAG systems need both keyword recall and semantic relevance; combining Meilisearch and Qdrant enables teams to optimize for both without switching backends.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "qdrant-client",
+        "meilisearch",
+        "scikit-learn"
+      ]
+    },
+    {
+      "title": "Multi-Exchange Arbitrage Detector with Execution Framework",
+      "topic_slug": "systematic-trading-infrastructure",
+      "scope": "long",
+      "pitch": "Create a full-stack system that ingests real-time price feeds from multiple crypto/forex exchanges, detects profitable arbitrage opportunities via graph traversal, calculates net profit after fees and slippage, and executes hedged trades atomically. Include risk management, position tracking, and profit/loss reporting.",
+      "why_now": "Systematic traders are moving toward multi-exchange strategies; existing tools require deep technical integration; a unified framework with safe execution enables broader adoption.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "ccxt",
+        "PostgreSQL",
+        "React",
+        "web3"
+      ]
+    },
+    {
+      "title": "End-to-End Encrypted Media Sync with Selective Transcription",
+      "topic_slug": "media-download-and-lifecycle",
+      "scope": "long",
+      "pitch": "Build a desktop/mobile application that syncs media collections across devices with client-side encryption, runs Whisper transcription only on selected items, stores searchable indices locally, and offers optional cloud backup without exposing content. Include conflict resolution, bandwidth-aware sync, and progressive transcription.",
+      "why_now": "Privacy-conscious media consumers need encrypted sync combined with offline transcription; existing solutions either expose metadata or lack transcription features.",
+      "stack_hints": [
+        "Rust",
+        "Tauri",
+        "whisper",
+        "tantivy",
+        "age-encryption",
+        "tokio"
+      ]
+    },
+    {
+      "title": "Enterprise-Grade VPN with Microsegmentation and Analytics",
+      "topic_slug": "remote-access-and-networking",
+      "scope": "long",
+      "pitch": "Develop a Tailscale alternative built on Rust that supports microsegmentation policies, device group membership, real-time bandwidth/latency analytics, integration with SIEM systems, and automated threat response (IP blocking, session termination). Include web UI and API for policy automation.",
+      "why_now": "Organizations outgrowing consumer VPN tools need open-source alternatives with compliance and microsegmentation; Tailscale's closed architecture limits enterprise integration.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "wireguard",
+        "PostgreSQL",
+        "prometheus",
+        "React"
+      ]
+    },
+    {
+      "title": "Visual Workflow Builder with AI-Powered Optimization",
+      "topic_slug": "ai-workflow-orchestration",
+      "scope": "long",
+      "pitch": "Create a web-based workflow editor that compiles visual DAGs to executable code, provides AI-powered suggestions for parallelization and error handling, simulates execution with sample data, and auto-generates monitoring dashboards. Support multiple backends (Windmill, Argo, Airflow) via plugin architecture.",
+      "why_now": "Low-code platforms are maturing; users need AI-assisted optimization to avoid performance pitfalls; a vendor-neutral builder unlocks adoption across platforms.",
+      "stack_hints": [
+        "TypeScript",
+        "React",
+        "DAG visualization library",
+        "Python",
+        "FastAPI"
+      ]
+    },
+    {
+      "title": "Federated Vector Database with CRDT-Based Sync",
+      "topic_slug": "high-performance-data-layers",
+      "scope": "long",
+      "pitch": "Build a distributed vector database that replicates embeddings across multiple Qdrant instances using CRDT (Conflict-free Replicated Data Type) semantics, enables writes at any node, and maintains consistency without a central coordinator. Include automatic conflict resolution, versioning, and rollback.",
+      "why_now": "Enterprises deploying AI globally need vector databases that scale across regions; federated architecture with CRDT enables edge inference and cost reduction.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "qdrant",
+        "crdt-rs",
+        "PostgreSQL"
+      ]
+    }
+  ]
+}

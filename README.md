@@ -1,115 +1,103 @@
 # Trending Project Ideas
 
-**Week of 2026-07-27** | [About this project](ABOUT.md)
+**Week of 2026-08-02** | [About this project](ABOUT.md)
 
 ---
 
 > **What's new this week**
 >
-> Rust fullstack frameworks emerge as a cohesive theme, unifying desktop, web, and mobile development with async/await foundations—a shift from last week's infrastructure focus toward developer experience. Offline media processing solidifies with Whisper derivatives gaining practical traction. Self-hosted platforms (Jellyfin, Directus, Windmill) displace niche document management to become diverse, multi-category SaaS alternatives. AI/vector data infrastructure surges as a distinct theme, reflecting enterprise demand for purpose-built embeddings infrastructure beyond general observability.
+> Systematic trading infrastructure emerges as a dominant new theme, reflecting financial engineering adoption trends. Media download/lifecycle and remote-access themes gain prominence alongside persistent AI infrastructure focus. Last week's emphasis on Rust fullstack frameworks and self-hosted platforms (Windmill, Directus) persists but recedes in relative trending, replaced by more industry-specific use cases: trading automation, media management, and low-code AI orchestration. Vector data infrastructure remains strong but now competes with emerging workflow automation demand.
 
 ---
 
 ## Trending Topics
 
 
-### Rust fullstack and systems frameworks
+### Systematic trading infrastructure
 
-Emerging Rust-based frameworks (Dioxus, Tauri-adjacent ecosystems) that unify web, desktop, and mobile development with native performance, complemented by foundational async runtimes (Tokio) and high-performance data processing libraries (Polars). Reflects demand for polyglot, memory-safe development across all tiers.
+Curated ecosystems and libraries for backtesting, quantitative strategy development, and data-driven market analysis. Reflects growing demand for reproducible, self-hosted trading workflows without reliance on commercial platforms.
 
 <details>
-<summary>Supporting repos (5)</summary>
+<summary>Supporting repos (3)</summary>
 
 
-- [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus)
+- [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading)
 
-- [tokio-rs/tokio](https://github.com/tokio-rs/tokio)
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
 
-- [pola-rs/polars](https://github.com/pola-rs/polars)
-
-- [iced-rs/iced](https://github.com/iced-rs/iced)
-
-- [servo/servo](https://github.com/servo/servo)
+- [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
 
 
 </details>
 
 
-### Offline media processing and transcription
+### Media download and lifecycle management
 
-Privacy-first, offline audio/video processing tools (Whisper-based transcription, subtitle generation) that avoid cloud dependencies and enable local, batch-scale media workflows. Emphasis on Whisper and derivative projects gaining practical adoption.
+Tools for downloading, archiving, and managing media content (video, audio, photos) with emphasis on self-hosted infrastructure and offline-first workflows. Combines content capture, transcription, and organized retrieval.
 
 <details>
-<summary>Supporting repos (2)</summary>
+<summary>Supporting repos (3)</summary>
 
 
-- [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz)
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
 - [openai/whisper](https://github.com/openai/whisper)
 
-
-</details>
-
-
-### Self-hosted and open infrastructure platforms
-
-Deployable alternatives to commercial SaaS (Jellyfin, Directus, Plane, Windmill) emphasizing data ownership, extensibility, and cost control. Includes media servers, headless CMS, project management, and workflow automation platforms.
-
-<details>
-<summary>Supporting repos (5)</summary>
-
-
-- [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin)
-
-- [directus/directus](https://github.com/directus/directus)
-
-- [makeplane/plane](https://github.com/makeplane/plane)
-
-- [windmill-labs/windmill](https://github.com/windmill-labs/windmill)
-
-- [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
+- [immich-app/immich](https://github.com/immich-app/immich)
 
 
 </details>
 
 
-### Developer tool ergonomics and UX
+### Remote access and networking
 
-Modern CLI tools and terminal applications (croc for file transfer, fd for faster directory search, Hyprland desktop environment, Tabby terminal) prioritizing user experience, speed, and accessibility over traditional command-line verbosity.
+Open-source infrastructure for secure remote connectivity, self-hosted deployment, and privacy-preserving network management. Shifts away from proprietary commercial solutions toward user-controlled alternatives.
 
 <details>
-<summary>Supporting repos (5)</summary>
+<summary>Supporting repos (3)</summary>
 
 
-- [schollz/croc](https://github.com/schollz/croc)
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
 
-- [sharkdp/fd](https://github.com/sharkdp/fd)
+- [tailscale/tailscale](https://github.com/tailscale/tailscale)
 
-- [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland)
-
-- [Eugeny/tabby](https://github.com/Eugeny/tabby)
-
-- [jj-vcs/jj](https://github.com/jj-vcs/jj)
+- [traefik/traefik](https://github.com/traefik/traefik)
 
 
 </details>
 
 
-### AI and vector data infrastructure
+### AI workflow orchestration and low-code platforms
 
-Specialized databases and infrastructure for embedding and vector operations (Qdrant, Chroma) alongside broader ML platforms (Transformers, LangChain) that power AI applications at scale. Reflects enterprise AI workload acceleration and the need for purpose-built data layers.
+Visual workflow builders and automation platforms with AI-native capabilities, enabling non-engineers to compose complex multi-step processes. Combines agent frameworks with accessible UIs.
 
 <details>
-<summary>Supporting repos (4)</summary>
+<summary>Supporting repos (3)</summary>
+
+
+- [n8n-io/n8n](https://github.com/n8n-io/n8n)
+
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
+
+- [reflex-dev/reflex](https://github.com/reflex-dev/reflex)
+
+
+</details>
+
+
+### High-performance data layers and vector search
+
+Specialized storage and retrieval systems optimized for multimodal AI workloads, vector search, and efficient data access patterns. Includes lakehouse formats, vector databases, and memory-efficient indexing.
+
+<details>
+<summary>Supporting repos (3)</summary>
 
 
 - [qdrant/qdrant](https://github.com/qdrant/qdrant)
 
-- [chroma-core/chroma](https://github.com/chroma-core/chroma)
+- [lance-format/lance](https://github.com/lance-format/lance)
 
-- [huggingface/transformers](https://github.com/huggingface/transformers)
-
-- [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
+- [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
 
 
 </details>
@@ -124,76 +112,80 @@ Specialized databases and infrastructure for embedding and vector operations (Qd
 
 
 
-#### Rust fullstack and systems frameworks
+#### Systematic trading infrastructure
 
 
-##### Rust Fullstack Template Generator with TypeScript Codegen
+##### Quantitative Strategy Backtester with Walk-Forward Analysis
 
-Create a CLI tool that scaffolds a Dioxus fullstack project with end-to-end type safety by auto-generating TypeScript client types from Rust server types via serde schema extraction. Include starter templates for common patterns (CRUD, auth, real-time), pre-configured Tokio runtime, and database schema binding.
+Build a Python CLI that accepts a strategy definition (via YAML config), backtests against historical market data, and generates walk-forward validation reports. Output HTML dashboards showing Sharpe ratio, max drawdown, and parameter sensitivity. Integrate with a free data API (Alpha Vantage or IEX Cloud).
 
-**Why now:** Dioxus and Tokio adoption is accelerating; developers need scaffolding that bridges Rust backend and frontend type systems to eliminate serialization bugs at development time.
+**Why now:** Systematic trading is trending; developers need lightweight backtesting tools that validate strategies before live deployment without commercial platform lock-in.
 
-**Stack hints:** `Rust`, `dioxus`, `tokio`, `serde_json`, `ts-rs`, `clap`
-
-
-
-
-
-
-#### Offline media processing and transcription
-
-
-##### Real-Time Collaborative Audio Transcription with Offline Fallback
-
-Build a lightweight service that listens to system audio or microphone input, transcribes in real-time using Whisper (offline), and streams results to a web dashboard. Include speaker detection, auto-save to searchable SQLite, and export to VTT/SRT with optional cloud sync fallback.
-
-**Why now:** Content creators and researchers need real-time transcription without cloud upload; offline Whisper deployment enables privacy-first workflows with persistent local archives.
-
-**Stack hints:** `Python`, `whisper`, `pyaudio`, `FastAPI`, `WebSocket`, `SQLite`
+**Stack hints:** `Python`, `pandas`, `numpy`, `plotly`, `pydantic`
 
 
 
 
 
 
+#### Media download and lifecycle management
 
 
+##### Media Metadata Enrichment Pipeline with Offline ML
 
-#### Developer tool ergonomics and UX
+Create a service that monitors a downloaded media directory, auto-extracts metadata using Whisper and EXIF parsing, generates keywords via zero-shot classification, and populates a searchable SQLite index. Expose via simple web UI with faceted filtering.
 
+**Why now:** As yt-dlp and offline transcription tools mature, users need integrated metadata extraction to make downloaded archives discoverable without relying on external tagging services.
 
-##### VCS History Browser with Jujutsu Backend
-
-Create a TUI (terminal UI) that visualizes commit history, branches, and diffs using Jujutsu as the underlying VCS. Enable intuitive navigation (arrow keys, vim bindings), instant search by author/message, and one-keystroke bisect/rebase workflows. Export visualizations as SVG.
-
-**Why now:** Jujutsu is gaining traction as a Git alternative; developers need ergonomic tooling to explore its capabilities without learning complex CLI syntax.
-
-**Stack hints:** `Rust`, `jj`, `ratatui`, `tokio`, `regex`
-
-
-##### Encrypted File-Sharing Protocol Benchmarker for Croc-like Tools
-
-Develop a micro-benchmark suite that measures transfer speed, latency, and memory overhead of popular peer-to-peer file-sharing tools (croc, magic-wormhole, etc.) across network conditions. Visualize results in HTML reports and enable community contribution of new tools.
-
-**Why now:** Developers need objective performance comparisons of P2P tools; a benchmarking framework establishes trust in ergonomic tools' reliability claims.
-
-**Stack hints:** `Python`, `iperf`, `pytest-benchmark`, `plotly`, `docker`
+**Stack hints:** `Python`, `FastAPI`, `whisper`, `transformers`, `sqlite`
 
 
 
 
 
 
-#### AI and vector data infrastructure
+#### Remote access and networking
 
 
-##### Self-Hosted Vector Embedding Search UI for Qdrant
+##### Self-Hosted VPN Health Monitor and Failover Manager
 
-Build a web UI that connects to a Qdrant instance and enables semantic search across stored embeddings with faceted filtering, relevance tuning, and batch operations. Include import/export of embedding collections and a Python SDK for programmatic queries.
+Develop a lightweight daemon that monitors Tailscale/WireGuard connections, measures latency and packet loss, logs metrics to time-series DB, and automatically triggers failover to secondary nodes on degradation. Expose status via web dashboard.
 
-**Why now:** Qdrant deployments lack user-friendly query interfaces; a web UI unlocks non-technical stakeholders to explore embeddings without REST API knowledge.
+**Why now:** Remote-access tools like Tailscale are gaining adoption; teams need observability and automatic recovery for critical network links without vendor dependency.
 
-**Stack hints:** `TypeScript`, `React`, `qdrant-client`, `fastapi`, `plotly.js`
+**Stack hints:** `Rust`, `tokio`, `prometheus`, `warp`, `SQLite`
+
+
+
+
+
+
+#### AI workflow orchestration and low-code platforms
+
+
+##### Multi-Step Workflow Validator and Cost Estimator
+
+Build a static analyzer that parses workflow definitions (n8n/Windmill format), detects undefined variables, infinite loops, missing error handlers, and estimates cloud API costs. Output machine-readable lint reports and integration suggestions.
+
+**Why now:** As teams adopt low-code workflow platforms, they need pre-deployment validation to catch bugs and control runaway costs without manual QA overhead.
+
+**Stack hints:** `Python`, `pydantic`, `graphlib`, `FastAPI`
+
+
+
+
+
+
+#### High-performance data layers and vector search
+
+
+##### Vector Embedding Drift Detector with Alerting
+
+Create a service that periodically samples embeddings from Qdrant, computes statistical moments (mean, covariance, entropy), detects distribution shifts via Kolmogorov-Smirnov test, and triggers alerts via webhook. Generate drift reports with visualization.
+
+**Why now:** Vector databases are proliferating; production systems need automated drift detection to maintain embedding quality without manual retraining decisions.
+
+**Stack hints:** `Python`, `scipy`, `qdrant-client`, `numpy`, `plotly`
 
 
 
@@ -206,85 +198,80 @@ Build a web UI that connects to a Qdrant instance and enables semantic search ac
 
 
 
-#### Rust fullstack and systems frameworks
+#### Systematic trading infrastructure
 
 
-##### Polars-Based Data Profiling and Anomaly Detection Engine
+##### Strategy Portfolio Optimizer with Risk Constraints
 
-Build a Rust library that profiles large datasets using Polars, auto-generates data quality reports (cardinality, nulls, skew, outliers), detects schema drift, and flags anomalies. Expose as a FastAPI service with interactive dashboard. Include integration with Directus data sources.
+Build a Python library that takes multiple backtested strategies as inputs, optimizes portfolio allocation using Markowitz mean-variance or risk-parity, respects sector/correlation constraints, and generates rebalancing schedules. Include Monte Carlo simulation, stress testing, and live monitoring against actual portfolio.
 
-**Why now:** Polars adoption is accelerating for data processing; teams need efficient, in-process data profiling to catch quality issues before analytics. Directus integration enables self-hosted data governance.
+**Why now:** Quant traders need practical portfolio construction tools that combine multiple strategies; current offerings are either academic or behind expensive paywalls.
 
-**Stack hints:** `Rust`, `polars`, `tokio`, `fastapi`, `react`, `statistical libraries`
-
-
-##### Rust-to-Polars Type Bridge with Automatic Schema Inference
-
-Create a Rust crate that auto-derives Polars DataFrame schemas from Rust struct definitions using proc-macros, enabling zero-copy data ingestion from Rust collections. Include CLI to generate Polars-compatible CSV imports and optimize schema compression based on data cardinality.
-
-**Why now:** Polars adoption in Rust is growing; teams need seamless interop between Rust types and DataFrames to reduce serialization overhead in data pipelines.
-
-**Stack hints:** `Rust`, `polars`, `syn`, `quote`, `serde`
+**Stack hints:** `Python`, `cvxpy`, `pandas`, `numpy`, `scipy`, `plotly`
 
 
 
 
 
 
-#### Offline media processing and transcription
+#### Media download and lifecycle management
 
 
-##### Multi-Language Subtitle Burn-In Service with AI Translation and Styling
+##### Unified Media Archive with Deduplication and Smart Curation
 
-Build a service that transcribes video offline using Whisper, auto-detects language, generates subtitles, translates to multiple languages, and burns them into video with customizable fonts, colors, and positioning. Support SRT/VTT output and real-time preview. Expose via web UI and CLI.
+Create an application that consolidates media from yt-dlp downloads, local files, and optional cloud sync, deduplicates by content hash and perceptual fingerprinting, applies AI-powered tagging (mood, genre, subject), and surfaces personalized recommendations. Include conflict resolution for near-duplicates.
 
-**Why now:** Content creators need affordable, privacy-respecting multi-language subtitle generation; offline processing eliminates per-minute cloud API costs and data exposure.
+**Why now:** Offline media collections are growing; users need unified curation without manual organization, combining Whisper transcription and ML classification into a cohesive archive.
 
-**Stack hints:** `Python`, `FastAPI`, `whisper`, `transformers`, `ffmpeg-python`, `pillow`, `React`
-
-
-
-
-
-
-#### Self-hosted and open infrastructure platforms
-
-
-##### Windmill Workflow Debugger with Step-Through and Variable Inspector
-
-Extend Windmill with a visual debugger that allows step-through execution of workflows, inspect variable state at each step, set breakpoints, and replay with modified inputs. Generate execution traces and performance flamegraphs. Integrate with Windmill's web UI.
-
-**Why now:** Workflow automation tools lack production debugging; a native debugger reduces iteration time and helps teams diagnose complex multi-step orchestrations.
-
-**Stack hints:** `TypeScript`, `Rust`, `windmill-labs/windmill`, `React`, `tokio`
-
-
-##### Jellyfin Media Library Analyzer with Genre and Mood Classification
-
-Develop a plugin for Jellyfin that analyzes media metadata and content (via ML models), auto-classifies into genres, moods, and themes, suggests watch-next recommendations, and generates personalized collections. Include a dashboard showing library statistics and trending patterns.
-
-**Why now:** Self-hosted media servers like Jellyfin lack intelligent curation; ML-powered classification enables better user discovery and library organization without external services.
-
-**Stack hints:** `Python`, `FastAPI`, `transformers`, `scikit-learn`, `sqlite`, `Jellyfin API`
+**Stack hints:** `Python`, `FastAPI`, `transformers`, `sqlite`, `imagehash`, `React`
 
 
 
 
 
 
-#### Developer tool ergonomics and UX
+#### Remote access and networking
 
 
-##### Threat Intelligence Feedback Loop for Security Scanning (Trivy + Nuclei)
+##### Zero-Trust Network Gateway with Audit and Compliance Logging
 
-Build a service that ingests vulnerability reports from Trivy scans, correlates findings across projects, extracts indicators of compromise, and automatically generates Nuclei templates for community threat hunting. Expose a web dashboard for team collaboration on vulnerability triage.
+Extend Tailscale/WireGuard with a policy-enforcement gateway that logs all connection attempts, enforces device posture checks, implements device-scoped IP allocation, and generates compliance reports (SOC 2, HIPAA). Include UI for policy management and audit trail export.
 
-**Why now:** Security teams struggle to act on vulnerability data; automating Nuclei template generation from Trivy findings enables threat hunting and validates fixes at scale.
+**Why now:** Teams deploying self-hosted remote access need compliance-grade visibility; Tailscale lacks built-in audit trails for regulated environments.
 
-**Stack hints:** `Python`, `FastAPI`, `trivy`, `nuclei`, `React`, `PostgreSQL`
+**Stack hints:** `Rust`, `tokio`, `PostgreSQL`, `tonic`, `React`
 
 
 
+
+
+
+#### AI workflow orchestration and low-code platforms
+
+
+##### AI Agent Framework with Debugging and Trace Visualization
+
+Build a Python framework that wraps LangChain agents with step-by-step tracing, variable inspection, cost attribution, and interactive replay. Generate flamegraphs of agent execution, support breakpoint debugging, and export traces as DAGs for analysis.
+
+**Why now:** LangChain and agentic workflows lack production debugging; developers need visibility into multi-step reasoning without manually adding logging everywhere.
+
+**Stack hints:** `Python`, `langchain`, `fastapi`, `pydantic`, `plotly`
+
+
+
+
+
+
+#### High-performance data layers and vector search
+
+
+##### Hybrid Vector-Keyword Search Engine with Re-Ranking
+
+Develop a Python service that fuses keyword search (Meilisearch) and semantic search (Qdrant) results via learned re-ranking, supports iterative query refinement, and caches embedding computations. Include A/B testing framework to evaluate ranking quality.
+
+**Why now:** Production RAG systems need both keyword recall and semantic relevance; combining Meilisearch and Qdrant enables teams to optimize for both without switching backends.
+
+**Stack hints:** `Python`, `FastAPI`, `qdrant-client`, `meilisearch`, `scikit-learn`
 
 
 
@@ -297,67 +284,80 @@ Build a service that ingests vulnerability reports from Trivy scans, correlates 
 
 
 
-#### Rust fullstack and systems frameworks
+#### Systematic trading infrastructure
 
 
-##### Polyglot Dioxus Component Library with Accessibility Auditing
+##### Multi-Exchange Arbitrage Detector with Execution Framework
 
-Develop a comprehensive, production-ready Dioxus component library covering forms, tables, modals, charts, and navigation. Include built-in accessibility auditing (WCAG 2.1), visual regression testing across browsers, and auto-generated Storybook. Publish with TypeScript type definitions for API clarity.
+Create a full-stack system that ingests real-time price feeds from multiple crypto/forex exchanges, detects profitable arbitrage opportunities via graph traversal, calculates net profit after fees and slippage, and executes hedged trades atomically. Include risk management, position tracking, and profit/loss reporting.
 
-**Why now:** Dioxus adoption requires battle-tested, accessible components; a mature library accelerates team onboarding and reduces security/accessibility risks in production fullstack apps.
+**Why now:** Systematic traders are moving toward multi-exchange strategies; existing tools require deep technical integration; a unified framework with safe execution enables broader adoption.
 
-**Stack hints:** `Rust`, `dioxus`, `axe-core`, `playwright`, `storybook`, `tokio`
-
-
-
-
-
-
-#### Offline media processing and transcription
-
-
-##### End-to-End Encrypted Media Archive with Offline-First Search Index
-
-Create a system for archiving large media libraries with client-side encryption, offline-first searchable transcripts (Whisper-powered), and synchronized metadata across devices. Include zero-knowledge architecture, encrypted backups to S3-compatible storage, and progressive search index sync. Expose as desktop app and web UI.
-
-**Why now:** Privacy-conscious users need to archive sensitive media locally without exposing content to cloud providers; offline transcription + encrypted sync enables personal media archives with search.
-
-**Stack hints:** `Rust`, `Tauri`, `whisper`, `tantivy`, `age-encryption`, `s3`, `React`
+**Stack hints:** `Rust`, `tokio`, `ccxt`, `PostgreSQL`, `React`, `web3`
 
 
 
 
 
 
-#### Self-hosted and open infrastructure platforms
+#### Media download and lifecycle management
 
 
-##### Decentralized Directus Content Sync with Conflict Resolution Engine
+##### End-to-End Encrypted Media Sync with Selective Transcription
 
-Extend Directus with a decentralized content sync layer that replicates databases across geographically distributed self-hosted instances, auto-detects and resolves conflicts using configurable rules (last-write-wins, schema-aware merging), and maintains audit trails. Enable edge-local writes with eventual consistency.
+Build a desktop/mobile application that syncs media collections across devices with client-side encryption, runs Whisper transcription only on selected items, stores searchable indices locally, and offers optional cloud backup without exposing content. Include conflict resolution, bandwidth-aware sync, and progressive transcription.
 
-**Why now:** Teams operating multiple Directus instances lack robust sync; decentralized conflict resolution enables edge-deployed headless CMS with global content coherence.
+**Why now:** Privacy-conscious media consumers need encrypted sync combined with offline transcription; existing solutions either expose metadata or lack transcription features.
 
-**Stack hints:** `TypeScript`, `Rust`, `directus`, `crdt`, `websocket`, `PostgreSQL`, `tokio`
-
-
-
+**Stack hints:** `Rust`, `Tauri`, `whisper`, `tantivy`, `age-encryption`, `tokio`
 
 
 
 
 
 
-#### AI and vector data infrastructure
+#### Remote access and networking
 
 
-##### AI Model-as-Data Platform for Qdrant with Fine-Tuning Orchestration
+##### Enterprise-Grade VPN with Microsegmentation and Analytics
 
-Build a platform that treats embedding models as versioned data assets stored in Qdrant, enabling teams to version, compare, and serve multiple model variants simultaneously. Include automated fine-tuning workflows on custom datasets, A/B testing of embedding quality, and rollback capabilities. Expose via SDK and web UI.
+Develop a Tailscale alternative built on Rust that supports microsegmentation policies, device group membership, real-time bandwidth/latency analytics, integration with SIEM systems, and automated threat response (IP blocking, session termination). Include web UI and API for policy automation.
 
-**Why now:** Enterprises need to manage embedding model drift and A/B test variants; a model registry integrated with Qdrant enables rapid iteration on vector search quality without disrupting production.
+**Why now:** Organizations outgrowing consumer VPN tools need open-source alternatives with compliance and microsegmentation; Tailscale's closed architecture limits enterprise integration.
 
-**Stack hints:** `Python`, `FastAPI`, `qdrant-client`, `transformers`, `ray`, `PostgreSQL`, `React`
+**Stack hints:** `Rust`, `tokio`, `wireguard`, `PostgreSQL`, `prometheus`, `React`
+
+
+
+
+
+
+#### AI workflow orchestration and low-code platforms
+
+
+##### Visual Workflow Builder with AI-Powered Optimization
+
+Create a web-based workflow editor that compiles visual DAGs to executable code, provides AI-powered suggestions for parallelization and error handling, simulates execution with sample data, and auto-generates monitoring dashboards. Support multiple backends (Windmill, Argo, Airflow) via plugin architecture.
+
+**Why now:** Low-code platforms are maturing; users need AI-assisted optimization to avoid performance pitfalls; a vendor-neutral builder unlocks adoption across platforms.
+
+**Stack hints:** `TypeScript`, `React`, `DAG visualization library`, `Python`, `FastAPI`
+
+
+
+
+
+
+#### High-performance data layers and vector search
+
+
+##### Federated Vector Database with CRDT-Based Sync
+
+Build a distributed vector database that replicates embeddings across multiple Qdrant instances using CRDT (Conflict-free Replicated Data Type) semantics, enables writes at any node, and maintains consistency without a central coordinator. Include automatic conflict resolution, versioning, and rollback.
+
+**Why now:** Enterprises deploying AI globally need vector databases that scale across regions; federated architecture with CRDT enables edge inference and cost reduction.
+
+**Stack hints:** `Rust`, `tokio`, `qdrant`, `crdt-rs`, `PostgreSQL`
 
 
 
@@ -377,4 +377,4 @@ See [ABOUT.md](ABOUT.md) for full methodology details.
 
 ---
 
-*Generated 2026-07-26 13:22 UTC · commit `47e3e8e`*
+*Generated 2026-08-02 13:21 UTC · commit `98e8ba8`*
