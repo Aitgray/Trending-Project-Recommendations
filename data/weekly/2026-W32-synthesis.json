@@ -1,0 +1,267 @@
+{
+  "week_of": "2026-08-09",
+  "topics": [
+    {
+      "slug": "system-design-and-interview-prep",
+      "title": "System design and interview preparation",
+      "summary": "Educational resources and frameworks for learning distributed systems architecture, interview preparation, and hands-on system building. Reflects sustained demand for scalable design knowledge across junior and senior engineers.",
+      "supporting_repos": [
+        "donnemartin/system-design-primer",
+        "codecrafters-io/build-your-own-x",
+        "trekhleb/javascript-algorithms"
+      ]
+    },
+    {
+      "slug": "remote-access-and-developer-infrastructure",
+      "title": "Remote access and developer infrastructure",
+      "summary": "Open-source tools for secure remote connectivity, development environment management, and self-hosted infrastructure. Emphasizes user control and enterprise-grade features replacing proprietary alternatives.",
+      "supporting_repos": [
+        "rustdesk/rustdesk",
+        "coder/coder",
+        "n0-computer/iroh"
+      ]
+    },
+    {
+      "slug": "productivity-and-automation-platforms",
+      "title": "Productivity and automation platforms",
+      "summary": "Low-code/no-code platforms, workflow orchestrators, and project management tools designed for self-hosting and multi-team collaboration. Combines visual builders with extensibility and privacy guarantees.",
+      "supporting_repos": [
+        "n8n-io/n8n",
+        "makeplane/plane",
+        "directus/directus"
+      ]
+    },
+    {
+      "slug": "developer-tools-and-testing",
+      "title": "Developer tools and testing infrastructure",
+      "summary": "Command-line utilities, testing frameworks, and development environment tools that improve developer velocity and reliability. Emphasizes speed, composability, and language-agnostic integration.",
+      "supporting_repos": [
+        "microsoft/playwright",
+        "junegunn/fzf",
+        "vitejs/vite"
+      ]
+    },
+    {
+      "slug": "quantitative-and-financial-systems",
+      "title": "Quantitative and financial systems",
+      "summary": "Trading engines, data platforms, and financial analysis infrastructure for quants and algorithmic traders. Reflects enterprise adoption of open-source trading tools and real-time data processing.",
+      "supporting_repos": [
+        "nautechsystems/nautilus_trader",
+        "OpenBB-finance/OpenBB",
+        "binwiederhier/ntfy"
+      ]
+    }
+  ],
+  "whats_new": "System design education and developer infrastructure surge to prominence, displacing media download and vector search themes from last week's top tier. Remote access tools (RustDesk, Iroh) consolidate into a dedicated theme reflecting enterprise migration from proprietary solutions. Productivity platforms (n8n, Plane, Directus) remain strong but are now categorized alongside the emerging developer tools theme. Quantitative finance infrastructure gains durability with three distinct projects trending simultaneously, indicating growing adoption of open-source trading systems.",
+  "projects": [
+    {
+      "title": "Interactive System Design Notebook with Real-Time Tradeoff Visualization",
+      "topic_slug": "system-design-and-interview-prep",
+      "scope": "short",
+      "pitch": "Create a Jupyter-based notebook that lets engineers sketch distributed system architectures (databases, caches, queues), auto-calculates latency/throughput/cost tradeoffs, and generates comparison matrices. Include pre-built patterns (sharding, replication, CQRS) as templates users can customize.",
+      "why_now": "System design interview prep is trending; interactive tools that visualize architectural tradeoffs help engineers internalize design decisions faster than reading documentation alone.",
+      "stack_hints": [
+        "Jupyter",
+        "Python",
+        "plotly",
+        "networkx"
+      ]
+    },
+    {
+      "title": "Protocol-First Remote Access Client with Policy Enforcement SDK",
+      "topic_slug": "remote-access-and-developer-infrastructure",
+      "scope": "short",
+      "pitch": "Build a lightweight Go daemon that wraps WireGuard with policy-layer primitives: device posture checks (OS version, antivirus), time-based access revocation, and per-app tunneling rules. Expose via gRPC for integration into existing access-control systems.",
+      "why_now": "RustDesk and Iroh are trending; enterprises need policy enforcement without replacing their entire VPN stack, making a composable policy layer valuable.",
+      "stack_hints": [
+        "Go",
+        "wireguard",
+        "gRPC",
+        "protobuf"
+      ]
+    },
+    {
+      "title": "Workflow Cost Estimator and Dry-Run Simulator",
+      "topic_slug": "productivity-and-automation-platforms",
+      "scope": "short",
+      "pitch": "Build a static analyzer that parses n8n/Windmill workflow JSON, traces execution paths, estimates API call costs (via pricing APIs), and simulates runs with synthetic data. Output a detailed cost report per workflow step and detect runaway loop patterns.",
+      "why_now": "Low-code platforms like n8n are trending; users need pre-deployment visibility into costs and execution flow without manually running workflows.",
+      "stack_hints": [
+        "Python",
+        "pydantic",
+        "FastAPI",
+        "graphlib"
+      ]
+    },
+    {
+      "title": "CLI Tool Composition Framework with Auto-Piping",
+      "topic_slug": "developer-tools-and-testing",
+      "scope": "short",
+      "pitch": "Create a Rust framework that helps developers compose Unix-style CLI tools by auto-detecting compatible input/output formats (JSON, CSV, protobuf) and suggesting piping chains. Include a dashboard showing tool ecosystem connectivity and data flow patterns.",
+      "why_now": "Developer tools like fzf and Vite are trending; tools that reduce friction in CLI composition help developers build composable workflows faster.",
+      "stack_hints": [
+        "Rust",
+        "clap",
+        "serde",
+        "jsonschema"
+      ]
+    },
+    {
+      "title": "Trading Strategy Backtest Result Cache and Comparison Suite",
+      "topic_slug": "quantitative-and-financial-systems",
+      "scope": "short",
+      "pitch": "Build a Python service that caches backtest results (Sharpe, drawdown, returns) with content-addressable hashing, detects parameter sensitivity via Monte Carlo resampling, and generates interactive comparison dashboards for multiple strategies. Include statistical significance tests.",
+      "why_now": "Quant trading infrastructure is trending; traders need fast comparison tools to evaluate strategy portfolio candidates without re-running expensive backtests.",
+      "stack_hints": [
+        "Python",
+        "pandas",
+        "scipy",
+        "plotly",
+        "sqlite"
+      ]
+    },
+    {
+      "title": "Modular Interview Prep Platform with Spaced Repetition",
+      "topic_slug": "system-design-and-interview-prep",
+      "scope": "medium",
+      "pitch": "Build a web application that breaks system design, algorithms, and behavioral interview topics into micro-lessons, tracks study progress via spaced repetition scheduling, and generates personalized study plans. Include peer review mechanisms for architecture sketches and whiteboarding simulations.",
+      "why_now": "System design education is trending; personalized, spaced-repetition learning accelerates interview readiness more effectively than static resources.",
+      "stack_hints": [
+        "TypeScript",
+        "React",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "SQLAlchemy"
+      ]
+    },
+    {
+      "title": "Zero-Trust Device Access Controller with SBOM Attestation",
+      "topic_slug": "remote-access-and-developer-infrastructure",
+      "scope": "medium",
+      "pitch": "Develop a policy engine that integrates with RustDesk/Tailscale to enforce device-scoped access based on software bill-of-materials (SBOM), allowing access only from devices running approved OS versions and patches. Include audit logging, revocation triggers, and compliance reporting.",
+      "why_now": "Remote access infrastructure is trending; enterprises need device posture validation backed by verifiable software inventory to comply with regulatory requirements.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "PostgreSQL",
+        "tonic",
+        "SBOM parsing libraries"
+      ]
+    },
+    {
+      "title": "Workflow Visualization and Optimization Advisor",
+      "topic_slug": "productivity-and-automation-platforms",
+      "scope": "medium",
+      "pitch": "Create a web-based tool that imports workflows from n8n/Windmill, renders them as interactive DAGs, identifies bottlenecks and parallelization opportunities, and suggests optimizations (batching, caching, conditional execution). Include A/B testing framework to validate improvements.",
+      "why_now": "Low-code platforms are maturing; visual optimization tools help non-engineers understand and improve workflow performance without deep technical knowledge.",
+      "stack_hints": [
+        "TypeScript",
+        "React",
+        "D3.js",
+        "Python",
+        "FastAPI"
+      ]
+    },
+    {
+      "title": "Cross-Language Test Orchestration Runtime",
+      "topic_slug": "developer-tools-and-testing",
+      "scope": "medium",
+      "pitch": "Build a polyglot test runner that executes unit, integration, and E2E tests across Python, Node, Go, Rust in a single invocation, correlates failures across language boundaries, and generates unified reports with flamegraphs. Support Playwright, pytest, Go testing, and cargo test.",
+      "why_now": "Developer tools are trending; polyglot teams need unified test orchestration to validate cross-language systems without managing multiple test runners.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "subprocess management",
+        "JSON report aggregation"
+      ]
+    },
+    {
+      "title": "Multi-Asset Risk Aggregator with Correlation Matrix Updates",
+      "topic_slug": "quantitative-and-financial-systems",
+      "scope": "medium",
+      "pitch": "Build a Python library that aggregates positions across multiple trading strategies and asset classes, calculates portfolio-level Greeks/risks, detects correlation breakdowns via rolling window analysis, and recommends rebalancing actions. Include real-time risk streaming and Monte Carlo VaR estimation.",
+      "why_now": "Quantitative finance infrastructure is trending; traders managing multiple strategies need integrated risk views without rebuilding portfolio analytics from scratch.",
+      "stack_hints": [
+        "Python",
+        "numpy",
+        "pandas",
+        "scipy",
+        "numba"
+      ]
+    },
+    {
+      "title": "Distributed System Design Validator with Failure Injection Testing",
+      "topic_slug": "system-design-and-interview-prep",
+      "scope": "long",
+      "pitch": "Create a framework that lets engineers specify distributed system topologies (services, databases, message queues) declaratively, simulates them with accurate network delays, injects failures (latency, packet loss, node crashes), and verifies consistency/availability properties automatically. Include visualization of causal chains and deadlock detection.",
+      "why_now": "System design education is trending; hands-on failure simulation teaches engineers to think about failure modes more effectively than theoretical study.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "simulated time library",
+        "model checking libraries",
+        "WebAssembly for visualization"
+      ]
+    },
+    {
+      "title": "Enterprise VPN Gateway with Multi-Factor Identity Binding",
+      "topic_slug": "remote-access-and-developer-infrastructure",
+      "scope": "long",
+      "pitch": "Build a full-featured VPN alternative combining WireGuard tunneling, OIDC/SAML identity binding, device posture enforcement, microsegmentation policies, real-time analytics, and automated threat response. Include web dashboard, audit trails, and integrations with SIEM systems.",
+      "why_now": "Remote access tools are trending; enterprises need open-source alternatives to Tailscale with compliance features and device identity binding.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "wireguard-rs",
+        "PostgreSQL",
+        "openid",
+        "React"
+      ]
+    },
+    {
+      "title": "Unified Workflow Execution Platform with Multi-Backend Compilation",
+      "topic_slug": "productivity-and-automation-platforms",
+      "scope": "long",
+      "pitch": "Develop a visual workflow builder that compiles to multiple backends (n8n, Airflow, Argo, Step Functions) via intermediate representation, supports version control and rollback, includes cost optimization recommendations, and provides unified execution monitoring across backends. Support complex dependencies and conditional branching.",
+      "why_now": "Low-code platforms are consolidating; a vendor-neutral compiler for workflows reduces lock-in and enables teams to switch backends without rewriting automation.",
+      "stack_hints": [
+        "TypeScript",
+        "React",
+        "DAG visualization library",
+        "Python",
+        "FastAPI",
+        "GraphQL"
+      ]
+    },
+    {
+      "title": "Polyglot Test Data Generation and Fixture Dependency Graph",
+      "topic_slug": "developer-tools-and-testing",
+      "scope": "long",
+      "pitch": "Create a framework that generates realistic test data for multiple databases and APIs simultaneously, tracks fixture dependencies across languages, enables snapshot testing with semantic diffing, and supports incremental regeneration. Include property-based testing integration and performance profiling.",
+      "why_now": "Developer tools are trending; teams building polyglot systems need unified test data management that handles cross-language dependencies and performance validation.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "faker libraries",
+        "graph database",
+        "semantic diff libraries"
+      ]
+    },
+    {
+      "title": "Algorithmic Trading Execution Engine with Market Microstructure Simulation",
+      "topic_slug": "quantitative-and-financial-systems",
+      "scope": "long",
+      "pitch": "Build a production-grade execution system that simulates market impact, slippage, and execution costs using high-fidelity order book models, optimizes order splitting and timing across multiple venues, detects and prevents adverse execution patterns, and provides real-time execution analytics. Include backtesting against historical LOB data.",
+      "why_now": "Quantitative finance infrastructure is trending; traders need realistic execution simulation that captures microstructure effects beyond naive backtesting.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "ccxt",
+        "web3",
+        "PostgreSQL",
+        "Apache Arrow"
+      ]
+    }
+  ]
+}

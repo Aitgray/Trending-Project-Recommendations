@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-08-09",
+  "window_dates": [
+    "2026-08-03",
+    "2026-08-04",
+    "2026-08-05",
+    "2026-08-06",
+    "2026-08-07",
+    "2026-08-08",
+    "2026-08-09"
+  ],
+  "repos": [
+    {
+      "full_name": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 2342,
+      "peak_daily_stars": 733,
+      "persistence_score": 46.55512463104677
+    },
+    {
+      "full_name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 607,
+      "peak_daily_stars": 101,
+      "persistence_score": 44.87122417376317
+    },
+    {
+      "full_name": "microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/playwright",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 451,
+      "peak_daily_stars": 74,
+      "persistence_score": 42.79577525882562
+    },
+    {
+      "full_name": "SimplifyJobs/Summer2027-Internships",
+      "description": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.",
+      "language": "Python",
+      "url": "https://github.com/SimplifyJobs/Summer2027-Internships",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 443,
+      "peak_daily_stars": 97,
+      "persistence_score": 36.57494737459335
+    },
+    {
+      "full_name": "goauthentik/authentik",
+      "description": "The authentication glue you need.",
+      "language": "Python",
+      "url": "https://github.com/goauthentik/authentik",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 1280,
+      "peak_daily_stars": 530,
+      "persistence_score": 35.77698150948367
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 728,
+      "peak_daily_stars": 167,
+      "persistence_score": 32.95836866004329
+    },
+    {
+      "full_name": "microsoft/Web-Dev-For-Beginners",
+      "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
+      "language": "JavaScript",
+      "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 226,
+      "peak_daily_stars": 54,
+      "persistence_score": 32.549700104888416
+    },
+    {
+      "full_name": "p1ngul1n0/blackbird",
+      "description": "An OSINT tool to search for accounts by username and email in social networks.",
+      "language": "Python",
+      "url": "https://github.com/p1ngul1n0/blackbird",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 216,
+      "peak_daily_stars": 64,
+      "persistence_score": 32.27938412124276
+    },
+    {
+      "full_name": "sundowndev/phoneinfoga",
+      "description": "Information gathering framework for phone numbers",
+      "language": "Go",
+      "url": "https://github.com/sundowndev/phoneinfoga",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 181,
+      "peak_daily_stars": 49,
+      "persistence_score": 31.22404012246077
+    },
+    {
+      "full_name": "makeplane/plane",
+      "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "url": "https://github.com/makeplane/plane",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 362,
+      "peak_daily_stars": 97,
+      "persistence_score": 29.472014171324254
+    },
+    {
+      "full_name": "vitejs/vite",
+      "description": "Next generation frontend tooling. It's fast!",
+      "language": "TypeScript",
+      "url": "https://github.com/vitejs/vite",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 128,
+      "peak_daily_stars": 31,
+      "persistence_score": 29.15887442617003
+    },
+    {
+      "full_name": "OpenBB-finance/OpenBB",
+      "description": "Open Data Platform for analysts, quants and AI agents.",
+      "language": "Python",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 291,
+      "peak_daily_stars": 79,
+      "persistence_score": 28.383769011341407
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "url": "https://github.com/aquasecurity/trivy",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 112,
+      "peak_daily_stars": 26,
+      "persistence_score": 28.364326912274045
+    },
+    {
+      "full_name": "junegunn/fzf",
+      "description": "\ud83c\udf38 A command-line fuzzy finder",
+      "language": "Go",
+      "url": "https://github.com/junegunn/fzf",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 242,
+      "peak_daily_stars": 85,
+      "persistence_score": 27.46530721670274
+    },
+    {
+      "full_name": "coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "url": "https://github.com/coder/coder",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 92,
+      "peak_daily_stars": 28,
+      "persistence_score": 27.195596958919538
+    },
+    {
+      "full_name": "poteto/hiring-without-whiteboards",
+      "description": "\u2b50\ufe0f Companies that don't have a broken hiring process",
+      "language": "JavaScript",
+      "url": "https://github.com/poteto/hiring-without-whiteboards",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 72,
+      "peak_daily_stars": 16,
+      "persistence_score": 25.742756646890346
+    },
+    {
+      "full_name": "directus/directus",
+      "description": "The flexible backend for all your projects \ud83d\udc30 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
+      "language": "TypeScript",
+      "url": "https://github.com/directus/directus",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 517,
+      "peak_daily_stars": 214,
+      "persistence_score": 24.99990096903793
+    },
+    {
+      "full_name": "airbnb/javascript",
+      "description": "JavaScript Style Guide",
+      "language": "JavaScript",
+      "url": "https://github.com/airbnb/javascript",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 63,
+      "peak_daily_stars": 16,
+      "persistence_score": 24.953298500158027
+    },
+    {
+      "full_name": "ajeetdsouza/zoxide",
+      "description": "A smarter cd command. Supports all major shells.",
+      "language": "Rust",
+      "url": "https://github.com/ajeetdsouza/zoxide",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 145,
+      "peak_daily_stars": 41,
+      "persistence_score": 24.91803310854168
+    },
+    {
+      "full_name": "nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 143,
+      "peak_daily_stars": 42,
+      "persistence_score": 24.849066497880003
+    },
+    {
+      "full_name": "binwiederhier/ntfy",
+      "description": "Send push notifications to your phone or desktop using PUT/POST",
+      "language": "Go",
+      "url": "https://github.com/binwiederhier/ntfy",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 495,
+      "peak_daily_stars": 148,
+      "persistence_score": 24.82630370689971
+    },
+    {
+      "full_name": "cli/cli",
+      "description": "GitHub\u2019s official command line tool",
+      "language": "Go",
+      "url": "https://github.com/cli/cli",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 137,
+      "peak_daily_stars": 36,
+      "persistence_score": 24.636268425786024
+    },
+    {
+      "full_name": "dgtlmoon/changedetection.io",
+      "description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring\u2014all for free or enjoy our SaaS plan!",
+      "language": "Python",
+      "url": "https://github.com/dgtlmoon/changedetection.io",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 439,
+      "peak_daily_stars": 189,
+      "persistence_score": 24.347098907649226
+    },
+    {
+      "full_name": "qdrant/qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/",
+      "language": "Rust",
+      "url": "https://github.com/qdrant/qdrant",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 128,
+      "peak_daily_stars": 34,
+      "persistence_score": 24.29906202180836
+    },
+    {
+      "full_name": "tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "language": "Rust",
+      "url": "https://github.com/tokio-rs/tokio",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 114,
+      "peak_daily_stars": 39,
+      "persistence_score": 23.72466064181625
+    },
+    {
+      "full_name": "DioxusLabs/dioxus",
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "language": "Rust",
+      "url": "https://github.com/DioxusLabs/dioxus",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 111,
+      "peak_daily_stars": 25,
+      "persistence_score": 23.59249435647547
+    },
+    {
+      "full_name": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 2596,
+      "peak_daily_stars": 1092,
+      "persistence_score": 23.586336634988246
+    },
+    {
+      "full_name": "frappe/hrms",
+      "description": "Open Source HR and Payroll Software",
+      "language": "Python",
+      "url": "https://github.com/frappe/hrms",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 325,
+      "peak_daily_stars": 130,
+      "persistence_score": 23.14758952546683
+    },
+    {
+      "full_name": "docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "url": "https://github.com/docker/compose",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 94,
+      "peak_daily_stars": 55,
+      "persistence_score": 22.769384458002705
+    },
+    {
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "\ud83d\udcdd Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+      "language": "JavaScript",
+      "url": "https://github.com/trekhleb/javascript-algorithms",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 84,
+      "peak_daily_stars": 20,
+      "persistence_score": 22.21325628245158
+    },
+    {
+      "full_name": "laurent22/joplin",
+      "description": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
+      "language": "TypeScript",
+      "url": "https://github.com/laurent22/joplin",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 83,
+      "peak_daily_stars": 24,
+      "persistence_score": 22.154083994216567
+    },
+    {
+      "full_name": "projectdiscovery/nuclei-templates",
+      "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "language": "JavaScript",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 37,
+      "peak_daily_stars": 9,
+      "persistence_score": 21.825516958358314
+    },
+    {
+      "full_name": "NVIDIA/Megatron-LM",
+      "description": "Ongoing research training transformer models at scale",
+      "language": "Python",
+      "url": "https://github.com/NVIDIA/Megatron-LM",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 68,
+      "peak_daily_stars": 16,
+      "persistence_score": 21.1705325229863
+    },
+    {
+      "full_name": "axios/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "language": "JavaScript",
+      "url": "https://github.com/axios/axios",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 64,
+      "peak_daily_stars": 27,
+      "persistence_score": 20.871936349478183
+    },
+    {
+      "full_name": "mui/material-ui",
+      "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+      "language": "JavaScript",
+      "url": "https://github.com/mui/material-ui",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 61,
+      "peak_daily_stars": 14,
+      "persistence_score": 20.63567192522546
+    },
+    {
+      "full_name": "iced-rs/iced",
+      "description": "A cross-platform GUI library for Rust, inspired by Elm",
+      "language": "Rust",
+      "url": "https://github.com/iced-rs/iced",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 57,
+      "peak_daily_stars": 17,
+      "persistence_score": 20.302215052732095
+    },
+    {
+      "full_name": "usememos/memos",
+      "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+      "language": "Go",
+      "url": "https://github.com/usememos/memos",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 142,
+      "peak_daily_stars": 44,
+      "persistence_score": 19.851378521039628
+    },
+    {
+      "full_name": "ultralytics/yolov5",
+      "description": "Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export.",
+      "language": "Python",
+      "url": "https://github.com/ultralytics/yolov5",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 50,
+      "peak_daily_stars": 16,
+      "persistence_score": 19.659128163621627
+    },
+    {
+      "full_name": "withastro/astro",
+      "description": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!",
+      "language": "TypeScript",
+      "url": "https://github.com/withastro/astro",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 134,
+      "peak_daily_stars": 39,
+      "persistence_score": 19.62109911375372
+    },
+    {
+      "full_name": "n0-computer/iroh",
+      "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
+      "language": "Rust",
+      "url": "https://github.com/n0-computer/iroh",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 132,
+      "peak_daily_stars": 68,
+      "persistence_score": 19.561396512887015
+    }
+  ]
+}

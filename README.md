@@ -1,57 +1,39 @@
 # Trending Project Ideas
 
-**Week of 2026-08-02** | [About this project](ABOUT.md)
+**Week of 2026-08-09** | [About this project](ABOUT.md)
 
 ---
 
 > **What's new this week**
 >
-> Systematic trading infrastructure emerges as a dominant new theme, reflecting financial engineering adoption trends. Media download/lifecycle and remote-access themes gain prominence alongside persistent AI infrastructure focus. Last week's emphasis on Rust fullstack frameworks and self-hosted platforms (Windmill, Directus) persists but recedes in relative trending, replaced by more industry-specific use cases: trading automation, media management, and low-code AI orchestration. Vector data infrastructure remains strong but now competes with emerging workflow automation demand.
+> System design education and developer infrastructure surge to prominence, displacing media download and vector search themes from last week's top tier. Remote access tools (RustDesk, Iroh) consolidate into a dedicated theme reflecting enterprise migration from proprietary solutions. Productivity platforms (n8n, Plane, Directus) remain strong but are now categorized alongside the emerging developer tools theme. Quantitative finance infrastructure gains durability with three distinct projects trending simultaneously, indicating growing adoption of open-source trading systems.
 
 ---
 
 ## Trending Topics
 
 
-### Systematic trading infrastructure
+### System design and interview preparation
 
-Curated ecosystems and libraries for backtesting, quantitative strategy development, and data-driven market analysis. Reflects growing demand for reproducible, self-hosted trading workflows without reliance on commercial platforms.
-
-<details>
-<summary>Supporting repos (3)</summary>
-
-
-- [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading)
-
-- [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
-
-- [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
-
-
-</details>
-
-
-### Media download and lifecycle management
-
-Tools for downloading, archiving, and managing media content (video, audio, photos) with emphasis on self-hosted infrastructure and offline-first workflows. Combines content capture, transcription, and organized retrieval.
+Educational resources and frameworks for learning distributed systems architecture, interview preparation, and hands-on system building. Reflects sustained demand for scalable design knowledge across junior and senior engineers.
 
 <details>
 <summary>Supporting repos (3)</summary>
 
 
-- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
 
-- [openai/whisper](https://github.com/openai/whisper)
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
 
-- [immich-app/immich](https://github.com/immich-app/immich)
+- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 
 
 </details>
 
 
-### Remote access and networking
+### Remote access and developer infrastructure
 
-Open-source infrastructure for secure remote connectivity, self-hosted deployment, and privacy-preserving network management. Shifts away from proprietary commercial solutions toward user-controlled alternatives.
+Open-source tools for secure remote connectivity, development environment management, and self-hosted infrastructure. Emphasizes user control and enterprise-grade features replacing proprietary alternatives.
 
 <details>
 <summary>Supporting repos (3)</summary>
@@ -59,17 +41,17 @@ Open-source infrastructure for secure remote connectivity, self-hosted deploymen
 
 - [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
 
-- [tailscale/tailscale](https://github.com/tailscale/tailscale)
+- [coder/coder](https://github.com/coder/coder)
 
-- [traefik/traefik](https://github.com/traefik/traefik)
+- [n0-computer/iroh](https://github.com/n0-computer/iroh)
 
 
 </details>
 
 
-### AI workflow orchestration and low-code platforms
+### Productivity and automation platforms
 
-Visual workflow builders and automation platforms with AI-native capabilities, enabling non-engineers to compose complex multi-step processes. Combines agent frameworks with accessible UIs.
+Low-code/no-code platforms, workflow orchestrators, and project management tools designed for self-hosting and multi-team collaboration. Combines visual builders with extensibility and privacy guarantees.
 
 <details>
 <summary>Supporting repos (3)</summary>
@@ -77,27 +59,45 @@ Visual workflow builders and automation platforms with AI-native capabilities, e
 
 - [n8n-io/n8n](https://github.com/n8n-io/n8n)
 
-- [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
+- [makeplane/plane](https://github.com/makeplane/plane)
 
-- [reflex-dev/reflex](https://github.com/reflex-dev/reflex)
+- [directus/directus](https://github.com/directus/directus)
 
 
 </details>
 
 
-### High-performance data layers and vector search
+### Developer tools and testing infrastructure
 
-Specialized storage and retrieval systems optimized for multimodal AI workloads, vector search, and efficient data access patterns. Includes lakehouse formats, vector databases, and memory-efficient indexing.
+Command-line utilities, testing frameworks, and development environment tools that improve developer velocity and reliability. Emphasizes speed, composability, and language-agnostic integration.
 
 <details>
 <summary>Supporting repos (3)</summary>
 
 
-- [qdrant/qdrant](https://github.com/qdrant/qdrant)
+- [microsoft/playwright](https://github.com/microsoft/playwright)
 
-- [lance-format/lance](https://github.com/lance-format/lance)
+- [junegunn/fzf](https://github.com/junegunn/fzf)
 
-- [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
+- [vitejs/vite](https://github.com/vitejs/vite)
+
+
+</details>
+
+
+### Quantitative and financial systems
+
+Trading engines, data platforms, and financial analysis infrastructure for quants and algorithmic traders. Reflects enterprise adoption of open-source trading tools and real-time data processing.
+
+<details>
+<summary>Supporting repos (3)</summary>
+
+
+- [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader)
+
+- [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB)
+
+- [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy)
 
 
 </details>
@@ -112,80 +112,80 @@ Specialized storage and retrieval systems optimized for multimodal AI workloads,
 
 
 
-#### Systematic trading infrastructure
+#### System design and interview preparation
 
 
-##### Quantitative Strategy Backtester with Walk-Forward Analysis
+##### Interactive System Design Notebook with Real-Time Tradeoff Visualization
 
-Build a Python CLI that accepts a strategy definition (via YAML config), backtests against historical market data, and generates walk-forward validation reports. Output HTML dashboards showing Sharpe ratio, max drawdown, and parameter sensitivity. Integrate with a free data API (Alpha Vantage or IEX Cloud).
+Create a Jupyter-based notebook that lets engineers sketch distributed system architectures (databases, caches, queues), auto-calculates latency/throughput/cost tradeoffs, and generates comparison matrices. Include pre-built patterns (sharding, replication, CQRS) as templates users can customize.
 
-**Why now:** Systematic trading is trending; developers need lightweight backtesting tools that validate strategies before live deployment without commercial platform lock-in.
+**Why now:** System design interview prep is trending; interactive tools that visualize architectural tradeoffs help engineers internalize design decisions faster than reading documentation alone.
 
-**Stack hints:** `Python`, `pandas`, `numpy`, `plotly`, `pydantic`
-
-
-
-
-
-
-#### Media download and lifecycle management
-
-
-##### Media Metadata Enrichment Pipeline with Offline ML
-
-Create a service that monitors a downloaded media directory, auto-extracts metadata using Whisper and EXIF parsing, generates keywords via zero-shot classification, and populates a searchable SQLite index. Expose via simple web UI with faceted filtering.
-
-**Why now:** As yt-dlp and offline transcription tools mature, users need integrated metadata extraction to make downloaded archives discoverable without relying on external tagging services.
-
-**Stack hints:** `Python`, `FastAPI`, `whisper`, `transformers`, `sqlite`
+**Stack hints:** `Jupyter`, `Python`, `plotly`, `networkx`
 
 
 
 
 
 
-#### Remote access and networking
+#### Remote access and developer infrastructure
 
 
-##### Self-Hosted VPN Health Monitor and Failover Manager
+##### Protocol-First Remote Access Client with Policy Enforcement SDK
 
-Develop a lightweight daemon that monitors Tailscale/WireGuard connections, measures latency and packet loss, logs metrics to time-series DB, and automatically triggers failover to secondary nodes on degradation. Expose status via web dashboard.
+Build a lightweight Go daemon that wraps WireGuard with policy-layer primitives: device posture checks (OS version, antivirus), time-based access revocation, and per-app tunneling rules. Expose via gRPC for integration into existing access-control systems.
 
-**Why now:** Remote-access tools like Tailscale are gaining adoption; teams need observability and automatic recovery for critical network links without vendor dependency.
+**Why now:** RustDesk and Iroh are trending; enterprises need policy enforcement without replacing their entire VPN stack, making a composable policy layer valuable.
 
-**Stack hints:** `Rust`, `tokio`, `prometheus`, `warp`, `SQLite`
-
-
-
-
-
-
-#### AI workflow orchestration and low-code platforms
-
-
-##### Multi-Step Workflow Validator and Cost Estimator
-
-Build a static analyzer that parses workflow definitions (n8n/Windmill format), detects undefined variables, infinite loops, missing error handlers, and estimates cloud API costs. Output machine-readable lint reports and integration suggestions.
-
-**Why now:** As teams adopt low-code workflow platforms, they need pre-deployment validation to catch bugs and control runaway costs without manual QA overhead.
-
-**Stack hints:** `Python`, `pydantic`, `graphlib`, `FastAPI`
+**Stack hints:** `Go`, `wireguard`, `gRPC`, `protobuf`
 
 
 
 
 
 
-#### High-performance data layers and vector search
+#### Productivity and automation platforms
 
 
-##### Vector Embedding Drift Detector with Alerting
+##### Workflow Cost Estimator and Dry-Run Simulator
 
-Create a service that periodically samples embeddings from Qdrant, computes statistical moments (mean, covariance, entropy), detects distribution shifts via Kolmogorov-Smirnov test, and triggers alerts via webhook. Generate drift reports with visualization.
+Build a static analyzer that parses n8n/Windmill workflow JSON, traces execution paths, estimates API call costs (via pricing APIs), and simulates runs with synthetic data. Output a detailed cost report per workflow step and detect runaway loop patterns.
 
-**Why now:** Vector databases are proliferating; production systems need automated drift detection to maintain embedding quality without manual retraining decisions.
+**Why now:** Low-code platforms like n8n are trending; users need pre-deployment visibility into costs and execution flow without manually running workflows.
 
-**Stack hints:** `Python`, `scipy`, `qdrant-client`, `numpy`, `plotly`
+**Stack hints:** `Python`, `pydantic`, `FastAPI`, `graphlib`
+
+
+
+
+
+
+#### Developer tools and testing infrastructure
+
+
+##### CLI Tool Composition Framework with Auto-Piping
+
+Create a Rust framework that helps developers compose Unix-style CLI tools by auto-detecting compatible input/output formats (JSON, CSV, protobuf) and suggesting piping chains. Include a dashboard showing tool ecosystem connectivity and data flow patterns.
+
+**Why now:** Developer tools like fzf and Vite are trending; tools that reduce friction in CLI composition help developers build composable workflows faster.
+
+**Stack hints:** `Rust`, `clap`, `serde`, `jsonschema`
+
+
+
+
+
+
+#### Quantitative and financial systems
+
+
+##### Trading Strategy Backtest Result Cache and Comparison Suite
+
+Build a Python service that caches backtest results (Sharpe, drawdown, returns) with content-addressable hashing, detects parameter sensitivity via Monte Carlo resampling, and generates interactive comparison dashboards for multiple strategies. Include statistical significance tests.
+
+**Why now:** Quant trading infrastructure is trending; traders need fast comparison tools to evaluate strategy portfolio candidates without re-running expensive backtests.
+
+**Stack hints:** `Python`, `pandas`, `scipy`, `plotly`, `sqlite`
 
 
 
@@ -198,80 +198,80 @@ Create a service that periodically samples embeddings from Qdrant, computes stat
 
 
 
-#### Systematic trading infrastructure
+#### System design and interview preparation
 
 
-##### Strategy Portfolio Optimizer with Risk Constraints
+##### Modular Interview Prep Platform with Spaced Repetition
 
-Build a Python library that takes multiple backtested strategies as inputs, optimizes portfolio allocation using Markowitz mean-variance or risk-parity, respects sector/correlation constraints, and generates rebalancing schedules. Include Monte Carlo simulation, stress testing, and live monitoring against actual portfolio.
+Build a web application that breaks system design, algorithms, and behavioral interview topics into micro-lessons, tracks study progress via spaced repetition scheduling, and generates personalized study plans. Include peer review mechanisms for architecture sketches and whiteboarding simulations.
 
-**Why now:** Quant traders need practical portfolio construction tools that combine multiple strategies; current offerings are either academic or behind expensive paywalls.
+**Why now:** System design education is trending; personalized, spaced-repetition learning accelerates interview readiness more effectively than static resources.
 
-**Stack hints:** `Python`, `cvxpy`, `pandas`, `numpy`, `scipy`, `plotly`
-
-
-
-
-
-
-#### Media download and lifecycle management
-
-
-##### Unified Media Archive with Deduplication and Smart Curation
-
-Create an application that consolidates media from yt-dlp downloads, local files, and optional cloud sync, deduplicates by content hash and perceptual fingerprinting, applies AI-powered tagging (mood, genre, subject), and surfaces personalized recommendations. Include conflict resolution for near-duplicates.
-
-**Why now:** Offline media collections are growing; users need unified curation without manual organization, combining Whisper transcription and ML classification into a cohesive archive.
-
-**Stack hints:** `Python`, `FastAPI`, `transformers`, `sqlite`, `imagehash`, `React`
+**Stack hints:** `TypeScript`, `React`, `Python`, `FastAPI`, `PostgreSQL`, `SQLAlchemy`
 
 
 
 
 
 
-#### Remote access and networking
+#### Remote access and developer infrastructure
 
 
-##### Zero-Trust Network Gateway with Audit and Compliance Logging
+##### Zero-Trust Device Access Controller with SBOM Attestation
 
-Extend Tailscale/WireGuard with a policy-enforcement gateway that logs all connection attempts, enforces device posture checks, implements device-scoped IP allocation, and generates compliance reports (SOC 2, HIPAA). Include UI for policy management and audit trail export.
+Develop a policy engine that integrates with RustDesk/Tailscale to enforce device-scoped access based on software bill-of-materials (SBOM), allowing access only from devices running approved OS versions and patches. Include audit logging, revocation triggers, and compliance reporting.
 
-**Why now:** Teams deploying self-hosted remote access need compliance-grade visibility; Tailscale lacks built-in audit trails for regulated environments.
+**Why now:** Remote access infrastructure is trending; enterprises need device posture validation backed by verifiable software inventory to comply with regulatory requirements.
 
-**Stack hints:** `Rust`, `tokio`, `PostgreSQL`, `tonic`, `React`
-
-
-
-
-
-
-#### AI workflow orchestration and low-code platforms
-
-
-##### AI Agent Framework with Debugging and Trace Visualization
-
-Build a Python framework that wraps LangChain agents with step-by-step tracing, variable inspection, cost attribution, and interactive replay. Generate flamegraphs of agent execution, support breakpoint debugging, and export traces as DAGs for analysis.
-
-**Why now:** LangChain and agentic workflows lack production debugging; developers need visibility into multi-step reasoning without manually adding logging everywhere.
-
-**Stack hints:** `Python`, `langchain`, `fastapi`, `pydantic`, `plotly`
+**Stack hints:** `Rust`, `tokio`, `PostgreSQL`, `tonic`, `SBOM parsing libraries`
 
 
 
 
 
 
-#### High-performance data layers and vector search
+#### Productivity and automation platforms
 
 
-##### Hybrid Vector-Keyword Search Engine with Re-Ranking
+##### Workflow Visualization and Optimization Advisor
 
-Develop a Python service that fuses keyword search (Meilisearch) and semantic search (Qdrant) results via learned re-ranking, supports iterative query refinement, and caches embedding computations. Include A/B testing framework to evaluate ranking quality.
+Create a web-based tool that imports workflows from n8n/Windmill, renders them as interactive DAGs, identifies bottlenecks and parallelization opportunities, and suggests optimizations (batching, caching, conditional execution). Include A/B testing framework to validate improvements.
 
-**Why now:** Production RAG systems need both keyword recall and semantic relevance; combining Meilisearch and Qdrant enables teams to optimize for both without switching backends.
+**Why now:** Low-code platforms are maturing; visual optimization tools help non-engineers understand and improve workflow performance without deep technical knowledge.
 
-**Stack hints:** `Python`, `FastAPI`, `qdrant-client`, `meilisearch`, `scikit-learn`
+**Stack hints:** `TypeScript`, `React`, `D3.js`, `Python`, `FastAPI`
+
+
+
+
+
+
+#### Developer tools and testing infrastructure
+
+
+##### Cross-Language Test Orchestration Runtime
+
+Build a polyglot test runner that executes unit, integration, and E2E tests across Python, Node, Go, Rust in a single invocation, correlates failures across language boundaries, and generates unified reports with flamegraphs. Support Playwright, pytest, Go testing, and cargo test.
+
+**Why now:** Developer tools are trending; polyglot teams need unified test orchestration to validate cross-language systems without managing multiple test runners.
+
+**Stack hints:** `Rust`, `tokio`, `subprocess management`, `JSON report aggregation`
+
+
+
+
+
+
+#### Quantitative and financial systems
+
+
+##### Multi-Asset Risk Aggregator with Correlation Matrix Updates
+
+Build a Python library that aggregates positions across multiple trading strategies and asset classes, calculates portfolio-level Greeks/risks, detects correlation breakdowns via rolling window analysis, and recommends rebalancing actions. Include real-time risk streaming and Monte Carlo VaR estimation.
+
+**Why now:** Quantitative finance infrastructure is trending; traders managing multiple strategies need integrated risk views without rebuilding portfolio analytics from scratch.
+
+**Stack hints:** `Python`, `numpy`, `pandas`, `scipy`, `numba`
 
 
 
@@ -284,80 +284,80 @@ Develop a Python service that fuses keyword search (Meilisearch) and semantic se
 
 
 
-#### Systematic trading infrastructure
+#### System design and interview preparation
 
 
-##### Multi-Exchange Arbitrage Detector with Execution Framework
+##### Distributed System Design Validator with Failure Injection Testing
 
-Create a full-stack system that ingests real-time price feeds from multiple crypto/forex exchanges, detects profitable arbitrage opportunities via graph traversal, calculates net profit after fees and slippage, and executes hedged trades atomically. Include risk management, position tracking, and profit/loss reporting.
+Create a framework that lets engineers specify distributed system topologies (services, databases, message queues) declaratively, simulates them with accurate network delays, injects failures (latency, packet loss, node crashes), and verifies consistency/availability properties automatically. Include visualization of causal chains and deadlock detection.
 
-**Why now:** Systematic traders are moving toward multi-exchange strategies; existing tools require deep technical integration; a unified framework with safe execution enables broader adoption.
+**Why now:** System design education is trending; hands-on failure simulation teaches engineers to think about failure modes more effectively than theoretical study.
 
-**Stack hints:** `Rust`, `tokio`, `ccxt`, `PostgreSQL`, `React`, `web3`
-
-
-
-
-
-
-#### Media download and lifecycle management
-
-
-##### End-to-End Encrypted Media Sync with Selective Transcription
-
-Build a desktop/mobile application that syncs media collections across devices with client-side encryption, runs Whisper transcription only on selected items, stores searchable indices locally, and offers optional cloud backup without exposing content. Include conflict resolution, bandwidth-aware sync, and progressive transcription.
-
-**Why now:** Privacy-conscious media consumers need encrypted sync combined with offline transcription; existing solutions either expose metadata or lack transcription features.
-
-**Stack hints:** `Rust`, `Tauri`, `whisper`, `tantivy`, `age-encryption`, `tokio`
+**Stack hints:** `Rust`, `tokio`, `simulated time library`, `model checking libraries`, `WebAssembly for visualization`
 
 
 
 
 
 
-#### Remote access and networking
+#### Remote access and developer infrastructure
 
 
-##### Enterprise-Grade VPN with Microsegmentation and Analytics
+##### Enterprise VPN Gateway with Multi-Factor Identity Binding
 
-Develop a Tailscale alternative built on Rust that supports microsegmentation policies, device group membership, real-time bandwidth/latency analytics, integration with SIEM systems, and automated threat response (IP blocking, session termination). Include web UI and API for policy automation.
+Build a full-featured VPN alternative combining WireGuard tunneling, OIDC/SAML identity binding, device posture enforcement, microsegmentation policies, real-time analytics, and automated threat response. Include web dashboard, audit trails, and integrations with SIEM systems.
 
-**Why now:** Organizations outgrowing consumer VPN tools need open-source alternatives with compliance and microsegmentation; Tailscale's closed architecture limits enterprise integration.
+**Why now:** Remote access tools are trending; enterprises need open-source alternatives to Tailscale with compliance features and device identity binding.
 
-**Stack hints:** `Rust`, `tokio`, `wireguard`, `PostgreSQL`, `prometheus`, `React`
-
-
-
-
-
-
-#### AI workflow orchestration and low-code platforms
-
-
-##### Visual Workflow Builder with AI-Powered Optimization
-
-Create a web-based workflow editor that compiles visual DAGs to executable code, provides AI-powered suggestions for parallelization and error handling, simulates execution with sample data, and auto-generates monitoring dashboards. Support multiple backends (Windmill, Argo, Airflow) via plugin architecture.
-
-**Why now:** Low-code platforms are maturing; users need AI-assisted optimization to avoid performance pitfalls; a vendor-neutral builder unlocks adoption across platforms.
-
-**Stack hints:** `TypeScript`, `React`, `DAG visualization library`, `Python`, `FastAPI`
+**Stack hints:** `Rust`, `tokio`, `wireguard-rs`, `PostgreSQL`, `openid`, `React`
 
 
 
 
 
 
-#### High-performance data layers and vector search
+#### Productivity and automation platforms
 
 
-##### Federated Vector Database with CRDT-Based Sync
+##### Unified Workflow Execution Platform with Multi-Backend Compilation
 
-Build a distributed vector database that replicates embeddings across multiple Qdrant instances using CRDT (Conflict-free Replicated Data Type) semantics, enables writes at any node, and maintains consistency without a central coordinator. Include automatic conflict resolution, versioning, and rollback.
+Develop a visual workflow builder that compiles to multiple backends (n8n, Airflow, Argo, Step Functions) via intermediate representation, supports version control and rollback, includes cost optimization recommendations, and provides unified execution monitoring across backends. Support complex dependencies and conditional branching.
 
-**Why now:** Enterprises deploying AI globally need vector databases that scale across regions; federated architecture with CRDT enables edge inference and cost reduction.
+**Why now:** Low-code platforms are consolidating; a vendor-neutral compiler for workflows reduces lock-in and enables teams to switch backends without rewriting automation.
 
-**Stack hints:** `Rust`, `tokio`, `qdrant`, `crdt-rs`, `PostgreSQL`
+**Stack hints:** `TypeScript`, `React`, `DAG visualization library`, `Python`, `FastAPI`, `GraphQL`
+
+
+
+
+
+
+#### Developer tools and testing infrastructure
+
+
+##### Polyglot Test Data Generation and Fixture Dependency Graph
+
+Create a framework that generates realistic test data for multiple databases and APIs simultaneously, tracks fixture dependencies across languages, enables snapshot testing with semantic diffing, and supports incremental regeneration. Include property-based testing integration and performance profiling.
+
+**Why now:** Developer tools are trending; teams building polyglot systems need unified test data management that handles cross-language dependencies and performance validation.
+
+**Stack hints:** `Rust`, `tokio`, `faker libraries`, `graph database`, `semantic diff libraries`
+
+
+
+
+
+
+#### Quantitative and financial systems
+
+
+##### Algorithmic Trading Execution Engine with Market Microstructure Simulation
+
+Build a production-grade execution system that simulates market impact, slippage, and execution costs using high-fidelity order book models, optimizes order splitting and timing across multiple venues, detects and prevents adverse execution patterns, and provides real-time execution analytics. Include backtesting against historical LOB data.
+
+**Why now:** Quantitative finance infrastructure is trending; traders need realistic execution simulation that captures microstructure effects beyond naive backtesting.
+
+**Stack hints:** `Rust`, `tokio`, `ccxt`, `web3`, `PostgreSQL`, `Apache Arrow`
 
 
 
@@ -377,4 +377,4 @@ See [ABOUT.md](ABOUT.md) for full methodology details.
 
 ---
 
-*Generated 2026-08-02 13:21 UTC · commit `98e8ba8`*
+*Generated 2026-08-09 12:50 UTC · commit `ceda240`*
