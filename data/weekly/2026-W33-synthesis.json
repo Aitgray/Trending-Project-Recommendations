@@ -1,0 +1,273 @@
+{
+  "week_of": "2026-08-16",
+  "topics": [
+    {
+      "slug": "ui-component-ecosystems",
+      "title": "UI component ecosystems and design systems",
+      "summary": "Comprehensive, production-grade component libraries and design system frameworks that standardize UI development across teams. Emphasizes Material Design, accessibility, and extensibility.",
+      "supporting_repos": [
+        "mui/material-ui",
+        "sveltejs/svelte",
+        "DioxusLabs/dioxus"
+      ]
+    },
+    {
+      "slug": "remote-infrastructure",
+      "title": "Remote access and self-hosted infrastructure",
+      "summary": "Open-source alternatives to proprietary remote access and collaboration tools, prioritizing user control, device security, and enterprise deployability.",
+      "supporting_repos": [
+        "rustdesk/rustdesk",
+        "calcom/cal.diy",
+        "electerm/electerm"
+      ]
+    },
+    {
+      "slug": "workflow-automation",
+      "title": "Workflow automation and business process platforms",
+      "summary": "Low-code/no-code platforms and orchestrators for automation, data pipelines, and integration, enabling non-technical users to build complex workflows.",
+      "supporting_repos": [
+        "n8n-io/n8n",
+        "windmill-labs/windmill",
+        "apache/airflow"
+      ]
+    },
+    {
+      "slug": "quantitative-finance",
+      "title": "Quantitative finance and algorithmic trading infrastructure",
+      "summary": "Production-grade systems for backtesting, risk modeling, and execution in algorithmic trading and quantitative research.",
+      "supporting_repos": [
+        "microsoft/qlib",
+        "nautechsystems/nautilus_trader",
+        "yt-dlp/yt-dlp"
+      ]
+    },
+    {
+      "slug": "security-and-secrets",
+      "title": "Security scanning and secret detection",
+      "summary": "Developer-focused tools for discovering vulnerabilities, leaked credentials, and misconfigurations in code and infrastructure.",
+      "supporting_repos": [
+        "aquasecurity/trivy",
+        "gitleaks/gitleaks",
+        "trufflesecurity/trufflehog"
+      ]
+    }
+  ],
+  "whats_new": "UI component ecosystems surge to prominence with Material UI, Svelte, and Dioxus all trending strongly\u2014a shift from system design dominance last week. Remote infrastructure persists but expands to include scheduling tools (Cal.com) alongside traditional RDP clients. Workflow automation platforms consolidate n8n, Windmill, and Airflow into a unified theme. Security tooling emerges as a new durable theme with three distinct scanning projects trending simultaneously, reflecting growing DevSecOps adoption.",
+  "projects": [
+    {
+      "title": "Component Library Token Generator with Theme Compiler",
+      "topic_slug": "ui-component-ecosystems",
+      "scope": "short",
+      "pitch": "Build a CLI tool that ingests design tokens (colors, typography, spacing) in YAML/JSON format and auto-generates theme files for Material UI, Svelte, and Tailwind. Output CSS variables, component prop overrides, and a preview HTML file showing the themed components side-by-side.",
+      "why_now": "UI component libraries are trending; teams need tooling to systematically apply consistent design tokens across multiple frameworks without manual duplication.",
+      "stack_hints": [
+        "TypeScript",
+        "clap",
+        "handlebars",
+        "chroma-js"
+      ]
+    },
+    {
+      "title": "Remote Desktop Session Recorder with Replay Inspector",
+      "topic_slug": "remote-infrastructure",
+      "scope": "short",
+      "pitch": "Create a lightweight wrapper around RustDesk that records session events (mouse, keyboard, window focus) into a structured log, then build a web UI that lets you replay and inspect sessions frame-by-frame, search for specific actions, and export audit clips.",
+      "why_now": "Remote access tools are trending; enterprises need session recording and replay for compliance audits and security incident investigation without external recording software.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "serde",
+        "React",
+        "SQLite"
+      ]
+    },
+    {
+      "title": "Workflow Execution Simulator with Cost Prediction Engine",
+      "topic_slug": "workflow-automation",
+      "scope": "short",
+      "pitch": "Build a Python library that parses n8n/Windmill workflow JSON, executes it against mock services with configurable latency/failure rates, predicts API costs before deployment, and generates execution traces showing bottlenecks and retry loops.",
+      "why_now": "Workflow platforms are trending; users need pre-flight simulation and cost visibility to catch expensive runaway workflows before they execute.",
+      "stack_hints": [
+        "Python",
+        "pydantic",
+        "networkx",
+        "plotly",
+        "faker"
+      ]
+    },
+    {
+      "title": "Portfolio Risk Aggregator with Correlation Drift Detection",
+      "topic_slug": "quantitative-finance",
+      "scope": "short",
+      "pitch": "Build a Python service that ingests position data from multiple trading strategies, calculates portfolio-level Greeks (delta, gamma, vega), detects correlation breakdowns between asset classes via rolling window analysis, and alerts when diversification assumptions fail.",
+      "why_now": "Quantitative finance infrastructure is trending; portfolio managers need integrated risk views that flag correlation shifts before they cause portfolio shocks.",
+      "stack_hints": [
+        "Python",
+        "numpy",
+        "pandas",
+        "scipy",
+        "redis"
+      ]
+    },
+    {
+      "title": "Continuous Secret Scanning CI/CD Plugin with Remediation Suggestions",
+      "topic_slug": "security-and-secrets",
+      "scope": "short",
+      "pitch": "Create a GitHub Actions/GitLab CI plugin that runs Gitleaks and Trufflehog on every PR, extracts detected secrets into a database, suggests remediation steps (rotate API key, invalidate token), and creates automated follow-up issues if secrets aren't fixed within 24 hours.",
+      "why_now": "Secret detection tools are trending; CI/CD integration with actionable remediation helps teams respond faster to leaked credentials.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Gitleaks API",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "title": "Theme-Aware Component Storybook with Cross-Framework Rendering",
+      "topic_slug": "ui-component-ecosystems",
+      "scope": "medium",
+      "pitch": "Develop a web-based component documentation platform that renders the same logical component in Material UI, Svelte, and React simultaneously, lets designers adjust tokens/variants and see live updates across all frameworks, and generates migration guides for switching implementations.",
+      "why_now": "UI component libraries are consolidating; teams adopting multiple frameworks need visual parity tools to ensure consistent design language.",
+      "stack_hints": [
+        "TypeScript",
+        "React",
+        "Vite",
+        "Monaco Editor",
+        "D3.js"
+      ]
+    },
+    {
+      "title": "Zero-Trust Device Access Manager with Real-Time Compliance Attestation",
+      "topic_slug": "remote-infrastructure",
+      "scope": "medium",
+      "pitch": "Build a policy engine that integrates with RustDesk/Tailscale, enforces device posture via SBOM attestation and patch level verification, supports time-bound access revocation, and provides real-time dashboard showing device compliance status across teams.",
+      "why_now": "Remote infrastructure is trending; enterprises need device identity and compliance binding to meet regulatory requirements for remote workers.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "PostgreSQL",
+        "tonic",
+        "SBOM parsing"
+      ]
+    },
+    {
+      "title": "Multi-Platform Workflow Compiler with Vendor Lock-in Prevention",
+      "topic_slug": "workflow-automation",
+      "scope": "medium",
+      "pitch": "Create a DSL and compiler that translates workflow definitions to multiple backends (n8n, Windmill, Airflow, Step Functions). Support version control, enable easy switching between platforms via intermediate representation, and generate cost estimates per backend.",
+      "why_now": "Workflow platforms are maturing; users need vendor-neutral abstractions to avoid lock-in and compare execution costs across backends.",
+      "stack_hints": [
+        "TypeScript",
+        "Rust",
+        "ANTLR",
+        "FastAPI",
+        "GraphQL"
+      ]
+    },
+    {
+      "title": "Trading Strategy Risk Profiler with Monte Carlo Resampling",
+      "topic_slug": "quantitative-finance",
+      "scope": "medium",
+      "pitch": "Build a Python analysis suite that backtest trading strategies, caches results, runs Monte Carlo parameter resampling to measure sensitivity, generates interactive comparison dashboards for strategy candidates, and performs statistical significance testing to validate edge robustness.",
+      "why_now": "Quantitative finance infrastructure is trending; traders need systematic risk profiling to avoid overfitting and identify robust strategy edges.",
+      "stack_hints": [
+        "Python",
+        "pandas",
+        "scipy",
+        "plotly",
+        "sqlite",
+        "numba"
+      ]
+    },
+    {
+      "title": "Secrets Vault with Automatic Rotation and Audit Trail",
+      "topic_slug": "security-and-secrets",
+      "scope": "medium",
+      "pitch": "Develop a self-hosted secrets manager that auto-detects leaked secrets via Gitleaks/TruffleHog, automatically rotates compromised keys across services, maintains immutable audit logs of all access, and integrates with SIEM systems for compliance reporting.",
+      "why_now": "Secret detection tools are trending; organizations need automated response workflows to rotate compromised credentials faster than manual processes.",
+      "stack_hints": [
+        "Go",
+        "PostgreSQL",
+        "RBAC libraries",
+        "AWS SDK",
+        "Docker"
+      ]
+    },
+    {
+      "title": "Design System Governance Platform with Version Control and Rollback",
+      "topic_slug": "ui-component-ecosystems",
+      "scope": "long",
+      "pitch": "Create a comprehensive design system management platform that tracks component versions, enforces breaking-change detection, provides visual diff tools for design token changes, supports semantic versioning with git integration, and auto-generates migration guides when libraries are updated.",
+      "why_now": "UI component ecosystems are trending; enterprise teams need governance tools to manage component versioning, prevent breaking changes, and coordinate design system evolution across teams.",
+      "stack_hints": [
+        "TypeScript",
+        "React",
+        "Git APIs",
+        "Semantic versioning",
+        "WebAssembly",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Enterprise VPN Gateway with Identity-Bound Microsegmentation",
+      "topic_slug": "remote-infrastructure",
+      "scope": "long",
+      "pitch": "Build a production-grade VPN alternative combining WireGuard tunneling, OIDC/SAML identity binding, device posture enforcement, microsegmentation policies, real-time analytics, and automated threat response. Include web dashboard, audit trails, and SIEM integration.",
+      "why_now": "Remote infrastructure is trending; enterprises need open-source VPN alternatives with compliance features and identity-bound access policies.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "wireguard-rs",
+        "PostgreSQL",
+        "React",
+        "OpenID Connect"
+      ]
+    },
+    {
+      "title": "Workflow Optimization Engine with Cross-Platform Execution Profiling",
+      "topic_slug": "workflow-automation",
+      "scope": "long",
+      "pitch": "Develop a platform that profiles workflow execution across n8n, Windmill, and Airflow, identifies bottlenecks and parallelization opportunities via DAG analysis, recommends and tests optimizations (batching, caching, conditional execution), and generates cost/performance tradeoff reports.",
+      "why_now": "Workflow automation platforms are consolidating; teams need unified optimization tooling that works across backends to reduce latency and cost.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "Rust",
+        "D3.js",
+        "Prometheus",
+        "Apache Arrow"
+      ]
+    },
+    {
+      "title": "Algorithmic Trading Execution Engine with Market Microstructure Simulation",
+      "topic_slug": "quantitative-finance",
+      "scope": "long",
+      "pitch": "Build a production-grade execution system that simulates market impact, slippage, and execution costs using high-fidelity order book models, optimizes order splitting and timing across venues, detects adverse execution patterns, and provides real-time analytics with backtesting against historical LOB data.",
+      "why_now": "Quantitative finance infrastructure is trending; traders need realistic execution simulation that captures microstructure effects beyond naive backtesting.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "CCXT",
+        "PostgreSQL",
+        "Apache Arrow",
+        "WebSockets"
+      ]
+    },
+    {
+      "title": "DevSecOps Compliance Automation Platform with Multi-Framework Coverage",
+      "topic_slug": "security-and-secrets",
+      "scope": "long",
+      "pitch": "Create an integrated platform combining Trivy, Gitleaks, and TruffleHog with automated remediation workflows, policy enforcement across repos/containers/infrastructure, compliance reporting (SOC2, HIPAA, PCI-DSS), and automated ticket creation for policy violations.",
+      "why_now": "Security scanning tools are trending; organizations need unified compliance platforms that integrate multiple scanners, automate enforcement, and generate audit-ready reports.",
+      "stack_hints": [
+        "Go",
+        "Rust",
+        "PostgreSQL",
+        "Kubernetes",
+        "React",
+        "Policy as Code"
+      ]
+    }
+  ]
+}
