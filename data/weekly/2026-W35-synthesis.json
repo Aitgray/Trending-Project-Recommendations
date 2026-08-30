@@ -1,0 +1,262 @@
+{
+  "week_of": "2026-08-30",
+  "topics": [
+    {
+      "slug": "performance-native-developer-tools",
+      "title": "Performance-native developer tools in Rust",
+      "summary": "High-velocity tools for linting, formatting, text editing, and CLI utilities written in Rust, prioritizing sub-millisecond response times and minimal resource overhead. These replace established Python/Node.js tooling by orders of magnitude in speed.",
+      "supporting_repos": [
+        "astral-sh/ruff",
+        "helix-editor/helix",
+        "ajeetdsouza/zoxide"
+      ]
+    },
+    {
+      "slug": "self-hosted-data-sovereignty",
+      "title": "Self-hosted data sovereignty and remote access",
+      "summary": "Open-source platforms for personal data management, remote device access, and private networking that eliminate reliance on commercial cloud providers. Focus on encryption, user control, and zero-trust network design.",
+      "supporting_repos": [
+        "tailscale/tailscale",
+        "rustdesk/rustdesk",
+        "paperless-ngx/paperless-ngx"
+      ]
+    },
+    {
+      "slug": "backend-as-platform",
+      "title": "Backend-as-a-platform with realtime and data APIs",
+      "summary": "Single-file or minimal-deployment backends providing PostgreSQL hosting, realtime subscriptions, and authentication out of the box. Targets developers who want backend infrastructure without managing servers.",
+      "supporting_repos": [
+        "supabase/supabase",
+        "pocketbase/pocketbase",
+        "windmill-labs/windmill"
+      ]
+    },
+    {
+      "slug": "ai-orchestration-infrastructure",
+      "title": "AI orchestration and vector search infrastructure",
+      "summary": "Storage and retrieval systems for embeddings, multi-modal data, and LLM application pipelines. Includes vector databases, distributed training frameworks, and agent orchestration platforms.",
+      "supporting_repos": [
+        "milvus-io/milvus",
+        "langchain-ai/langchain",
+        "chroma-core/chroma"
+      ]
+    },
+    {
+      "slug": "security-compliance-scanning",
+      "title": "Developer-native security scanning and vulnerability management",
+      "summary": "Integrated tools for detecting secrets, misconfigurations, and vulnerabilities across code and infrastructure with CI/CD integration. Emphasize actionable remediation and policy enforcement.",
+      "supporting_repos": [
+        "aquasecurity/trivy",
+        "projectdiscovery/nuclei-templates"
+      ]
+    }
+  ],
+  "whats_new": "Performance-native developer tools in Rust (ruff, Helix, zoxide) have emerged as a dominant theme, displacing generic editor/formatter discussion with specific demand for sub-millisecond tooling. Backend-as-a-platform has consolidated around realtime PostgreSQL (Supabase) and lightweight single-file solutions (PocketBase), distinct from last week's workflow-only focus. AI orchestration and vector search infrastructure now clusters as a durable theme via Milvus, LangChain, and Chroma, reflecting sustained embedding and agent infrastructure demand. Self-hosted data sovereignty persists but now emphasizes remote access and networking alongside media management.",
+  "projects": [
+    {
+      "title": "Rust Formatter Plugin Benchmarker with IDE Latency Profiling",
+      "topic_slug": "performance-native-developer-tools",
+      "scope": "short",
+      "pitch": "Build a Rust CLI that profiles and compares the latency of ruff, Prettier, and Black on real codebases, measuring format-on-save responsiveness in popular IDEs. Emit detailed breakdown reports showing where time is spent (parsing, AST traversal, output) and correlate with file size.",
+      "why_now": "Rust-native formatters are trending; developers need transparent benchmarks proving sub-100ms formatting vs Python alternatives to justify adoption.",
+      "stack_hints": [
+        "Rust",
+        "criterion",
+        "tempfile",
+        "json"
+      ]
+    },
+    {
+      "title": "Context-Aware Linter Rule Generator from AST Patterns",
+      "topic_slug": "performance-native-developer-tools",
+      "scope": "medium",
+      "pitch": "Create a Rust tool that learns linting patterns from ruff/clippy rule definitions, lets users define custom rules via visual AST pattern matching, compiles them to high-performance Rust checkers, and integrates directly into CI without external dependencies.",
+      "why_now": "High-performance linters are trending; teams need extensible rule definition that doesn't sacrifice speed, avoiding slow plugin systems.",
+      "stack_hints": [
+        "Rust",
+        "tree-sitter",
+        "serde",
+        "regex"
+      ]
+    },
+    {
+      "title": "Unified Performance Profiler for Rust CLI Tools",
+      "topic_slug": "performance-native-developer-tools",
+      "scope": "long",
+      "pitch": "Develop a comprehensive profiling and telemetry framework for Rust CLI tools (ruff, Helix, zoxide) that tracks latency, memory, CPU, and I/O at microsecond granularity. Publish aggregated performance reports comparing across tools and regressions, integrate with GitHub for trend visualization.",
+      "why_now": "Rust tooling is trending; the ecosystem needs standardized profiling to track performance progress over time and motivate continued optimization.",
+      "stack_hints": [
+        "Rust",
+        "pprof",
+        "metrics",
+        "PostgreSQL",
+        "D3.js"
+      ]
+    },
+    {
+      "title": "Privacy-Preserving Photo Sync Between Self-Hosted Instances",
+      "topic_slug": "self-hosted-data-sovereignty",
+      "scope": "short",
+      "pitch": "Write a Python daemon that syncs photos between two self-hosted Immich instances over a secure tunnel, auto-deduplicating by content hash and respecting bandwidth limits. Support selective album sync and conflict resolution via timestamp priority.",
+      "why_now": "Self-hosted media management is trending; multi-device families need cross-instance sync without re-uploading duplicates.",
+      "stack_hints": [
+        "Python",
+        "asyncio",
+        "aiohttp",
+        "hashlib",
+        "SQLite"
+      ]
+    },
+    {
+      "title": "Decentralized Remote Device Registry with mDNS Discovery",
+      "topic_slug": "self-hosted-data-sovereignty",
+      "scope": "medium",
+      "pitch": "Build a Rust service that maintains a decentralized registry of RustDesk/Tailscale endpoints using mDNS and gossip consensus, allowing devices to discover and connect to peers without a central server. Include automatic failover and peer reputation scoring.",
+      "why_now": "Self-hosted remote access is trending; teams need zero-trust discovery that survives single points of failure.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "mdns-sd",
+        "serde",
+        "async-trait"
+      ]
+    },
+    {
+      "title": "Multi-Tenant Document Storage with End-to-End Encryption Layer",
+      "topic_slug": "self-hosted-data-sovereignty",
+      "scope": "long",
+      "pitch": "Create a full-featured document management platform inspired by Paperless-NGX but with built-in multi-tenant support, end-to-end encryption for OCR text, collaborative document sharing with granular permissions, and mobile clients with offline syncing.",
+      "why_now": "Self-hosted data sovereignty is trending; organizations need document platforms with encryption and team collaboration without sacrificing user privacy.",
+      "stack_hints": [
+        "Rust",
+        "PostgreSQL",
+        "React",
+        "React Native",
+        "AES-256"
+      ]
+    },
+    {
+      "title": "Schema-Driven API Generator from PocketBase Models",
+      "topic_slug": "backend-as-platform",
+      "scope": "short",
+      "pitch": "Build a CLI that parses PocketBase collection schemas and auto-generates TypeScript/Python client SDKs with full type safety, subscriptions support, and optimistic updates. Include code generation for React hooks and offline-first state management.",
+      "why_now": "Backend-as-platform is trending; developers need rapid client generation from minimal backend definitions.",
+      "stack_hints": [
+        "Go",
+        "TypeScript",
+        "Handlebars",
+        "json-schema"
+      ]
+    },
+    {
+      "title": "Realtime Sync Framework for Multi-Database Backends",
+      "topic_slug": "backend-as-platform",
+      "scope": "medium",
+      "pitch": "Develop an abstraction layer that lets Supabase and PocketBase instances sync realtime changes via CRDT or operational transforms, enabling local-first applications with multi-backend failover. Include conflict resolution policies and selective sync.",
+      "why_now": "Backend-as-platform is trending; teams need interoperability and data resilience across providers.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "PostgreSQL",
+        "yrs",
+        "WebSockets"
+      ]
+    },
+    {
+      "title": "Zero-Deploy Backend Migration Toolkit from Supabase to PocketBase",
+      "topic_slug": "backend-as-platform",
+      "scope": "long",
+      "pitch": "Create a comprehensive migration and testing platform that extracts schemas and data from Supabase, transforms them for PocketBase, runs integration tests, and gradually routes production traffic via feature flags. Include rollback support and data reconciliation.",
+      "why_now": "Backend-as-platform vendors are consolidating; teams need tooling to escape lock-in and test alternatives before full migration.",
+      "stack_hints": [
+        "Go",
+        "PostgreSQL",
+        "TypeScript",
+        "gRPC",
+        "Terraform"
+      ]
+    },
+    {
+      "title": "Embedding Quality Dashboard with Drift Detection",
+      "topic_slug": "ai-orchestration-infrastructure",
+      "scope": "short",
+      "pitch": "Build a Python tool that ingests embeddings from Chroma/Milvus, computes statistical drift metrics (mean shift, distribution divergence), visualizes embedding space via t-SNE, and alerts on quality degradation. Export reports to Slack/email weekly.",
+      "why_now": "Vector search infrastructure is trending; ML teams need observability into embedding quality to catch model decay early.",
+      "stack_hints": [
+        "Python",
+        "scikit-learn",
+        "plotly",
+        "numpy",
+        "APScheduler"
+      ]
+    },
+    {
+      "title": "Multi-Modal Indexing Pipeline with LLM-Generated Summaries",
+      "topic_slug": "ai-orchestration-infrastructure",
+      "scope": "medium",
+      "pitch": "Develop a Rust/Python hybrid pipeline that indexes images, PDFs, and videos into Milvus by generating embeddings and LLM summaries, supports hybrid search (semantic + keyword), and auto-tags documents via LangChain classification. Include WebUI for retrieval testing.",
+      "why_now": "Vector search is trending; organizations need end-to-end indexing that handles multiple media types and LLM reasoning together.",
+      "stack_hints": [
+        "Rust",
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "Milvus SDK"
+      ]
+    },
+    {
+      "title": "Agent Workflow Compiler with Cost Attribution and Optimization",
+      "topic_slug": "ai-orchestration-infrastructure",
+      "scope": "long",
+      "pitch": "Build a platform that compiles high-level agent workflows (LangChain, AutoGen) to optimized execution plans, tracks cost per LLM call and vector search, suggests bottleneck elimination (batching, caching), and A/B tests workflow changes. Integrate with Milvus and LangChain ecosystem.",
+      "why_now": "AI orchestration is trending; teams building agent systems need cost visibility and automated optimization to scale economically.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "LangChain",
+        "React"
+      ]
+    },
+    {
+      "title": "Trivy Output Aggregator with Custom Policy Engine",
+      "topic_slug": "security-compliance-scanning",
+      "scope": "short",
+      "pitch": "Create a Go CLI that runs Trivy on containers and git repos, aggregates results, enforces custom REGO-like policies (severity thresholds, exception lists), and generates policy violation reports with auto-remediation suggestions per finding type.",
+      "why_now": "Security scanning is trending; teams need policy-driven filtering and exception management to reduce alert fatigue.",
+      "stack_hints": [
+        "Go",
+        "Trivy SDK",
+        "Rego",
+        "JSON"
+      ]
+    },
+    {
+      "title": "Automated Secret Rotation Orchestrator with Audit Logging",
+      "topic_slug": "security-compliance-scanning",
+      "scope": "medium",
+      "pitch": "Develop a system that detects leaked secrets via Gitleaks in CI, automatically rotates credentials in vaults (Vault, AWS Secrets Manager), updates all dependent services, and logs the entire rotation chain with cryptographic proof for compliance.",
+      "why_now": "Security scanning is trending; teams need automated response to secret leaks rather than manual rotation to reduce MTTR.",
+      "stack_hints": [
+        "Go",
+        "Kubernetes",
+        "HashiCorp Vault",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Enterprise Supply Chain Vulnerability Platform with SBOM Fusion",
+      "topic_slug": "security-compliance-scanning",
+      "scope": "long",
+      "pitch": "Create a comprehensive vulnerability management platform integrating Trivy, Gitleaks, and custom scanners across registries and repositories. Correlate findings via SBOMs, enforce approval gates, auto-generate remediation tickets prioritized by exploitability and blast radius.",
+      "why_now": "Security scanning tools are maturing; enterprises need unified governance across fragmented scanner outputs and compliance reporting.",
+      "stack_hints": [
+        "Go",
+        "PostgreSQL",
+        "React",
+        "SBOM parsing",
+        "Policy as Code"
+      ]
+    }
+  ]
+}

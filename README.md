@@ -1,103 +1,101 @@
 # Trending Project Ideas
 
-**Week of 2026-08-23** | [About this project](ABOUT.md)
+**Week of 2026-08-30** | [About this project](ABOUT.md)
 
 ---
 
 > **What's new this week**
 >
-> Production-grade trading infrastructure emerges as a durable theme with Nautilus Trader showing exceptional persistence, reflecting growing interest in realistic execution simulation and event-driven systems. Self-hosted personal infrastructure (Immich, RustDesk, Tailscale) consolidates around data sovereignty and privacy-first design, distinct from last week's generic remote access focus. Workflow automation platforms remain persistent but now include active MCP/AI agent integrations (Activepieces), marking a shift toward agentic workflow composition. Rust performance primitives (Bun, Helix, Polars) establish themselves as a durable theme, signaling sustained developer demand for fast, compiled alternatives to interpreted tooling.
+> Performance-native developer tools in Rust (ruff, Helix, zoxide) have emerged as a dominant theme, displacing generic editor/formatter discussion with specific demand for sub-millisecond tooling. Backend-as-a-platform has consolidated around realtime PostgreSQL (Supabase) and lightweight single-file solutions (PocketBase), distinct from last week's workflow-only focus. AI orchestration and vector search infrastructure now clusters as a durable theme via Milvus, LangChain, and Chroma, reflecting sustained embedding and agent infrastructure demand. Self-hosted data sovereignty persists but now emphasizes remote access and networking alongside media management.
 
 ---
 
 ## Trending Topics
 
 
-### Production-grade trading infrastructure and execution
+### Performance-native developer tools in Rust
 
-Rust-native and Python-based systems for algorithmic trading, backtesting, and market execution with deterministic event-driven architectures. Focus on high-performance execution, realistic market microstructure simulation, and production-grade reliability.
+High-velocity tools for linting, formatting, text editing, and CLI utilities written in Rust, prioritizing sub-millisecond response times and minimal resource overhead. These replace established Python/Node.js tooling by orders of magnitude in speed.
 
 <details>
 <summary>Supporting repos (3)</summary>
 
 
-- [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader)
+- [astral-sh/ruff](https://github.com/astral-sh/ruff)
 
-- [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading)
+- [helix-editor/helix](https://github.com/helix-editor/helix)
 
-- [openai/whisper](https://github.com/openai/whisper)
+- [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 
 
 </details>
 
 
-### Self-hosted personal and team infrastructure
+### Self-hosted data sovereignty and remote access
 
-Open-source alternatives to proprietary SaaS for media management, remote access, and collaboration. Emphasizes user data sovereignty, self-deployment, and privacy-first architectures.
+Open-source platforms for personal data management, remote device access, and private networking that eliminate reliance on commercial cloud providers. Focus on encryption, user control, and zero-trust network design.
 
 <details>
 <summary>Supporting repos (3)</summary>
 
-
-- [immich-app/immich](https://github.com/immich-app/immich)
-
-- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
 
 - [tailscale/tailscale](https://github.com/tailscale/tailscale)
 
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
 
-</details>
-
-
-### Workflow automation and orchestration platforms
-
-Low-code/no-code platforms and DAG-based orchestrators for automation, data pipelines, and integration. Support multiple backends, visual builders, and extensive third-party integrations.
-
-<details>
-<summary>Supporting repos (3)</summary>
-
-
-- [n8n-io/n8n](https://github.com/n8n-io/n8n)
-
-- [apache/airflow](https://github.com/apache/airflow)
-
-- [activepieces/activepieces](https://github.com/activepieces/activepieces)
+- [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
 
 
 </details>
 
 
-### Developer-native security scanning and compliance
+### Backend-as-a-platform with realtime and data APIs
 
-Tools for secrets detection, vulnerability scanning, and misconfigurations in code, containers, and infrastructure. Integrating into CI/CD pipelines with actionable remediation.
+Single-file or minimal-deployment backends providing PostgreSQL hosting, realtime subscriptions, and authentication out of the box. Targets developers who want backend infrastructure without managing servers.
 
 <details>
 <summary>Supporting repos (3)</summary>
+
+
+- [supabase/supabase](https://github.com/supabase/supabase)
+
+- [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase)
+
+- [windmill-labs/windmill](https://github.com/windmill-labs/windmill)
+
+
+</details>
+
+
+### AI orchestration and vector search infrastructure
+
+Storage and retrieval systems for embeddings, multi-modal data, and LLM application pipelines. Includes vector databases, distributed training frameworks, and agent orchestration platforms.
+
+<details>
+<summary>Supporting repos (3)</summary>
+
+
+- [milvus-io/milvus](https://github.com/milvus-io/milvus)
+
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
+
+- [chroma-core/chroma](https://github.com/chroma-core/chroma)
+
+
+</details>
+
+
+### Developer-native security scanning and vulnerability management
+
+Integrated tools for detecting secrets, misconfigurations, and vulnerabilities across code and infrastructure with CI/CD integration. Emphasize actionable remediation and policy enforcement.
+
+<details>
+<summary>Supporting repos (2)</summary>
 
 
 - [aquasecurity/trivy](https://github.com/aquasecurity/trivy)
 
-- [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
-
 - [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)
-
-
-</details>
-
-
-### High-performance Rust primitives and runtimes
-
-Systems programming in Rust targeting developer tools, infrastructure, and performance-critical applications. Includes text editors, package managers, build systems, and data processing engines.
-
-<details>
-<summary>Supporting repos (3)</summary>
-
-
-- [oven-sh/bun](https://github.com/oven-sh/bun)
-
-- [helix-editor/helix](https://github.com/helix-editor/helix)
-
-- [pola-rs/polars](https://github.com/pola-rs/polars)
 
 
 </details>
@@ -112,80 +110,80 @@ Systems programming in Rust targeting developer tools, infrastructure, and perfo
 
 
 
-#### Production-grade trading infrastructure and execution
+#### Performance-native developer tools in Rust
 
 
-##### Trading Slippage Predictor with Order Book Replay Engine
+##### Rust Formatter Plugin Benchmarker with IDE Latency Profiling
 
-Build a Python CLI that parses historical order book data (via CCXT or raw exchange snapshots), simulates execution algorithms (TWAP, VWAP, POV) against historical LOB states, and outputs predicted slippage distributions with confidence intervals. Generate visualizations comparing predicted vs actual fills.
+Build a Rust CLI that profiles and compares the latency of ruff, Prettier, and Black on real codebases, measuring format-on-save responsiveness in popular IDEs. Emit detailed breakdown reports showing where time is spent (parsing, AST traversal, output) and correlate with file size.
 
-**Why now:** Trading infrastructure is trending; traders need quick simulation of execution costs before deployment to validate strategy profitability.
+**Why now:** Rust-native formatters are trending; developers need transparent benchmarks proving sub-100ms formatting vs Python alternatives to justify adoption.
 
-**Stack hints:** `Python`, `pandas`, `numpy`, `plotly`, `CCXT`
-
-
-
-
-
-
-#### Self-hosted personal and team infrastructure
-
-
-##### Media Library Federation Protocol for Immich-like Systems
-
-Create a lightweight sync protocol that allows multiple self-hosted photo libraries to federate and appear as a unified collection in a web UI. Support conflict resolution, bandwidth-aware sync, and peer-to-peer discovery via mDNS.
-
-**Why now:** Self-hosted media management is trending; users with multiple homes or devices need cross-instance synchronization without cloud middlemen.
-
-**Stack hints:** `Rust`, `tokio`, `serde`, `mdns`, `SQLite`
+**Stack hints:** `Rust`, `criterion`, `tempfile`, `json`
 
 
 
 
 
 
-#### Workflow automation and orchestration platforms
+#### Self-hosted data sovereignty and remote access
 
 
-##### Workflow DAG Optimizer with Cost-Latency Tradeoff Explorer
+##### Privacy-Preserving Photo Sync Between Self-Hosted Instances
 
-Build a tool that ingests n8n or Airflow workflow JSON, analyzes the DAG for parallelization opportunities, generates multiple optimized execution plans (max parallelism, min cost, balanced), and lets users interactively explore latency vs API cost tradeoffs.
+Write a Python daemon that syncs photos between two self-hosted Immich instances over a secure tunnel, auto-deduplicating by content hash and respecting bandwidth limits. Support selective album sync and conflict resolution via timestamp priority.
 
-**Why now:** Workflow platforms are trending; teams need pre-execution optimization guidance to avoid expensive or slow workflows.
+**Why now:** Self-hosted media management is trending; multi-device families need cross-instance sync without re-uploading duplicates.
 
-**Stack hints:** `Python`, `networkx`, `pydantic`, `plotly`, `FastAPI`
-
-
-
-
-
-
-#### Developer-native security scanning and compliance
-
-
-##### Secret Leak Detector with Differential Hashing for PR Reviews
-
-Create a GitHub Actions plugin that runs Gitleaks on diffs, uses fuzzy hashing to detect near-identical secrets (token variants, rotated keys), surfaces high-confidence matches with context, and auto-blocks merge if secrets detected without suppression comments.
-
-**Why now:** Security scanning tools are trending; teams need smarter secret detection that accounts for token variants and controlled suppressions.
-
-**Stack hints:** `Python`, `FastAPI`, `ssdeep`, `GitHub Actions`, `PostgreSQL`
+**Stack hints:** `Python`, `asyncio`, `aiohttp`, `hashlib`, `SQLite`
 
 
 
 
 
 
-#### High-performance Rust primitives and runtimes
+#### Backend-as-a-platform with realtime and data APIs
 
 
-##### Rust CLI Benchmarking Suite with Regression Detection
+##### Schema-Driven API Generator from PocketBase Models
 
-Build a Rust library and CLI that benchmarks your Rust binary across multiple inputs, stores results in a time-series database, detects performance regressions via statistical testing, and posts comparison reports to GitHub PRs with inline graphs.
+Build a CLI that parses PocketBase collection schemas and auto-generates TypeScript/Python client SDKs with full type safety, subscriptions support, and optimistic updates. Include code generation for React hooks and offline-first state management.
 
-**Why now:** Rust performance tools are trending; developers need automated regression detection to catch performance slides early in CI.
+**Why now:** Backend-as-platform is trending; developers need rapid client generation from minimal backend definitions.
 
-**Stack hints:** `Rust`, `criterion`, `sqlite`, `octorust`, `plotly-rs`
+**Stack hints:** `Go`, `TypeScript`, `Handlebars`, `json-schema`
+
+
+
+
+
+
+#### AI orchestration and vector search infrastructure
+
+
+##### Embedding Quality Dashboard with Drift Detection
+
+Build a Python tool that ingests embeddings from Chroma/Milvus, computes statistical drift metrics (mean shift, distribution divergence), visualizes embedding space via t-SNE, and alerts on quality degradation. Export reports to Slack/email weekly.
+
+**Why now:** Vector search infrastructure is trending; ML teams need observability into embedding quality to catch model decay early.
+
+**Stack hints:** `Python`, `scikit-learn`, `plotly`, `numpy`, `APScheduler`
+
+
+
+
+
+
+#### Developer-native security scanning and vulnerability management
+
+
+##### Trivy Output Aggregator with Custom Policy Engine
+
+Create a Go CLI that runs Trivy on containers and git repos, aggregates results, enforces custom REGO-like policies (severity thresholds, exception lists), and generates policy violation reports with auto-remediation suggestions per finding type.
+
+**Why now:** Security scanning is trending; teams need policy-driven filtering and exception management to reduce alert fatigue.
+
+**Stack hints:** `Go`, `Trivy SDK`, `Rego`, `JSON`
 
 
 
@@ -198,80 +196,80 @@ Build a Rust library and CLI that benchmarks your Rust binary across multiple in
 
 
 
-#### Production-grade trading infrastructure and execution
+#### Performance-native developer tools in Rust
 
 
-##### Market Microstructure Simulator with Agent-Based Order Flow
+##### Context-Aware Linter Rule Generator from AST Patterns
 
-Develop a Rust-based order book simulator that accepts configurable agent strategies (market makers, momentum traders, value traders), simulates realistic spread dynamics and fill probabilities, and outputs detailed execution traces for backtest validation. Include API for strategy parameter sweeps.
+Create a Rust tool that learns linting patterns from ruff/clippy rule definitions, lets users define custom rules via visual AST pattern matching, compiles them to high-performance Rust checkers, and integrates directly into CI without external dependencies.
 
-**Why now:** Trading infrastructure is trending; sophisticated traders need realistic execution simulation beyond naive backtests to validate strategy edge.
+**Why now:** High-performance linters are trending; teams need extensible rule definition that doesn't sacrifice speed, avoiding slow plugin systems.
 
-**Stack hints:** `Rust`, `tokio`, `serde`, `Apache Arrow`, `WebSockets`
-
-
-
-
-
-
-#### Self-hosted personal and team infrastructure
-
-
-##### Cross-Tenant Photo Library Sync with End-to-End Encryption
-
-Build a middleware service that sits between multiple Immich instances and provides encrypted, bandwidth-aware synchronization of photo collections across homes/family members. Support selective sharing, version conflict resolution, and automatic device cleanup policies.
-
-**Why now:** Self-hosted infrastructure is trending; families and multi-home users need privacy-preserving photo sharing without relying on cloud services.
-
-**Stack hints:** `Rust`, `tokio`, `PostgreSQL`, `AES-256`, `React`
+**Stack hints:** `Rust`, `tree-sitter`, `serde`, `regex`
 
 
 
 
 
 
-#### Workflow automation and orchestration platforms
+#### Self-hosted data sovereignty and remote access
 
 
-##### Multi-Backend Workflow Compiler with Vendor Escape Hatch
+##### Decentralized Remote Device Registry with mDNS Discovery
 
-Create a DSL and compiler that translates declarative workflow definitions to multiple backends (n8n, Airflow, Windmill, AWS Step Functions). Track execution cost and latency per backend, auto-suggest migration targets, and generate fallback workflows for vendor failures.
+Build a Rust service that maintains a decentralized registry of RustDesk/Tailscale endpoints using mDNS and gossip consensus, allowing devices to discover and connect to peers without a central server. Include automatic failover and peer reputation scoring.
 
-**Why now:** Workflow platforms are maturing; teams need abstraction layers to avoid lock-in and switch platforms based on cost and reliability.
+**Why now:** Self-hosted remote access is trending; teams need zero-trust discovery that survives single points of failure.
 
-**Stack hints:** `Rust`, `ANTLR`, `TypeScript`, `GraphQL`, `FastAPI`
-
-
-
-
-
-
-#### Developer-native security scanning and compliance
-
-
-##### Container and Dependency Vulnerability Aggregator with SBOM-Aware Enforcement
-
-Build a platform that aggregates Trivy, Gitleaks, and custom checks across container registries and git repos, correlates vulnerabilities with SBOM data, enforces policy-based approval gates in CI/CD, and auto-generates remediation tickets grouped by severity and exploitability.
-
-**Why now:** Security scanning tools are trending; enterprises need unified vulnerability management that correlates multiple scanners and enforces policy consistently.
-
-**Stack hints:** `Go`, `PostgreSQL`, `React`, `SBOM parsing`, `Policy as Code`
+**Stack hints:** `Rust`, `tokio`, `mdns-sd`, `serde`, `async-trait`
 
 
 
 
 
 
-#### High-performance Rust primitives and runtimes
+#### Backend-as-a-platform with realtime and data APIs
 
 
-##### Polyglot Package Manager Benchmarking Framework for Rust, Node, Python
+##### Realtime Sync Framework for Multi-Database Backends
 
-Develop a framework that benchmarks package manager operations (install, update, resolve) across Cargo, npm, and pip, tracks install time and disk usage over time, detects performance regressions in resolvers, and generates comparative reports highlighting why Rust tooling outperforms peers.
+Develop an abstraction layer that lets Supabase and PocketBase instances sync realtime changes via CRDT or operational transforms, enabling local-first applications with multi-backend failover. Include conflict resolution policies and selective sync.
 
-**Why now:** Rust performance primitives are trending; the ecosystem needs transparency into why Rust tooling feels faster to validate adoption claims.
+**Why now:** Backend-as-platform is trending; teams need interoperability and data resilience across providers.
 
-**Stack hints:** `Rust`, `Python`, `Node.js`, `SQLite`, `D3.js`
+**Stack hints:** `Rust`, `tokio`, `PostgreSQL`, `yrs`, `WebSockets`
+
+
+
+
+
+
+#### AI orchestration and vector search infrastructure
+
+
+##### Multi-Modal Indexing Pipeline with LLM-Generated Summaries
+
+Develop a Rust/Python hybrid pipeline that indexes images, PDFs, and videos into Milvus by generating embeddings and LLM summaries, supports hybrid search (semantic + keyword), and auto-tags documents via LangChain classification. Include WebUI for retrieval testing.
+
+**Why now:** Vector search is trending; organizations need end-to-end indexing that handles multiple media types and LLM reasoning together.
+
+**Stack hints:** `Rust`, `Python`, `FastAPI`, `LangChain`, `Milvus SDK`
+
+
+
+
+
+
+#### Developer-native security scanning and vulnerability management
+
+
+##### Automated Secret Rotation Orchestrator with Audit Logging
+
+Develop a system that detects leaked secrets via Gitleaks in CI, automatically rotates credentials in vaults (Vault, AWS Secrets Manager), updates all dependent services, and logs the entire rotation chain with cryptographic proof for compliance.
+
+**Why now:** Security scanning is trending; teams need automated response to secret leaks rather than manual rotation to reduce MTTR.
+
+**Stack hints:** `Go`, `Kubernetes`, `HashiCorp Vault`, `PostgreSQL`
 
 
 
@@ -284,80 +282,80 @@ Develop a framework that benchmarks package manager operations (install, update,
 
 
 
-#### Production-grade trading infrastructure and execution
+#### Performance-native developer tools in Rust
 
 
-##### High-Frequency Trading Strategy Backtester with Realistic Market Impact
+##### Unified Performance Profiler for Rust CLI Tools
 
-Build a production-grade backtesting engine in Rust that simulates trading strategies against high-frequency market data, models realistic market impact via parameterized slippage functions, measures strategy performance under various market regimes, and generates detailed execution analytics including queue position, partial fills, and opportunity cost.
+Develop a comprehensive profiling and telemetry framework for Rust CLI tools (ruff, Helix, zoxide) that tracks latency, memory, CPU, and I/O at microsecond granularity. Publish aggregated performance reports comparing across tools and regressions, integrate with GitHub for trend visualization.
 
-**Why now:** Production trading infrastructure is trending; quants need sophisticated backtesting that captures non-linear market impact to avoid strategy overfitting.
+**Why now:** Rust tooling is trending; the ecosystem needs standardized profiling to track performance progress over time and motivate continued optimization.
 
-**Stack hints:** `Rust`, `tokio`, `Apache Arrow`, `PostgreSQL`, `WebSockets`
-
-
-
-
-
-
-#### Self-hosted personal and team infrastructure
-
-
-##### Distributed Photo Library with Automatic Device-to-Device Sync and Deduplication
-
-Create a full-featured distributed photo management system supporting multi-device sync, content-addressable deduplication, smart search via local embeddings, collaborative albums, and encrypted peer-to-peer transfer. Include web and mobile clients with offline-first architecture.
-
-**Why now:** Self-hosted personal infrastructure is trending; users want Immich-like functionality plus sophisticated sync, search, and sharing across family devices.
-
-**Stack hints:** `Rust`, `PostgreSQL`, `React`, `React Native`, `ONNX`
+**Stack hints:** `Rust`, `pprof`, `metrics`, `PostgreSQL`, `D3.js`
 
 
 
 
 
 
-#### Workflow automation and orchestration platforms
+#### Self-hosted data sovereignty and remote access
 
 
-##### Unified Workflow Intelligence Platform with Cost Attribution and Optimization
+##### Multi-Tenant Document Storage with End-to-End Encryption Layer
 
-Develop an observability and optimization platform that sits atop n8n, Airflow, and Windmill, providing unified cost attribution per workflow step, ML-driven recommendations for bottleneck elimination, automatic batching and caching suggestions, and A/B testing support for workflow changes.
+Create a full-featured document management platform inspired by Paperless-NGX but with built-in multi-tenant support, end-to-end encryption for OCR text, collaborative document sharing with granular permissions, and mobile clients with offline syncing.
 
-**Why now:** Workflow platforms are consolidating; teams need unified insights into cost and performance across heterogeneous automation stacks.
+**Why now:** Self-hosted data sovereignty is trending; organizations need document platforms with encryption and team collaboration without sacrificing user privacy.
 
-**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `React`, `Prometheus`
-
-
-
-
-
-
-#### Developer-native security scanning and compliance
-
-
-##### Enterprise DevSecOps Platform with Automated Remediation Orchestration
-
-Build a comprehensive DevSecOps platform integrating Trivy, Gitleaks, and TruffleHog with automated remediation workflows (rotate secrets, patch containers, update dependencies), SIEM integration for compliance reporting, policy-as-code enforcement across repos and infrastructure, and real-time dashboards.
-
-**Why now:** Security scanning tools are trending; enterprises need orchestrated remediation workflows to respond faster than manual triage.
-
-**Stack hints:** `Go`, `Rust`, `PostgreSQL`, `Kubernetes`, `React`
+**Stack hints:** `Rust`, `PostgreSQL`, `React`, `React Native`, `AES-256`
 
 
 
 
 
 
-#### High-performance Rust primitives and runtimes
+#### Backend-as-a-platform with realtime and data APIs
 
 
-##### Universal Rust Native Formatter and Linter with IDE Telemetry
+##### Zero-Deploy Backend Migration Toolkit from Supabase to PocketBase
 
-Create a high-performance formatting and linting engine in Rust that supports Rust, Python, and JavaScript, provides sub-millisecond formatting for large files, tracks IDE integration metrics (latency, memory, CPU), supports extensible rule plugins, and generates detailed performance profiles for CI usage.
+Create a comprehensive migration and testing platform that extracts schemas and data from Supabase, transforms them for PocketBase, runs integration tests, and gradually routes production traffic via feature flags. Include rollback support and data reconciliation.
 
-**Why now:** Rust performance tooling is trending; developers need faster formatters and linters that can scale to massive codebases without IDE lag.
+**Why now:** Backend-as-platform vendors are consolidating; teams need tooling to escape lock-in and test alternatives before full migration.
 
-**Stack hints:** `Rust`, `tree-sitter`, `nom`, `dashmap`, `metrics-rs`
+**Stack hints:** `Go`, `PostgreSQL`, `TypeScript`, `gRPC`, `Terraform`
+
+
+
+
+
+
+#### AI orchestration and vector search infrastructure
+
+
+##### Agent Workflow Compiler with Cost Attribution and Optimization
+
+Build a platform that compiles high-level agent workflows (LangChain, AutoGen) to optimized execution plans, tracks cost per LLM call and vector search, suggests bottleneck elimination (batching, caching), and A/B tests workflow changes. Integrate with Milvus and LangChain ecosystem.
+
+**Why now:** AI orchestration is trending; teams building agent systems need cost visibility and automated optimization to scale economically.
+
+**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `LangChain`, `React`
+
+
+
+
+
+
+#### Developer-native security scanning and vulnerability management
+
+
+##### Enterprise Supply Chain Vulnerability Platform with SBOM Fusion
+
+Create a comprehensive vulnerability management platform integrating Trivy, Gitleaks, and custom scanners across registries and repositories. Correlate findings via SBOMs, enforce approval gates, auto-generate remediation tickets prioritized by exploitability and blast radius.
+
+**Why now:** Security scanning tools are maturing; enterprises need unified governance across fragmented scanner outputs and compliance reporting.
+
+**Stack hints:** `Go`, `PostgreSQL`, `React`, `SBOM parsing`, `Policy as Code`
 
 
 
@@ -377,4 +375,4 @@ See [ABOUT.md](ABOUT.md) for full methodology details.
 
 ---
 
-*Generated 2026-08-23 12:39 UTC · commit `7dfbb99`*
+*Generated 2026-08-30 16:10 UTC · commit `da6d24a`*
