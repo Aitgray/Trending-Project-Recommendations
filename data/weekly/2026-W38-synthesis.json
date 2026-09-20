@@ -1,0 +1,264 @@
+{
+  "week_of": "2026-09-20",
+  "topics": [
+    {
+      "slug": "developer-environment-platforms",
+      "title": "Developer environment and workspace platforms",
+      "summary": "Cloud-native and self-hosted platforms for provisioning secure, isolated developer environments with integrated tooling, agent support, and infrastructure-as-code capabilities. Emphasis on removing local setup friction and enabling reproducible, auditable workspaces.",
+      "supporting_repos": [
+        "coder/coder",
+        "supabase/supabase",
+        "NangoHQ/nango"
+      ]
+    },
+    {
+      "slug": "ai-orchestration-robotics",
+      "title": "AI orchestration for robotics and dataflow pipelines",
+      "summary": "Frameworks designed for composing AI agents, sensors, and computation into directed acyclic graphs with low-latency, deterministic event-driven execution. Targets robotics, autonomous systems, and real-time AI decision-making rather than general workflow automation.",
+      "supporting_repos": [
+        "dora-rs/dora",
+        "n8n-io/n8n",
+        "nautechsystems/nautilus_trader"
+      ]
+    },
+    {
+      "slug": "self-hosted-productivity",
+      "title": "Self-hosted productivity and personal data platforms",
+      "summary": "Lightweight, open-source tools for note-taking, project management, photo/video management, and data organization designed to run on personal infrastructure without cloud vendor dependencies. Focus on markdown-native interfaces and end-to-end encryption.",
+      "supporting_repos": [
+        "immich-app/immich",
+        "usememos/memos",
+        "makeplane/plane"
+      ]
+    },
+    {
+      "slug": "reverse-engineering-analysis",
+      "title": "Reverse engineering and binary analysis frameworks",
+      "summary": "Sophisticated desktop tools for analyzing, decompiling, and visualizing compiled software and firmware. Addresses security research, vulnerability discovery, and malware analysis with scriptable, extensible architectures.",
+      "supporting_repos": [
+        "NationalSecurityAgency/ghidra",
+        "projectdiscovery/nuclei",
+        "projectdiscovery/nuclei-templates"
+      ]
+    },
+    {
+      "slug": "vector-search-infrastructure",
+      "title": "Vector databases and semantic search infrastructure",
+      "summary": "High-performance, scalable storage and retrieval systems for embeddings and semantic search. Enable AI-driven discovery, retrieval-augmented generation, and similarity matching at scale.",
+      "supporting_repos": [
+        "qdrant/qdrant",
+        "huggingface/transformers",
+        "cvat-ai/cvat"
+      ]
+    }
+  ],
+  "whats_new": "Developer environment platforms (Coder) have emerged as a major trend alongside traditional self-hosted media, reflecting enterprise demand for secure, auditable workspace provisioning. AI orchestration has shifted focus from general workflow platforms to deterministic, low-latency robotics and real-time dataflow (DORA), indicating maturation beyond generic n8n-style automation. Reverse engineering and binary analysis (Ghidra) shows sustained trending, signaling heightened security research and supply-chain validation activity. Vector databases now compete directly with traditional databases for AI workload relevance, driven by RAG and embeddings-heavy architectures.",
+  "projects": [
+    {
+      "title": "Ephemeral Dev Environment Snapshots with Git Integration",
+      "topic_slug": "developer-environment-platforms",
+      "scope": "short",
+      "pitch": "Build a CLI tool that captures the current state of a developer's local environment (installed tools, VSCode extensions, shell config, environment variables) as a portable snapshot, then exports it as a declarative YAML config consumable by Coder or Docker Compose. Include a Git hook to automatically snapshot environment changes on commit, enabling teams to synchronize dev-environment drift across contributors.",
+      "why_now": "Developer environment platforms are trending; teams need lightweight, version-controlled snapshots to prevent 'works on my machine' failures.",
+      "stack_hints": [
+        "Go",
+        "yaml",
+        "git2-rs",
+        "clap"
+      ]
+    },
+    {
+      "title": "Real-Time Dataflow Debugger for Robotics Pipelines",
+      "topic_slug": "ai-orchestration-robotics",
+      "scope": "short",
+      "pitch": "Create a Python/Rust tool that visualizes DORA dataflow graphs in real-time, showing message latency, drop rates, and CPU/memory per node via a lightweight TUI. Include breakpoint support to pause execution at specific nodes and inspect message payloads for robotics engineers debugging sensor fusion or perception pipelines.",
+      "why_now": "Robotics and dataflow orchestration are trending; developers need visibility into deterministic event-driven systems to optimize real-time performance.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "ratatui",
+        "serde_json"
+      ]
+    },
+    {
+      "title": "Markdown-First Encrypted Team Wiki with Collaborative Editing",
+      "topic_slug": "self-hosted-productivity",
+      "scope": "short",
+      "pitch": "Build a TypeScript/Go service that synchronizes a shared Markdown wiki across team members using CRDTs, with end-to-end encryption via libsodium. Include real-time collaboration cursors, full-text search via SQLite FTS, and automatic deployment to Memos/SilverBullet for downstream consumption.",
+      "why_now": "Self-hosted productivity platforms are trending; teams need encrypted, collaborative documentation that doesn't depend on centralized SaaS.",
+      "stack_hints": [
+        "TypeScript",
+        "yrs",
+        "libsodium.js",
+        "SQLite FTS"
+      ]
+    },
+    {
+      "title": "Binary Diff Analyzer with Vulnerability Pattern Matching",
+      "topic_slug": "reverse-engineering-analysis",
+      "scope": "short",
+      "pitch": "Develop a Go CLI that compares two binaries using Ghidra-compatible APIs, identifies structural changes (new functions, modified loops, added API calls), and runs Nuclei-style vulnerability templates against the diff to detect potential security regressions. Output JSON with risk scoring and side-by-side assembly diffs.",
+      "why_now": "Reverse engineering and security scanning are trending; maintainers need automated tools to detect regressions and introduced vulnerabilities in compiled releases.",
+      "stack_hints": [
+        "Go",
+        "ghidra API",
+        "projectdiscovery/nuclei"
+      ]
+    },
+    {
+      "title": "Vector Embedding Cache Layer for RAG Applications",
+      "topic_slug": "vector-search-infrastructure",
+      "scope": "short",
+      "pitch": "Write a Rust middleware that caches embeddings generated by Transformers models (via ONNX Runtime), deduplicates inputs to avoid recomputation, and serves cached embeddings from Qdrant with a configurable TTL. Include metrics export for cache hit rates and embedding latency profiling.",
+      "why_now": "Vector databases and embeddings are trending; RAG applications need cost-aware caching to avoid redundant embedding computation.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "ort (ONNX Runtime)",
+        "qdrant-client"
+      ]
+    },
+    {
+      "title": "Workspace Provisioning Orchestrator with Policy-as-Code",
+      "topic_slug": "developer-environment-platforms",
+      "scope": "medium",
+      "pitch": "Build a Go/TypeScript service that automates secure developer workspace provisioning via Coder, enforcing org policies (secrets rotation, network isolation, audit logging) through a declarative DSL. Support multi-cloud deployment, automatic cleanup on policy violations, and integration with identity providers (Zitadel) for RBAC. Include compliance reporting for SOC2/ISO27001.",
+      "why_now": "Developer environment platforms are trending; enterprises need policy-driven provisioning to balance developer velocity with security guardrails.",
+      "stack_hints": [
+        "Go",
+        "TypeScript",
+        "coder SDK",
+        "PostgreSQL",
+        "Open Policy Agent"
+      ]
+    },
+    {
+      "title": "Multi-Agent Robotics Orchestrator with Sensor Fusion Dashboard",
+      "topic_slug": "ai-orchestration-robotics",
+      "scope": "medium",
+      "pitch": "Develop a Rust/TypeScript framework combining DORA-style dataflow with a visual dashboard for coordinating multiple robotic agents. Support dynamic task allocation, inter-agent communication patterns, centralized sensor fusion, and playback of recorded runs for debugging. Include simulation mode against mock sensors for testing coordination logic.",
+      "why_now": "Robotics and AI orchestration are trending; teams need unified platforms for coordinating multiple agents in deterministic, low-latency environments.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "React",
+        "DORA",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Personal Data Vault with Zero-Knowledge Backup Sync",
+      "topic_slug": "self-hosted-productivity",
+      "scope": "medium",
+      "pitch": "Create a full-stack application combining Immich-style photo/video management with Memos-style note storage, all encrypted end-to-end and synced across devices via zero-knowledge backup (using threshold secret sharing). Include a React UI, support selective sync rules, and migration tools from Google Photos and Apple Notes.",
+      "why_now": "Self-hosted productivity is trending; users need unified, encrypted personal data platforms that survive device loss without trusting cloud providers.",
+      "stack_hints": [
+        "TypeScript",
+        "Rust",
+        "PostgreSQL",
+        "libsodium",
+        "React",
+        "shamir-secret-sharing"
+      ]
+    },
+    {
+      "title": "Vulnerability Intelligence Aggregator with Supply-Chain Mapping",
+      "topic_slug": "reverse-engineering-analysis",
+      "scope": "medium",
+      "pitch": "Build a Go service that ingests vulnerability data from Nuclei scans, Ghidra-assisted binary analysis, and OSS package registries, then correlates them with supply-chain dependencies to identify transitive risk. Generate risk heatmaps, track remediation timelines, and trigger automated patching workflows via Git pull requests.",
+      "why_now": "Reverse engineering and security scanning are trending; organizations need holistic visibility into vulnerability exposure across direct and transitive dependencies.",
+      "stack_hints": [
+        "Go",
+        "PostgreSQL",
+        "projectdiscovery/nuclei",
+        "GitHub API"
+      ]
+    },
+    {
+      "title": "Multi-Modal RAG Pipeline with Local Model Inference",
+      "topic_slug": "vector-search-infrastructure",
+      "scope": "medium",
+      "pitch": "Develop a Python framework that chains document chunking, multi-modal embedding generation (text + image + audio via Transformers), vector storage in Qdrant, and local LLM inference to build retrieval-augmented generation pipelines runnable entirely on-prem. Include Langchain integration and a REST API for easy consumption.",
+      "why_now": "Vector databases and embeddings are trending; organizations need on-prem RAG to avoid sending proprietary data to cloud providers.",
+      "stack_hints": [
+        "Python",
+        "LangChain",
+        "Transformers",
+        "Qdrant",
+        "FastAPI"
+      ]
+    },
+    {
+      "title": "Enterprise Workspace Mesh with Federated Identity and Audit",
+      "topic_slug": "developer-environment-platforms",
+      "scope": "long",
+      "pitch": "Develop a production-grade workspace orchestration platform combining Coder-style environment provisioning with Zitadel federated identity, comprehensive audit logging, automated compliance attestation (SOC2/ISO27001), and advanced analytics on developer productivity patterns. Support multi-region deployment, automatic disaster recovery, and integration with SIEM tools for security event streaming.",
+      "why_now": "Developer environment platforms are trending; enterprises need integrated solutions for secure, auditable, compliant developer infrastructure at scale.",
+      "stack_hints": [
+        "Go",
+        "Rust",
+        "Kubernetes",
+        "PostgreSQL",
+        "Zitadel",
+        "React"
+      ]
+    },
+    {
+      "title": "Autonomous Fleet Coordinator with Distributed Consensus",
+      "topic_slug": "ai-orchestration-robotics",
+      "scope": "long",
+      "pitch": "Create a comprehensive Rust framework for coordinating large fleets of autonomous agents using DORA pipelines, distributed consensus algorithms for task allocation, and peer-to-peer communication via QUIC. Support heterogeneous agent types, dynamic role assignment, failure recovery, and mission planning via declarative task graphs. Include simulation suite and hardware integration tests.",
+      "why_now": "Robotics and AI orchestration are trending; teams need deterministic, distributed systems for coordinating many agents without centralized bottlenecks.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "quinn (QUIC)",
+        "DORA",
+        "prost (protobuf)"
+      ]
+    },
+    {
+      "title": "Federated Personal Data Network with Privacy-Preserving Analytics",
+      "topic_slug": "self-hosted-productivity",
+      "scope": "long",
+      "pitch": "Build a decentralized platform enabling individuals to host their media (Immich), notes (Memos), and projects (Plane) on personal infrastructure, then opt into federated analytics and AI features (semantic search, recommendations) via differential privacy and homomorphic encryption. Support federation across trusted peers and selective data sharing. Include migration tools and a marketplace for privacy-respecting extensions.",
+      "why_now": "Self-hosted productivity is trending; users want local data ownership with network effects via privacy-preserving federation.",
+      "stack_hints": [
+        "Rust",
+        "TypeScript",
+        "PostgreSQL",
+        "differential-privacy",
+        "zama (homomorphic encryption)"
+      ]
+    },
+    {
+      "title": "Threat Intelligence Platform with Automated Remediation Orchestration",
+      "topic_slug": "reverse-engineering-analysis",
+      "scope": "long",
+      "pitch": "Develop an integrated security platform combining Ghidra-assisted binary analysis, Nuclei-powered vulnerability scanning, OSINT correlation, and automated remediation playbooks. Ingest threat feeds, correlate detections with asset inventory, trigger dynamic isolation and patching workflows, and generate forensic timelines for incident response. Support Kubernetes-native deployment and SOAR integration.",
+      "why_now": "Reverse engineering and security scanning are trending; organizations need unified threat detection and response platforms that automate containment and remediation.",
+      "stack_hints": [
+        "Go",
+        "Rust",
+        "PostgreSQL",
+        "Kubernetes",
+        "gRPC",
+        "projectdiscovery/nuclei"
+      ]
+    },
+    {
+      "title": "Global Vector Search Index with Federated Learning",
+      "topic_slug": "vector-search-infrastructure",
+      "scope": "long",
+      "pitch": "Create a distributed vector database (extending Qdrant primitives) enabling federated search across privately-held embedding collections via secure multi-party computation. Support dynamic model training on decentralized data without sharing raw embeddings, approximate nearest-neighbor search with privacy guarantees, and tiered consistency for real-time vs. batch queries. Include benchmark suite for privacy-utility tradeoffs.",
+      "why_now": "Vector databases are trending; organizations need collaborative search infrastructure that preserves privacy in regulated industries (healthcare, finance).",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "Qdrant",
+        "OpenMined (federated learning)",
+        "cryptography"
+      ]
+    }
+  ]
+}

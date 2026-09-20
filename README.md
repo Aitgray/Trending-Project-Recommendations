@@ -1,21 +1,57 @@
 # Trending Project Ideas
 
-**Week of 2026-09-13** | [About this project](ABOUT.md)
+**Week of 2026-09-20** | [About this project](ABOUT.md)
 
 ---
 
 > **What's new this week**
 >
-> Self-hosted media and data management has emerged as a distinct theme, driven by privacy concerns and the maturation of platforms like Immich displacing generic cloud storage. Security scanning has solidified into a core concern with Gitleaks and Trivy showing sustained trending, reflecting heightened developer focus on credential leakage and supply-chain attacks. AI agent platforms now compete for dominance with clear self-hosting narratives (Windmill, n8n, LangChain), moving beyond last week's generic orchestration into native AI reasoning and visual composition. Performance-native Rust tooling remains persistent but has shifted focus from compiler/formatter dominance to ecosystem maturity—Ruff, Helix, and Zoxide show sustained interest, indicating architectural consolidation.
+> Developer environment platforms (Coder) have emerged as a major trend alongside traditional self-hosted media, reflecting enterprise demand for secure, auditable workspace provisioning. AI orchestration has shifted focus from general workflow platforms to deterministic, low-latency robotics and real-time dataflow (DORA), indicating maturation beyond generic n8n-style automation. Reverse engineering and binary analysis (Ghidra) shows sustained trending, signaling heightened security research and supply-chain validation activity. Vector databases now compete directly with traditional databases for AI workload relevance, driven by RAG and embeddings-heavy architectures.
 
 ---
 
 ## Trending Topics
 
 
-### Self-hosted media, photo, and data management
+### Developer environment and workspace platforms
 
-Privacy-first platforms for managing photos, videos, and personal data with local storage and sync capabilities. Emphasis on replacing centralized cloud services with self-controlled infrastructure.
+Cloud-native and self-hosted platforms for provisioning secure, isolated developer environments with integrated tooling, agent support, and infrastructure-as-code capabilities. Emphasis on removing local setup friction and enabling reproducible, auditable workspaces.
+
+<details>
+<summary>Supporting repos (3)</summary>
+
+
+- [coder/coder](https://github.com/coder/coder)
+
+- [supabase/supabase](https://github.com/supabase/supabase)
+
+- [NangoHQ/nango](https://github.com/NangoHQ/nango)
+
+
+</details>
+
+
+### AI orchestration for robotics and dataflow pipelines
+
+Frameworks designed for composing AI agents, sensors, and computation into directed acyclic graphs with low-latency, deterministic event-driven execution. Targets robotics, autonomous systems, and real-time AI decision-making rather than general workflow automation.
+
+<details>
+<summary>Supporting repos (3)</summary>
+
+
+- [dora-rs/dora](https://github.com/dora-rs/dora)
+
+- [n8n-io/n8n](https://github.com/n8n-io/n8n)
+
+- [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader)
+
+
+</details>
+
+
+### Self-hosted productivity and personal data platforms
+
+Lightweight, open-source tools for note-taking, project management, photo/video management, and data organization designed to run on personal infrastructure without cloud vendor dependencies. Focus on markdown-native interfaces and end-to-end encryption.
 
 <details>
 <summary>Supporting repos (3)</summary>
@@ -23,81 +59,45 @@ Privacy-first platforms for managing photos, videos, and personal data with loca
 
 - [immich-app/immich](https://github.com/immich-app/immich)
 
-- [laurent22/joplin](https://github.com/laurent22/joplin)
+- [usememos/memos](https://github.com/usememos/memos)
 
-- [calcom/cal.diy](https://github.com/calcom/cal.diy)
-
-
-</details>
-
-
-### Security scanning and credential detection
-
-Tools for discovering, verifying, and analyzing leaked credentials and security vulnerabilities across codebases and infrastructure. Enables automated secret detection and compliance workflows.
-
-<details>
-<summary>Supporting repos (3)</summary>
-
-
-- [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
-
-- [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
-
-- [aquasecurity/trivy](https://github.com/aquasecurity/trivy)
+- [makeplane/plane](https://github.com/makeplane/plane)
 
 
 </details>
 
 
-### AI agent and workflow orchestration platforms
+### Reverse engineering and binary analysis frameworks
 
-Self-hosted systems combining LLM orchestration, workflow automation, and native AI capabilities without vendor lock-in. Enables multi-step automation with agent reasoning and visual/code-based composition.
+Sophisticated desktop tools for analyzing, decompiling, and visualizing compiled software and firmware. Addresses security research, vulnerability discovery, and malware analysis with scriptable, extensible architectures.
 
 <details>
 <summary>Supporting repos (3)</summary>
 
 
-- [windmill-labs/windmill](https://github.com/windmill-labs/windmill)
+- [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
 
-- [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
+- [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
 
-- [n8n-io/n8n](https://github.com/n8n-io/n8n)
+- [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)
 
 
 </details>
 
 
-### Performance-native Rust developer tools
+### Vector databases and semantic search infrastructure
 
-High-velocity CLI utilities and frameworks written in Rust for tasks like linting, editing, and navigation. Replaces slower interpreted-language alternatives with orders-of-magnitude speed improvements.
-
-<details>
-<summary>Supporting repos (3)</summary>
-
-
-- [astral-sh/ruff](https://github.com/astral-sh/ruff)
-
-- [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
-
-- [helix-editor/helix](https://github.com/helix-editor/helix)
-
-
-</details>
-
-
-### Remote access and decentralized infrastructure
-
-Rust-native tools enabling self-hosted remote desktop, terminal access, and secure device management without reliance on centralized platforms. Focuses on control, privacy, and peer-to-peer connectivity.
+High-performance, scalable storage and retrieval systems for embeddings and semantic search. Enable AI-driven discovery, retrieval-augmented generation, and similarity matching at scale.
 
 <details>
 <summary>Supporting repos (3)</summary>
 
 
-- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
+- [qdrant/qdrant](https://github.com/qdrant/qdrant)
 
-- [zitadel/zitadel](https://github.com/zitadel/zitadel)
+- [huggingface/transformers](https://github.com/huggingface/transformers)
 
-- [authelia/authelia](https://github.com/authelia/authelia)
+- [cvat-ai/cvat](https://github.com/cvat-ai/cvat)
 
 
 </details>
@@ -112,80 +112,80 @@ Rust-native tools enabling self-hosted remote desktop, terminal access, and secu
 
 
 
-#### Self-hosted media, photo, and data management
+#### Developer environment and workspace platforms
 
 
-##### Self-Hosted Photo Library Sync Agent
+##### Ephemeral Dev Environment Snapshots with Git Integration
 
-Create a Python daemon that monitors local photo directories, auto-organizes by date/EXIF metadata, generates thumbnails and low-res previews, and syncs to a remote server via rsync over SSH. Include a simple CLI to configure sync rules and conflict resolution strategies.
+Build a CLI tool that captures the current state of a developer's local environment (installed tools, VSCode extensions, shell config, environment variables) as a portable snapshot, then exports it as a declarative YAML config consumable by Coder or Docker Compose. Include a Git hook to automatically snapshot environment changes on commit, enabling teams to synchronize dev-environment drift across contributors.
 
-**Why now:** Self-hosted photo management is trending; individuals need lightweight sync without subscriptions or cloud vendor lock-in.
+**Why now:** Developer environment platforms are trending; teams need lightweight, version-controlled snapshots to prevent 'works on my machine' failures.
 
-**Stack hints:** `Python`, `Pillow`, `exifread`, `asyncio`, `paramiko`
-
-
-
-
-
-
-#### Security scanning and credential detection
-
-
-##### Credential Drift Detector with Automated Rotation Triggers
-
-Build a lightweight Go CLI that periodically scans a directory tree with Gitleaks and Trufflehog, tracks credential history in a local SQLite database, and alerts via webhook when new secrets are detected or credentials age past a configurable threshold. Output JSON reports suitable for CI/CD integration.
-
-**Why now:** Security scanning is trending; teams need automated detection that feeds into rotation workflows rather than siloed alerts.
-
-**Stack hints:** `Go`, `gitleaks/gitleaks`, `trufflesecurity/trufflehog`, `SQLite`
+**Stack hints:** `Go`, `yaml`, `git2-rs`, `clap`
 
 
 
 
 
 
-#### AI agent and workflow orchestration platforms
+#### AI orchestration for robotics and dataflow pipelines
 
 
-##### Workflow Template Registry with Version Control
+##### Real-Time Dataflow Debugger for Robotics Pipelines
 
-Build a Git-like CLI tool that manages workflow templates for n8n/Windmill, enables versioning via local YAML storage, supports branching/merging for template variants, and exports to platform-native formats. Include search and metadata tagging for discovery.
+Create a Python/Rust tool that visualizes DORA dataflow graphs in real-time, showing message latency, drop rates, and CPU/memory per node via a lightweight TUI. Include breakpoint support to pause execution at specific nodes and inspect message payloads for robotics engineers debugging sensor fusion or perception pipelines.
 
-**Why now:** AI workflow platforms are trending; teams need versioning discipline and template reuse patterns analogous to code libraries.
+**Why now:** Robotics and dataflow orchestration are trending; developers need visibility into deterministic event-driven systems to optimize real-time performance.
 
-**Stack hints:** `Rust`, `tokio`, `git2-rs`, `serde_yaml`, `clap`
-
-
-
-
-
-
-#### Performance-native Rust developer tools
-
-
-##### Rust CLI Latency Dashboard with Real-Time Regression Alerts
-
-Write a Rust binary that benchmarks a suite of CLI tools (ruff, zoxide, helix) across commits, tracks latency trends in a JSON store, and emits desktop notifications when regressions exceed a threshold. Include a minimal TUI dashboard showing historical trends.
-
-**Why now:** Performance-native Rust tools are trending; maintainers need real-time feedback to preserve sub-millisecond guarantees.
-
-**Stack hints:** `Rust`, `criterion`, `serde_json`, `ratatui`, `notify-rust`
+**Stack hints:** `Rust`, `tokio`, `ratatui`, `serde_json`
 
 
 
 
 
 
-#### Remote access and decentralized infrastructure
+#### Self-hosted productivity and personal data platforms
 
 
-##### Decentralized Device Registry with mDNS Discovery
+##### Markdown-First Encrypted Team Wiki with Collaborative Editing
 
-Create a Go service that advertises RustDesk endpoints via mDNS, maintains a local device registry in JSON, and enables peer-to-peer device discovery without a central server. Support basic reputation scoring and firewall-aware connectivity hints.
+Build a TypeScript/Go service that synchronizes a shared Markdown wiki across team members using CRDTs, with end-to-end encryption via libsodium. Include real-time collaboration cursors, full-text search via SQLite FTS, and automatic deployment to Memos/SilverBullet for downstream consumption.
 
-**Why now:** Remote access and self-hosting are trending; teams need resilient discovery that survives centralized infrastructure failures.
+**Why now:** Self-hosted productivity platforms are trending; teams need encrypted, collaborative documentation that doesn't depend on centralized SaaS.
 
-**Stack hints:** `Go`, `github.com/grandcat/zeroconf`, `encoding/json`, `net`
+**Stack hints:** `TypeScript`, `yrs`, `libsodium.js`, `SQLite FTS`
+
+
+
+
+
+
+#### Reverse engineering and binary analysis frameworks
+
+
+##### Binary Diff Analyzer with Vulnerability Pattern Matching
+
+Develop a Go CLI that compares two binaries using Ghidra-compatible APIs, identifies structural changes (new functions, modified loops, added API calls), and runs Nuclei-style vulnerability templates against the diff to detect potential security regressions. Output JSON with risk scoring and side-by-side assembly diffs.
+
+**Why now:** Reverse engineering and security scanning are trending; maintainers need automated tools to detect regressions and introduced vulnerabilities in compiled releases.
+
+**Stack hints:** `Go`, `ghidra API`, `projectdiscovery/nuclei`
+
+
+
+
+
+
+#### Vector databases and semantic search infrastructure
+
+
+##### Vector Embedding Cache Layer for RAG Applications
+
+Write a Rust middleware that caches embeddings generated by Transformers models (via ONNX Runtime), deduplicates inputs to avoid recomputation, and serves cached embeddings from Qdrant with a configurable TTL. Include metrics export for cache hit rates and embedding latency profiling.
+
+**Why now:** Vector databases and embeddings are trending; RAG applications need cost-aware caching to avoid redundant embedding computation.
+
+**Stack hints:** `Rust`, `tokio`, `ort (ONNX Runtime)`, `qdrant-client`
 
 
 
@@ -198,80 +198,80 @@ Create a Go service that advertises RustDesk endpoints via mDNS, maintains a loc
 
 
 
-#### Self-hosted media, photo, and data management
+#### Developer environment and workspace platforms
 
 
-##### Multi-Tenant Photo Library with Semantic Search
+##### Workspace Provisioning Orchestrator with Policy-as-Code
 
-Develop a TypeScript/Rust service combining Immich-style photo management with CLIP-based image embeddings for semantic search. Support multi-tenant isolation, role-based album sharing, and automatic tagging via local LLM. Include a React UI for browsing, searching, and collaborative albums.
+Build a Go/TypeScript service that automates secure developer workspace provisioning via Coder, enforcing org policies (secrets rotation, network isolation, audit logging) through a declarative DSL. Support multi-cloud deployment, automatic cleanup on policy violations, and integration with identity providers (Zitadel) for RBAC. Include compliance reporting for SOC2/ISO27001.
 
-**Why now:** Self-hosted media management is trending; users need AI-powered discovery without external APIs or cloud processing.
+**Why now:** Developer environment platforms are trending; enterprises need policy-driven provisioning to balance developer velocity with security guardrails.
 
-**Stack hints:** `TypeScript`, `Rust`, `PostgreSQL`, `ort (ONNX Runtime)`, `React`, `milvus`
-
-
-
-
-
-
-#### Security scanning and credential detection
-
-
-##### Credential Leak Response Orchestrator
-
-Build a Go service that ingests credential scan alerts from Gitleaks, Trivy, and custom sources, correlates them by asset type (database, API key, certificate), and triggers automated remediation chains (secret rotation via HashiCorp Vault, notification to on-call engineers, incident ticket creation). Include audit logging and rollback support.
-
-**Why now:** Security scanning is trending; teams need coordinated responses to credential leakage rather than fragmented manual workflows.
-
-**Stack hints:** `Go`, `PostgreSQL`, `gRPC`, `HashiCorp Vault`, `github.com/octokit/go-sdk`
+**Stack hints:** `Go`, `TypeScript`, `coder SDK`, `PostgreSQL`, `Open Policy Agent`
 
 
 
 
 
 
-#### AI agent and workflow orchestration platforms
+#### AI orchestration for robotics and dataflow pipelines
 
 
-##### Workflow Performance Profiler with Cost Attribution
+##### Multi-Agent Robotics Orchestrator with Sensor Fusion Dashboard
 
-Create a Python/TypeScript observability layer for n8n/Windmill workflows that tracks execution time, LLM token usage, and cost per step. Generate reports comparing performance across workflow versions, identify bottlenecks via flame graphs, and support A/B testing workflow variants with statistical significance testing.
+Develop a Rust/TypeScript framework combining DORA-style dataflow with a visual dashboard for coordinating multiple robotic agents. Support dynamic task allocation, inter-agent communication patterns, centralized sensor fusion, and playback of recorded runs for debugging. Include simulation mode against mock sensors for testing coordination logic.
 
-**Why now:** AI workflow platforms are trending; teams need cost and performance visibility to optimize agent-driven automation at scale.
+**Why now:** Robotics and AI orchestration are trending; teams need unified platforms for coordinating multiple agents in deterministic, low-latency environments.
 
-**Stack hints:** `Python`, `FastAPI`, `PostgreSQL`, `pydantic`, `altair`
-
-
-
-
-
-
-#### Performance-native Rust developer tools
-
-
-##### Rust CLI Ecosystem Benchmark Suite
-
-Develop a comprehensive benchmarking framework comparing Rust CLI tools (ruff vs Black, zoxide vs autojump, helix vs Vim) across metrics: latency, memory, CPU, startup time. Generate public HTML reports with trend visualization, integrate with GitHub Actions for continuous tracking, and support custom metric collection via WASM plugins.
-
-**Why now:** Performance-native Rust tooling is trending; the ecosystem needs standardized benchmarking to quantify performance gains and motivate optimization.
-
-**Stack hints:** `Rust`, `criterion`, `pprof`, `D3.js`, `rocket`, `wasmtime`
+**Stack hints:** `Rust`, `tokio`, `React`, `DORA`, `PostgreSQL`
 
 
 
 
 
 
-#### Remote access and decentralized infrastructure
+#### Self-hosted productivity and personal data platforms
 
 
-##### Zero-Trust Remote Access VPN with Reputation Scoring
+##### Personal Data Vault with Zero-Knowledge Backup Sync
 
-Build a Rust VPN service using Tailscale/WireGuard primitives that authenticates peers via mTLS certificates, tracks peer reputation based on access patterns and security posture, and dynamically restricts access based on risk scoring. Support multi-hop routing through trusted peers and include audit logging for compliance.
+Create a full-stack application combining Immich-style photo/video management with Memos-style note storage, all encrypted end-to-end and synced across devices via zero-knowledge backup (using threshold secret sharing). Include a React UI, support selective sync rules, and migration tools from Google Photos and Apple Notes.
 
-**Why now:** Remote access and self-hosting are trending; teams need granular, reputation-aware access control for decentralized networks.
+**Why now:** Self-hosted productivity is trending; users need unified, encrypted personal data platforms that survive device loss without trusting cloud providers.
 
-**Stack hints:** `Rust`, `tokio`, `boringtun`, `x509-parser`, `serde`
+**Stack hints:** `TypeScript`, `Rust`, `PostgreSQL`, `libsodium`, `React`, `shamir-secret-sharing`
+
+
+
+
+
+
+#### Reverse engineering and binary analysis frameworks
+
+
+##### Vulnerability Intelligence Aggregator with Supply-Chain Mapping
+
+Build a Go service that ingests vulnerability data from Nuclei scans, Ghidra-assisted binary analysis, and OSS package registries, then correlates them with supply-chain dependencies to identify transitive risk. Generate risk heatmaps, track remediation timelines, and trigger automated patching workflows via Git pull requests.
+
+**Why now:** Reverse engineering and security scanning are trending; organizations need holistic visibility into vulnerability exposure across direct and transitive dependencies.
+
+**Stack hints:** `Go`, `PostgreSQL`, `projectdiscovery/nuclei`, `GitHub API`
+
+
+
+
+
+
+#### Vector databases and semantic search infrastructure
+
+
+##### Multi-Modal RAG Pipeline with Local Model Inference
+
+Develop a Python framework that chains document chunking, multi-modal embedding generation (text + image + audio via Transformers), vector storage in Qdrant, and local LLM inference to build retrieval-augmented generation pipelines runnable entirely on-prem. Include Langchain integration and a REST API for easy consumption.
+
+**Why now:** Vector databases and embeddings are trending; organizations need on-prem RAG to avoid sending proprietary data to cloud providers.
+
+**Stack hints:** `Python`, `LangChain`, `Transformers`, `Qdrant`, `FastAPI`
 
 
 
@@ -284,80 +284,80 @@ Build a Rust VPN service using Tailscale/WireGuard primitives that authenticates
 
 
 
-#### Self-hosted media, photo, and data management
+#### Developer environment and workspace platforms
 
 
-##### Distributed Media Sync with Peer-to-Peer Conflict Resolution
+##### Enterprise Workspace Mesh with Federated Identity and Audit
 
-Create a full-stack platform for syncing photo/video libraries across multiple self-hosted devices using CRDT-based conflict resolution, peer-to-peer transfers with bandwidth optimization, and end-to-end encryption. Support selective sync rules, automatic deduplication via content-addressing, and web UI for management and sharing. Include migration tools from cloud photo services.
+Develop a production-grade workspace orchestration platform combining Coder-style environment provisioning with Zitadel federated identity, comprehensive audit logging, automated compliance attestation (SOC2/ISO27001), and advanced analytics on developer productivity patterns. Support multi-region deployment, automatic disaster recovery, and integration with SIEM tools for security event streaming.
 
-**Why now:** Self-hosted media management is trending; users need reliable cross-device sync without centralized storage or cloud vendors.
+**Why now:** Developer environment platforms are trending; enterprises need integrated solutions for secure, auditable, compliant developer infrastructure at scale.
 
-**Stack hints:** `Rust`, `TypeScript`, `yrs (CRDT)`, `PostgreSQL`, `quinn (QUIC)`, `React`
-
-
-
-
-
-
-#### Security scanning and credential detection
-
-
-##### Threat Intelligence Platform with Automated Response
-
-Develop an integrated security platform that combines credential scanning (Gitleaks), vulnerability detection (Trivy), and OSINT correlation (user account enumeration across services). Automatically ingest threat feeds, correlate detections with asset inventory, and trigger playbook-driven responses (isolation, patching, notification escalation). Include forensic capabilities for post-incident analysis and compliance reporting.
-
-**Why now:** Security scanning is trending; organizations need centralized threat orchestration connecting credential leaks, vulnerabilities, and reconnaissance activities.
-
-**Stack hints:** `Go`, `Rust`, `PostgreSQL`, `ClickHouse`, `gRPC`, `Kubernetes`
+**Stack hints:** `Go`, `Rust`, `Kubernetes`, `PostgreSQL`, `Zitadel`, `React`
 
 
 
 
 
 
-#### AI agent and workflow orchestration platforms
+#### AI orchestration for robotics and dataflow pipelines
 
 
-##### Agentic Workflow Studio with Live Simulation
+##### Autonomous Fleet Coordinator with Distributed Consensus
 
-Build a comprehensive IDE for designing, testing, and deploying AI agent workflows combining visual node-based composition, inline code editing, and live simulation against mock/real data. Support versioning, A/B testing via canary deployments, and integrated observability (latency, cost, agent reasoning traces). Include templates for common patterns (document Q&A, customer support, data extraction) with pre-built integrations.
+Create a comprehensive Rust framework for coordinating large fleets of autonomous agents using DORA pipelines, distributed consensus algorithms for task allocation, and peer-to-peer communication via QUIC. Support heterogeneous agent types, dynamic role assignment, failure recovery, and mission planning via declarative task graphs. Include simulation suite and hardware integration tests.
 
-**Why now:** AI workflow platforms are trending; teams need unified authoring, testing, and deployment environments that make agent workflows accessible to non-experts.
+**Why now:** Robotics and AI orchestration are trending; teams need deterministic, distributed systems for coordinating many agents without centralized bottlenecks.
 
-**Stack hints:** `TypeScript`, `React`, `Rust`, `PostgreSQL`, `LangChain`, `Tauri`
-
-
-
-
-
-
-#### Performance-native Rust developer tools
-
-
-##### Rust Performance Observatory with Comparative Analytics
-
-Create a public observability platform for tracking Rust CLI ecosystem performance over time. Ingest benchmarks from maintainers (ruff, zoxide, helix, k9s) via standardized API, correlate performance with code changes via git history, and generate interactive reports showing performance tiers, regressions, and optimization opportunities. Support predictive alerts when regressions exceed statistical thresholds.
-
-**Why now:** Performance-native Rust tooling is trending; the ecosystem needs shared infrastructure to track progress and celebrate optimizations across tools.
-
-**Stack hints:** `Rust`, `TypeScript`, `PostgreSQL`, `TimescaleDB`, `D3.js`, `git2-rs`
+**Stack hints:** `Rust`, `tokio`, `quinn (QUIC)`, `DORA`, `prost (protobuf)`
 
 
 
 
 
 
-#### Remote access and decentralized infrastructure
+#### Self-hosted productivity and personal data platforms
 
 
-##### Enterprise Remote Access Mesh with Compliance Audit Trail
+##### Federated Personal Data Network with Privacy-Preserving Analytics
 
-Develop a production-grade, self-hosted remote access platform combining RustDesk-style device connectivity with enterprise features: role-based access control, session recording, compliance audit logging (SOC2/ISO 27001), automatic session termination policies, and integration with Zitadel/Authelia for federated identity. Include analytics dashboard for access patterns and anomaly detection.
+Build a decentralized platform enabling individuals to host their media (Immich), notes (Memos), and projects (Plane) on personal infrastructure, then opt into federated analytics and AI features (semantic search, recommendations) via differential privacy and homomorphic encryption. Support federation across trusted peers and selective data sharing. Include migration tools and a marketplace for privacy-respecting extensions.
 
-**Why now:** Remote access and self-hosting are trending; enterprises need privacy-preserving alternatives to centralized remote desktop services with compliance guarantees.
+**Why now:** Self-hosted productivity is trending; users want local data ownership with network effects via privacy-preserving federation.
 
-**Stack hints:** `Rust`, `Go`, `PostgreSQL`, `Kubernetes`, `React`, `gRPC`
+**Stack hints:** `Rust`, `TypeScript`, `PostgreSQL`, `differential-privacy`, `zama (homomorphic encryption)`
+
+
+
+
+
+
+#### Reverse engineering and binary analysis frameworks
+
+
+##### Threat Intelligence Platform with Automated Remediation Orchestration
+
+Develop an integrated security platform combining Ghidra-assisted binary analysis, Nuclei-powered vulnerability scanning, OSINT correlation, and automated remediation playbooks. Ingest threat feeds, correlate detections with asset inventory, trigger dynamic isolation and patching workflows, and generate forensic timelines for incident response. Support Kubernetes-native deployment and SOAR integration.
+
+**Why now:** Reverse engineering and security scanning are trending; organizations need unified threat detection and response platforms that automate containment and remediation.
+
+**Stack hints:** `Go`, `Rust`, `PostgreSQL`, `Kubernetes`, `gRPC`, `projectdiscovery/nuclei`
+
+
+
+
+
+
+#### Vector databases and semantic search infrastructure
+
+
+##### Global Vector Search Index with Federated Learning
+
+Create a distributed vector database (extending Qdrant primitives) enabling federated search across privately-held embedding collections via secure multi-party computation. Support dynamic model training on decentralized data without sharing raw embeddings, approximate nearest-neighbor search with privacy guarantees, and tiered consistency for real-time vs. batch queries. Include benchmark suite for privacy-utility tradeoffs.
+
+**Why now:** Vector databases are trending; organizations need collaborative search infrastructure that preserves privacy in regulated industries (healthcare, finance).
+
+**Stack hints:** `Rust`, `tokio`, `Qdrant`, `OpenMined (federated learning)`, `cryptography`
 
 
 
@@ -377,4 +377,4 @@ See [ABOUT.md](ABOUT.md) for full methodology details.
 
 ---
 
-*Generated 2026-09-13 15:43 UTC · commit `9c2d9f6`*
+*Generated 2026-09-20 15:34 UTC · commit `dcff087`*

@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-09-20",
+  "window_dates": [
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20"
+  ],
+  "repos": [
+    {
+      "full_name": "supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "url": "https://github.com/supabase/supabase",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 1582,
+      "peak_daily_stars": 602,
+      "persistence_score": 44.20246235928607
+    },
+    {
+      "full_name": "coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "url": "https://github.com/coder/coder",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 1386,
+      "peak_daily_stars": 478,
+      "persistence_score": 43.40939052188899
+    },
+    {
+      "full_name": "NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "language": "Java",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 3942,
+      "peak_daily_stars": 1059,
+      "persistence_score": 41.39848566938814
+    },
+    {
+      "full_name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 878,
+      "peak_daily_stars": 187,
+      "persistence_score": 40.67270938611106
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 1702,
+      "peak_daily_stars": 611,
+      "persistence_score": 37.20073340331344
+    },
+    {
+      "full_name": "dora-rs/dora",
+      "description": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines.",
+      "language": "Rust",
+      "url": "https://github.com/dora-rs/dora",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 171,
+      "peak_daily_stars": 147,
+      "persistence_score": 36.03246133769417
+    },
+    {
+      "full_name": "nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 262,
+      "peak_daily_stars": 50,
+      "persistence_score": 33.43292419306659
+    },
+    {
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 523,
+      "peak_daily_stars": 135,
+      "persistence_score": 31.30745842160521
+    },
+    {
+      "full_name": "AUTOMATIC1111/stable-diffusion-webui",
+      "description": "Stable Diffusion web UI",
+      "language": "Python",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 170,
+      "peak_daily_stars": 41,
+      "persistence_score": 30.84998133901596
+    },
+    {
+      "full_name": "sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "language": "JavaScript",
+      "url": "https://github.com/sveltejs/svelte",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 74,
+      "peak_daily_stars": 14,
+      "persistence_score": 30.22241679475417
+    },
+    {
+      "full_name": "slint-ui/slint",
+      "description": "Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps.",
+      "language": "Rust",
+      "url": "https://github.com/slint-ui/slint",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 132,
+      "peak_daily_stars": 50,
+      "persistence_score": 29.342094769330522
+    },
+    {
+      "full_name": "bobeff/open-source-games",
+      "description": "A list of open source games.",
+      "language": "Python",
+      "url": "https://github.com/bobeff/open-source-games",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 1477,
+      "peak_daily_stars": 482,
+      "persistence_score": 29.193780406032587
+    },
+    {
+      "full_name": "OpenBB-finance/OpenBB",
+      "description": "Open Data Platform for analysts, quants and AI agents.",
+      "language": "Python",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 282,
+      "peak_daily_stars": 65,
+      "persistence_score": 28.22723448821619
+    },
+    {
+      "full_name": "junegunn/fzf",
+      "description": "\ud83c\udf38 A command-line fuzzy finder",
+      "language": "Go",
+      "url": "https://github.com/junegunn/fzf",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 234,
+      "peak_daily_stars": 69,
+      "persistence_score": 27.297927570720795
+    },
+    {
+      "full_name": "helix-editor/helix",
+      "description": "A post-modern modal text editor.",
+      "language": "Rust",
+      "url": "https://github.com/helix-editor/helix",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 87,
+      "peak_daily_stars": 18,
+      "persistence_score": 26.86402088686924
+    },
+    {
+      "full_name": "immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "url": "https://github.com/immich-app/immich",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 532,
+      "peak_daily_stars": 147,
+      "persistence_score": 25.114085696663377
+    },
+    {
+      "full_name": "NangoHQ/nango",
+      "description": "Build product integrations with AI.",
+      "language": "TypeScript",
+      "url": "https://github.com/NangoHQ/nango",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 451,
+      "peak_daily_stars": 182,
+      "persistence_score": 24.454728719328926
+    },
+    {
+      "full_name": "Heroic-Games-Launcher/HeroicGamesLauncher",
+      "description": "A games launcher for GOG, Amazon and Epic Games for Linux, Windows and macOS.",
+      "language": "TypeScript",
+      "url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 54,
+      "peak_daily_stars": 11,
+      "persistence_score": 24.043999111394825
+    },
+    {
+      "full_name": "silverbulletmd/silverbullet",
+      "description": "An open source personal productivity platform built on Markdown, turbo charged with the scripting power of Lua",
+      "language": "TypeScript",
+      "url": "https://github.com/silverbulletmd/silverbullet",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 53,
+      "peak_daily_stars": 19,
+      "persistence_score": 23.933904279385647
+    },
+    {
+      "full_name": "tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "language": "Rust",
+      "url": "https://github.com/tokio-rs/tokio",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 52,
+      "peak_daily_stars": 14,
+      "persistence_score": 23.82175148131273
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "url": "https://github.com/aquasecurity/trivy",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 92,
+      "peak_daily_stars": 24,
+      "persistence_score": 22.66299746576628
+    },
+    {
+      "full_name": "makeplane/plane",
+      "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "url": "https://github.com/makeplane/plane",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 245,
+      "peak_daily_stars": 65,
+      "persistence_score": 22.02132614372945
+    },
+    {
+      "full_name": "evcc-io/evcc",
+      "description": "solar charging \u2600\ufe0f\ud83d\ude98",
+      "language": "Go",
+      "url": "https://github.com/evcc-io/evcc",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 79,
+      "peak_daily_stars": 42,
+      "persistence_score": 21.910133173369406
+    },
+    {
+      "full_name": "projectdiscovery/nuclei-templates",
+      "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "language": "JavaScript",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 37,
+      "peak_daily_stars": 9,
+      "persistence_score": 21.825516958358314
+    },
+    {
+      "full_name": "microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/playwright",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 225,
+      "peak_daily_stars": 59,
+      "persistence_score": 21.682139997089145
+    },
+    {
+      "full_name": "sharkdp/fd",
+      "description": "A simple, fast and user-friendly alternative to 'find'",
+      "language": "Rust",
+      "url": "https://github.com/sharkdp/fd",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 211,
+      "peak_daily_stars": 155,
+      "persistence_score": 21.42634509868805
+    },
+    {
+      "full_name": "huggingface/transformers",
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "language": "Python",
+      "url": "https://github.com/huggingface/transformers",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 1241,
+      "peak_daily_stars": 528,
+      "persistence_score": 21.37343478748027
+    },
+    {
+      "full_name": "projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 208,
+      "peak_daily_stars": 62,
+      "persistence_score": 21.369337007859244
+    },
+    {
+      "full_name": "saadeghi/daisyui",
+      "description": "\ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \u2003The most popular, free and open-source Tailwind CSS component library",
+      "language": "JavaScript",
+      "url": "https://github.com/saadeghi/daisyui",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 65,
+      "peak_daily_stars": 21,
+      "persistence_score": 20.948273710132128
+    },
+    {
+      "full_name": "ccxt/ccxt",
+      "description": "A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust",
+      "language": "Rust",
+      "url": "https://github.com/ccxt/ccxt",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 65,
+      "peak_daily_stars": 17,
+      "persistence_score": 20.948273710132128
+    },
+    {
+      "full_name": "usememos/memos",
+      "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+      "language": "Go",
+      "url": "https://github.com/usememos/memos",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 186,
+      "peak_daily_stars": 80,
+      "persistence_score": 20.924434467418347
+    },
+    {
+      "full_name": "docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "url": "https://github.com/docker/compose",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 59,
+      "peak_daily_stars": 19,
+      "persistence_score": 20.471722811110503
+    },
+    {
+      "full_name": "cvat-ai/cvat",
+      "description": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs.",
+      "language": "Python",
+      "url": "https://github.com/cvat-ai/cvat",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 58,
+      "peak_daily_stars": 16,
+      "persistence_score": 20.387687219528598
+    },
+    {
+      "full_name": "Eugeny/tabby",
+      "description": "A terminal for a more modern age",
+      "language": "TypeScript",
+      "url": "https://github.com/Eugeny/tabby",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 125,
+      "peak_daily_stars": 34,
+      "persistence_score": 19.345127627805912
+    },
+    {
+      "full_name": "qdrant/qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/",
+      "language": "Rust",
+      "url": "https://github.com/qdrant/qdrant",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 121,
+      "peak_daily_stars": 38,
+      "persistence_score": 19.216084178933027
+    },
+    {
+      "full_name": "bitwarden/clients",
+      "description": "Bitwarden client apps (web, browser extension, desktop, and cli).",
+      "language": "TypeScript",
+      "url": "https://github.com/bitwarden/clients",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 42,
+      "peak_daily_stars": 10,
+      "persistence_score": 18.806000578467813
+    },
+    {
+      "full_name": "axios/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "language": "JavaScript",
+      "url": "https://github.com/axios/axios",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 21,
+      "peak_daily_stars": 5,
+      "persistence_score": 18.546254720149896
+    },
+    {
+      "full_name": "aldinokemal/go-whatsapp-web-multidevice",
+      "description": "GOWA - WhatsApp REST API with support for UI, Multi Account, Webhooks, and MCP, and Chatwoot. Built with Golang for efficient memory use.",
+      "language": "Go",
+      "url": "https://github.com/aldinokemal/go-whatsapp-web-multidevice",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 97,
+      "peak_daily_stars": 27,
+      "persistence_score": 18.33986991468229
+    },
+    {
+      "full_name": "vitejs/vite",
+      "description": "Next generation frontend tooling. It's fast!",
+      "language": "TypeScript",
+      "url": "https://github.com/vitejs/vite",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 86,
+      "peak_daily_stars": 24,
+      "persistence_score": 17.863632474618335
+    },
+    {
+      "full_name": "GoogleChrome/lighthouse",
+      "description": "Automated auditing, performance metrics, and best practices for the web.",
+      "language": "JavaScript",
+      "url": "https://github.com/GoogleChrome/lighthouse",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 34,
+      "peak_daily_stars": 10,
+      "persistence_score": 17.776740307447067
+    }
+  ]
+}
