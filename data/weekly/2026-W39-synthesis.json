@@ -1,0 +1,269 @@
+{
+  "week_of": "2026-09-28",
+  "topics": [
+    {
+      "slug": "educational-learning-platforms",
+      "title": "Educational and learning platforms",
+      "summary": "Open-source curriculum and interactive learning tools for programming, system design, and computer science fundamentals. Focus on structured, long-form educational content accessible without paywalls.",
+      "supporting_repos": [
+        "donnemartin/system-design-primer",
+        "microsoft/Web-Dev-For-Beginners",
+        "freeCodeCamp/freeCodeCamp",
+        "codecrafters-io/build-your-own-x",
+        "trekhleb/javascript-algorithms"
+      ]
+    },
+    {
+      "slug": "remote-access-infrastructure",
+      "title": "Remote access and infrastructure tooling",
+      "summary": "Self-hosted alternatives to commercial remote desktop and system administration platforms. Emphasis on open standards, lightweight deployment, and alternative protocols for developer productivity.",
+      "supporting_repos": [
+        "rustdesk/rustdesk",
+        "coder/coder",
+        "supabase/supabase",
+        "cloudnative-pg/cloudnative-pg"
+      ]
+    },
+    {
+      "slug": "developer-security-tooling",
+      "title": "Developer-oriented security and vulnerability scanning",
+      "summary": "Fast, scriptable security tools for scanning vulnerabilities, secrets, misconfigurations, and supply-chain risks across code, containers, and infrastructure. Built for CI/CD integration and programmatic access.",
+      "supporting_repos": [
+        "aquasecurity/trivy",
+        "projectdiscovery/nuclei",
+        "gitleaks/gitleaks",
+        "Infisical/infisical"
+      ]
+    },
+    {
+      "slug": "rust-systems-tooling",
+      "title": "Performance-critical Rust tooling and frameworks",
+      "summary": "Systems-level libraries and tools written in Rust targeting speed, correctness, and resource efficiency. Includes search engines, linters, graphics APIs, and deep learning frameworks.",
+      "supporting_repos": [
+        "astral-sh/ruff",
+        "oven-sh/bun",
+        "meilisearch/meilisearch",
+        "tracel-ai/burn",
+        "gfx-rs/wgpu",
+        "qdrant/qdrant"
+      ]
+    },
+    {
+      "slug": "data-infrastructure-ops",
+      "title": "Data infrastructure, orchestration, and operational tooling",
+      "summary": "Platforms for scheduling workflows, managing databases, monitoring services, and automating deployments. Focus on observability, backup automation, and Kubernetes-native operations.",
+      "supporting_repos": [
+        "apache/airflow",
+        "TwiN/gatus",
+        "gobackup/gobackup",
+        "getwud/wud"
+      ]
+    }
+  ],
+  "whats_new": "This week shifts toward foundational developer skills and infrastructure-as-code maturity. Educational platforms (system design, build-your-own-x, algorithms) dominate the top of trending, reflecting seasonal interest in interview prep and structured learning. Developer security tooling has solidified from last week's reverse-engineering focus into a mainstream category spanning secrets management, vulnerability scanning, and supply-chain validation. Rust systems tooling persists but with new emphasis on search engines and vector databases entering production workflows. Remote access infrastructure and operational tooling represent new secondary themes\u2014reflecting enterprise demand for self-hosted control and automation.",
+  "projects": [
+    {
+      "title": "Interactive System Design Walkthrough Builder",
+      "topic_slug": "educational-learning-platforms",
+      "scope": "short",
+      "pitch": "Create a CLI tool that generates interactive, code-along walkthroughs for system design problems. Given a design scenario (e.g., 'design Twitter'), the tool scaffolds a progressive narrative with diagrams, trade-off decision points, and embedded code snippets that users modify in-place. Output as a self-contained HTML file or terminal UI.",
+      "why_now": "System design primers are trending; learners need guided, interactive experiences that blend theory with hands-on practice.",
+      "stack_hints": [
+        "Rust",
+        "clap",
+        "serde",
+        "mermaid-js"
+      ]
+    },
+    {
+      "title": "Algorithm Complexity Profiler and Visualization",
+      "topic_slug": "educational-learning-platforms",
+      "scope": "short",
+      "pitch": "Build a Python/JavaScript tool that instruments algorithm implementations with automatic complexity analysis, then renders time and space complexity graphically as the algorithm runs. Support step-by-step execution with memory snapshots and highlight which operations contribute most to asymptotic behavior.",
+      "why_now": "Algorithm learning repos are trending; students struggle to intuitively understand O(n\u00b2) vs O(n log n)\u2014visualization bridges the gap.",
+      "stack_hints": [
+        "Python",
+        "Plotly",
+        "memory-profiler",
+        "React"
+      ]
+    },
+    {
+      "title": "Capstone Project Scaffolder for Web Dev Curriculum",
+      "topic_slug": "educational-learning-platforms",
+      "scope": "medium",
+      "pitch": "Develop a TypeScript framework that dynamically generates capstone project specifications, rubrics, and starter code based on a learner's completed course modules. Include automated grading of submissions against hidden test suites, peer code review matching, and progress tracking. Integrate with freeCodeCamp and Microsoft's curriculum.",
+      "why_now": "Web dev education is trending; learners need structured capstone projects that validate mastery and provide feedback at scale.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Vitest"
+      ]
+    },
+    {
+      "title": "Self-Paced System Design Lab Platform",
+      "topic_slug": "educational-learning-platforms",
+      "scope": "long",
+      "pitch": "Build a full-stack platform where learners tackle system design challenges in isolated Docker environments, receiving real-time feedback from automated validators (latency, throughput, fault tolerance). Support collaborative design sessions with whiteboard sync, anonymous peer evaluation, and a public leaderboard of elegant solutions. Include simulation engine to stress-test designs.",
+      "why_now": "System design education is trending; practitioners need realistic, instrumented environments to practice and validate architectural decisions.",
+      "stack_hints": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Docker",
+        "PostgreSQL",
+        "WebSocket"
+      ]
+    },
+    {
+      "title": "Encrypted Team Code Pairing Session Manager",
+      "topic_slug": "remote-access-infrastructure",
+      "scope": "short",
+      "pitch": "Write a Rust CLI that launches secure, peer-to-peer code pairing sessions via QUIC protocol, with end-to-end encryption via noise protocol, file syncing via CRDT, and automatic session recording for asynchronous review. Include VS Code extension for seamless integration.",
+      "why_now": "Remote access tooling is trending; developers need secure alternatives to cloud-hosted pairing platforms.",
+      "stack_hints": [
+        "Rust",
+        "quinn",
+        "yrs (CRDT)",
+        "noise-protocol"
+      ]
+    },
+    {
+      "title": "Dynamic Container Environment Provisioning via Policy",
+      "topic_slug": "remote-access-infrastructure",
+      "scope": "medium",
+      "pitch": "Build a Go service that provisions ephemeral containerized development environments on-demand via declarative policies (CPU, memory, network isolation, mounted secrets). Support auto-expiry, cost tracking per team, integration with Coder for advanced workspace features, and audit logging of all provisioning events.",
+      "why_now": "Remote dev environments are trending; teams need lightweight policy-driven provisioning without full Kubernetes overhead.",
+      "stack_hints": [
+        "Go",
+        "Docker SDK",
+        "PostgreSQL",
+        "Open Policy Agent"
+      ]
+    },
+    {
+      "title": "Hybrid On-Prem/Cloud Workspace Mesh",
+      "topic_slug": "remote-access-infrastructure",
+      "scope": "long",
+      "pitch": "Develop a Rust-based platform orchestrating development environments across on-premises and cloud infrastructure, with transparent resource pooling, automatic failover, and cost-aware scheduling. Include identity federation via OIDC, comprehensive audit trails, and a React dashboard for workspace lifecycle management and resource analytics.",
+      "why_now": "Remote infrastructure is trending; enterprises need unified control across hybrid deployments without vendor lock-in.",
+      "stack_hints": [
+        "Rust",
+        "Tokio",
+        "tonic (gRPC)",
+        "React",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Secrets Scanner with Contextual Risk Scoring",
+      "topic_slug": "developer-security-tooling",
+      "scope": "short",
+      "pitch": "Create a Go CLI that scans Git history, live repos, and CI logs for exposed secrets (API keys, tokens, credentials), then assigns risk scores based on context\u2014age of secret, active usage, associated cloud account permissions, and remediation difficulty. Output JSON reports for integration into security dashboards.",
+      "why_now": "Secrets scanning is trending; developers need fast, actionable tools to assess which exposed credentials pose real risk.",
+      "stack_hints": [
+        "Go",
+        "gitleaks logic",
+        "serde"
+      ]
+    },
+    {
+      "title": "Supply Chain Dependency Risk Dashboard",
+      "topic_slug": "developer-security-tooling",
+      "scope": "medium",
+      "pitch": "Build a TypeScript/Go service that ingests dependency graphs from package managers (npm, cargo, pip), correlates them with CVE databases and Trivy scan results, then maps risk across transitive dependencies. Generate quarterly risk reports with remediation timelines and highlight critical-path dependencies that pose outsized threat.",
+      "why_now": "Security tooling is trending; teams need holistic visibility into supply-chain risk across direct and transitive dependencies.",
+      "stack_hints": [
+        "Go",
+        "TypeScript",
+        "PostgreSQL",
+        "GitHub API",
+        "React"
+      ]
+    },
+    {
+      "title": "Zero-Trust DevOps Policy Enforcement Engine",
+      "topic_slug": "developer-security-tooling",
+      "scope": "long",
+      "pitch": "Develop a comprehensive policy engine (Go/Rust) that sits in CI/CD pipelines, enforcing zero-trust principles: cryptographic artifact signing, dependency provenance tracking, container image scanning, secret rotation validation, and audit-trail immutability. Support custom policy DSL, real-time violation alerts, and automated remediation workflows.",
+      "why_now": "Security tooling is mature and trending; enterprises need automated enforcement of DevOps security standards at every pipeline stage.",
+      "stack_hints": [
+        "Go",
+        "Rust",
+        "tuf (The Update Framework)",
+        "PostgreSQL",
+        "gRPC"
+      ]
+    },
+    {
+      "title": "Language Server Protocol Profiler for Rust Tools",
+      "topic_slug": "rust-systems-tooling",
+      "scope": "short",
+      "pitch": "Write a Rust CLI that profiles LSP requests from Rust analyzers and editor integrations, measuring latency per operation type (hover, completion, diagnostics), memory usage, and identifying bottlenecks. Output flamegraphs and summary statistics to help tool authors optimize critical paths.",
+      "why_now": "Rust systems tooling is trending; developer tooling maturity demands observability into LSP performance.",
+      "stack_hints": [
+        "Rust",
+        "pprof",
+        "tokio",
+        "serde_json"
+      ]
+    },
+    {
+      "title": "Vector Embedding Pipeline with Cost Optimization",
+      "topic_slug": "rust-systems-tooling",
+      "scope": "medium",
+      "pitch": "Build a Rust framework that batches and caches embeddings generated via local ONNX models, deduplicates inputs using content addressing, and serves results from Redis or Qdrant. Track token usage per model and provide cost projections. Include metrics export and integration with LangChain.",
+      "why_now": "Vector databases and Rust tooling are trending; RAG applications need cost-aware embedding infrastructure.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "ort (ONNX Runtime)",
+        "qdrant-client",
+        "redis"
+      ]
+    },
+    {
+      "title": "Unified Observability Stack for Distributed Workflows",
+      "topic_slug": "data-infrastructure-ops",
+      "scope": "short",
+      "pitch": "Create a Go exporter that collects metrics, logs, and traces from Apache Airflow, Temporal, and custom workflow engines, then normalizes and ships them to OpenTelemetry-compatible backends. Include a TUI dashboard for real-time task execution visualization and failure drill-down.",
+      "why_now": "Workflow orchestration and observability are trending; operators need unified visibility across heterogeneous workflow systems.",
+      "stack_hints": [
+        "Go",
+        "OpenTelemetry",
+        "Prometheus",
+        "ratatui"
+      ]
+    },
+    {
+      "title": "Declarative Multi-Database Backup Orchestrator",
+      "topic_slug": "data-infrastructure-ops",
+      "scope": "medium",
+      "pitch": "Develop a Go service that manages backup policies for PostgreSQL, MySQL, MongoDB, and S3 via declarative YAML config. Support versioned snapshots, cross-region replication, automated retention pruning, integrity verification, and restore rehearsals. Include Kubernetes operator for cloud-native deployments.",
+      "why_now": "Backup and ops tooling are trending; teams need policy-driven, auditable backup infrastructure that spans multiple backends.",
+      "stack_hints": [
+        "Go",
+        "PostgreSQL",
+        "Kubernetes client-go",
+        "S3 SDK"
+      ]
+    },
+    {
+      "title": "Automated Infrastructure Drift Detection and Remediation",
+      "topic_slug": "data-infrastructure-ops",
+      "scope": "long",
+      "pitch": "Build a comprehensive Rust/Go platform that continuously monitors deployed infrastructure (Docker, Kubernetes, cloud resources) against declared state, detects drift, and automatically triggers remediation workflows. Support cost anomaly detection, performance regression tracking, and playbook-driven incident response. Include web UI for drift visualization and approval workflows.",
+      "why_now": "Operational tooling is trending; teams need automated drift detection and remediation to maintain compliance and performance at scale.",
+      "stack_hints": [
+        "Rust",
+        "Go",
+        "Kubernetes API",
+        "Terraform",
+        "PostgreSQL",
+        "React"
+      ]
+    }
+  ]
+}
