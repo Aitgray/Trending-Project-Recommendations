@@ -1,0 +1,285 @@
+{
+  "week_of": "2026-10-04",
+  "topics": [
+    {
+      "slug": "self-hosted-media-and-data",
+      "title": "Self-hosted media, asset, and data management",
+      "summary": "Open-source platforms for personal control of photos, videos, files, and analytics without cloud vendor lock-in. Emphasis on privacy, performance, and rich feature parity with commercial SaaS alternatives.",
+      "supporting_repos": [
+        "immich-app/immich",
+        "PostHog/posthog",
+        "supabase/supabase"
+      ]
+    },
+    {
+      "slug": "credentials-and-secrets-integrity",
+      "title": "Credentials, secrets, and integrity verification",
+      "summary": "Tools for scanning, verifying, and managing exposed credentials, secrets, and supply-chain artifacts with fine-grained context and remediation guidance. Focus on fast CI/CD integration and actionable risk intelligence.",
+      "supporting_repos": [
+        "trufflesecurity/trufflehog",
+        "gitleaks/gitleaks",
+        "aquasecurity/trivy"
+      ]
+    },
+    {
+      "slug": "content-and-media-automation",
+      "title": "Content acquisition, processing, and automation",
+      "summary": "Tools for downloading, processing, and automating workflows around media files (audio, video, images). Combines programmatic access with command-line ergonomics and batch processing.",
+      "supporting_repos": [
+        "yt-dlp/yt-dlp",
+        "Z4nzu/hackingtool",
+        "huggingface/transformers"
+      ]
+    },
+    {
+      "slug": "rust-systems-performance",
+      "title": "Rust systems tools and high-performance libraries",
+      "summary": "Low-level, correctness-focused tools and frameworks written in Rust targeting speed, memory efficiency, and ergonomic APIs. Includes editors, shells, databases, and compute kernels.",
+      "supporting_repos": [
+        "astral-sh/ruff",
+        "pola-rs/polars",
+        "helix-editor/helix",
+        "nushell/nushell",
+        "neondatabase/neon"
+      ]
+    },
+    {
+      "slug": "project-and-identity-infrastructure",
+      "title": "Project management, identity, and infrastructure-as-code",
+      "summary": "Open-source platforms for managing projects, workflows, identities, and deployments with enterprise feature parity. Includes project boards, identity federation, serverless compute, and messaging systems.",
+      "supporting_repos": [
+        "makeplane/plane",
+        "zitadel/zitadel",
+        "nats-io/nats-server",
+        "caddyserver/caddy"
+      ]
+    }
+  ],
+  "whats_new": "Self-hosted media and analytics platforms have surged (Immich, PostHog, Supabase), reflecting sustained demand for privacy-first, vendor-independent infrastructure. Secrets and credential scanning have consolidated from last week's broader security focus into a distinct, high-velocity category driven by breach remediation and compliance urgency. Rust systems tooling continues to dominate across editors, shells, and databases, but now with emphasis on performance-critical data structures (Polars) and serverless Postgres (Neon). Project management and identity platforms have emerged as a new persistent theme, signaling enterprise demand for all-in-one DevOps and organizational infrastructure without SaaS dependencies.",
+  "projects": [
+    {
+      "title": "Media Batch Downloader with Metadata Extraction",
+      "topic_slug": "content-and-media-automation",
+      "scope": "short",
+      "pitch": "Build a Python CLI that downloads media from URLs (video platforms, podcasts, playlists) in bulk, automatically extracts and tags metadata (duration, transcripts, thumbnails), and organizes output by configurable folder structure. Support batch operations via CSV input and dry-run validation.",
+      "why_now": "Media automation tools are trending; bulk content acquisition with rich metadata extraction is a core developer pain point for local archival and analysis workflows.",
+      "stack_hints": [
+        "Python",
+        "yt-dlp",
+        "ffmpeg-python",
+        "Click",
+        "Pydantic"
+      ]
+    },
+    {
+      "title": "Local Credential Scanner with Remediation Playbooks",
+      "topic_slug": "credentials-and-secrets-integrity",
+      "scope": "short",
+      "pitch": "Write a Rust CLI that scans Git history, environment files, and logs for hardcoded secrets, assigns risk scores based on credential type and age, then auto-generates playbooks for safe rotation (e.g., invalidate token in cloud console, update CI/CD secrets). Output actionable JSON reports.",
+      "why_now": "Secrets scanning is trending with high persistence; developers need fast, contextualized remediation guidance beyond binary secret detection.",
+      "stack_hints": [
+        "Rust",
+        "regex",
+        "serde",
+        "clap",
+        "chrono"
+      ]
+    },
+    {
+      "title": "Immutable Audit Log for Project Changes",
+      "topic_slug": "project-and-identity-infrastructure",
+      "scope": "short",
+      "pitch": "Build a lightweight Go service that captures all project metadata changes (task creation, status updates, permissions), cryptographically signs each entry, and stores in an append-only log. Expose via simple HTTP API with query support (date range, entity, change type).",
+      "why_now": "Project management platforms are trending; compliance and audit trails are critical for enterprise adoption but often bolted on as afterthoughts.",
+      "stack_hints": [
+        "Go",
+        "SQLite",
+        "crypto/sha256",
+        "Echo",
+        "JSON"
+      ]
+    },
+    {
+      "title": "Personal Photo Library with ML Tagging",
+      "topic_slug": "self-hosted-media-and-data",
+      "scope": "short",
+      "pitch": "Create a TypeScript/Node CLI that indexes local photo directories, runs CLIP or similar local vision model to auto-tag images by content, and exposes a simple REST API for browsing and filtering by tags. Support batch re-indexing and tag validation.",
+      "why_now": "Self-hosted media management is trending; local AI tagging bridges the gap between manual curation and cloud-dependent image recognition.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "sharp",
+        "onnxruntime",
+        "Express"
+      ]
+    },
+    {
+      "title": "SQL Query Performance Profiler for Polars",
+      "topic_slug": "rust-systems-performance",
+      "scope": "short",
+      "pitch": "Write a Rust library wrapping Polars queries that captures execution timing, memory allocation, and I/O patterns, then visualizes them as flamegraphs and summary tables. Include integration hooks for Jupyter and CLI mode for batch analysis.",
+      "why_now": "Rust data tools like Polars are trending; data scientists need observability into query performance to optimize analytics pipelines.",
+      "stack_hints": [
+        "Rust",
+        "polars",
+        "pprof",
+        "serde_json",
+        "tokio"
+      ]
+    },
+    {
+      "title": "Content Metadata Enrichment Pipeline",
+      "topic_slug": "content-and-media-automation",
+      "scope": "medium",
+      "pitch": "Develop a TypeScript service that ingests downloaded media (video/audio) and runs a multi-stage enrichment pipeline: automatic transcription via local Whisper, scene detection, speaker diarization, and chapter auto-generation. Store results in a queryable SQLite database with batch export to markdown.",
+      "why_now": "Media automation and local ML are trending; content creators need offline-capable enrichment to avoid cloud API costs and latency.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "openai/whisper.cpp",
+        "ffmpeg",
+        "SQLite",
+        "Express"
+      ]
+    },
+    {
+      "title": "Secret Rotation Automation for Multi-Cloud",
+      "topic_slug": "credentials-and-secrets-integrity",
+      "scope": "medium",
+      "pitch": "Build a Go service that detects exposed secrets in Git history and CI logs, correlates them with cloud provider APIs (AWS, GCP, Azure), atomically rotates credentials, updates downstream consumers (env files, CI secrets, Kubernetes), and generates compliance audit records. Include dry-run and approval workflows.",
+      "why_now": "Secrets scanning is trending; automated rotation without manual operator intervention is table-stakes for incident response at scale.",
+      "stack_hints": [
+        "Go",
+        "AWS SDK",
+        "Google Cloud Go SDK",
+        "Azure SDK",
+        "PostgreSQL",
+        "gRPC"
+      ]
+    },
+    {
+      "title": "Role-Based Access Control DSL for Teams",
+      "topic_slug": "project-and-identity-infrastructure",
+      "scope": "medium",
+      "pitch": "Develop a TypeScript/Go system that lets teams define granular RBAC policies via declarative YAML, integrating with identity systems (OIDC, LDAP). Support dynamic role assignment based on team membership, project ownership, or custom attributes. Include policy simulation and audit trail of all access decisions.",
+      "why_now": "Identity infrastructure is trending; teams need lightweight, auditable access control without enterprise IAM overhead.",
+      "stack_hints": [
+        "TypeScript",
+        "Go",
+        "OIDC libraries",
+        "PostgreSQL",
+        "Policy engines (OPA optional)",
+        "React"
+      ]
+    },
+    {
+      "title": "Self-Hosted Analytics with Privacy by Default",
+      "topic_slug": "self-hosted-media-and-data",
+      "scope": "medium",
+      "pitch": "Build a TypeScript/Node platform that captures application telemetry (page views, events, user sessions), stores events locally without PII, and provides dashboards and APIs for analysis. Support multi-tenant isolation, cookie-less tracking, and GDPR-compliant data retention policies.",
+      "why_now": "Self-hosted data and analytics platforms are trending; developers need privacy-respecting telemetry that avoids cloud vendor lock-in.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "React",
+        "Redis",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "title": "Shell Command Profiler and Optimization Advisor",
+      "topic_slug": "rust-systems-performance",
+      "scope": "medium",
+      "pitch": "Create a Rust CLI that wraps shell command execution, captures timing, I/O, and CPU patterns, then provides optimization recommendations (parallelize loops, reduce fork overhead, cache intermediate results). Include integration with common shells (bash, zsh, nushell) and export performance data as JSON for CI/CD analysis.",
+      "why_now": "Rust systems tools are trending; shell scripting performance optimization is overlooked in most DevOps workflows but critical for large-scale automation.",
+      "stack_hints": [
+        "Rust",
+        "nix",
+        "sysstat",
+        "pprof",
+        "serde",
+        "clap"
+      ]
+    },
+    {
+      "title": "Real-Time Credential Exposure Notification Service",
+      "topic_slug": "credentials-and-secrets-integrity",
+      "scope": "long",
+      "pitch": "Build a comprehensive platform (Go/Rust) that continuously monitors GitHub, GitLab, and internal Git repos for exposed secrets, correlates them with breached credential databases (via APIs like HaveIBeenPwned), and immediately notifies teams with severity scores and auto-triggered remediation workflows. Include policy enforcement to prevent future leaks via pre-commit hooks and CI/CD gates.",
+      "why_now": "Secrets scanning is a persistent, high-momentum trend; enterprises need real-time breach notification and automated remediation at organizational scale.",
+      "stack_hints": [
+        "Go",
+        "Rust",
+        "PostgreSQL",
+        "Redis",
+        "GitHub API",
+        "gRPC",
+        "React"
+      ]
+    },
+    {
+      "title": "Distributed Self-Hosted Media Library with Sync",
+      "topic_slug": "self-hosted-media-and-data",
+      "scope": "long",
+      "pitch": "Develop a full-stack platform (TypeScript/Rust backend, React frontend) that syncs photo and video libraries across multiple devices and on-prem servers using CRDTs and P2P protocols. Support searchable metadata, collaborative tagging, privacy zones per device, and automatic conflict resolution. Include mobile client and progressive sync for intermittent connectivity.",
+      "why_now": "Self-hosted media management is trending; privacy-conscious users need seamless, decentralized sync without cloud intermediaries.",
+      "stack_hints": [
+        "Rust",
+        "TypeScript",
+        "Yrs (CRDT)",
+        "iroh (P2P)",
+        "PostgreSQL",
+        "React Native",
+        "WebSocket"
+      ]
+    },
+    {
+      "title": "Unified Security Posture Management Platform",
+      "topic_slug": "credentials-and-secrets-integrity",
+      "scope": "long",
+      "pitch": "Create a Go/Rust service that aggregates findings from Trivy, Trufflehog, and custom scanners across repositories, containers, and infrastructure, normalizes them into a unified schema, assigns composite risk scores, and feeds findings into ticketing and remediation orchestration. Include trend analysis, SLA tracking, and executive dashboards.",
+      "why_now": "Security scanning tools are persistent and maturing; fragmented tool outputs create operator burden\u2014unified posture management is the next evolution.",
+      "stack_hints": [
+        "Go",
+        "Rust",
+        "PostgreSQL",
+        "Elasticsearch",
+        "Kafka",
+        "React",
+        "gRPC"
+      ]
+    },
+    {
+      "title": "High-Performance Data Pipeline Framework",
+      "topic_slug": "rust-systems-performance",
+      "scope": "long",
+      "pitch": "Build a Rust framework for constructing composable, fault-tolerant data pipelines that efficiently process streams and batches using Polars, with built-in metrics, backpressure handling, and adaptive partitioning. Include Python bindings, Jupyter integration, and deployment to Kubernetes. Benchmark against Apache Spark for feature parity on common operations.",
+      "why_now": "Rust systems tools and high-performance data processing are trending; data teams need lightweight alternatives to Spark that maintain correctness guarantees.",
+      "stack_hints": [
+        "Rust",
+        "polars",
+        "tokio",
+        "arrow",
+        "pyo3",
+        "kubernetes-client"
+      ]
+    },
+    {
+      "title": "Enterprise Project Management Hub with RBAC",
+      "topic_slug": "project-and-identity-infrastructure",
+      "scope": "long",
+      "pitch": "Develop a full-stack project management platform (TypeScript/Go) with enterprise features: multi-workspace support, fine-grained RBAC, audit trails, team budgeting, issue triage workflows, and integrations with Git, CI/CD, and identity providers. Emphasize self-hosting ease via Docker Compose and single-binary deployment.",
+      "why_now": "Project management and identity infrastructure are trending; enterprises seek all-in-one, self-hosted alternatives to Jira, Linear, and Monday without feature sacrifices.",
+      "stack_hints": [
+        "TypeScript",
+        "Go",
+        "PostgreSQL",
+        "React",
+        "GraphQL",
+        "OIDC libraries",
+        "Docker"
+      ]
+    }
+  ]
+}

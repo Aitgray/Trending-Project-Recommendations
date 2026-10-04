@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-10-04",
+  "window_dates": [
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-03",
+    "2026-10-04"
+  ],
+  "repos": [
+    {
+      "full_name": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 1473,
+      "peak_daily_stars": 281,
+      "persistence_score": 43.77441043649569
+    },
+    {
+      "full_name": "immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "url": "https://github.com/immich-app/immich",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 434,
+      "peak_daily_stars": 79,
+      "persistence_score": 36.4520761865321
+    },
+    {
+      "full_name": "PostHog/posthog",
+      "description": "\ud83e\udd94 PostHog is the leading platform for building self-driving products. Our developer tools \u2013 AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more \u2013 capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "language": "Python",
+      "url": "https://github.com/PostHog/posthog",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 162,
+      "peak_daily_stars": 40,
+      "persistence_score": 35.65625140564734
+    },
+    {
+      "full_name": "trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 182,
+      "peak_daily_stars": 47,
+      "persistence_score": 31.256916917048528
+    },
+    {
+      "full_name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 419,
+      "peak_daily_stars": 90,
+      "persistence_score": 30.20127355638707
+    },
+    {
+      "full_name": "makeplane/plane",
+      "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "url": "https://github.com/makeplane/plane",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 377,
+      "peak_daily_stars": 102,
+      "persistence_score": 29.67447097809794
+    },
+    {
+      "full_name": "microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/playwright",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 264,
+      "peak_daily_stars": 63,
+      "persistence_score": 27.89864912993111
+    },
+    {
+      "full_name": "astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "url": "https://github.com/astral-sh/ruff",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 96,
+      "peak_daily_stars": 23,
+      "persistence_score": 27.448265871020297
+    },
+    {
+      "full_name": "supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "url": "https://github.com/supabase/supabase",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 241,
+      "peak_daily_stars": 56,
+      "persistence_score": 27.444688630783432
+    },
+    {
+      "full_name": "avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "language": "Go",
+      "url": "https://github.com/avelino/awesome-go",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 661,
+      "peak_daily_stars": 168,
+      "persistence_score": 25.981062223748033
+    },
+    {
+      "full_name": "microsoft/onnxruntime",
+      "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+      "language": "C++",
+      "url": "https://github.com/microsoft/onnxruntime",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 63,
+      "peak_daily_stars": 19,
+      "persistence_score": 24.953298500158027
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "url": "https://github.com/aquasecurity/trivy",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 128,
+      "peak_daily_stars": 29,
+      "persistence_score": 24.29906202180836
+    },
+    {
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 413,
+      "peak_daily_stars": 143,
+      "persistence_score": 24.103463895301257
+    },
+    {
+      "full_name": "pola-rs/polars",
+      "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+      "language": "Rust",
+      "url": "https://github.com/pola-rs/polars",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 54,
+      "peak_daily_stars": 12,
+      "persistence_score": 24.043999111394825
+    },
+    {
+      "full_name": "ajeetdsouza/zoxide",
+      "description": "A smarter cd command. Supports all major shells.",
+      "language": "Rust",
+      "url": "https://github.com/ajeetdsouza/zoxide",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 118,
+      "peak_daily_stars": 34,
+      "persistence_score": 23.89561746555765
+    },
+    {
+      "full_name": "gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks \ud83d\udd11",
+      "language": "Go",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 117,
+      "peak_daily_stars": 25,
+      "persistence_score": 23.853423122328326
+    },
+    {
+      "full_name": "kitao/pyxel",
+      "description": "A retro game engine for Python",
+      "language": "Rust",
+      "url": "https://github.com/kitao/pyxel",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 350,
+      "peak_daily_stars": 196,
+      "persistence_score": 23.44314489386346
+    },
+    {
+      "full_name": "pocketbase/pocketbase",
+      "description": "Open Source realtime backend in 1 file",
+      "language": "Go",
+      "url": "https://github.com/pocketbase/pocketbase",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 100,
+      "peak_daily_stars": 23,
+      "persistence_score": 23.075602584206298
+    },
+    {
+      "full_name": "jgraph/drawio-desktop",
+      "description": "Official electron build of draw.io",
+      "language": "JavaScript",
+      "url": "https://github.com/jgraph/drawio-desktop",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 94,
+      "peak_daily_stars": 24,
+      "persistence_score": 22.769384458002705
+    },
+    {
+      "full_name": "helix-editor/helix",
+      "description": "A post-modern modal text editor.",
+      "language": "Rust",
+      "url": "https://github.com/helix-editor/helix",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 93,
+      "peak_daily_stars": 28,
+      "persistence_score": 22.71647391135002
+    },
+    {
+      "full_name": "apache/superset",
+      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+      "language": "Python",
+      "url": "https://github.com/apache/superset",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 92,
+      "peak_daily_stars": 23,
+      "persistence_score": 22.66299746576628
+    },
+    {
+      "full_name": "zitadel/zitadel",
+      "description": "ZITADEL - Identity infrastructure, simplified for\u00a0you.",
+      "language": "Go",
+      "url": "https://github.com/zitadel/zitadel",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 75,
+      "peak_daily_stars": 19,
+      "persistence_score": 21.653666701431654
+    },
+    {
+      "full_name": "sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "language": "JavaScript",
+      "url": "https://github.com/sveltejs/svelte",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 71,
+      "peak_daily_stars": 22,
+      "persistence_score": 21.383330595080277
+    },
+    {
+      "full_name": "neondatabase/neon",
+      "description": "Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.",
+      "language": "Rust",
+      "url": "https://github.com/neondatabase/neon",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 33,
+      "peak_daily_stars": 8,
+      "persistence_score": 21.158163147696968
+    },
+    {
+      "full_name": "nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "url": "https://github.com/nats-io/nats-server",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 67,
+      "peak_daily_stars": 19,
+      "persistence_score": 21.097538525880534
+    },
+    {
+      "full_name": "Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 189,
+      "peak_daily_stars": 61,
+      "persistence_score": 20.988096288641945
+    },
+    {
+      "full_name": "huggingface/transformers",
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "language": "Python",
+      "url": "https://github.com/huggingface/transformers",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 169,
+      "peak_daily_stars": 52,
+      "persistence_score": 20.54319374820105
+    },
+    {
+      "full_name": "tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "url": "https://github.com/tailscale/tailscale",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 145,
+      "peak_daily_stars": 45,
+      "persistence_score": 19.934426486833345
+    },
+    {
+      "full_name": "nushell/nushell",
+      "description": "A new type of shell",
+      "language": "Rust",
+      "url": "https://github.com/nushell/nushell",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 48,
+      "peak_daily_stars": 13,
+      "persistence_score": 19.45910149055313
+    },
+    {
+      "full_name": "axios/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "language": "JavaScript",
+      "url": "https://github.com/axios/axios",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 47,
+      "peak_daily_stars": 17,
+      "persistence_score": 19.356005054539455
+    },
+    {
+      "full_name": "nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 122,
+      "peak_daily_stars": 38,
+      "persistence_score": 19.24873742148967
+    },
+    {
+      "full_name": "caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "url": "https://github.com/caddyserver/caddy",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 118,
+      "peak_daily_stars": 31,
+      "persistence_score": 19.11649397244612
+    },
+    {
+      "full_name": "n0-computer/iroh",
+      "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
+      "language": "Rust",
+      "url": "https://github.com/n0-computer/iroh",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 39,
+      "peak_daily_stars": 13,
+      "persistence_score": 18.44439727056968
+    },
+    {
+      "full_name": "tabler/tabler-icons",
+      "description": "A set of over 6200 free MIT-licensed high-quality SVG icons for you to use in your web projects.",
+      "language": "JavaScript",
+      "url": "https://github.com/tabler/tabler-icons",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 92,
+      "peak_daily_stars": 41,
+      "persistence_score": 18.130397972613025
+    },
+    {
+      "full_name": "emilk/egui",
+      "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+      "language": "Rust",
+      "url": "https://github.com/emilk/egui",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 85,
+      "peak_daily_stars": 23,
+      "persistence_score": 17.81738918501403
+    },
+    {
+      "full_name": "containerd/containerd",
+      "description": "An open and reliable container runtime",
+      "language": "Go",
+      "url": "https://github.com/containerd/containerd",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 34,
+      "peak_daily_stars": 12,
+      "persistence_score": 17.776740307447067
+    },
+    {
+      "full_name": "microsoft/Web-Dev-For-Beginners",
+      "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
+      "language": "JavaScript",
+      "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 79,
+      "peak_daily_stars": 25,
+      "persistence_score": 17.528106538695525
+    },
+    {
+      "full_name": "poteto/hiring-without-whiteboards",
+      "description": "\u2b50\ufe0f Companies that don't have a broken hiring process",
+      "language": "JavaScript",
+      "url": "https://github.com/poteto/hiring-without-whiteboards",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 79,
+      "peak_daily_stars": 24,
+      "persistence_score": 17.528106538695525
+    },
+    {
+      "full_name": "cli/cli",
+      "description": "GitHub\u2019s official command line tool",
+      "language": "Go",
+      "url": "https://github.com/cli/cli",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 78,
+      "peak_daily_stars": 25,
+      "persistence_score": 17.477791409868086
+    },
+    {
+      "full_name": "jj-vcs/jj",
+      "description": "A Git-compatible VCS that is both simple and powerful",
+      "language": "Rust",
+      "url": "https://github.com/jj-vcs/jj",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 78,
+      "peak_daily_stars": 26,
+      "persistence_score": 17.477791409868086
+    }
+  ]
+}
