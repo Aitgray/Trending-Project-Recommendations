@@ -1,0 +1,267 @@
+{
+  "week_of": "2026-10-11",
+  "topics": [
+    {
+      "slug": "reverse-engineering-and-security-analysis",
+      "title": "Reverse engineering and security analysis",
+      "summary": "Low-level tools for binary analysis, vulnerability scanning, and software forensics using fast, language-native implementations. Emphasis on automated detection, customizable rulesets, and actionable threat intelligence.",
+      "supporting_repos": [
+        "NationalSecurityAgency/ghidra",
+        "projectdiscovery/nuclei",
+        "aquasecurity/trivy"
+      ]
+    },
+    {
+      "slug": "rust-systems-tooling",
+      "title": "Rust systems tooling and high-performance libraries",
+      "summary": "Performance-critical infrastructure written in Rust targeting speed, memory efficiency, and ergonomic developer APIs. Includes linkers, query engines, CLI tools, and async runtimes.",
+      "supporting_repos": [
+        "pola-rs/polars",
+        "rui314/mold",
+        "tokio-rs/tokio",
+        "astral-sh/ruff",
+        "sharkdp/hyperfine"
+      ]
+    },
+    {
+      "slug": "ui-and-visualization-frameworks",
+      "title": "UI and visualization frameworks for web and native",
+      "summary": "Immediate-mode and declarative UI systems enabling cross-platform interactive applications with modern rendering and state management. Focus on developer ergonomics and performance.",
+      "supporting_repos": [
+        "emilk/egui",
+        "sveltejs/svelte",
+        "vuejs/core"
+      ]
+    },
+    {
+      "slug": "self-hosted-infrastructure",
+      "title": "Self-hosted infrastructure and remote access",
+      "summary": "Privacy-respecting alternatives to SaaS platforms for media management, terminal access, and networking. Emphasize decentralization, data sovereignty, and self-deployment.",
+      "supporting_repos": [
+        "immich-app/immich",
+        "rustdesk/rustdesk",
+        "tailscale/tailscale"
+      ]
+    },
+    {
+      "slug": "workflow-automation-and-orchestration",
+      "title": "Workflow automation and orchestration",
+      "summary": "Low-code and visual platforms for building scalable, automated processes with native integrations and self-hosting support. Target business and technical users alike.",
+      "supporting_repos": [
+        "n8n-io/n8n",
+        "oven-sh/bun"
+      ]
+    }
+  ],
+  "whats_new": "Reverse engineering and security analysis tools have emerged as a distinct, high-velocity theme with Ghidra, Nuclei, and Trivy showing sustained engagement\u2014a shift from last week's broader security focus toward specialized binary analysis. Rust systems tooling remains dominant and has expanded beyond traditional infra to include high-performance data engines (Polars) and language runtimes (Bun), reflecting accelerating adoption in data and DevOps workflows. UI frameworks (Svelte, Vue, egui) have consolidated as a persistent theme reflecting modern web component evolution. Self-hosted infrastructure (Immich, RustDesk, Tailscale) continues trending, now paired with workflow automation (n8n) as enterprises seek end-to-end SaaS-independent tooling.",
+  "projects": [
+    {
+      "title": "Binary Diff Analyzer with MLIR-Based Patch Synthesis",
+      "topic_slug": "reverse-engineering-and-security-analysis",
+      "scope": "short",
+      "pitch": "Build a Rust CLI that takes two binaries, diffs their disassembly using Ghidra's headless API, highlights semantic changes, and generates a natural-language summary of functional delta. Use tree-sitter for syntax-aware comparison and export patches as annotated JSON.",
+      "why_now": "Reverse engineering tools are trending; developers need fast, automated diffing to track malware mutations and supply-chain integrity without manual analysis.",
+      "stack_hints": [
+        "Rust",
+        "Ghidra Java bindings",
+        "tree-sitter",
+        "serde_json",
+        "clap"
+      ]
+    },
+    {
+      "title": "Rust Systems Performance Benchmarking Suite",
+      "topic_slug": "rust-systems-tooling",
+      "scope": "short",
+      "pitch": "Create a Rust CLI that benchmarks system utilities (ls, find, grep alternatives) against their GNU counterparts using Hyperfine, captures memory profiles with pprof, and generates comparative reports with statistical significance testing. Output as HTML dashboards.",
+      "why_now": "Rust tooling is trending; teams need quantitative data to justify migration from C utilities to Rust rewrites in production environments.",
+      "stack_hints": [
+        "Rust",
+        "hyperfine",
+        "pprof",
+        "statrs",
+        "tera"
+      ]
+    },
+    {
+      "title": "Real-Time Vulnerability Risk Scorer",
+      "topic_slug": "reverse-engineering-and-security-analysis",
+      "scope": "short",
+      "pitch": "Write a Go service that consumes Nuclei scan results and Trivy SBOM data, correlates findings with CVSS scores and exploit availability, assigns composite risk scores by asset, and streams high-risk alerts via webhooks. Support policy-driven filtering and false-positive suppression.",
+      "why_now": "Security scanning is trending; fragmented tool outputs create alert fatigue\u2014unified risk scoring enables prioritized remediation.",
+      "stack_hints": [
+        "Go",
+        "gRPC",
+        "SQLite",
+        "NVD API client",
+        "websocket"
+      ]
+    },
+    {
+      "title": "Interactive Web UI for Egui Components",
+      "topic_slug": "ui-and-visualization-frameworks",
+      "scope": "short",
+      "pitch": "Build a browser-based component gallery and live editor for Egui where developers can inspect, customize, and generate Rust code for common UI patterns (tables, forms, charts). Include hot-reload via WebSocket and export as boilerplate.",
+      "why_now": "UI frameworks are trending; immediate-mode systems like Egui lack visual design tooling that web frameworks take for granted.",
+      "stack_hints": [
+        "Rust",
+        "egui",
+        "eframe",
+        "TypeScript",
+        "React"
+      ]
+    },
+    {
+      "title": "Self-Hosted Terminal Session Recorder with AI Transcript",
+      "topic_slug": "self-hosted-infrastructure",
+      "scope": "short",
+      "pitch": "Build a lightweight Go agent that records terminal sessions (asciinema format), transcribes commands and output locally using Whisper.cpp, indexes them searchable by command or intent, and exposes a web UI for playback and search. Deploy as a single binary.",
+      "why_now": "Self-hosted infrastructure is trending; teams need privacy-respecting audit trails for terminal access without cloud upload.",
+      "stack_hints": [
+        "Go",
+        "asciinema library",
+        "whisper.cpp",
+        "SQLite",
+        "htmx"
+      ]
+    },
+    {
+      "title": "Automated Vulnerability Remediation Orchestrator",
+      "topic_slug": "reverse-engineering-and-security-analysis",
+      "scope": "medium",
+      "pitch": "Develop a Go/Rust service that ingests Trivy and Nuclei findings, orchestrates automated remediation via supply-chain APIs (bumping dependencies, patching configs, rotating secrets), validates fixes with re-scanning, and generates compliance audit trails. Include dry-run and approval workflows.",
+      "why_now": "Security scanning is trending; manual remediation of findings does not scale\u2014automated orchestration with audit trails is enterprise table-stakes.",
+      "stack_hints": [
+        "Go",
+        "Rust",
+        "PostgreSQL",
+        "GitHub API",
+        "Kubernetes client",
+        "temporal (workflow orchestration)"
+      ]
+    },
+    {
+      "title": "Polars-Native Analytics DSL Compiler",
+      "topic_slug": "rust-systems-tooling",
+      "scope": "medium",
+      "pitch": "Build a Rust compiler that translates a high-level SQL-like DSL to optimized Polars query plans, includes cost-based optimization hints, and outputs execution flamegraphs. Support Python bindings and Jupyter integration for data science workflows.",
+      "why_now": "Rust data tools like Polars are trending; data teams need a readable query language that compiles to efficient execution without writing DataFrame method chains.",
+      "stack_hints": [
+        "Rust",
+        "polars",
+        "pest (parser)",
+        "pyo3",
+        "pprof"
+      ]
+    },
+    {
+      "title": "Reactive Component State Machine for Svelte/Vue",
+      "topic_slug": "ui-and-visualization-frameworks",
+      "scope": "medium",
+      "pitch": "Create a TypeScript library that defines UI component state machines via declarative YAML, automatically generates Svelte/Vue components with state validation, error handling, and async transitions. Include visual state diagram generation and time-travel debugging.",
+      "why_now": "UI frameworks are trending; developers struggle with managing complex component state\u2014visual, machine-based state management reduces bugs.",
+      "stack_hints": [
+        "TypeScript",
+        "Svelte",
+        "Vue",
+        "xstate",
+        "yaml",
+        "d3"
+      ]
+    },
+    {
+      "title": "Decentralized Workflow Execution Engine",
+      "topic_slug": "workflow-automation-and-orchestration",
+      "scope": "medium",
+      "pitch": "Build a TypeScript service that executes n8n-style workflows across distributed, edge-hosted nodes using P2P gossip and CRDTs for state sync. Support offline-first execution, automatic retry, and cost modeling for resource allocation.",
+      "why_now": "Workflow automation is trending; enterprises need decentralized execution to avoid centralized bottlenecks and cloud provider dependencies.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "iroh (P2P)",
+        "Yrs (CRDT)",
+        "SQLite",
+        "Express"
+      ]
+    },
+    {
+      "title": "Unified Binary Vulnerability Explorer",
+      "topic_slug": "reverse-engineering-and-security-analysis",
+      "scope": "long",
+      "pitch": "Develop a full-stack platform (Rust backend, React frontend) that indexes binaries from supply chains, runs Ghidra-based semantic analysis to extract function signatures and data flows, correlates findings with known CVEs, and visualizes attack surfaces. Include collaborative annotation and threat modeling.",
+      "why_now": "Reverse engineering and security analysis are trending; enterprises need centralized visibility into binary composition and vulnerability propagation across dependencies.",
+      "stack_hints": [
+        "Rust",
+        "TypeScript",
+        "Ghidra headless API",
+        "PostgreSQL",
+        "React",
+        "WebSocket",
+        "NVD/CVE API"
+      ]
+    },
+    {
+      "title": "High-Performance DataFrame Vectorization Framework",
+      "topic_slug": "rust-systems-tooling",
+      "scope": "long",
+      "pitch": "Create a Rust framework that compiles high-level analytical queries to SIMD-vectorized CPU code using Polars, Arrow, and LLVM. Support spill-to-disk for out-of-core workloads, GPU acceleration via wgpu, and Python/R bindings. Benchmark against Spark for feature parity.",
+      "why_now": "Rust systems tooling is trending; data teams need SIMD vectorization without rewriting to C++, and the gap between Python and specialized systems is closing.",
+      "stack_hints": [
+        "Rust",
+        "polars",
+        "arrow",
+        "llvm-sys",
+        "wgpu",
+        "pyo3",
+        "tokio"
+      ]
+    },
+    {
+      "title": "Self-Hosted Media Recommendation Engine",
+      "topic_slug": "self-hosted-infrastructure",
+      "scope": "long",
+      "pitch": "Build a full-stack platform (Rust backend, React frontend) that indexes local media libraries (Immich-compatible), trains recommendation models locally using collaborative filtering, and generates personalized playlists and curations without cloud APIs. Support multi-user households with privacy isolation.",
+      "why_now": "Self-hosted infrastructure is trending; users want recommendations for personal media without uploading viewing histories to commercial platforms.",
+      "stack_hints": [
+        "Rust",
+        "TypeScript",
+        "PostgreSQL",
+        "polars",
+        "React",
+        "ndarray (linear algebra)",
+        "websocket"
+      ]
+    },
+    {
+      "title": "Enterprise Workflow Governance Platform",
+      "topic_slug": "workflow-automation-and-orchestration",
+      "scope": "long",
+      "pitch": "Develop a full-stack platform (Go/TypeScript) that manages n8n-style workflows with enterprise governance: approval gates, cost tracking, audit trails, SLA enforcement, and role-based access control. Support multi-tenant isolation, custom integrations, and deployment to Kubernetes or Docker Compose.",
+      "why_now": "Workflow automation is trending; enterprises need visibility and control over workflow execution without surrendering operational flexibility.",
+      "stack_hints": [
+        "Go",
+        "TypeScript",
+        "PostgreSQL",
+        "React",
+        "GraphQL",
+        "Kubernetes",
+        "OIDC libraries"
+      ]
+    },
+    {
+      "title": "Cross-Platform Terminal UI Component Library",
+      "topic_slug": "ui-and-visualization-frameworks",
+      "scope": "long",
+      "pitch": "Create a Rust library (inspired by Egui) for building composable terminal user interfaces with immediate-mode rendering, rich animations, and keyboard/mouse input. Include React-like component composition, state hooks, and multi-theme support. Provide bindings for Python and Node.js.",
+      "why_now": "UI frameworks are trending; terminal applications need modern, reactive UI paradigms currently dominated by web and native frameworks.",
+      "stack_hints": [
+        "Rust",
+        "crossterm",
+        "ratatui",
+        "pyo3",
+        "napi-rs",
+        "tokio"
+      ]
+    }
+  ]
+}

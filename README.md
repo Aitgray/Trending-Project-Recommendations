@@ -1,47 +1,29 @@
 # Trending Project Ideas
 
-**Week of 2026-10-04** | [About this project](ABOUT.md)
+**Week of 2026-10-11** | [About this project](ABOUT.md)
 
 ---
 
 > **What's new this week**
 >
-> Self-hosted media and analytics platforms have surged (Immich, PostHog, Supabase), reflecting sustained demand for privacy-first, vendor-independent infrastructure. Secrets and credential scanning have consolidated from last week's broader security focus into a distinct, high-velocity category driven by breach remediation and compliance urgency. Rust systems tooling continues to dominate across editors, shells, and databases, but now with emphasis on performance-critical data structures (Polars) and serverless Postgres (Neon). Project management and identity platforms have emerged as a new persistent theme, signaling enterprise demand for all-in-one DevOps and organizational infrastructure without SaaS dependencies.
+> Reverse engineering and security analysis tools have emerged as a distinct, high-velocity theme with Ghidra, Nuclei, and Trivy showing sustained engagement—a shift from last week's broader security focus toward specialized binary analysis. Rust systems tooling remains dominant and has expanded beyond traditional infra to include high-performance data engines (Polars) and language runtimes (Bun), reflecting accelerating adoption in data and DevOps workflows. UI frameworks (Svelte, Vue, egui) have consolidated as a persistent theme reflecting modern web component evolution. Self-hosted infrastructure (Immich, RustDesk, Tailscale) continues trending, now paired with workflow automation (n8n) as enterprises seek end-to-end SaaS-independent tooling.
 
 ---
 
 ## Trending Topics
 
 
-### Self-hosted media, asset, and data management
+### Reverse engineering and security analysis
 
-Open-source platforms for personal control of photos, videos, files, and analytics without cloud vendor lock-in. Emphasis on privacy, performance, and rich feature parity with commercial SaaS alternatives.
-
-<details>
-<summary>Supporting repos (3)</summary>
-
-
-- [immich-app/immich](https://github.com/immich-app/immich)
-
-- [PostHog/posthog](https://github.com/PostHog/posthog)
-
-- [supabase/supabase](https://github.com/supabase/supabase)
-
-
-</details>
-
-
-### Credentials, secrets, and integrity verification
-
-Tools for scanning, verifying, and managing exposed credentials, secrets, and supply-chain artifacts with fine-grained context and remediation guidance. Focus on fast CI/CD integration and actionable risk intelligence.
+Low-level tools for binary analysis, vulnerability scanning, and software forensics using fast, language-native implementations. Emphasis on automated detection, customizable rulesets, and actionable threat intelligence.
 
 <details>
 <summary>Supporting repos (3)</summary>
 
 
-- [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
+- [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
 
-- [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
+- [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
 
 - [aquasecurity/trivy](https://github.com/aquasecurity/trivy)
 
@@ -49,61 +31,75 @@ Tools for scanning, verifying, and managing exposed credentials, secrets, and su
 </details>
 
 
-### Content acquisition, processing, and automation
+### Rust systems tooling and high-performance libraries
 
-Tools for downloading, processing, and automating workflows around media files (audio, video, images). Combines programmatic access with command-line ergonomics and batch processing.
-
-<details>
-<summary>Supporting repos (3)</summary>
-
-
-- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
-
-- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool)
-
-- [huggingface/transformers](https://github.com/huggingface/transformers)
-
-
-</details>
-
-
-### Rust systems tools and high-performance libraries
-
-Low-level, correctness-focused tools and frameworks written in Rust targeting speed, memory efficiency, and ergonomic APIs. Includes editors, shells, databases, and compute kernels.
+Performance-critical infrastructure written in Rust targeting speed, memory efficiency, and ergonomic developer APIs. Includes linkers, query engines, CLI tools, and async runtimes.
 
 <details>
 <summary>Supporting repos (5)</summary>
 
 
-- [astral-sh/ruff](https://github.com/astral-sh/ruff)
-
 - [pola-rs/polars](https://github.com/pola-rs/polars)
 
-- [helix-editor/helix](https://github.com/helix-editor/helix)
+- [rui314/mold](https://github.com/rui314/mold)
 
-- [nushell/nushell](https://github.com/nushell/nushell)
+- [tokio-rs/tokio](https://github.com/tokio-rs/tokio)
 
-- [neondatabase/neon](https://github.com/neondatabase/neon)
+- [astral-sh/ruff](https://github.com/astral-sh/ruff)
+
+- [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
 
 
 </details>
 
 
-### Project management, identity, and infrastructure-as-code
+### UI and visualization frameworks for web and native
 
-Open-source platforms for managing projects, workflows, identities, and deployments with enterprise feature parity. Includes project boards, identity federation, serverless compute, and messaging systems.
+Immediate-mode and declarative UI systems enabling cross-platform interactive applications with modern rendering and state management. Focus on developer ergonomics and performance.
 
 <details>
-<summary>Supporting repos (4)</summary>
+<summary>Supporting repos (3)</summary>
 
 
-- [makeplane/plane](https://github.com/makeplane/plane)
+- [emilk/egui](https://github.com/emilk/egui)
 
-- [zitadel/zitadel](https://github.com/zitadel/zitadel)
+- [sveltejs/svelte](https://github.com/sveltejs/svelte)
 
-- [nats-io/nats-server](https://github.com/nats-io/nats-server)
+- [vuejs/core](https://github.com/vuejs/core)
 
-- [caddyserver/caddy](https://github.com/caddyserver/caddy)
+
+</details>
+
+
+### Self-hosted infrastructure and remote access
+
+Privacy-respecting alternatives to SaaS platforms for media management, terminal access, and networking. Emphasize decentralization, data sovereignty, and self-deployment.
+
+<details>
+<summary>Supporting repos (3)</summary>
+
+
+- [immich-app/immich](https://github.com/immich-app/immich)
+
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
+
+- [tailscale/tailscale](https://github.com/tailscale/tailscale)
+
+
+</details>
+
+
+### Workflow automation and orchestration
+
+Low-code and visual platforms for building scalable, automated processes with native integrations and self-hosting support. Target business and technical users alike.
+
+<details>
+<summary>Supporting repos (2)</summary>
+
+
+- [n8n-io/n8n](https://github.com/n8n-io/n8n)
+
+- [oven-sh/bun](https://github.com/oven-sh/bun)
 
 
 </details>
@@ -118,80 +114,76 @@ Open-source platforms for managing projects, workflows, identities, and deployme
 
 
 
-#### Self-hosted media, asset, and data management
+#### Reverse engineering and security analysis
 
 
-##### Personal Photo Library with ML Tagging
+##### Binary Diff Analyzer with MLIR-Based Patch Synthesis
 
-Create a TypeScript/Node CLI that indexes local photo directories, runs CLIP or similar local vision model to auto-tag images by content, and exposes a simple REST API for browsing and filtering by tags. Support batch re-indexing and tag validation.
+Build a Rust CLI that takes two binaries, diffs their disassembly using Ghidra's headless API, highlights semantic changes, and generates a natural-language summary of functional delta. Use tree-sitter for syntax-aware comparison and export patches as annotated JSON.
 
-**Why now:** Self-hosted media management is trending; local AI tagging bridges the gap between manual curation and cloud-dependent image recognition.
+**Why now:** Reverse engineering tools are trending; developers need fast, automated diffing to track malware mutations and supply-chain integrity without manual analysis.
 
-**Stack hints:** `TypeScript`, `Node.js`, `sharp`, `onnxruntime`, `Express`
-
-
+**Stack hints:** `Rust`, `Ghidra Java bindings`, `tree-sitter`, `serde_json`, `clap`
 
 
+##### Real-Time Vulnerability Risk Scorer
 
+Write a Go service that consumes Nuclei scan results and Trivy SBOM data, correlates findings with CVSS scores and exploit availability, assigns composite risk scores by asset, and streams high-risk alerts via webhooks. Support policy-driven filtering and false-positive suppression.
 
-#### Credentials, secrets, and integrity verification
+**Why now:** Security scanning is trending; fragmented tool outputs create alert fatigue—unified risk scoring enables prioritized remediation.
 
-
-##### Local Credential Scanner with Remediation Playbooks
-
-Write a Rust CLI that scans Git history, environment files, and logs for hardcoded secrets, assigns risk scores based on credential type and age, then auto-generates playbooks for safe rotation (e.g., invalidate token in cloud console, update CI/CD secrets). Output actionable JSON reports.
-
-**Why now:** Secrets scanning is trending with high persistence; developers need fast, contextualized remediation guidance beyond binary secret detection.
-
-**Stack hints:** `Rust`, `regex`, `serde`, `clap`, `chrono`
+**Stack hints:** `Go`, `gRPC`, `SQLite`, `NVD API client`, `websocket`
 
 
 
 
 
 
-#### Content acquisition, processing, and automation
+#### Rust systems tooling and high-performance libraries
 
 
-##### Media Batch Downloader with Metadata Extraction
+##### Rust Systems Performance Benchmarking Suite
 
-Build a Python CLI that downloads media from URLs (video platforms, podcasts, playlists) in bulk, automatically extracts and tags metadata (duration, transcripts, thumbnails), and organizes output by configurable folder structure. Support batch operations via CSV input and dry-run validation.
+Create a Rust CLI that benchmarks system utilities (ls, find, grep alternatives) against their GNU counterparts using Hyperfine, captures memory profiles with pprof, and generates comparative reports with statistical significance testing. Output as HTML dashboards.
 
-**Why now:** Media automation tools are trending; bulk content acquisition with rich metadata extraction is a core developer pain point for local archival and analysis workflows.
+**Why now:** Rust tooling is trending; teams need quantitative data to justify migration from C utilities to Rust rewrites in production environments.
 
-**Stack hints:** `Python`, `yt-dlp`, `ffmpeg-python`, `Click`, `Pydantic`
-
-
-
-
-
-
-#### Rust systems tools and high-performance libraries
-
-
-##### SQL Query Performance Profiler for Polars
-
-Write a Rust library wrapping Polars queries that captures execution timing, memory allocation, and I/O patterns, then visualizes them as flamegraphs and summary tables. Include integration hooks for Jupyter and CLI mode for batch analysis.
-
-**Why now:** Rust data tools like Polars are trending; data scientists need observability into query performance to optimize analytics pipelines.
-
-**Stack hints:** `Rust`, `polars`, `pprof`, `serde_json`, `tokio`
+**Stack hints:** `Rust`, `hyperfine`, `pprof`, `statrs`, `tera`
 
 
 
 
 
 
-#### Project management, identity, and infrastructure-as-code
+#### UI and visualization frameworks for web and native
 
 
-##### Immutable Audit Log for Project Changes
+##### Interactive Web UI for Egui Components
 
-Build a lightweight Go service that captures all project metadata changes (task creation, status updates, permissions), cryptographically signs each entry, and stores in an append-only log. Expose via simple HTTP API with query support (date range, entity, change type).
+Build a browser-based component gallery and live editor for Egui where developers can inspect, customize, and generate Rust code for common UI patterns (tables, forms, charts). Include hot-reload via WebSocket and export as boilerplate.
 
-**Why now:** Project management platforms are trending; compliance and audit trails are critical for enterprise adoption but often bolted on as afterthoughts.
+**Why now:** UI frameworks are trending; immediate-mode systems like Egui lack visual design tooling that web frameworks take for granted.
 
-**Stack hints:** `Go`, `SQLite`, `crypto/sha256`, `Echo`, `JSON`
+**Stack hints:** `Rust`, `egui`, `eframe`, `TypeScript`, `React`
+
+
+
+
+
+
+#### Self-hosted infrastructure and remote access
+
+
+##### Self-Hosted Terminal Session Recorder with AI Transcript
+
+Build a lightweight Go agent that records terminal sessions (asciinema format), transcribes commands and output locally using Whisper.cpp, indexes them searchable by command or intent, and exposes a web UI for playback and search. Deploy as a single binary.
+
+**Why now:** Self-hosted infrastructure is trending; teams need privacy-respecting audit trails for terminal access without cloud upload.
+
+**Stack hints:** `Go`, `asciinema library`, `whisper.cpp`, `SQLite`, `htmx`
+
+
+
 
 
 
@@ -204,80 +196,67 @@ Build a lightweight Go service that captures all project metadata changes (task 
 
 
 
-#### Self-hosted media, asset, and data management
+#### Reverse engineering and security analysis
 
 
-##### Self-Hosted Analytics with Privacy by Default
+##### Automated Vulnerability Remediation Orchestrator
 
-Build a TypeScript/Node platform that captures application telemetry (page views, events, user sessions), stores events locally without PII, and provides dashboards and APIs for analysis. Support multi-tenant isolation, cookie-less tracking, and GDPR-compliant data retention policies.
+Develop a Go/Rust service that ingests Trivy and Nuclei findings, orchestrates automated remediation via supply-chain APIs (bumping dependencies, patching configs, rotating secrets), validates fixes with re-scanning, and generates compliance audit trails. Include dry-run and approval workflows.
 
-**Why now:** Self-hosted data and analytics platforms are trending; developers need privacy-respecting telemetry that avoids cloud vendor lock-in.
+**Why now:** Security scanning is trending; manual remediation of findings does not scale—automated orchestration with audit trails is enterprise table-stakes.
 
-**Stack hints:** `TypeScript`, `Node.js`, `PostgreSQL`, `React`, `Redis`, `TailwindCSS`
-
-
-
-
-
-
-#### Credentials, secrets, and integrity verification
-
-
-##### Secret Rotation Automation for Multi-Cloud
-
-Build a Go service that detects exposed secrets in Git history and CI logs, correlates them with cloud provider APIs (AWS, GCP, Azure), atomically rotates credentials, updates downstream consumers (env files, CI secrets, Kubernetes), and generates compliance audit records. Include dry-run and approval workflows.
-
-**Why now:** Secrets scanning is trending; automated rotation without manual operator intervention is table-stakes for incident response at scale.
-
-**Stack hints:** `Go`, `AWS SDK`, `Google Cloud Go SDK`, `Azure SDK`, `PostgreSQL`, `gRPC`
+**Stack hints:** `Go`, `Rust`, `PostgreSQL`, `GitHub API`, `Kubernetes client`, `temporal (workflow orchestration)`
 
 
 
 
 
 
-#### Content acquisition, processing, and automation
+#### Rust systems tooling and high-performance libraries
 
 
-##### Content Metadata Enrichment Pipeline
+##### Polars-Native Analytics DSL Compiler
 
-Develop a TypeScript service that ingests downloaded media (video/audio) and runs a multi-stage enrichment pipeline: automatic transcription via local Whisper, scene detection, speaker diarization, and chapter auto-generation. Store results in a queryable SQLite database with batch export to markdown.
+Build a Rust compiler that translates a high-level SQL-like DSL to optimized Polars query plans, includes cost-based optimization hints, and outputs execution flamegraphs. Support Python bindings and Jupyter integration for data science workflows.
 
-**Why now:** Media automation and local ML are trending; content creators need offline-capable enrichment to avoid cloud API costs and latency.
+**Why now:** Rust data tools like Polars are trending; data teams need a readable query language that compiles to efficient execution without writing DataFrame method chains.
 
-**Stack hints:** `TypeScript`, `Node.js`, `openai/whisper.cpp`, `ffmpeg`, `SQLite`, `Express`
-
-
-
-
-
-
-#### Rust systems tools and high-performance libraries
-
-
-##### Shell Command Profiler and Optimization Advisor
-
-Create a Rust CLI that wraps shell command execution, captures timing, I/O, and CPU patterns, then provides optimization recommendations (parallelize loops, reduce fork overhead, cache intermediate results). Include integration with common shells (bash, zsh, nushell) and export performance data as JSON for CI/CD analysis.
-
-**Why now:** Rust systems tools are trending; shell scripting performance optimization is overlooked in most DevOps workflows but critical for large-scale automation.
-
-**Stack hints:** `Rust`, `nix`, `sysstat`, `pprof`, `serde`, `clap`
+**Stack hints:** `Rust`, `polars`, `pest (parser)`, `pyo3`, `pprof`
 
 
 
 
 
 
-#### Project management, identity, and infrastructure-as-code
+#### UI and visualization frameworks for web and native
 
 
-##### Role-Based Access Control DSL for Teams
+##### Reactive Component State Machine for Svelte/Vue
 
-Develop a TypeScript/Go system that lets teams define granular RBAC policies via declarative YAML, integrating with identity systems (OIDC, LDAP). Support dynamic role assignment based on team membership, project ownership, or custom attributes. Include policy simulation and audit trail of all access decisions.
+Create a TypeScript library that defines UI component state machines via declarative YAML, automatically generates Svelte/Vue components with state validation, error handling, and async transitions. Include visual state diagram generation and time-travel debugging.
 
-**Why now:** Identity infrastructure is trending; teams need lightweight, auditable access control without enterprise IAM overhead.
+**Why now:** UI frameworks are trending; developers struggle with managing complex component state—visual, machine-based state management reduces bugs.
 
-**Stack hints:** `TypeScript`, `Go`, `OIDC libraries`, `PostgreSQL`, `Policy engines (OPA optional)`, `React`
+**Stack hints:** `TypeScript`, `Svelte`, `Vue`, `xstate`, `yaml`, `d3`
+
+
+
+
+
+
+
+
+
+#### Workflow automation and orchestration
+
+
+##### Decentralized Workflow Execution Engine
+
+Build a TypeScript service that executes n8n-style workflows across distributed, edge-hosted nodes using P2P gossip and CRDTs for state sync. Support offline-first execution, automatic retry, and cost modeling for resource allocation.
+
+**Why now:** Workflow automation is trending; enterprises need decentralized execution to avoid centralized bottlenecks and cloud provider dependencies.
+
+**Stack hints:** `TypeScript`, `Node.js`, `iroh (P2P)`, `Yrs (CRDT)`, `SQLite`, `Express`
 
 
 
@@ -290,76 +269,80 @@ Develop a TypeScript/Go system that lets teams define granular RBAC policies via
 
 
 
-#### Self-hosted media, asset, and data management
+#### Reverse engineering and security analysis
 
 
-##### Distributed Self-Hosted Media Library with Sync
+##### Unified Binary Vulnerability Explorer
 
-Develop a full-stack platform (TypeScript/Rust backend, React frontend) that syncs photo and video libraries across multiple devices and on-prem servers using CRDTs and P2P protocols. Support searchable metadata, collaborative tagging, privacy zones per device, and automatic conflict resolution. Include mobile client and progressive sync for intermittent connectivity.
+Develop a full-stack platform (Rust backend, React frontend) that indexes binaries from supply chains, runs Ghidra-based semantic analysis to extract function signatures and data flows, correlates findings with known CVEs, and visualizes attack surfaces. Include collaborative annotation and threat modeling.
 
-**Why now:** Self-hosted media management is trending; privacy-conscious users need seamless, decentralized sync without cloud intermediaries.
+**Why now:** Reverse engineering and security analysis are trending; enterprises need centralized visibility into binary composition and vulnerability propagation across dependencies.
 
-**Stack hints:** `Rust`, `TypeScript`, `Yrs (CRDT)`, `iroh (P2P)`, `PostgreSQL`, `React Native`, `WebSocket`
-
-
-
-
-
-
-#### Credentials, secrets, and integrity verification
-
-
-##### Real-Time Credential Exposure Notification Service
-
-Build a comprehensive platform (Go/Rust) that continuously monitors GitHub, GitLab, and internal Git repos for exposed secrets, correlates them with breached credential databases (via APIs like HaveIBeenPwned), and immediately notifies teams with severity scores and auto-triggered remediation workflows. Include policy enforcement to prevent future leaks via pre-commit hooks and CI/CD gates.
-
-**Why now:** Secrets scanning is a persistent, high-momentum trend; enterprises need real-time breach notification and automated remediation at organizational scale.
-
-**Stack hints:** `Go`, `Rust`, `PostgreSQL`, `Redis`, `GitHub API`, `gRPC`, `React`
-
-
-##### Unified Security Posture Management Platform
-
-Create a Go/Rust service that aggregates findings from Trivy, Trufflehog, and custom scanners across repositories, containers, and infrastructure, normalizes them into a unified schema, assigns composite risk scores, and feeds findings into ticketing and remediation orchestration. Include trend analysis, SLA tracking, and executive dashboards.
-
-**Why now:** Security scanning tools are persistent and maturing; fragmented tool outputs create operator burden—unified posture management is the next evolution.
-
-**Stack hints:** `Go`, `Rust`, `PostgreSQL`, `Elasticsearch`, `Kafka`, `React`, `gRPC`
+**Stack hints:** `Rust`, `TypeScript`, `Ghidra headless API`, `PostgreSQL`, `React`, `WebSocket`, `NVD/CVE API`
 
 
 
 
 
 
+#### Rust systems tooling and high-performance libraries
 
 
+##### High-Performance DataFrame Vectorization Framework
 
-#### Rust systems tools and high-performance libraries
+Create a Rust framework that compiles high-level analytical queries to SIMD-vectorized CPU code using Polars, Arrow, and LLVM. Support spill-to-disk for out-of-core workloads, GPU acceleration via wgpu, and Python/R bindings. Benchmark against Spark for feature parity.
 
+**Why now:** Rust systems tooling is trending; data teams need SIMD vectorization without rewriting to C++, and the gap between Python and specialized systems is closing.
 
-##### High-Performance Data Pipeline Framework
-
-Build a Rust framework for constructing composable, fault-tolerant data pipelines that efficiently process streams and batches using Polars, with built-in metrics, backpressure handling, and adaptive partitioning. Include Python bindings, Jupyter integration, and deployment to Kubernetes. Benchmark against Apache Spark for feature parity on common operations.
-
-**Why now:** Rust systems tools and high-performance data processing are trending; data teams need lightweight alternatives to Spark that maintain correctness guarantees.
-
-**Stack hints:** `Rust`, `polars`, `tokio`, `arrow`, `pyo3`, `kubernetes-client`
+**Stack hints:** `Rust`, `polars`, `arrow`, `llvm-sys`, `wgpu`, `pyo3`, `tokio`
 
 
 
 
 
 
-#### Project management, identity, and infrastructure-as-code
+#### UI and visualization frameworks for web and native
 
 
-##### Enterprise Project Management Hub with RBAC
+##### Cross-Platform Terminal UI Component Library
 
-Develop a full-stack project management platform (TypeScript/Go) with enterprise features: multi-workspace support, fine-grained RBAC, audit trails, team budgeting, issue triage workflows, and integrations with Git, CI/CD, and identity providers. Emphasize self-hosting ease via Docker Compose and single-binary deployment.
+Create a Rust library (inspired by Egui) for building composable terminal user interfaces with immediate-mode rendering, rich animations, and keyboard/mouse input. Include React-like component composition, state hooks, and multi-theme support. Provide bindings for Python and Node.js.
 
-**Why now:** Project management and identity infrastructure are trending; enterprises seek all-in-one, self-hosted alternatives to Jira, Linear, and Monday without feature sacrifices.
+**Why now:** UI frameworks are trending; terminal applications need modern, reactive UI paradigms currently dominated by web and native frameworks.
 
-**Stack hints:** `TypeScript`, `Go`, `PostgreSQL`, `React`, `GraphQL`, `OIDC libraries`, `Docker`
+**Stack hints:** `Rust`, `crossterm`, `ratatui`, `pyo3`, `napi-rs`, `tokio`
+
+
+
+
+
+
+#### Self-hosted infrastructure and remote access
+
+
+##### Self-Hosted Media Recommendation Engine
+
+Build a full-stack platform (Rust backend, React frontend) that indexes local media libraries (Immich-compatible), trains recommendation models locally using collaborative filtering, and generates personalized playlists and curations without cloud APIs. Support multi-user households with privacy isolation.
+
+**Why now:** Self-hosted infrastructure is trending; users want recommendations for personal media without uploading viewing histories to commercial platforms.
+
+**Stack hints:** `Rust`, `TypeScript`, `PostgreSQL`, `polars`, `React`, `ndarray (linear algebra)`, `websocket`
+
+
+
+
+
+
+#### Workflow automation and orchestration
+
+
+##### Enterprise Workflow Governance Platform
+
+Develop a full-stack platform (Go/TypeScript) that manages n8n-style workflows with enterprise governance: approval gates, cost tracking, audit trails, SLA enforcement, and role-based access control. Support multi-tenant isolation, custom integrations, and deployment to Kubernetes or Docker Compose.
+
+**Why now:** Workflow automation is trending; enterprises need visibility and control over workflow execution without surrendering operational flexibility.
+
+**Stack hints:** `Go`, `TypeScript`, `PostgreSQL`, `React`, `GraphQL`, `Kubernetes`, `OIDC libraries`
 
 
 
@@ -379,4 +362,4 @@ See [ABOUT.md](ABOUT.md) for full methodology details.
 
 ---
 
-*Generated 2026-10-04 16:32 UTC · commit `784c653`*
+*Generated 2026-10-11 17:25 UTC · commit `ad19c6b`*
