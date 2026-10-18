@@ -1,0 +1,290 @@
+{
+  "week_of": "2026-10-18",
+  "topics": [
+    {
+      "slug": "workflow-automation-and-orchestration",
+      "title": "Workflow automation and orchestration",
+      "summary": "Low-code platforms and distributed execution engines enabling scalable, self-hosted automation with native integrations. Focus on decentralization, cost control, and enterprise governance.",
+      "supporting_repos": [
+        "n8n-io/n8n",
+        "makeplane/plane",
+        "Infisical/infisical"
+      ]
+    },
+    {
+      "slug": "reverse-engineering-and-security-scanning",
+      "title": "Reverse engineering and security scanning",
+      "summary": "Binary analysis, vulnerability detection, and secret scanning tools using fast native implementations. Emphasis on supply-chain security, CVE correlation, and automated remediation.",
+      "supporting_repos": [
+        "NationalSecurityAgency/ghidra",
+        "gitleaks/gitleaks",
+        "aquasecurity/trivy"
+      ]
+    },
+    {
+      "slug": "rust-systems-and-data-tools",
+      "title": "Rust systems and data tools",
+      "summary": "Production-grade systems software and data processing engines prioritizing performance, safety, and ergonomic APIs. Includes async runtimes, search engines, and specialized infrastructure.",
+      "supporting_repos": [
+        "tokio-rs/tokio",
+        "meilisearch/meilisearch",
+        "lance-format/lance"
+      ]
+    },
+    {
+      "slug": "self-hosted-and-privacy-first-platforms",
+      "title": "Self-hosted and privacy-first platforms",
+      "summary": "Open-source alternatives to SaaS with focus on data sovereignty, local-first processing, and decentralized access. Targeting document management, networking, and personal data.",
+      "supporting_repos": [
+        "rustdesk/rustdesk",
+        "paperless-ngx/paperless-ngx",
+        "siyuan-note/siyuan"
+      ]
+    },
+    {
+      "slug": "web-and-fullstack-frameworks",
+      "title": "Web and fullstack frameworks",
+      "summary": "Modern UI and development frameworks emphasizing developer ergonomics, fast builds, and cross-platform deployment. Includes reactive component systems and rapid prototyping.",
+      "supporting_repos": [
+        "sveltejs/svelte",
+        "vitejs/vite",
+        "DioxusLabs/dioxus"
+      ]
+    }
+  ],
+  "whats_new": "Workflow automation and orchestration has solidified as the dominant theme with n8n maintaining peak engagement, reflecting enterprise adoption of decentralized execution patterns. Reverse engineering and security scanning remain high-velocity but now emphasize supply-chain and CVE remediation rather than forensic analysis alone. Rust systems tooling persists with new emphasis on data lakehouse formats (Lance) and distributed search, moving beyond traditional infrastructure. Self-hosted privacy-first platforms show renewed momentum alongside emerging interest in knowledge workspaces (Siyuan) and governance platforms (Bytebase).",
+  "projects": [
+    {
+      "title": "Workflow Cost Attribution Engine",
+      "topic_slug": "workflow-automation-and-orchestration",
+      "scope": "short",
+      "pitch": "Build a TypeScript service that hooks into n8n webhook events, tracks CPU, memory, and third-party API costs per workflow execution, and exposes a simple dashboard showing cost breakdowns by team or department. Include budget alerts and cost forecasting.",
+      "why_now": "Workflow automation platforms are trending; teams need cost visibility to prevent runaway infrastructure expenses without manual log analysis.",
+      "stack_hints": [
+        "TypeScript",
+        "Express",
+        "SQLite",
+        "Chart.js",
+        "node-cron"
+      ]
+    },
+    {
+      "title": "GitOps-Powered Workflow Deployment CLI",
+      "topic_slug": "workflow-automation-and-orchestration",
+      "scope": "medium",
+      "pitch": "Create a Go CLI that exports n8n workflows to version-controlled JSON, detects schema changes, applies Git-based workflows (PRs, approvals), and deploys changes to target environments with automatic rollback on validation failure. Support templating for multi-environment promotion.",
+      "why_now": "Workflow automation is trending; teams need GitOps discipline and audit trails for workflow changes without manual YAML authoring.",
+      "stack_hints": [
+        "Go",
+        "GitHub API",
+        "JSON Schema",
+        "Cobra",
+        "Temporal",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Enterprise Workflow Catalog and Governance Platform",
+      "topic_slug": "workflow-automation-and-orchestration",
+      "scope": "long",
+      "pitch": "Develop a full-stack platform (Go backend, React frontend) that indexes n8n workflows, creates a searchable catalog with usage metrics and cost attribution, enforces approval gates and SLA policies, and tracks lineage and dependencies across workflow ecosystems. Support multi-tenant isolation and custom integrations.",
+      "why_now": "Workflow automation is trending; enterprises need centralized governance and discovery to prevent duplicate workflows and enforce compliance.",
+      "stack_hints": [
+        "Go",
+        "TypeScript",
+        "PostgreSQL",
+        "React",
+        "GraphQL",
+        "Kubernetes",
+        "OpenCost"
+      ]
+    },
+    {
+      "title": "Supply Chain CVE Correlation and Patch Suggester",
+      "topic_slug": "reverse-engineering-and-security-scanning",
+      "scope": "short",
+      "pitch": "Write a Python CLI that ingests Trivy SBOM output, correlates detected CVEs with available patches across package registries, ranks patches by adoption rate and breaking-change risk, and generates prioritized remediation recommendations with estimated effort.",
+      "why_now": "Security scanning is trending; teams face alert fatigue from fragmented vulnerability data\u2014unified patch suggestions reduce triage overhead.",
+      "stack_hints": [
+        "Python",
+        "Trivy API",
+        "requests",
+        "SQLite",
+        "semver",
+        "click"
+      ]
+    },
+    {
+      "title": "Automated Dependency Vulnerability Remediation Orchestrator",
+      "topic_slug": "reverse-engineering-and-security-scanning",
+      "scope": "medium",
+      "pitch": "Build a TypeScript service that watches for Trivy/Gitleaks findings in CI/CD pipelines, automatically creates dependency update branches or rotates secrets via HashiCorp Vault, validates fixes with re-scanning, and opens PRs with audit trail annotations. Include dry-run mode and approval workflows.",
+      "why_now": "Security scanning is trending; manual remediation does not scale\u2014orchestrated fixes with audit trails enable compliance automation.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "GitHub API",
+        "Vault SDK",
+        "PostgreSQL",
+        "Express",
+        "Jest"
+      ]
+    },
+    {
+      "title": "Binary Provenance Verification and Supply Chain Explorer",
+      "topic_slug": "reverse-engineering-and-security-scanning",
+      "scope": "long",
+      "pitch": "Develop a Rust backend with React frontend that ingests Ghidra analyses of production binaries, extracts function signatures and data flow graphs, correlates with known CVEs and malware signatures, visualizes supply chain dependencies, and tracks provenance changes over releases. Include collaborative threat modeling and export for audits.",
+      "why_now": "Reverse engineering and security scanning are trending; enterprises need centralized binary visibility to prevent supply-chain attacks.",
+      "stack_hints": [
+        "Rust",
+        "TypeScript",
+        "Ghidra API",
+        "PostgreSQL",
+        "React",
+        "D3.js",
+        "WebSocket"
+      ]
+    },
+    {
+      "title": "Rust Async Runtime Performance Profiler",
+      "topic_slug": "rust-systems-and-data-tools",
+      "scope": "short",
+      "pitch": "Create a Rust proc-macro and instrumentation library that wraps async functions to capture task wake times, context switches, and lock contention. Generate flamegraphs and timeline visualizations showing Tokio scheduler behavior. Export metrics as JSON for CI integration.",
+      "why_now": "Rust systems tooling is trending; developers tuning async workloads need visibility into scheduler behavior beyond wall-clock timing.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "proc-macro",
+        "pprof",
+        "serde_json",
+        "inferno"
+      ]
+    },
+    {
+      "title": "Rust + Lance Vector Search Index Builder with Python Bindings",
+      "topic_slug": "rust-systems-and-data-tools",
+      "scope": "medium",
+      "pitch": "Build a Rust library that compiles high-dimensional vector indexing strategies (IVF, HNSW) to optimized CPU code using Lance, supports incremental index updates with versioning, and exposes Python bindings for seamless integration with ML workflows. Include cost modeling and index reconstruction hints.",
+      "why_now": "Rust systems and data tools are trending; data scientists need fast, version-tracked vector indexes without manual algorithm selection.",
+      "stack_hints": [
+        "Rust",
+        "lance",
+        "arrow",
+        "pyo3",
+        "ndarray",
+        "rayon"
+      ]
+    },
+    {
+      "title": "Distributed Systems Observability Platform with Rust and Lance",
+      "topic_slug": "rust-systems-and-data-tools",
+      "scope": "long",
+      "pitch": "Develop a full-stack observability system (Rust collector, React frontend) that ingests distributed trace data into Lance for fast columnar storage and vector search, enables semantic span search via embeddings, and visualizes system topology with anomaly detection. Support cloud-agnostic deployment and cost attribution.",
+      "why_now": "Rust systems and data tools are trending; teams need fast trace storage and semantic search without Elasticsearch/DataDog overhead.",
+      "stack_hints": [
+        "Rust",
+        "TypeScript",
+        "lance",
+        "arrow",
+        "tokio",
+        "React",
+        "Kubernetes",
+        "OpenTelemetry"
+      ]
+    },
+    {
+      "title": "Self-Hosted Document OCR and Knowledge Extraction Service",
+      "topic_slug": "self-hosted-and-privacy-first-platforms",
+      "scope": "short",
+      "pitch": "Write a Go service that watches a local directory for PDFs/images, runs OCR via Tesseract, extracts structured data (tables, key-value pairs) using local LLM inference, and indexes results into a searchable SQLite database exposed via REST. Deploy as single Docker container.",
+      "why_now": "Self-hosted platforms are trending; organizations need privacy-respecting document processing without cloud upload or subscription.",
+      "stack_hints": [
+        "Go",
+        "Tesseract",
+        "Ollama",
+        "SQLite",
+        "fsnotify",
+        "Echo"
+      ]
+    },
+    {
+      "title": "Self-Hosted Task Management with AI-Powered Scheduling",
+      "topic_slug": "self-hosted-and-privacy-first-platforms",
+      "scope": "medium",
+      "pitch": "Build a TypeScript application (SvelteKit frontend, Node.js backend) that indexes personal tasks and calendar, runs local LLM inference to suggest optimal scheduling based on energy patterns and deadlines, and generates weekly plans with offline-first sync. Include collaborative features for households.",
+      "why_now": "Self-hosted platforms are trending; users want productivity tools that learn personal patterns without sharing data with cloud services.",
+      "stack_hints": [
+        "TypeScript",
+        "SvelteKit",
+        "Node.js",
+        "Ollama",
+        "SQLite",
+        "CRDTs",
+        "WebSocket"
+      ]
+    },
+    {
+      "title": "Decentralized Personal Knowledge Graph with P2P Sync",
+      "topic_slug": "self-hosted-and-privacy-first-platforms",
+      "scope": "long",
+      "pitch": "Develop a Rust backend with React frontend that stores personal knowledge as a graph database with P2P sync using Iroh, supports offline-first editing with CRDTs, runs local semantic search and entity linking via embeddings, and enables selective sharing with family/colleagues without centralized servers.",
+      "why_now": "Self-hosted platforms are trending; users want knowledge tools that remain private yet enable selective collaboration across devices and people.",
+      "stack_hints": [
+        "Rust",
+        "TypeScript",
+        "Iroh",
+        "Yrs",
+        "Sled",
+        "React",
+        "WebAssembly"
+      ]
+    },
+    {
+      "title": "Svelte Component Snapshot Testing and Regression Detection",
+      "topic_slug": "web-and-fullstack-frameworks",
+      "scope": "short",
+      "pitch": "Create a TypeScript test utility that captures visual diffs of Svelte components across versions, generates baseline snapshots, and flags pixel-level regressions. Integrate with CI/CD pipelines and generate HTML reports with side-by-side comparisons.",
+      "why_now": "Web frameworks are trending; component-driven development needs automated visual regression testing without heavy dependencies.",
+      "stack_hints": [
+        "TypeScript",
+        "Svelte",
+        "Vitest",
+        "Playwright",
+        "jimp"
+      ]
+    },
+    {
+      "title": "Vite Plugin Marketplace and Performance Analyzer",
+      "topic_slug": "web-and-fullstack-frameworks",
+      "scope": "medium",
+      "pitch": "Build a TypeScript service that discovers, catalogs, and benchmarks Vite plugins against build time and bundle size metrics. Create a web interface to search plugins by use case, compare performance, and generate optimal plugin configurations for project types.",
+      "why_now": "Web frameworks are trending; developers struggle to choose among hundreds of Vite plugins without performance data.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "Vite",
+        "esbuild",
+        "React",
+        "SQLite",
+        "GitHub API"
+      ]
+    },
+    {
+      "title": "Fullstack Reactive Data Binding Framework with Dioxus",
+      "topic_slug": "web-and-fullstack-frameworks",
+      "scope": "long",
+      "pitch": "Create a Rust framework that extends Dioxus with server-driven reactive data binding\u2014components declare data dependencies, the framework automatically manages client-server sync with incremental updates, and generates type-safe TypeScript clients. Support offline-first with local cache invalidation.",
+      "why_now": "Web and fullstack frameworks are trending; developers need seamless reactive data flow between Rust backends and UIs without manual API coordination.",
+      "stack_hints": [
+        "Rust",
+        "Dioxus",
+        "tokio",
+        "SQLx",
+        "TypeScript",
+        "CRDTs",
+        "WebSocket"
+      ]
+    }
+  ]
+}
