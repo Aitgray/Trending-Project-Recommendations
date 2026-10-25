@@ -1,103 +1,119 @@
 # Trending Project Ideas
 
-**Week of 2026-10-18** | [About this project](ABOUT.md)
+**Week of 2026-10-25** | [About this project](ABOUT.md)
 
 ---
 
 > **What's new this week**
 >
-> Workflow automation and orchestration has solidified as the dominant theme with n8n maintaining peak engagement, reflecting enterprise adoption of decentralized execution patterns. Reverse engineering and security scanning remain high-velocity but now emphasize supply-chain and CVE remediation rather than forensic analysis alone. Rust systems tooling persists with new emphasis on data lakehouse formats (Lance) and distributed search, moving beyond traditional infrastructure. Self-hosted privacy-first platforms show renewed momentum alongside emerging interest in knowledge workspaces (Siyuan) and governance platforms (Bytebase).
+> Self-hosted media and data systems emerge as a cohesive new theme, driven by Immich's sustained trending and complemented by privacy-focused alternatives like RustDesk and Joplin. Rust-native performance tools have expanded significantly beyond async runtimes to encompass entire ecosystems (Bun, Ruff, Lance), reflecting growing adoption of Rust for end-user tooling rather than infrastructure alone. Security scanning persists but shifts focus toward supply-chain visibility (SBOM, credential verification) over point-in-time vulnerability detection. AI/ML infrastructure consolidates around foundation model training and symbolic reasoning rather than application-level inference frameworks, signaling enterprise maturation.
 
 ---
 
 ## Trending Topics
 
 
-### Workflow automation and orchestration
+### Self-hosted media and data systems
 
-Low-code platforms and distributed execution engines enabling scalable, self-hosted automation with native integrations. Focus on decentralization, cost control, and enterprise governance.
-
-<details>
-<summary>Supporting repos (3)</summary>
-
-
-- [n8n-io/n8n](https://github.com/n8n-io/n8n)
-
-- [makeplane/plane](https://github.com/makeplane/plane)
-
-- [Infisical/infisical](https://github.com/Infisical/infisical)
-
-
-</details>
-
-
-### Reverse engineering and security scanning
-
-Binary analysis, vulnerability detection, and secret scanning tools using fast native implementations. Emphasis on supply-chain security, CVE correlation, and automated remediation.
+Open-source alternatives for photo/video management, note-taking, and remote access that prioritize privacy and local-first architectures. Emphasis on high-performance storage, sync strategies, and decentralized protocols.
 
 <details>
 <summary>Supporting repos (3)</summary>
 
 
-- [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
+- [immich-app/immich](https://github.com/immich-app/immich)
 
-- [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
-
-- [aquasecurity/trivy](https://github.com/aquasecurity/trivy)
-
-
-</details>
-
-
-### Rust systems and data tools
-
-Production-grade systems software and data processing engines prioritizing performance, safety, and ergonomic APIs. Includes async runtimes, search engines, and specialized infrastructure.
-
-<details>
-<summary>Supporting repos (3)</summary>
-
-
-- [tokio-rs/tokio](https://github.com/tokio-rs/tokio)
-
-- [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
-
-- [lance-format/lance](https://github.com/lance-format/lance)
-
-
-</details>
-
-
-### Self-hosted and privacy-first platforms
-
-Open-source alternatives to SaaS with focus on data sovereignty, local-first processing, and decentralized access. Targeting document management, networking, and personal data.
-
-<details>
-<summary>Supporting repos (3)</summary>
-
+- [laurent22/joplin](https://github.com/laurent22/joplin)
 
 - [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
 
-- [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
 
-- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)
+</details>
+
+
+### Rust-native performance tools
+
+High-performance systems software prioritizing speed, correctness, and ergonomic APIs. Covers binary-level instrumentation, search engines, data formats, and runtime observability without sacrificing safety.
+
+<details>
+<summary>Supporting repos (7)</summary>
+
+
+- [oven-sh/bun](https://github.com/oven-sh/bun)
+
+- [sharkdp/fd](https://github.com/sharkdp/fd)
+
+- [tokio-rs/tokio](https://github.com/tokio-rs/tokio)
+
+- [lance-format/lance](https://github.com/lance-format/lance)
+
+- [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
+
+- [astral-sh/ruff](https://github.com/astral-sh/ruff)
+
+- [helix-editor/helix](https://github.com/helix-editor/helix)
 
 
 </details>
 
 
-### Web and fullstack frameworks
+### Security and vulnerability intelligence
 
-Modern UI and development frameworks emphasizing developer ergonomics, fast builds, and cross-platform deployment. Includes reactive component systems and rapid prototyping.
+Tools for scanning containers, code, and binaries for vulnerabilities, misconfigurations, and secrets with emphasis on supply-chain visibility and automated remediation. Includes SBOM generation and credential verification.
+
+<details>
+<summary>Supporting repos (5)</summary>
+
+
+- [aquasecurity/trivy](https://github.com/aquasecurity/trivy)
+
+- [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)
+
+- [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
+
+- [anchore/syft](https://github.com/anchore/syft)
+
+- [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
+
+
+</details>
+
+
+### AI and ML infrastructure
+
+Foundational frameworks and tools for training, deploying, and reasoning with large language and multimodal models. Focus on scalability, symbolic reasoning, and production-grade distributed systems.
 
 <details>
 <summary>Supporting repos (3)</summary>
 
 
-- [sveltejs/svelte](https://github.com/sveltejs/svelte)
+- [huggingface/transformers](https://github.com/huggingface/transformers)
+
+- [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
+
+- [astroautomata/PySR](https://github.com/astroautomata/PySR)
+
+
+</details>
+
+
+### Developer tooling and platforms
+
+Modern build systems, deployment platforms, and infrastructure-as-code solutions enabling rapid iteration and multi-cloud orchestration. Includes package managers, HTTP servers, and headless CMS backends.
+
+<details>
+<summary>Supporting repos (5)</summary>
+
 
 - [vitejs/vite](https://github.com/vitejs/vite)
 
-- [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus)
+- [coollabsio/coolify](https://github.com/coollabsio/coolify)
+
+- [caddyserver/caddy](https://github.com/caddyserver/caddy)
+
+- [directus/directus](https://github.com/directus/directus)
+
+- [encoredev/encore](https://github.com/encoredev/encore)
 
 
 </details>
@@ -112,80 +128,80 @@ Modern UI and development frameworks emphasizing developer ergonomics, fast buil
 
 
 
-#### Workflow automation and orchestration
+#### Self-hosted media and data systems
 
 
-##### Workflow Cost Attribution Engine
+##### Immich Plugin Marketplace and Performance Registry
 
-Build a TypeScript service that hooks into n8n webhook events, tracks CPU, memory, and third-party API costs per workflow execution, and exposes a simple dashboard showing cost breakdowns by team or department. Include budget alerts and cost forecasting.
+Build a TypeScript service that indexes, catalogs, and benchmarks Immich plugins (storage backends, sync protocols, thumbnail generators). Create a searchable registry with performance metrics (thumbnail generation time, memory footprint, sync latency), community ratings, and compatibility matrices across Immich versions. Expose via REST API and static HTML marketplace.
 
-**Why now:** Workflow automation platforms are trending; teams need cost visibility to prevent runaway infrastructure expenses without manual log analysis.
+**Why now:** Self-hosted media systems are trending; users need transparent performance data to choose plugins without trial-and-error or vendor lock-in.
 
-**Stack hints:** `TypeScript`, `Express`, `SQLite`, `Chart.js`, `node-cron`
-
-
-
-
-
-
-#### Reverse engineering and security scanning
-
-
-##### Supply Chain CVE Correlation and Patch Suggester
-
-Write a Python CLI that ingests Trivy SBOM output, correlates detected CVEs with available patches across package registries, ranks patches by adoption rate and breaking-change risk, and generates prioritized remediation recommendations with estimated effort.
-
-**Why now:** Security scanning is trending; teams face alert fatigue from fragmented vulnerability data—unified patch suggestions reduce triage overhead.
-
-**Stack hints:** `Python`, `Trivy API`, `requests`, `SQLite`, `semver`, `click`
+**Stack hints:** `TypeScript`, `Express`, `SQLite`, `GitHub API`, `Chart.js`
 
 
 
 
 
 
-#### Rust systems and data tools
+#### Rust-native performance tools
 
 
-##### Rust Async Runtime Performance Profiler
+##### Rust CLI Tool Benchmarking Dashboard
 
-Create a Rust proc-macro and instrumentation library that wraps async functions to capture task wake times, context switches, and lock contention. Generate flamegraphs and timeline visualizations showing Tokio scheduler behavior. Export metrics as JSON for CI integration.
+Create a Bash + Rust harness that benchmarks Rust CLI tools (fd, ruff, ripgrep) against their predecessors and alternatives on standard workloads, capturing runtime, memory, and latency percentiles. Generate a simple HTML dashboard with comparison tables, export results as JSON for CI/CD integration.
 
-**Why now:** Rust systems tooling is trending; developers tuning async workloads need visibility into scheduler behavior beyond wall-clock timing.
+**Why now:** Rust-native tools are trending; developers making tool-chain migrations need objective performance data to justify adoption.
 
-**Stack hints:** `Rust`, `tokio`, `proc-macro`, `pprof`, `serde_json`, `inferno`
-
-
-
-
-
-
-#### Self-hosted and privacy-first platforms
-
-
-##### Self-Hosted Document OCR and Knowledge Extraction Service
-
-Write a Go service that watches a local directory for PDFs/images, runs OCR via Tesseract, extracts structured data (tables, key-value pairs) using local LLM inference, and indexes results into a searchable SQLite database exposed via REST. Deploy as single Docker container.
-
-**Why now:** Self-hosted platforms are trending; organizations need privacy-respecting document processing without cloud upload or subscription.
-
-**Stack hints:** `Go`, `Tesseract`, `Ollama`, `SQLite`, `fsnotify`, `Echo`
+**Stack hints:** `Rust`, `bash`, `hyperfine`, `serde`, `handlebars`
 
 
 
 
 
 
-#### Web and fullstack frameworks
+#### Security and vulnerability intelligence
 
 
-##### Svelte Component Snapshot Testing and Regression Detection
+##### Supply Chain CVE Impact Simulator
 
-Create a TypeScript test utility that captures visual diffs of Svelte components across versions, generates baseline snapshots, and flags pixel-level regressions. Integrate with CI/CD pipelines and generate HTML reports with side-by-side comparisons.
+Write a Python CLI that ingests Syft SBOM output, correlates with Trivy CVE results, and simulates the impact of each CVE on your deployment (e.g., 'if this service is exposed to the internet, this CVE is exploitable'). Generate a risk matrix with severity vs. exploitability and export recommendations.
 
-**Why now:** Web frameworks are trending; component-driven development needs automated visual regression testing without heavy dependencies.
+**Why now:** Security scanning is trending; teams drown in vulnerability alerts and need contextual prioritization to focus on exploitable issues.
 
-**Stack hints:** `TypeScript`, `Svelte`, `Vitest`, `Playwright`, `jimp`
+**Stack hints:** `Python`, `click`, `requests`, `SQLite`, `semver`
+
+
+
+
+
+
+#### AI and ML infrastructure
+
+
+##### LLM Fine-Tuning Cost and Performance Trade-Off Calculator
+
+Build a TypeScript tool that accepts model size, dataset size, and target accuracy metrics, then predicts fine-tuning cost (compute hours, GPU rental), training time, and inference latency. Compare strategies (LoRA vs. full fine-tune vs. in-context learning) and generate a Pareto frontier visualization.
+
+**Why now:** AI/ML infrastructure is trending; practitioners need decision support to choose between expensive full training and cheaper in-context alternatives.
+
+**Stack hints:** `TypeScript`, `Node.js`, `plotly.js`, `axios`
+
+
+
+
+
+
+#### Developer tooling and platforms
+
+
+##### Developer Platform Deployment Manifest Generator
+
+Create a Go CLI that scaffolds deployment manifests (Docker Compose, Kubernetes YAML, Terraform) from declarative YAML describing services, databases, environment variables, and networking. Support Coolify, Directus, and other self-hosted platforms as opinionated templates.
+
+**Why now:** Developer tooling platforms are trending; teams need faster onboarding without manual YAML authoring for multi-service deployments.
+
+**Stack hints:** `Go`, `Cobra`, `yaml`, `text/template`
 
 
 
@@ -198,80 +214,80 @@ Create a TypeScript test utility that captures visual diffs of Svelte components
 
 
 
-#### Workflow automation and orchestration
+#### Self-hosted media and data systems
 
 
-##### GitOps-Powered Workflow Deployment CLI
+##### Self-Hosted Media Library Deduplication and Organization Engine
 
-Create a Go CLI that exports n8n workflows to version-controlled JSON, detects schema changes, applies Git-based workflows (PRs, approvals), and deploys changes to target environments with automatic rollback on validation failure. Support templating for multi-environment promotion.
+Build a TypeScript service (Node.js backend) that connects to Immich, analyzes photo/video metadata and perceptual hashes, detects duplicates and near-duplicates, suggests organized directory hierarchies based on EXIF and ML-extracted tags, and generates batch organization commands. Support dry-run previews and rollback.
 
-**Why now:** Workflow automation is trending; teams need GitOps discipline and audit trails for workflow changes without manual YAML authoring.
+**Why now:** Self-hosted media systems are trending; users accumulate chaotic photo libraries and need intelligent bulk organization tools.
 
-**Stack hints:** `Go`, `GitHub API`, `JSON Schema`, `Cobra`, `Temporal`, `PostgreSQL`
-
-
-
-
-
-
-#### Reverse engineering and security scanning
-
-
-##### Automated Dependency Vulnerability Remediation Orchestrator
-
-Build a TypeScript service that watches for Trivy/Gitleaks findings in CI/CD pipelines, automatically creates dependency update branches or rotates secrets via HashiCorp Vault, validates fixes with re-scanning, and opens PRs with audit trail annotations. Include dry-run mode and approval workflows.
-
-**Why now:** Security scanning is trending; manual remediation does not scale—orchestrated fixes with audit trails enable compliance automation.
-
-**Stack hints:** `TypeScript`, `Node.js`, `GitHub API`, `Vault SDK`, `PostgreSQL`, `Express`, `Jest`
+**Stack hints:** `TypeScript`, `Node.js`, `sharp`, `phash`, `Express`, `SQLite`, `WebSocket`
 
 
 
 
 
 
-#### Rust systems and data tools
+#### Rust-native performance tools
 
 
-##### Rust + Lance Vector Search Index Builder with Python Bindings
+##### Rust Async Runtime Profiler with Timeline Visualization
 
-Build a Rust library that compiles high-dimensional vector indexing strategies (IVF, HNSW) to optimized CPU code using Lance, supports incremental index updates with versioning, and exposes Python bindings for seamless integration with ML workflows. Include cost modeling and index reconstruction hints.
+Build a Rust library that instruments Tokio tasks with proc-macros to capture task spawning, wake times, and executor queue depth. Generate interactive timeline visualizations (similar to Chrome DevTools traces) showing scheduler behavior, lock contention, and task scheduling anomalies. Export flamegraphs and JSON traces.
 
-**Why now:** Rust systems and data tools are trending; data scientists need fast, version-tracked vector indexes without manual algorithm selection.
+**Why now:** Rust-native tools are trending; developers tuning async workloads need visualization of scheduler behavior beyond wall-clock timing.
 
-**Stack hints:** `Rust`, `lance`, `arrow`, `pyo3`, `ndarray`, `rayon`
-
-
-
-
-
-
-#### Self-hosted and privacy-first platforms
-
-
-##### Self-Hosted Task Management with AI-Powered Scheduling
-
-Build a TypeScript application (SvelteKit frontend, Node.js backend) that indexes personal tasks and calendar, runs local LLM inference to suggest optimal scheduling based on energy patterns and deadlines, and generates weekly plans with offline-first sync. Include collaborative features for households.
-
-**Why now:** Self-hosted platforms are trending; users want productivity tools that learn personal patterns without sharing data with cloud services.
-
-**Stack hints:** `TypeScript`, `SvelteKit`, `Node.js`, `Ollama`, `SQLite`, `CRDTs`, `WebSocket`
+**Stack hints:** `Rust`, `tokio`, `proc-macro`, `tracing`, `pprof`, `serde`, `React`
 
 
 
 
 
 
-#### Web and fullstack frameworks
+#### Security and vulnerability intelligence
 
 
-##### Vite Plugin Marketplace and Performance Analyzer
+##### Automated Security Remediation Workflow Orchestrator
 
-Build a TypeScript service that discovers, catalogs, and benchmarks Vite plugins against build time and bundle size metrics. Create a web interface to search plugins by use case, compare performance, and generate optimal plugin configurations for project types.
+Build a TypeScript service that watches CI/CD for Trivy and TruffleHog findings, automatically creates remediation branches (dependency updates via Dependabot, secret rotations via Vault), re-scans to validate fixes, and opens PRs with audit trail annotations. Include dry-run mode and approval workflows for sensitive operations.
 
-**Why now:** Web frameworks are trending; developers struggle to choose among hundreds of Vite plugins without performance data.
+**Why now:** Security scanning is trending; manual remediation does not scale—automated orchestration with audit trails enables compliance without overhead.
 
-**Stack hints:** `TypeScript`, `Node.js`, `Vite`, `esbuild`, `React`, `SQLite`, `GitHub API`
+**Stack hints:** `TypeScript`, `Node.js`, `GitHub API`, `Vault SDK`, `PostgreSQL`, `Express`, `Bull`
+
+
+
+
+
+
+#### AI and ML infrastructure
+
+
+##### Foundation Model Training Pipeline Coordinator
+
+Build a Python/Rust service that orchestrates multi-GPU training workflows (using Megatron-LM patterns) across cloud providers, manages checkpointing and resumption, tracks training metrics and logs to observability backends, and exposes a dashboard for monitoring distributed training jobs. Support failure recovery and resource auto-scaling.
+
+**Why now:** AI/ML infrastructure is trending; teams training foundation models need robust orchestration and observability without building from scratch.
+
+**Stack hints:** `Python`, `Rust`, `PyTorch`, `Megatron-LM`, `Ray`, `PostgreSQL`, `OpenTelemetry`, `React`
+
+
+
+
+
+
+#### Developer tooling and platforms
+
+
+##### Multi-Cloud Infrastructure Deployment Validation Engine
+
+Create a Go tool that accepts declarative infrastructure code (Terraform, Helm, Coolify manifests), simulates deployments across AWS, GCP, and Azure, detects misconfigurations, cost overruns, and compliance violations before applying changes. Generate before/after reports and automated fixes.
+
+**Why now:** Developer platforms are trending; teams need pre-deployment validation to prevent costly mistakes and compliance breaches.
+
+**Stack hints:** `Go`, `Terraform SDK`, `policy-as-code`, `PostgreSQL`, `React`
 
 
 
@@ -284,80 +300,80 @@ Build a TypeScript service that discovers, catalogs, and benchmarks Vite plugins
 
 
 
-#### Workflow automation and orchestration
+#### Self-hosted media and data systems
 
 
-##### Enterprise Workflow Catalog and Governance Platform
+##### Privacy-Preserving Photo Sync Service with P2P and Self-Hosted Options
 
-Develop a full-stack platform (Go backend, React frontend) that indexes n8n workflows, creates a searchable catalog with usage metrics and cost attribution, enforces approval gates and SLA policies, and tracks lineage and dependencies across workflow ecosystems. Support multi-tenant isolation and custom integrations.
+Develop a full-stack photo management service (Rust backend, TypeScript frontend) that integrates with Immich, enables P2P sync between user devices using Iroh, supports selective sharing without central cloud upload, runs face recognition and clustering locally via ONNX, and provides web access with end-to-end encryption. Support offline-first mobile clients with CRDT-based conflict resolution.
 
-**Why now:** Workflow automation is trending; enterprises need centralized governance and discovery to prevent duplicate workflows and enforce compliance.
+**Why now:** Self-hosted media systems are trending; photographers need privacy-respecting sync across devices and secure sharing without cloud intermediaries.
 
-**Stack hints:** `Go`, `TypeScript`, `PostgreSQL`, `React`, `GraphQL`, `Kubernetes`, `OpenCost`
-
-
-
-
-
-
-#### Reverse engineering and security scanning
-
-
-##### Binary Provenance Verification and Supply Chain Explorer
-
-Develop a Rust backend with React frontend that ingests Ghidra analyses of production binaries, extracts function signatures and data flow graphs, correlates with known CVEs and malware signatures, visualizes supply chain dependencies, and tracks provenance changes over releases. Include collaborative threat modeling and export for audits.
-
-**Why now:** Reverse engineering and security scanning are trending; enterprises need centralized binary visibility to prevent supply-chain attacks.
-
-**Stack hints:** `Rust`, `TypeScript`, `Ghidra API`, `PostgreSQL`, `React`, `D3.js`, `WebSocket`
+**Stack hints:** `Rust`, `TypeScript`, `Iroh`, `Tokio`, `ONNX`, `SQLite`, `React`, `Yrs`
 
 
 
 
 
 
-#### Rust systems and data tools
+#### Rust-native performance tools
 
 
-##### Distributed Systems Observability Platform with Rust and Lance
+##### Comprehensive Rust Ecosystem Performance Benchmarking Platform
 
-Develop a full-stack observability system (Rust collector, React frontend) that ingests distributed trace data into Lance for fast columnar storage and vector search, enables semantic span search via embeddings, and visualizes system topology with anomaly detection. Support cloud-agnostic deployment and cost attribution.
+Build a full-stack benchmarking platform (Rust backend, React frontend) that measures Rust libraries and tools against competitors across CPU, memory, latency, and power consumption. Support continuous benchmarking on each GitHub commit, trend analysis, regression detection, and export standard benchmark formats. Include integration with CI/CD pipelines.
 
-**Why now:** Rust systems and data tools are trending; teams need fast trace storage and semantic search without Elasticsearch/DataDog overhead.
+**Why now:** Rust-native tools are trending; the ecosystem needs centralized, authoritative performance data to guide adoption and optimization.
 
-**Stack hints:** `Rust`, `TypeScript`, `lance`, `arrow`, `tokio`, `React`, `Kubernetes`, `OpenTelemetry`
-
-
-
-
-
-
-#### Self-hosted and privacy-first platforms
-
-
-##### Decentralized Personal Knowledge Graph with P2P Sync
-
-Develop a Rust backend with React frontend that stores personal knowledge as a graph database with P2P sync using Iroh, supports offline-first editing with CRDTs, runs local semantic search and entity linking via embeddings, and enables selective sharing with family/colleagues without centralized servers.
-
-**Why now:** Self-hosted platforms are trending; users want knowledge tools that remain private yet enable selective collaboration across devices and people.
-
-**Stack hints:** `Rust`, `TypeScript`, `Iroh`, `Yrs`, `Sled`, `React`, `WebAssembly`
+**Stack hints:** `Rust`, `TypeScript`, `Criterion`, `tokio`, `PostgreSQL`, `React`, `GitHub API`, `D3.js`
 
 
 
 
 
 
-#### Web and fullstack frameworks
+#### Security and vulnerability intelligence
 
 
-##### Fullstack Reactive Data Binding Framework with Dioxus
+##### Supply Chain Integrity Verification and Attestation Platform
 
-Create a Rust framework that extends Dioxus with server-driven reactive data binding—components declare data dependencies, the framework automatically manages client-server sync with incremental updates, and generates type-safe TypeScript clients. Support offline-first with local cache invalidation.
+Develop a full-stack platform (Go backend, React frontend) that ingests SBOMs from Syft and Trivy results, correlates with binary provenance data, verifies cryptographic signatures and attestations, tracks dependency lineage over time, and generates compliance reports for audits. Support integration with signed artifact registries (Sigstore, cosign).
 
-**Why now:** Web and fullstack frameworks are trending; developers need seamless reactive data flow between Rust backends and UIs without manual API coordination.
+**Why now:** Security scanning is trending; enterprises need end-to-end supply chain visibility with cryptographic proof of integrity and provenance.
 
-**Stack hints:** `Rust`, `Dioxus`, `tokio`, `SQLx`, `TypeScript`, `CRDTs`, `WebSocket`
+**Stack hints:** `Go`, `TypeScript`, `Sigstore`, `cosign`, `PostgreSQL`, `React`, `gRPC`, `D3.js`
+
+
+
+
+
+
+#### AI and ML infrastructure
+
+
+##### Distributed ML Training Orchestration and Cost Attribution System
+
+Develop a production-grade system (Python/Rust backend, React frontend) that orchestrates distributed training jobs for foundation models using Megatron-LM, tracks resource utilization per job, attributes costs to teams/projects, predicts training time and cost before execution, and optimizes hyperparameters for cost efficiency. Support multi-cloud deployment and preemption-aware scheduling.
+
+**Why now:** AI/ML infrastructure is trending; enterprises training foundation models need visibility into training costs and automated optimization to prevent runaway expenses.
+
+**Stack hints:** `Python`, `Rust`, `PyTorch`, `Ray`, `Kubernetes`, `PostgreSQL`, `Prometheus`, `React`
+
+
+
+
+
+
+#### Developer tooling and platforms
+
+
+##### Universal Infrastructure-as-Code Testing and Validation Framework
+
+Build a comprehensive framework (Go backend, TypeScript CLI and React dashboard) that validates infrastructure code (Terraform, Helm, Coolify manifests, Docker Compose) for security, performance, cost, and compliance. Support policy-as-code templates, pre-deployment simulation, cost estimation, and post-deployment assertion testing. Generate audit trails for compliance.
+
+**Why now:** Developer platforms are trending; teams managing multi-cloud infrastructure need unified validation and compliance checking across different IaC tools.
+
+**Stack hints:** `Go`, `TypeScript`, `Terraform SDK`, `policy-as-code`, `Kubernetes`, `PostgreSQL`, `React`, `OpenCost`
 
 
 
@@ -377,4 +393,4 @@ See [ABOUT.md](ABOUT.md) for full methodology details.
 
 ---
 
-*Generated 2026-10-18 15:28 UTC · commit `87fd0c8`*
+*Generated 2026-10-25 15:39 UTC · commit `9342900`*

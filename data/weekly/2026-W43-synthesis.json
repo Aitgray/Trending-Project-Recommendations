@@ -1,0 +1,298 @@
+{
+  "week_of": "2026-10-25",
+  "topics": [
+    {
+      "slug": "self-hosted-media-and-data-systems",
+      "title": "Self-hosted media and data systems",
+      "summary": "Open-source alternatives for photo/video management, note-taking, and remote access that prioritize privacy and local-first architectures. Emphasis on high-performance storage, sync strategies, and decentralized protocols.",
+      "supporting_repos": [
+        "immich-app/immich",
+        "laurent22/joplin",
+        "rustdesk/rustdesk"
+      ]
+    },
+    {
+      "slug": "rust-native-performance-tools",
+      "title": "Rust-native performance tools",
+      "summary": "High-performance systems software prioritizing speed, correctness, and ergonomic APIs. Covers binary-level instrumentation, search engines, data formats, and runtime observability without sacrificing safety.",
+      "supporting_repos": [
+        "oven-sh/bun",
+        "sharkdp/fd",
+        "tokio-rs/tokio",
+        "lance-format/lance",
+        "meilisearch/meilisearch",
+        "astral-sh/ruff",
+        "helix-editor/helix"
+      ]
+    },
+    {
+      "slug": "security-and-vulnerability-intelligence",
+      "title": "Security and vulnerability intelligence",
+      "summary": "Tools for scanning containers, code, and binaries for vulnerabilities, misconfigurations, and secrets with emphasis on supply-chain visibility and automated remediation. Includes SBOM generation and credential verification.",
+      "supporting_repos": [
+        "aquasecurity/trivy",
+        "projectdiscovery/nuclei-templates",
+        "trufflesecurity/trufflehog",
+        "anchore/syft",
+        "projectdiscovery/nuclei"
+      ]
+    },
+    {
+      "slug": "ai-and-ml-infrastructure",
+      "title": "AI and ML infrastructure",
+      "summary": "Foundational frameworks and tools for training, deploying, and reasoning with large language and multimodal models. Focus on scalability, symbolic reasoning, and production-grade distributed systems.",
+      "supporting_repos": [
+        "huggingface/transformers",
+        "NVIDIA/Megatron-LM",
+        "astroautomata/PySR"
+      ]
+    },
+    {
+      "slug": "developer-tooling-and-platforms",
+      "title": "Developer tooling and platforms",
+      "summary": "Modern build systems, deployment platforms, and infrastructure-as-code solutions enabling rapid iteration and multi-cloud orchestration. Includes package managers, HTTP servers, and headless CMS backends.",
+      "supporting_repos": [
+        "vitejs/vite",
+        "coollabsio/coolify",
+        "caddyserver/caddy",
+        "directus/directus",
+        "encoredev/encore"
+      ]
+    }
+  ],
+  "whats_new": "Self-hosted media and data systems emerge as a cohesive new theme, driven by Immich's sustained trending and complemented by privacy-focused alternatives like RustDesk and Joplin. Rust-native performance tools have expanded significantly beyond async runtimes to encompass entire ecosystems (Bun, Ruff, Lance), reflecting growing adoption of Rust for end-user tooling rather than infrastructure alone. Security scanning persists but shifts focus toward supply-chain visibility (SBOM, credential verification) over point-in-time vulnerability detection. AI/ML infrastructure consolidates around foundation model training and symbolic reasoning rather than application-level inference frameworks, signaling enterprise maturation.",
+  "projects": [
+    {
+      "title": "Immich Plugin Marketplace and Performance Registry",
+      "topic_slug": "self-hosted-media-and-data-systems",
+      "scope": "short",
+      "pitch": "Build a TypeScript service that indexes, catalogs, and benchmarks Immich plugins (storage backends, sync protocols, thumbnail generators). Create a searchable registry with performance metrics (thumbnail generation time, memory footprint, sync latency), community ratings, and compatibility matrices across Immich versions. Expose via REST API and static HTML marketplace.",
+      "why_now": "Self-hosted media systems are trending; users need transparent performance data to choose plugins without trial-and-error or vendor lock-in.",
+      "stack_hints": [
+        "TypeScript",
+        "Express",
+        "SQLite",
+        "GitHub API",
+        "Chart.js"
+      ]
+    },
+    {
+      "title": "Rust CLI Tool Benchmarking Dashboard",
+      "topic_slug": "rust-native-performance-tools",
+      "scope": "short",
+      "pitch": "Create a Bash + Rust harness that benchmarks Rust CLI tools (fd, ruff, ripgrep) against their predecessors and alternatives on standard workloads, capturing runtime, memory, and latency percentiles. Generate a simple HTML dashboard with comparison tables, export results as JSON for CI/CD integration.",
+      "why_now": "Rust-native tools are trending; developers making tool-chain migrations need objective performance data to justify adoption.",
+      "stack_hints": [
+        "Rust",
+        "bash",
+        "hyperfine",
+        "serde",
+        "handlebars"
+      ]
+    },
+    {
+      "title": "Supply Chain CVE Impact Simulator",
+      "topic_slug": "security-and-vulnerability-intelligence",
+      "scope": "short",
+      "pitch": "Write a Python CLI that ingests Syft SBOM output, correlates with Trivy CVE results, and simulates the impact of each CVE on your deployment (e.g., 'if this service is exposed to the internet, this CVE is exploitable'). Generate a risk matrix with severity vs. exploitability and export recommendations.",
+      "why_now": "Security scanning is trending; teams drown in vulnerability alerts and need contextual prioritization to focus on exploitable issues.",
+      "stack_hints": [
+        "Python",
+        "click",
+        "requests",
+        "SQLite",
+        "semver"
+      ]
+    },
+    {
+      "title": "LLM Fine-Tuning Cost and Performance Trade-Off Calculator",
+      "topic_slug": "ai-and-ml-infrastructure",
+      "scope": "short",
+      "pitch": "Build a TypeScript tool that accepts model size, dataset size, and target accuracy metrics, then predicts fine-tuning cost (compute hours, GPU rental), training time, and inference latency. Compare strategies (LoRA vs. full fine-tune vs. in-context learning) and generate a Pareto frontier visualization.",
+      "why_now": "AI/ML infrastructure is trending; practitioners need decision support to choose between expensive full training and cheaper in-context alternatives.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "plotly.js",
+        "axios"
+      ]
+    },
+    {
+      "title": "Developer Platform Deployment Manifest Generator",
+      "topic_slug": "developer-tooling-and-platforms",
+      "scope": "short",
+      "pitch": "Create a Go CLI that scaffolds deployment manifests (Docker Compose, Kubernetes YAML, Terraform) from declarative YAML describing services, databases, environment variables, and networking. Support Coolify, Directus, and other self-hosted platforms as opinionated templates.",
+      "why_now": "Developer tooling platforms are trending; teams need faster onboarding without manual YAML authoring for multi-service deployments.",
+      "stack_hints": [
+        "Go",
+        "Cobra",
+        "yaml",
+        "text/template"
+      ]
+    },
+    {
+      "title": "Self-Hosted Media Library Deduplication and Organization Engine",
+      "topic_slug": "self-hosted-media-and-data-systems",
+      "scope": "medium",
+      "pitch": "Build a TypeScript service (Node.js backend) that connects to Immich, analyzes photo/video metadata and perceptual hashes, detects duplicates and near-duplicates, suggests organized directory hierarchies based on EXIF and ML-extracted tags, and generates batch organization commands. Support dry-run previews and rollback.",
+      "why_now": "Self-hosted media systems are trending; users accumulate chaotic photo libraries and need intelligent bulk organization tools.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "sharp",
+        "phash",
+        "Express",
+        "SQLite",
+        "WebSocket"
+      ]
+    },
+    {
+      "title": "Rust Async Runtime Profiler with Timeline Visualization",
+      "topic_slug": "rust-native-performance-tools",
+      "scope": "medium",
+      "pitch": "Build a Rust library that instruments Tokio tasks with proc-macros to capture task spawning, wake times, and executor queue depth. Generate interactive timeline visualizations (similar to Chrome DevTools traces) showing scheduler behavior, lock contention, and task scheduling anomalies. Export flamegraphs and JSON traces.",
+      "why_now": "Rust-native tools are trending; developers tuning async workloads need visualization of scheduler behavior beyond wall-clock timing.",
+      "stack_hints": [
+        "Rust",
+        "tokio",
+        "proc-macro",
+        "tracing",
+        "pprof",
+        "serde",
+        "React"
+      ]
+    },
+    {
+      "title": "Automated Security Remediation Workflow Orchestrator",
+      "topic_slug": "security-and-vulnerability-intelligence",
+      "scope": "medium",
+      "pitch": "Build a TypeScript service that watches CI/CD for Trivy and TruffleHog findings, automatically creates remediation branches (dependency updates via Dependabot, secret rotations via Vault), re-scans to validate fixes, and opens PRs with audit trail annotations. Include dry-run mode and approval workflows for sensitive operations.",
+      "why_now": "Security scanning is trending; manual remediation does not scale\u2014automated orchestration with audit trails enables compliance without overhead.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "GitHub API",
+        "Vault SDK",
+        "PostgreSQL",
+        "Express",
+        "Bull"
+      ]
+    },
+    {
+      "title": "Foundation Model Training Pipeline Coordinator",
+      "topic_slug": "ai-and-ml-infrastructure",
+      "scope": "medium",
+      "pitch": "Build a Python/Rust service that orchestrates multi-GPU training workflows (using Megatron-LM patterns) across cloud providers, manages checkpointing and resumption, tracks training metrics and logs to observability backends, and exposes a dashboard for monitoring distributed training jobs. Support failure recovery and resource auto-scaling.",
+      "why_now": "AI/ML infrastructure is trending; teams training foundation models need robust orchestration and observability without building from scratch.",
+      "stack_hints": [
+        "Python",
+        "Rust",
+        "PyTorch",
+        "Megatron-LM",
+        "Ray",
+        "PostgreSQL",
+        "OpenTelemetry",
+        "React"
+      ]
+    },
+    {
+      "title": "Multi-Cloud Infrastructure Deployment Validation Engine",
+      "topic_slug": "developer-tooling-and-platforms",
+      "scope": "medium",
+      "pitch": "Create a Go tool that accepts declarative infrastructure code (Terraform, Helm, Coolify manifests), simulates deployments across AWS, GCP, and Azure, detects misconfigurations, cost overruns, and compliance violations before applying changes. Generate before/after reports and automated fixes.",
+      "why_now": "Developer platforms are trending; teams need pre-deployment validation to prevent costly mistakes and compliance breaches.",
+      "stack_hints": [
+        "Go",
+        "Terraform SDK",
+        "policy-as-code",
+        "PostgreSQL",
+        "React"
+      ]
+    },
+    {
+      "title": "Privacy-Preserving Photo Sync Service with P2P and Self-Hosted Options",
+      "topic_slug": "self-hosted-media-and-data-systems",
+      "scope": "long",
+      "pitch": "Develop a full-stack photo management service (Rust backend, TypeScript frontend) that integrates with Immich, enables P2P sync between user devices using Iroh, supports selective sharing without central cloud upload, runs face recognition and clustering locally via ONNX, and provides web access with end-to-end encryption. Support offline-first mobile clients with CRDT-based conflict resolution.",
+      "why_now": "Self-hosted media systems are trending; photographers need privacy-respecting sync across devices and secure sharing without cloud intermediaries.",
+      "stack_hints": [
+        "Rust",
+        "TypeScript",
+        "Iroh",
+        "Tokio",
+        "ONNX",
+        "SQLite",
+        "React",
+        "Yrs"
+      ]
+    },
+    {
+      "title": "Comprehensive Rust Ecosystem Performance Benchmarking Platform",
+      "topic_slug": "rust-native-performance-tools",
+      "scope": "long",
+      "pitch": "Build a full-stack benchmarking platform (Rust backend, React frontend) that measures Rust libraries and tools against competitors across CPU, memory, latency, and power consumption. Support continuous benchmarking on each GitHub commit, trend analysis, regression detection, and export standard benchmark formats. Include integration with CI/CD pipelines.",
+      "why_now": "Rust-native tools are trending; the ecosystem needs centralized, authoritative performance data to guide adoption and optimization.",
+      "stack_hints": [
+        "Rust",
+        "TypeScript",
+        "Criterion",
+        "tokio",
+        "PostgreSQL",
+        "React",
+        "GitHub API",
+        "D3.js"
+      ]
+    },
+    {
+      "title": "Supply Chain Integrity Verification and Attestation Platform",
+      "topic_slug": "security-and-vulnerability-intelligence",
+      "scope": "long",
+      "pitch": "Develop a full-stack platform (Go backend, React frontend) that ingests SBOMs from Syft and Trivy results, correlates with binary provenance data, verifies cryptographic signatures and attestations, tracks dependency lineage over time, and generates compliance reports for audits. Support integration with signed artifact registries (Sigstore, cosign).",
+      "why_now": "Security scanning is trending; enterprises need end-to-end supply chain visibility with cryptographic proof of integrity and provenance.",
+      "stack_hints": [
+        "Go",
+        "TypeScript",
+        "Sigstore",
+        "cosign",
+        "PostgreSQL",
+        "React",
+        "gRPC",
+        "D3.js"
+      ]
+    },
+    {
+      "title": "Distributed ML Training Orchestration and Cost Attribution System",
+      "topic_slug": "ai-and-ml-infrastructure",
+      "scope": "long",
+      "pitch": "Develop a production-grade system (Python/Rust backend, React frontend) that orchestrates distributed training jobs for foundation models using Megatron-LM, tracks resource utilization per job, attributes costs to teams/projects, predicts training time and cost before execution, and optimizes hyperparameters for cost efficiency. Support multi-cloud deployment and preemption-aware scheduling.",
+      "why_now": "AI/ML infrastructure is trending; enterprises training foundation models need visibility into training costs and automated optimization to prevent runaway expenses.",
+      "stack_hints": [
+        "Python",
+        "Rust",
+        "PyTorch",
+        "Ray",
+        "Kubernetes",
+        "PostgreSQL",
+        "Prometheus",
+        "React"
+      ]
+    },
+    {
+      "title": "Universal Infrastructure-as-Code Testing and Validation Framework",
+      "topic_slug": "developer-tooling-and-platforms",
+      "scope": "long",
+      "pitch": "Build a comprehensive framework (Go backend, TypeScript CLI and React dashboard) that validates infrastructure code (Terraform, Helm, Coolify manifests, Docker Compose) for security, performance, cost, and compliance. Support policy-as-code templates, pre-deployment simulation, cost estimation, and post-deployment assertion testing. Generate audit trails for compliance.",
+      "why_now": "Developer platforms are trending; teams managing multi-cloud infrastructure need unified validation and compliance checking across different IaC tools.",
+      "stack_hints": [
+        "Go",
+        "TypeScript",
+        "Terraform SDK",
+        "policy-as-code",
+        "Kubernetes",
+        "PostgreSQL",
+        "React",
+        "OpenCost"
+      ]
+    }
+  ]
+}
