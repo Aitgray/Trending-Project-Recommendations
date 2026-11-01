@@ -1,0 +1,292 @@
+{
+  "week_of": "2026-11-01",
+  "topics": [
+    {
+      "slug": "browser-automation-testing",
+      "title": "Browser automation and testing frameworks",
+      "summary": "Industrial-grade automation frameworks for web testing and CI/CD integration, emphasizing cross-browser compatibility and low-level control. Tools like Playwright dominate this space with 7 days of trending persistence.",
+      "supporting_repos": [
+        "microsoft/playwright",
+        "nektos/act",
+        "cli/cli"
+      ]
+    },
+    {
+      "slug": "rust-native-cli-tools",
+      "title": "Rust-native CLI tools and system utilities",
+      "summary": "High-performance command-line utilities written in Rust targeting developer workflows, from version control (lazygit) to file searching (fd) and code analysis (ruff). These tools demonstrate Rust's sustained presence in practical developer tooling.",
+      "supporting_repos": [
+        "rustdesk/rustdesk",
+        "oven-sh/bun",
+        "sharkdp/fd",
+        "jesseduffield/lazygit",
+        "astral-sh/ruff",
+        "helix-editor/helix"
+      ]
+    },
+    {
+      "slug": "workflow-automation-platforms",
+      "title": "Low-code workflow automation and orchestration",
+      "summary": "Self-hosted and cloud-native platforms enabling non-engineers to build business automation, integrations, and AI agent workflows without writing code. n8n, Windmill, and Plane represent this convergence of workflow automation with modern infrastructure.",
+      "supporting_repos": [
+        "n8n-io/n8n",
+        "windmill-labs/windmill",
+        "makeplane/plane"
+      ]
+    },
+    {
+      "slug": "ai-agent-frameworks",
+      "title": "AI agent frameworks and LLM application platforms",
+      "summary": "Platforms and libraries for building agentic AI systems that combine LLMs with tool use, reasoning, and integration capabilities. LangChain's sustained trending reflects enterprise adoption of agent engineering patterns.",
+      "supporting_repos": [
+        "langchain-ai/langchain",
+        "PostHog/posthog",
+        "Infisical/infisical"
+      ]
+    },
+    {
+      "slug": "security-secrets-management",
+      "title": "Security, secrets management, and supply-chain integrity",
+      "summary": "Tools for credential detection, secrets rotation, and supply-chain security verification including secret scanning and secure configuration management. Gitleaks, Nuclei, and Infisical represent evolving security-as-code practices.",
+      "supporting_repos": [
+        "gitleaks/gitleaks",
+        "projectdiscovery/nuclei",
+        "Infisical/infisical"
+      ]
+    }
+  ],
+  "whats_new": "Browser automation and testing frameworks emerge as a new dominant theme, led by Playwright's sustained 7-day trending\u2014reflecting growing DevOps and quality assurance standardization. Rust-native CLI tools persist and expand beyond last week's focus, now including terminal interfaces (helix) and infrastructure tools (Windmill in Rust). Workflow automation platforms consolidate around AI capabilities and multi-cloud orchestration, bridging last week's developer tooling and AI themes. AI agent frameworks shift from general LLM application layers (LangChain) to integrated observability and secrets management, indicating enterprise maturity beyond inference-only use cases.",
+  "projects": [
+    {
+      "title": "Cross-Browser Test Failure Triage Assistant",
+      "topic_slug": "browser-automation-testing",
+      "scope": "short",
+      "pitch": "Build a TypeScript utility that parses Playwright test failures across multiple browsers and renders an interactive HTML report showing which failures are cross-browser vs. browser-specific, with root-cause suggestions based on error patterns. Include screenshot diffs and devtools logs for quick diagnosis.",
+      "why_now": "Playwright trending shows browser compatibility testing is top-of-mind; developers need tools to rapidly distinguish environmental from real bugs.",
+      "stack_hints": [
+        "TypeScript",
+        "Playwright",
+        "Express",
+        "Handlebars",
+        "Diff-match-patch"
+      ]
+    },
+    {
+      "title": "Rust CLI Tool Performance Regression Detector",
+      "topic_slug": "rust-native-cli-tools",
+      "scope": "short",
+      "pitch": "Create a Rust harness that wraps your CLI tool, captures wall-clock time and memory usage per invocation, stores baselines in SQLite, and alerts when performance degrades beyond a threshold. Generate simple JSON reports for CI integration and commit message annotation.",
+      "why_now": "Rust CLI tools are trending; maintainers need lightweight continuous performance monitoring to catch regressions before release.",
+      "stack_hints": [
+        "Rust",
+        "SQLite",
+        "sysinfo",
+        "serde",
+        "clap"
+      ]
+    },
+    {
+      "title": "Workflow Execution Cost Simulator for n8n/Windmill",
+      "topic_slug": "workflow-automation-platforms",
+      "scope": "short",
+      "pitch": "Build a Python CLI that parses n8n/Windmill workflow JSON, estimates cost based on node types (HTTP calls, database queries, API integrations), execution frequency, and cloud provider pricing. Output a cost breakdown by node type and suggest optimizations.",
+      "why_now": "Workflow automation platforms are trending; teams deploying complex automation need cost visibility to avoid surprise bills.",
+      "stack_hints": [
+        "Python",
+        "click",
+        "requests",
+        "jinja2",
+        "csv"
+      ]
+    },
+    {
+      "title": "LangChain Agent Tool Call Tracer and Inspector",
+      "topic_slug": "ai-agent-frameworks",
+      "scope": "short",
+      "pitch": "Develop a TypeScript wrapper for LangChain agents that intercepts and logs all tool calls, responses, and reasoning steps into a SQLite database. Expose a web UI to replay agent executions, inspect decision trees, and debug routing failures.",
+      "why_now": "AI agents are trending; developers building complex agents need visibility into tool-calling logic and decision-making.",
+      "stack_hints": [
+        "TypeScript",
+        "LangChain",
+        "SQLite",
+        "Express",
+        "React"
+      ]
+    },
+    {
+      "title": "Secrets Detection and Rotation Audit Trail",
+      "topic_slug": "security-secrets-management",
+      "scope": "short",
+      "pitch": "Create a Go CLI that watches Gitleaks and Infisical findings, logs rotation events with timestamps and actor info, correlates exposures with actual compromise indicators (failed logins, API abuse), and generates a compliance-ready audit report.",
+      "why_now": "Security and secrets management are trending; auditors require proof of timely response to credential exposure.",
+      "stack_hints": [
+        "Go",
+        "Cobra",
+        "SQLite",
+        "Gitleaks API",
+        "Infisical SDK"
+      ]
+    },
+    {
+      "title": "Playwright Test Parallelization Advisor and Optimizer",
+      "topic_slug": "browser-automation-testing",
+      "scope": "medium",
+      "pitch": "Build a TypeScript service that analyzes Playwright test execution logs, identifies test interdependencies and resource contention, recommends optimal sharding strategy, simulates execution timelines, and generates CI config. Include a dashboard showing parallelization gains and flake rates.",
+      "why_now": "Browser testing is trending; teams need data-driven guidance on test parallelization to reduce CI runtime without introducing flakiness.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Playwright",
+        "Express",
+        "React",
+        "D3.js"
+      ]
+    },
+    {
+      "title": "Rust CLI Ecosystem Performance Dashboard and Registry",
+      "topic_slug": "rust-native-cli-tools",
+      "scope": "medium",
+      "pitch": "Develop a full-stack benchmarking platform (Rust backend, React frontend) that ingests performance data from CI for Rust CLI tools (fd, ruff, ripgrep, helix), tracks performance trends over commits, detects regressions, and publishes a searchable registry comparing performance across versions and alternatives.",
+      "why_now": "Rust CLI tools are trending; the ecosystem lacks centralized performance data; developers choosing tools need authoritative benchmarks.",
+      "stack_hints": [
+        "Rust",
+        "Tokio",
+        "PostgreSQL",
+        "Criterion",
+        "TypeScript",
+        "React",
+        "GitHub API"
+      ]
+    },
+    {
+      "title": "Visual Workflow Builder with Cost Estimation for n8n",
+      "topic_slug": "workflow-automation-platforms",
+      "scope": "medium",
+      "pitch": "Create a TypeScript/React application that enhances n8n's UI with a real-time cost estimator panel, showing per-node cost contribution, total monthly spend, and AI-driven optimization suggestions (reduce API calls, batch operations, cache results). Support scenario modeling and what-if analysis.",
+      "why_now": "Workflow automation platforms are trending; users need embedded cost awareness during workflow design, not post-deployment surprises.",
+      "stack_hints": [
+        "TypeScript",
+        "React",
+        "n8n SDK",
+        "Express",
+        "PostgreSQL",
+        "D3.js"
+      ]
+    },
+    {
+      "title": "Multi-LLM Agent Orchestration and Fallback Manager",
+      "topic_slug": "ai-agent-frameworks",
+      "scope": "medium",
+      "pitch": "Build a Python service that wraps LangChain agents to support multi-LLM routing, automatic fallback to cheaper models on rate limits, cost tracking per agent per LLM provider, and A/B testing different reasoning strategies. Expose metrics via OpenTelemetry.",
+      "why_now": "AI agents are trending; production deployments require cost optimization and resilience across multiple LLM providers.",
+      "stack_hints": [
+        "Python",
+        "LangChain",
+        "Pydantic",
+        "OpenTelemetry",
+        "PostgreSQL",
+        "FastAPI"
+      ]
+    },
+    {
+      "title": "Secrets Rotation Automation with Dependency Discovery",
+      "topic_slug": "security-secrets-management",
+      "scope": "medium",
+      "pitch": "Develop a TypeScript service that automatically detects where secrets are used (environment files, configs, deployment manifests, Infisical vaults) using static analysis, orchestrates rotation workflows with rollback support, validates that rotated secrets work before cutting over, and logs all changes for audit.",
+      "why_now": "Secrets management is trending; manual credential rotation across distributed systems is error-prone and audit-hostile; automation with validation is essential.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "Infisical SDK",
+        "PostgreSQL",
+        "Express",
+        "Bull"
+      ]
+    },
+    {
+      "title": "Distributed Playwright Test Orchestration Platform",
+      "topic_slug": "browser-automation-testing",
+      "scope": "long",
+      "pitch": "Build a production-grade platform (Go backend, React frontend) that orchestrates Playwright tests across a pool of cloud-based browser instances, handles intelligent sharding and retry logic, captures detailed execution traces and screenshots, detects flaky tests via statistical analysis, and integrates with GitHub/GitLab for PR feedback.",
+      "why_now": "Browser testing is trending; enterprises need unified test infrastructure management with visibility into flakiness and cross-environment behavior.",
+      "stack_hints": [
+        "Go",
+        "TypeScript",
+        "Kubernetes",
+        "PostgreSQL",
+        "Playwright",
+        "WebSocket",
+        "React",
+        "gRPC"
+      ]
+    },
+    {
+      "title": "Rust-Native Performance Analysis and Optimization Suite",
+      "topic_slug": "rust-native-cli-tools",
+      "scope": "long",
+      "pitch": "Develop a comprehensive Rust library and CLI tooling (with web dashboard) for profiling Rust applications\u2014capturing CPU flame graphs, memory allocations, async task scheduling, and syscall patterns. Include automated optimization suggestions (reduce allocations, parallelize I/O, batch operations) and before/after performance comparisons.",
+      "why_now": "Rust CLI tools are trending; developers building high-performance tools need accessible profiling and optimization guidance without expert knowledge.",
+      "stack_hints": [
+        "Rust",
+        "Tokio",
+        "pprof",
+        "perf",
+        "TypeScript",
+        "React",
+        "D3.js"
+      ]
+    },
+    {
+      "title": "Enterprise Workflow Automation Platform with Cost Control",
+      "topic_slug": "workflow-automation-platforms",
+      "scope": "long",
+      "pitch": "Build a full-stack self-hosted workflow platform (Rust/Go backend, React frontend) combining n8n-like visual workflow design with Windmill-like code flexibility, integrated cost estimation and budgeting controls, AI-powered workflow optimization suggestions, multi-tenant support, and audit logging for compliance.",
+      "why_now": "Workflow automation platforms are trending; enterprises need integrated cost control and compliance features that existing platforms lack.",
+      "stack_hints": [
+        "Rust",
+        "Go",
+        "Tokio",
+        "PostgreSQL",
+        "Kubernetes",
+        "TypeScript",
+        "React",
+        "OpenTelemetry"
+      ]
+    },
+    {
+      "title": "AI Agent Observability and Debugging Platform",
+      "topic_slug": "ai-agent-frameworks",
+      "scope": "long",
+      "pitch": "Develop a full-stack platform (Python backend, React frontend) that captures complete execution traces for LangChain and similar agents, visualizes decision trees and tool-calling patterns, enables time-travel debugging of agent reasoning, tracks cost and latency per LLM call, and surfaces anomalies in agent behavior (tool misuse, infinite loops, hallucinations).",
+      "why_now": "AI agents are trending in production; debugging agentic systems requires specialized observability\u2014standard APM tools miss reasoning-layer insights.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "LangChain",
+        "OpenTelemetry",
+        "TypeScript",
+        "React",
+        "WebSocket"
+      ]
+    },
+    {
+      "title": "Zero-Trust Secrets Management and Compliance Orchestrator",
+      "topic_slug": "security-secrets-management",
+      "scope": "long",
+      "pitch": "Build an enterprise-grade platform (Go backend, React frontend) that unifies secrets detection (Gitleaks, Trufflehog patterns), rotation automation (coordinated across Infisical, cloud vaults, Kubernetes), compliance enforcement (automatic rotation intervals, access logging, audit trails), and incident response (detect exposure, trigger rotation, notify stakeholders).",
+      "why_now": "Security and secrets management are trending; enterprises face compliance requirements (SOC 2, ISO 27001) demanding proof of secrets lifecycle management.",
+      "stack_hints": [
+        "Go",
+        "TypeScript",
+        "PostgreSQL",
+        "Gitleaks",
+        "Infisical SDK",
+        "Kubernetes",
+        "React",
+        "gRPC"
+      ]
+    }
+  ]
+}
