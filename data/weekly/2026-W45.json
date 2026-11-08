@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-11-08",
+  "window_dates": [
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08"
+  ],
+  "repos": [
+    {
+      "full_name": "bobeff/open-source-games",
+      "description": "A list of open source games.",
+      "language": "Python",
+      "url": "https://github.com/bobeff/open-source-games",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 615,
+      "peak_daily_stars": 146,
+      "persistence_score": 44.96272874473463
+    },
+    {
+      "full_name": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 1030,
+      "peak_daily_stars": 266,
+      "persistence_score": 41.62970690410176
+    },
+    {
+      "full_name": "sindresorhus/awesome",
+      "description": "\ud83d\ude0e Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
+      "language": null,
+      "url": "https://github.com/sindresorhus/awesome",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 4072,
+      "peak_daily_stars": 1086,
+      "persistence_score": 41.560675538242066
+    },
+    {
+      "full_name": "vitejs/vite",
+      "description": "Next generation frontend tooling. It's fast!",
+      "language": "TypeScript",
+      "url": "https://github.com/vitejs/vite",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 334,
+      "peak_daily_stars": 102,
+      "persistence_score": 40.698913722775465
+    },
+    {
+      "full_name": "astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "url": "https://github.com/astral-sh/ruff",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 836,
+      "peak_daily_stars": 350,
+      "persistence_score": 40.378944422936854
+    },
+    {
+      "full_name": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 2585,
+      "peak_daily_stars": 701,
+      "persistence_score": 39.28933779665901
+    },
+    {
+      "full_name": "avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "language": "Go",
+      "url": "https://github.com/avelino/awesome-go",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 1045,
+      "peak_daily_stars": 220,
+      "persistence_score": 34.76364322312434
+    },
+    {
+      "full_name": "oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager \u2013 all in one",
+      "language": "Rust",
+      "url": "https://github.com/oven-sh/bun",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 314,
+      "peak_daily_stars": 119,
+      "persistence_score": 34.5154358329538
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "url": "https://github.com/aquasecurity/trivy",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 245,
+      "peak_daily_stars": 58,
+      "persistence_score": 33.03198921559417
+    },
+    {
+      "full_name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 709,
+      "peak_daily_stars": 161,
+      "persistence_score": 32.8263248501768
+    },
+    {
+      "full_name": "vuejs/core",
+      "description": "\ud83d\udd96 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+      "language": "TypeScript",
+      "url": "https://github.com/vuejs/core",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 225,
+      "peak_daily_stars": 154,
+      "persistence_score": 32.52320999563372
+    },
+    {
+      "full_name": "openai/whisper",
+      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "language": "Python",
+      "url": "https://github.com/openai/whisper",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 438,
+      "peak_daily_stars": 94,
+      "persistence_score": 30.422497065375858
+    },
+    {
+      "full_name": "nushell/nushell",
+      "description": "A new type of shell",
+      "language": "Rust",
+      "url": "https://github.com/nushell/nushell",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 384,
+      "peak_daily_stars": 274,
+      "persistence_score": 29.766216671438922
+    },
+    {
+      "full_name": "servo/servo",
+      "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+      "language": "Rust",
+      "url": "https://github.com/servo/servo",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 138,
+      "peak_daily_stars": 52,
+      "persistence_score": 29.60684359878415
+    },
+    {
+      "full_name": "sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "language": "JavaScript",
+      "url": "https://github.com/sveltejs/svelte",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 294,
+      "peak_daily_stars": 141,
+      "persistence_score": 28.434876781699103
+    },
+    {
+      "full_name": "Unleash/unleash",
+      "description": "Open-source feature management platform",
+      "language": "TypeScript",
+      "url": "https://github.com/Unleash/unleash",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 262,
+      "peak_daily_stars": 180,
+      "persistence_score": 27.860770160888823
+    },
+    {
+      "full_name": "tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "language": "Rust",
+      "url": "https://github.com/tokio-rs/tokio",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 258,
+      "peak_daily_stars": 107,
+      "persistence_score": 27.784140308497687
+    },
+    {
+      "full_name": "sharkdp/fd",
+      "description": "A simple, fast and user-friendly alternative to 'find'",
+      "language": "Rust",
+      "url": "https://github.com/sharkdp/fd",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 255,
+      "peak_daily_stars": 106,
+      "persistence_score": 27.725887222397812
+    },
+    {
+      "full_name": "coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "url": "https://github.com/coder/coder",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 100,
+      "peak_daily_stars": 23,
+      "persistence_score": 27.69072310104756
+    },
+    {
+      "full_name": "Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 212,
+      "peak_daily_stars": 55,
+      "persistence_score": 26.806460828547127
+    },
+    {
+      "full_name": "0x192/universal-android-debloater",
+      "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.",
+      "language": "Rust",
+      "url": "https://github.com/0x192/universal-android-debloater",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 64,
+      "peak_daily_stars": 18,
+      "persistence_score": 25.046323619373823
+    },
+    {
+      "full_name": "authelia/authelia",
+      "description": "The Single Sign-On Multi-Factor portal for web apps. OpenID Certified\u2122 and Post-Quantum Cryptography Ready.",
+      "language": "Go",
+      "url": "https://github.com/authelia/authelia",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 139,
+      "peak_daily_stars": 55,
+      "persistence_score": 24.70821211304652
+    },
+    {
+      "full_name": "windmill-labs/windmill",
+      "description": "Code-first platform for workflows, apps and AI agents, on the fastest self-hostable orchestrator (benchmarked against Airflow, Prefect and Temporal). Business teams build with AI, engineers control what ships. Open-source alternative to Lovable, Retool and n8n.",
+      "language": "Rust",
+      "url": "https://github.com/windmill-labs/windmill",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 124,
+      "peak_daily_stars": 39,
+      "persistence_score": 24.14156868651151
+    },
+    {
+      "full_name": "slint-ui/slint",
+      "description": "Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps.",
+      "language": "Rust",
+      "url": "https://github.com/slint-ui/slint",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 121,
+      "peak_daily_stars": 32,
+      "persistence_score": 24.020105223666285
+    },
+    {
+      "full_name": "trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 119,
+      "peak_daily_stars": 39,
+      "persistence_score": 23.937458713910228
+    },
+    {
+      "full_name": "microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/playwright",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 385,
+      "peak_daily_stars": 108,
+      "persistence_score": 23.823349477859324
+    },
+    {
+      "full_name": "immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "url": "https://github.com/immich-app/immich",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 378,
+      "peak_daily_stars": 112,
+      "persistence_score": 23.750144820329705
+    },
+    {
+      "full_name": "langchain-ai/langchain",
+      "description": "The agent engineering platform.",
+      "language": "Python",
+      "url": "https://github.com/langchain-ai/langchain",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 348,
+      "peak_daily_stars": 92,
+      "persistence_score": 23.420287688809708
+    },
+    {
+      "full_name": "antoniaci/blackbird",
+      "description": "An OSINT tool to search for accounts by username and email in social networks.",
+      "language": "Python",
+      "url": "https://github.com/antoniaci/blackbird",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 343,
+      "peak_daily_stars": 122,
+      "persistence_score": 23.362566629493593
+    },
+    {
+      "full_name": "nektos/act",
+      "description": "Run your GitHub Actions locally \ud83d\ude80",
+      "language": "Go",
+      "url": "https://github.com/nektos/act",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 103,
+      "peak_daily_stars": 26,
+      "persistence_score": 23.22195449570686
+    },
+    {
+      "full_name": "google/osv-scanner",
+      "description": "Vulnerability scanner written in Go which uses the data provided byhttps://osv.dev",
+      "language": "Go",
+      "url": "https://github.com/google/osv-scanner",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 102,
+      "peak_daily_stars": 31,
+      "persistence_score": 23.17364494114818
+    },
+    {
+      "full_name": "mui/material-ui",
+      "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+      "language": "JavaScript",
+      "url": "https://github.com/mui/material-ui",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 46,
+      "peak_daily_stars": 10,
+      "persistence_score": 23.10088561026035
+    },
+    {
+      "full_name": "requarks/wiki",
+      "description": "Wiki.js | Next Generation Open Source Wiki",
+      "language": "TypeScript",
+      "url": "https://github.com/requarks/wiki",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 91,
+      "peak_daily_stars": 23,
+      "persistence_score": 22.608942885245202
+    },
+    {
+      "full_name": "cli/cli",
+      "description": "GitHub\u2019s official command line tool",
+      "language": "Go",
+      "url": "https://github.com/cli/cli",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 89,
+      "peak_daily_stars": 26,
+      "persistence_score": 22.499048351651325
+    },
+    {
+      "full_name": "projectdiscovery/nuclei-templates",
+      "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "language": "JavaScript",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 41,
+      "peak_daily_stars": 9,
+      "persistence_score": 22.42601770970021
+    },
+    {
+      "full_name": "caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "url": "https://github.com/caddyserver/caddy",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 246,
+      "peak_daily_stars": 79,
+      "persistence_score": 22.03755334651191
+    },
+    {
+      "full_name": "paperless-ngx/paperless-ngx",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "language": "Python",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 244,
+      "peak_daily_stars": 74,
+      "persistence_score": 22.00503284217891
+    },
+    {
+      "full_name": "koodo-reader/koodo-reader",
+      "description": "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web",
+      "language": "JavaScript",
+      "url": "https://github.com/koodo-reader/koodo-reader",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 79,
+      "peak_daily_stars": 19,
+      "persistence_score": 21.910133173369406
+    },
+    {
+      "full_name": "GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your network traffic \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "language": "Rust",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 228,
+      "peak_daily_stars": 72,
+      "persistence_score": 21.73488801421696
+    },
+    {
+      "full_name": "apache/airflow",
+      "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+      "language": "Python",
+      "url": "https://github.com/apache/airflow",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 75,
+      "peak_daily_stars": 20,
+      "persistence_score": 21.653666701431654
+    }
+  ]
+}

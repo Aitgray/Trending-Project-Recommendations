@@ -1,0 +1,288 @@
+{
+  "week_of": "2026-11-08",
+  "topics": [
+    {
+      "slug": "rust-native-performance-tooling",
+      "title": "Rust-native performance tooling and CLI utilities",
+      "summary": "High-performance command-line utilities and runtime infrastructure written in Rust, spanning linting (ruff), JavaScript execution (bun), and shell environments (nushell). This ecosystem emphasizes speed, memory efficiency, and developer experience through drop-in replacements for slower alternatives.",
+      "supporting_repos": [
+        "astral-sh/ruff",
+        "oven-sh/bun",
+        "nushell/nushell",
+        "sharkdp/fd",
+        "tokio-rs/tokio",
+        "servo/servo"
+      ]
+    },
+    {
+      "slug": "security-and-vulnerability-scanning",
+      "title": "Security scanning, vulnerability detection, and secrets management",
+      "summary": "Unified security tooling for detecting exposed credentials, scanning supply-chain vulnerabilities, and identifying misconfigurations across containers and repositories. Tools like Trivy, Trufflehog, and nuclei-templates represent a shift toward integrated, multi-layer security scanning integrated into CI/CD pipelines.",
+      "supporting_repos": [
+        "aquasecurity/trivy",
+        "trufflesecurity/trufflehog",
+        "google/osv-scanner",
+        "projectdiscovery/nuclei-templates"
+      ]
+    },
+    {
+      "slug": "modern-frontend-frameworks",
+      "title": "Modern frontend frameworks and tooling",
+      "summary": "Next-generation JavaScript frameworks (Vue, Svelte) and build tooling (Vite) emphasizing fast development loops, minimal overhead, and developer ergonomics. These frameworks compete on startup time, bundle size, and reactivity models.",
+      "supporting_repos": [
+        "vitejs/vite",
+        "vuejs/core",
+        "sveltejs/svelte",
+        "mui/material-ui"
+      ]
+    },
+    {
+      "slug": "agentic-ai-orchestration",
+      "title": "Agentic AI platforms and LLM orchestration",
+      "summary": "Frameworks and platforms for building intelligent agents that combine LLMs with tool-calling, reasoning, and external integrations. LangChain's persistence reflects enterprise adoption of multi-step agent workflows requiring observability, cost control, and fallback strategies.",
+      "supporting_repos": [
+        "langchain-ai/langchain"
+      ]
+    },
+    {
+      "slug": "workflow-automation-and-infrastructure",
+      "title": "Workflow automation, orchestration, and developer infrastructure",
+      "summary": "Low-code platforms and infrastructure tools (Windmill, Coder, Unleash) enabling non-engineers to compose business logic, manage feature flags, and provision developer environments. These platforms abstract infrastructure complexity while maintaining code flexibility for engineers.",
+      "supporting_repos": [
+        "windmill-labs/windmill",
+        "coder/coder",
+        "Unleash/unleash"
+      ]
+    }
+  ],
+  "whats_new": "Rust-native performance tooling moves from CLI toys to production infrastructure: bun, ruff, and tokio now compete with established ecosystems as viable replacements. Security scanning consolidates around unified, multi-layer scanning (Trivy, Trufflehog) integrated into supply-chain workflows, signaling enterprise hardening. AI agents persist but narrow: LangChain's dominance suggests the field is maturing beyond exploration into production reliability concerns. Modern frontend frameworks stabilize with Vite becoming the de facto build standard, while workflow automation platforms expand upmarket with feature management and developer environment provisioning.",
+  "projects": [
+    {
+      "title": "Rust CLI Benchmark Continuous Regression Detector",
+      "topic_slug": "rust-native-performance-tooling",
+      "scope": "short",
+      "pitch": "Build a Rust harness that wraps performance-critical CLI tools (ruff, fd, bun), captures wall-clock time and memory per invocation using sysinfo, stores baselines in SQLite, and alerts on regressions. Generate JSON reports for CI integration with commit annotations showing performance delta.",
+      "why_now": "Rust CLI tools are trending; maintainers need lightweight, built-in performance monitoring to prevent slow commits from shipping.",
+      "stack_hints": [
+        "Rust",
+        "SQLite",
+        "sysinfo",
+        "serde",
+        "clap"
+      ]
+    },
+    {
+      "title": "Multi-Layer Security Scanner Dashboard and Compliance Reporter",
+      "topic_slug": "security-and-vulnerability-scanning",
+      "scope": "short",
+      "pitch": "Build a TypeScript CLI that aggregates findings from Trivy, Trufflehog, and osv-scanner into a unified JSON report, deduplicates cross-tool detections, and generates a compliance-ready summary (CVSS scores, remediation guidance, audit trail). Include HTML report generation with severity heatmaps.",
+      "why_now": "Security scanning tools are trending; teams run multiple tools but lack a unified view\u2014compliance officers need consolidated evidence.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "Trivy API",
+        "Trufflehog SDK",
+        "Handlebars"
+      ]
+    },
+    {
+      "title": "Vite Plugin Performance Analyzer with Bundle Insight",
+      "topic_slug": "modern-frontend-frameworks",
+      "scope": "short",
+      "pitch": "Create a Vite plugin that hooks into the build pipeline to capture per-plugin build time contribution, final bundle composition by plugin, and emits an interactive HTML report. Highlight plugins causing slowdowns or bloat, suggest alternatives, and track trends across builds.",
+      "why_now": "Vite is trending as the modern build standard; developers need visibility into plugin performance to optimize their build pipelines.",
+      "stack_hints": [
+        "TypeScript",
+        "Vite",
+        "Node.js",
+        "D3.js"
+      ]
+    },
+    {
+      "title": "LangChain Agent Execution Cost Tracker and Optimizer",
+      "topic_slug": "agentic-ai-orchestration",
+      "scope": "short",
+      "pitch": "Build a Python decorator/wrapper for LangChain agents that intercepts LLM calls, logs token usage and model costs, stores in SQLite, and surfaces per-agent cost breakdown. Include cost alerts and simple recommendations to reduce expensive model usage.",
+      "why_now": "AI agents are trending in production; costs explode silently when agents chain multiple LLM calls\u2014cost tracking is essential for sustainability.",
+      "stack_hints": [
+        "Python",
+        "LangChain",
+        "SQLite",
+        "Pydantic",
+        "click"
+      ]
+    },
+    {
+      "title": "Workflow Automation Cost Estimator for Windmill/n8n",
+      "topic_slug": "workflow-automation-and-infrastructure",
+      "scope": "short",
+      "pitch": "Create a Python CLI that parses Windmill/n8n workflow JSON, estimates execution cost based on node types (HTTP calls, database queries, external APIs) and cloud provider pricing tiers, and outputs a cost breakdown by node with optimization suggestions (batch operations, caching, rate limiting).",
+      "why_now": "Workflow automation platforms are trending; teams deploying complex workflows need cost visibility before production to avoid bill shock.",
+      "stack_hints": [
+        "Python",
+        "click",
+        "requests",
+        "Jinja2",
+        "CSV"
+      ]
+    },
+    {
+      "title": "Rust CLI Tool Performance Regression Suite with Web Dashboard",
+      "topic_slug": "rust-native-performance-tooling",
+      "scope": "medium",
+      "pitch": "Develop a full-stack platform (Rust backend with Tokio, React frontend) that ingests performance baselines from CI runs of Rust CLI tools (ruff, fd, bun), tracks regressions across commits, detects anomalies using statistical analysis, and surfaces trends via interactive charts. Include per-commit performance flame graphs and allocation profiles.",
+      "why_now": "Rust CLI tools are trending as production infrastructure; the ecosystem lacks centralized performance observability\u2014teams need visibility into performance drift.",
+      "stack_hints": [
+        "Rust",
+        "Tokio",
+        "PostgreSQL",
+        "TypeScript",
+        "React",
+        "D3.js",
+        "pprof"
+      ]
+    },
+    {
+      "title": "Unified Security Incident Response Orchestrator",
+      "topic_slug": "security-and-vulnerability-scanning",
+      "scope": "medium",
+      "pitch": "Build a TypeScript/Node.js service that listens for Trivy/Trufflehog findings, correlates them with threat intelligence (failed login attempts, API abuse patterns), ranks incidents by severity and blast radius, and orchestrates automated response workflows (disable credentials, rotate secrets, notify stakeholders). Include audit logging for compliance.",
+      "why_now": "Security scanning is trending; detection is useless without automated response\u2014enterprises need incident orchestration to meet compliance windows.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Express",
+        "Bull",
+        "Trivy API",
+        "Trufflehog SDK"
+      ]
+    },
+    {
+      "title": "Modern Frontend Build Optimization Advisor",
+      "topic_slug": "modern-frontend-frameworks",
+      "scope": "medium",
+      "pitch": "Create a TypeScript service that analyzes Vite build profiles and source maps to identify optimization opportunities: unused dependencies, duplicate code, large assets, slow plugins. Generate an actionable report with before/after comparisons for common optimizations (tree-shaking, code splitting, lazy loading). Include a web dashboard showing trends.",
+      "why_now": "Modern frontend frameworks are trending; developers need data-driven guidance on bundle optimization\u2014Vite's rich plugin ecosystem demands visibility.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "Vite",
+        "source-map",
+        "PostgreSQL",
+        "Express",
+        "React"
+      ]
+    },
+    {
+      "title": "LangChain Agent Decision Tree Debugger and Replay Tool",
+      "topic_slug": "agentic-ai-orchestration",
+      "scope": "medium",
+      "pitch": "Develop a full-stack debugger (Python backend, React frontend) that captures LangChain agent execution traces\u2014tool calls, reasoning steps, LLM outputs, errors\u2014into a database, enables time-travel debugging with step replay, visualizes decision trees, and detects common failure patterns (infinite loops, hallucinations, wrong tool selection).",
+      "why_now": "AI agents are trending in production; debugging agentic systems is opaque\u2014developers need visualization and replay to understand failures.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "PostgreSQL",
+        "TypeScript",
+        "React",
+        "WebSocket"
+      ]
+    },
+    {
+      "title": "Developer Environment Provisioning CLI for Coder Integration",
+      "topic_slug": "workflow-automation-and-infrastructure",
+      "scope": "medium",
+      "pitch": "Build a TypeScript/Node.js CLI that extends Coder with intelligent environment templating: detect project type (Node, Python, Rust, Go), scaffold development environments with pre-installed toolchains, inject secrets from Infisical, run setup scripts, and validate environment health. Generate reusable templates for team standardization.",
+      "why_now": "Developer infrastructure is trending; teams lack standardized environment setup\u2014Coder integration can automate onboarding and eliminate \"works on my machine\" issues.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "Coder SDK",
+        "Infisical SDK",
+        "Docker",
+        "clap"
+      ]
+    },
+    {
+      "title": "High-Performance Rust Profiling and Optimization Framework",
+      "topic_slug": "rust-native-performance-tooling",
+      "scope": "long",
+      "pitch": "Develop a production-grade Rust library and CLI tooling (with web dashboard) for continuous profiling of Rust applications: CPU flame graphs, memory allocations with lifetime tracking, async task scheduling analysis, syscall patterns, and lock contention. Auto-generate optimization suggestions (reduce allocations, parallelize I/O, fix hot paths) with before/after benchmarks.",
+      "why_now": "Rust CLI tools are trending as production infrastructure; developers building high-performance tools lack accessible profiling without expert knowledge.",
+      "stack_hints": [
+        "Rust",
+        "Tokio",
+        "pprof",
+        "perf",
+        "TypeScript",
+        "React",
+        "D3.js"
+      ]
+    },
+    {
+      "title": "Enterprise Security Compliance Platform with Breach Response",
+      "topic_slug": "security-and-vulnerability-scanning",
+      "scope": "long",
+      "pitch": "Build a full-stack platform (Go backend, React frontend) integrating Trivy, Trufflehog, and osv-scanner with automated compliance workflows: continuous scanning, policy enforcement, automated remediation (rotate credentials, patch vulnerabilities), audit trail generation, and breach incident orchestration. Support SOC 2, ISO 27001 compliance reporting.",
+      "why_now": "Security scanning is trending; enterprises require integrated compliance platforms\u2014fragmented tools create audit fatigue and slow incident response.",
+      "stack_hints": [
+        "Go",
+        "Trivy",
+        "Trufflehog",
+        "PostgreSQL",
+        "TypeScript",
+        "React",
+        "gRPC"
+      ]
+    },
+    {
+      "title": "Frontend Performance and Analytics Observability Platform",
+      "topic_slug": "modern-frontend-frameworks",
+      "scope": "long",
+      "pitch": "Create a full-stack observability platform (Node.js backend, React frontend) that captures frontend performance metrics (Core Web Vitals, First Input Delay, build times), integrates with Vite for build-time tracing, surfaces performance regressions via statistical analysis, and correlates with business metrics (conversion, user retention). Include per-component performance breakdown.",
+      "why_now": "Modern frontend frameworks are trending; teams lack frontend-specific observability\u2014performance regressions often escape CI because local testing is fast.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "React",
+        "PostgreSQL",
+        "Vite",
+        "D3.js",
+        "OpenTelemetry"
+      ]
+    },
+    {
+      "title": "Multi-Model LLM Agent Router with Cost Optimization",
+      "topic_slug": "agentic-ai-orchestration",
+      "scope": "long",
+      "pitch": "Develop a Python service (FastAPI backend) that wraps LangChain agents to support intelligent multi-LLM routing: classify incoming requests by complexity, route to cheaper models for simple queries, fall back on rate-limit or error, track cost and latency per model and agent, expose metrics via OpenTelemetry, and enable A/B testing of reasoning strategies.",
+      "why_now": "AI agents are trending in production; multi-model strategies reduce costs and improve resilience\u2014production deployments require cost optimization and fallback logic.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "Pydantic",
+        "PostgreSQL",
+        "OpenTelemetry"
+      ]
+    },
+    {
+      "title": "Enterprise Workflow Automation Platform with Governance",
+      "topic_slug": "workflow-automation-and-infrastructure",
+      "scope": "long",
+      "pitch": "Build a full-stack self-hosted workflow platform (Rust/Go backend, React frontend) combining visual workflow design with code flexibility, integrated cost estimation and budgeting, AI-powered workflow optimization, multi-tenant support, RBAC, audit logging, and compliance reporting. Support disaster recovery, high availability, and workflow versioning.",
+      "why_now": "Workflow automation platforms are trending; enterprises need integrated governance, cost control, and compliance features that existing platforms lack.",
+      "stack_hints": [
+        "Rust",
+        "Go",
+        "PostgreSQL",
+        "Kubernetes",
+        "TypeScript",
+        "React",
+        "gRPC"
+      ]
+    }
+  ]
+}
