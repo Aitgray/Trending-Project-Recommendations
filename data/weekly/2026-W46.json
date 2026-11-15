@@ -1,0 +1,414 @@
+{
+  "week_of": "2026-11-15",
+  "window_dates": [
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15"
+  ],
+  "repos": [
+    {
+      "full_name": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 1921,
+      "peak_daily_stars": 337,
+      "persistence_score": 52.927851126711666
+    },
+    {
+      "full_name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 879,
+      "peak_daily_stars": 165,
+      "persistence_score": 40.679531444833515
+    },
+    {
+      "full_name": "GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your network traffic \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "language": "Rust",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 862,
+      "peak_daily_stars": 191,
+      "persistence_score": 40.56248814650057
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 801,
+      "peak_daily_stars": 220,
+      "persistence_score": 40.12265164719909
+    },
+    {
+      "full_name": "projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 271,
+      "peak_daily_stars": 44,
+      "persistence_score": 39.24061446407198
+    },
+    {
+      "full_name": "microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/playwright",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 626,
+      "peak_daily_stars": 126,
+      "persistence_score": 38.645679243797524
+    },
+    {
+      "full_name": "upscayl/upscayl",
+      "description": "\ud83c\udd99 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
+      "language": "TypeScript",
+      "url": "https://github.com/upscayl/upscayl",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 581,
+      "peak_daily_stars": 102,
+      "persistence_score": 38.19882268638863
+    },
+    {
+      "full_name": "trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 320,
+      "peak_daily_stars": 96,
+      "persistence_score": 34.62864673878009
+    },
+    {
+      "full_name": "chidiwilliams/buzz",
+      "description": "Buzz transcribes and translates audio offline on your personal computer. Powered by OpenAI's Whisper.",
+      "language": "Python",
+      "url": "https://github.com/chidiwilliams/buzz",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 270,
+      "peak_daily_stars": 51,
+      "persistence_score": 33.6127129252782
+    },
+    {
+      "full_name": "PostHog/posthog",
+      "description": "\ud83e\udd94 PostHog is the leading platform for building self-driving products. Our developer tools \u2013 AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more \u2013 capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "language": "Python",
+      "url": "https://github.com/PostHog/posthog",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 117,
+      "peak_daily_stars": 20,
+      "persistence_score": 33.394792371259655
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "url": "https://github.com/aquasecurity/trivy",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 229,
+      "peak_daily_stars": 48,
+      "persistence_score": 32.62847585353917
+    },
+    {
+      "full_name": "rust-unofficial/awesome-rust",
+      "description": "A curated list of Rust code and resources.",
+      "language": "Rust",
+      "url": "https://github.com/rust-unofficial/awesome-rust",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 168,
+      "peak_daily_stars": 31,
+      "persistence_score": 30.779392289538443
+    },
+    {
+      "full_name": "windmill-labs/windmill",
+      "description": "Code-first platform for workflows, apps and AI agents, on the fastest self-hostable orchestrator (benchmarked against Airflow, Prefect and Temporal). Business teams build with AI, engineers control what ships. Open-source alternative to Lovable, Retool and n8n.",
+      "language": "Rust",
+      "url": "https://github.com/windmill-labs/windmill",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 141,
+      "peak_daily_stars": 43,
+      "persistence_score": 29.734962345607563
+    },
+    {
+      "full_name": "LibreTranslate/LibreTranslate",
+      "description": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup.",
+      "language": "Python",
+      "url": "https://github.com/LibreTranslate/LibreTranslate",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 295,
+      "peak_daily_stars": 130,
+      "persistence_score": 28.4517972716203
+    },
+    {
+      "full_name": "gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks \ud83d\udd11",
+      "language": "Go",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 250,
+      "peak_daily_stars": 57,
+      "persistence_score": 27.627264695658916
+    },
+    {
+      "full_name": "projectdiscovery/nuclei-templates",
+      "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "language": "JavaScript",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "days_trending": 7,
+      "cumulative_stars_in_window": 43,
+      "peak_daily_stars": 11,
+      "persistence_score": 26.48932743742783
+    },
+    {
+      "full_name": "withastro/astro",
+      "description": "The web framework for content-driven websites.",
+      "language": "TypeScript",
+      "url": "https://github.com/withastro/astro",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 149,
+      "peak_daily_stars": 39,
+      "persistence_score": 25.053176470481276
+    },
+    {
+      "full_name": "derailed/k9s",
+      "description": "\ud83d\udc36 Kubernetes CLI To Manage Your Clusters In Style!",
+      "language": "Go",
+      "url": "https://github.com/derailed/k9s",
+      "days_trending": 6,
+      "cumulative_stars_in_window": 63,
+      "peak_daily_stars": 17,
+      "persistence_score": 24.953298500158027
+    },
+    {
+      "full_name": "immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "url": "https://github.com/immich-app/immich",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 510,
+      "peak_daily_stars": 157,
+      "persistence_score": 24.945478360814818
+    },
+    {
+      "full_name": "vitejs/vite",
+      "description": "Next generation frontend tooling. It's fast!",
+      "language": "TypeScript",
+      "url": "https://github.com/vitejs/vite",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 144,
+      "peak_daily_stars": 40,
+      "persistence_score": 24.88366871210287
+    },
+    {
+      "full_name": "sundowndev/phoneinfoga",
+      "description": "Information gathering framework for phone numbers",
+      "language": "Go",
+      "url": "https://github.com/sundowndev/phoneinfoga",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 133,
+      "peak_daily_stars": 35,
+      "persistence_score": 24.489198999754556
+    },
+    {
+      "full_name": "jaywcjlove/awesome-mac",
+      "description": "\uf8ff This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+      "language": "Swift",
+      "url": "https://github.com/jaywcjlove/awesome-mac",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 392,
+      "peak_daily_stars": 124,
+      "persistence_score": 23.895238447477045
+    },
+    {
+      "full_name": "supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "url": "https://github.com/supabase/supabase",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 359,
+      "peak_daily_stars": 145,
+      "persistence_score": 23.544416125800623
+    },
+    {
+      "full_name": "ajeetdsouza/zoxide",
+      "description": "A smarter cd command. Supports all major shells.",
+      "language": "Rust",
+      "url": "https://github.com/ajeetdsouza/zoxide",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 109,
+      "peak_daily_stars": 27,
+      "persistence_score": 23.502401828962082
+    },
+    {
+      "full_name": "Eugeny/tabby",
+      "description": "A terminal for a more modern age",
+      "language": "TypeScript",
+      "url": "https://github.com/Eugeny/tabby",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 105,
+      "peak_daily_stars": 30,
+      "persistence_score": 23.317195470560335
+    },
+    {
+      "full_name": "bobeff/open-source-games",
+      "description": "A list of open source games.",
+      "language": "Python",
+      "url": "https://github.com/bobeff/open-source-games",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 339,
+      "peak_daily_stars": 113,
+      "persistence_score": 23.31578247044083
+    },
+    {
+      "full_name": "facebookresearch/faiss",
+      "description": "A library for efficient similarity search and clustering of dense vectors.",
+      "language": "C++",
+      "url": "https://github.com/facebookresearch/faiss",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 311,
+      "peak_daily_stars": 95,
+      "persistence_score": 22.97201275123793
+    },
+    {
+      "full_name": "astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "url": "https://github.com/astral-sh/ruff",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 281,
+      "peak_daily_stars": 138,
+      "persistence_score": 22.567628283752455
+    },
+    {
+      "full_name": "tabler/tabler-icons",
+      "description": "A set of over 6200 free MIT-licensed high-quality SVG icons for you to use in your web projects.",
+      "language": "JavaScript",
+      "url": "https://github.com/tabler/tabler-icons",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 87,
+      "peak_daily_stars": 26,
+      "persistence_score": 22.386684072391034
+    },
+    {
+      "full_name": "qdrant/qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/",
+      "language": "Rust",
+      "url": "https://github.com/qdrant/qdrant",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 86,
+      "peak_daily_stars": 22,
+      "persistence_score": 22.329540593272917
+    },
+    {
+      "full_name": "makeplane/plane",
+      "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "url": "https://github.com/makeplane/plane",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 238,
+      "peak_daily_stars": 65,
+      "persistence_score": 21.905854207726044
+    },
+    {
+      "full_name": "tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "url": "https://github.com/tailscale/tailscale",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 237,
+      "peak_daily_stars": 66,
+      "persistence_score": 21.8890826946859
+    },
+    {
+      "full_name": "google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "language": "C++",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 1453,
+      "peak_daily_stars": 579,
+      "persistence_score": 21.846220974280392
+    },
+    {
+      "full_name": "neuml/txtai",
+      "description": "\ud83d\udca1 All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
+      "language": "Python",
+      "url": "https://github.com/neuml/txtai",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 230,
+      "peak_daily_stars": 83,
+      "persistence_score": 21.769670842087173
+    },
+    {
+      "full_name": "saadeghi/daisyui",
+      "description": "\ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \u2003The most popular, free and open-source Tailwind CSS component library",
+      "language": "JavaScript",
+      "url": "https://github.com/saadeghi/daisyui",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 75,
+      "peak_daily_stars": 22,
+      "persistence_score": 21.653666701431654
+    },
+    {
+      "full_name": "calcom/cal.diy",
+      "description": "Scheduling infrastructure for absolutely everyone.",
+      "language": "TypeScript",
+      "url": "https://github.com/calcom/cal.diy",
+      "days_trending": 4,
+      "cumulative_stars_in_window": 185,
+      "peak_daily_stars": 52,
+      "persistence_score": 20.902986694852807
+    },
+    {
+      "full_name": "mui/material-ui",
+      "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+      "language": "JavaScript",
+      "url": "https://github.com/mui/material-ui",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 57,
+      "peak_daily_stars": 13,
+      "persistence_score": 20.302215052732095
+    },
+    {
+      "full_name": "kubescape/kubescape",
+      "description": "Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.",
+      "language": "Go",
+      "url": "https://github.com/kubescape/kubescape",
+      "days_trending": 5,
+      "cumulative_stars_in_window": 56,
+      "peak_daily_stars": 23,
+      "persistence_score": 20.21525633917275
+    },
+    {
+      "full_name": "vinta/awesome-python",
+      "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
+      "language": "Python",
+      "url": "https://github.com/vinta/awesome-python",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 767,
+      "peak_daily_stars": 273,
+      "persistence_score": 19.93136919944302
+    },
+    {
+      "full_name": "f/prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source \u2014 self-host for your organization with complete privacy.",
+      "language": "MDX",
+      "url": "https://github.com/f/prompts.chat",
+      "days_trending": 3,
+      "cumulative_stars_in_window": 720,
+      "peak_daily_stars": 312,
+      "persistence_score": 19.74191741185485
+    }
+  ]
+}
