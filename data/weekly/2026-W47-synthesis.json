@@ -1,0 +1,254 @@
+{
+  "week_of": "2026-11-22",
+  "topics": [
+    {
+      "slug": "frontend-framework-modernization",
+      "title": "Frontend framework modernization and performance",
+      "summary": "New generation JavaScript frameworks (Svelte, Astro) and build tools prioritize developer experience, build performance, and content-first architecture. These replace heavier frameworks with leaner, faster alternatives emphasizing server-side rendering and minimal JavaScript.",
+      "supporting_repos": [
+        "sveltejs/svelte",
+        "withastro/astro",
+        "vitejs/vite"
+      ]
+    },
+    {
+      "slug": "workflow-automation-at-scale",
+      "title": "Workflow automation and orchestration at scale",
+      "summary": "Low-code platforms (n8n, Windmill) and orchestration tools enable teams to compose and execute business logic without custom backend development. Integration depth (400+ connectors) and AI-native features now define competitive platforms.",
+      "supporting_repos": [
+        "n8n-io/n8n",
+        "makeplane/plane",
+        "calcom/cal.diy"
+      ]
+    },
+    {
+      "slug": "self-hosted-remote-access",
+      "title": "Self-hosted remote access and infrastructure observability",
+      "summary": "Open-source alternatives to commercial remote desktop and management tools (RustDesk) continue to mature, enabling enterprises to avoid vendor lock-in. Companion infrastructure tools provide visibility into network and system health.",
+      "supporting_repos": [
+        "rustdesk/rustdesk",
+        "jesseduffield/lazydocker",
+        "coder/coder"
+      ]
+    },
+    {
+      "slug": "ai-data-and-semantic-search",
+      "title": "AI frameworks, semantic search, and language model orchestration",
+      "summary": "Python-based AI frameworks (transformers, diffusers, txtai, langchain) provide modular building blocks for LLM applications, semantic retrieval, and generative model pipelines. These tools lower the barrier to productionizing AI without cloud dependencies.",
+      "supporting_repos": [
+        "huggingface/transformers",
+        "huggingface/diffusers",
+        "neuml/txtai",
+        "langchain-ai/langchain"
+      ]
+    },
+    {
+      "slug": "security-and-compliance-automation",
+      "title": "Security scanning, secrets detection, and supply chain visibility",
+      "summary": "Specialized tooling for vulnerability detection (Grype), software composition analysis (Syft), and policy-as-code templates (Nuclei) enable shift-left security and automated compliance. These tools integrate into CI/CD to catch issues before production.",
+      "supporting_repos": [
+        "anchore/grype",
+        "anchore/syft",
+        "projectdiscovery/nuclei-templates"
+      ]
+    }
+  ],
+  "whats_new": "Svelte and frontend framework modernization have surged to the top, displacing some observability and media transformation themes from last week\u2014developers prioritize build performance and developer experience. AI orchestration frameworks (LangChain, txtai) now dominate over individual media tools, reflecting broader shift toward agentic systems. Workflow automation (n8n) persists with increased focus on scale and cost management. Security scanning remains steady but has shifted focus from infrastructure scanning toward secrets and supply chain visibility (Grype, Syft).",
+  "projects": [
+    {
+      "title": "Svelte Component Performance Profiler and Registry",
+      "topic_slug": "frontend-framework-modernization",
+      "scope": "short",
+      "pitch": "Build a Svelte plugin that automatically instruments components with render-time metrics, interaction latency, and bundle size impact. Generate a visual component registry showing performance degradation over time and flag regressions in pull requests.",
+      "why_now": "Svelte is trending at the top of this week's rankings; developers need visibility into component performance as reactive frameworks scale.",
+      "stack_hints": [
+        "Svelte",
+        "Vite",
+        "TypeScript",
+        "SQLite"
+      ]
+    },
+    {
+      "title": "Astro Island Lazy-Loading Optimizer",
+      "topic_slug": "frontend-framework-modernization",
+      "scope": "short",
+      "pitch": "Create a TypeScript tool that analyzes Astro island definitions and automatically suggests optimal lazy-loading strategies based on viewport position and interaction patterns. Output a report with estimated Core Web Vitals improvements.",
+      "why_now": "Astro emphasizes static-first architecture with islands; teams need guidance on when to defer hydration to maximize performance.",
+      "stack_hints": [
+        "TypeScript",
+        "Astro SDK",
+        "Lighthouse API",
+        "click"
+      ]
+    },
+    {
+      "title": "Multi-Framework Build Time Benchmarking Dashboard",
+      "topic_slug": "frontend-framework-modernization",
+      "scope": "medium",
+      "pitch": "Develop a full-stack tool (Node.js backend, React frontend) that runs identical projects through Vite, Webpack, and esbuild, measuring build time, bundle size, and hot reload speed. Visualize trends across framework upgrades and generate recommendations for optimization.",
+      "why_now": "Frontend framework modernization is trending; teams struggle to compare build performance across tools and justify framework migration costs.",
+      "stack_hints": [
+        "TypeScript",
+        "Node.js",
+        "React",
+        "PostgreSQL",
+        "Vite",
+        "Webpack"
+      ]
+    },
+    {
+      "title": "Workflow Execution Replay and Debugging Sandbox",
+      "topic_slug": "workflow-automation-at-scale",
+      "scope": "short",
+      "pitch": "Build a lightweight CLI that records n8n workflow executions (inputs, state, outputs) and allows developers to replay failed workflows step-by-step with breakpoint support. Export execution traces as JSON for analysis.",
+      "why_now": "n8n is trending; production workflows need debugging capabilities beyond logs\u2014replay and inspection accelerate root-cause analysis.",
+      "stack_hints": [
+        "TypeScript",
+        "n8n SDK",
+        "SQLite",
+        "click"
+      ]
+    },
+    {
+      "title": "Cross-Platform Workflow Migration Tool",
+      "topic_slug": "workflow-automation-at-scale",
+      "scope": "medium",
+      "pitch": "Create a TypeScript transpiler that converts n8n workflows to Windmill (and vice versa), handling differences in node compatibility and expression syntax. Include a dry-run mode and fallback handlers for unsupported patterns.",
+      "why_now": "Both n8n and Windmill are trending; teams want flexibility to switch platforms without rewriting all automation logic.",
+      "stack_hints": [
+        "TypeScript",
+        "n8n SDK",
+        "Windmill SDK",
+        "AST parsing"
+      ]
+    },
+    {
+      "title": "Workflow Dependency Graph and Impact Analysis Engine",
+      "topic_slug": "workflow-automation-at-scale",
+      "scope": "long",
+      "pitch": "Build a full-stack platform (Go backend, React frontend) that maps dependencies across n8n/Windmill workflows (which workflows trigger others, shared data sources, error propagation). Enable impact analysis: show which workflows break if a particular connector fails or integrations are deprecated.",
+      "why_now": "Workflow automation platforms are maturing at scale; enterprises with 50+ workflows need governance tools to understand and manage interdependencies.",
+      "stack_hints": [
+        "Go",
+        "React",
+        "PostgreSQL",
+        "n8n SDK",
+        "Windmill SDK",
+        "D3.js"
+      ]
+    },
+    {
+      "title": "RustDesk Session Encryption and Key Rotation Auditor",
+      "topic_slug": "self-hosted-remote-access",
+      "scope": "short",
+      "pitch": "Develop a Rust CLI that inspects active RustDesk sessions, verifies encryption protocols and key agreement algorithms, and flags outdated or weak configurations. Generate compliance reports for SOC 2 or FedRAMP audits.",
+      "why_now": "RustDesk is trending as a TeamViewer alternative; compliance teams need cryptographic visibility into remote sessions for security certification.",
+      "stack_hints": [
+        "Rust",
+        "RustDesk API",
+        "OpenSSL",
+        "serde"
+      ]
+    },
+    {
+      "title": "Docker Container Health Dashboard for Lazydocker Integration",
+      "topic_slug": "self-hosted-remote-access",
+      "scope": "medium",
+      "pitch": "Build a React web UI that connects to Lazydocker's API to display real-time container health (CPU, memory, network), historical trends, and anomaly alerts. Include cross-host Docker daemon aggregation and resource usage predictions.",
+      "why_now": "Lazydocker is trending as a Docker management tool; teams need a web alternative for remote monitoring across multiple machines.",
+      "stack_hints": [
+        "React",
+        "TypeScript",
+        "Lazydocker API",
+        "Docker SDK",
+        "WebSocket",
+        "D3.js"
+      ]
+    },
+    {
+      "title": "LangChain Agent Memory Profiler and Optimization Suite",
+      "topic_slug": "ai-data-and-semantic-search",
+      "scope": "short",
+      "pitch": "Create a Python wrapper for LangChain agents that tracks memory usage across conversation turns, identifies token bloat in context windows, and suggests optimization strategies (chunking, summarization, pruning). Export profiles as Parquet for analysis.",
+      "why_now": "LangChain is trending for orchestrating LLM agents; long-running conversations exhaust token limits\u2014profiling enables cost and latency optimization.",
+      "stack_hints": [
+        "Python",
+        "LangChain",
+        "tiktoken",
+        "Pandas"
+      ]
+    },
+    {
+      "title": "Semantic Search Index Health Monitor",
+      "topic_slug": "ai-data-and-semantic-search",
+      "scope": "medium",
+      "pitch": "Build a full-stack system (Python backend, React frontend) that monitors vector indices (from txtai, Weaviate, etc.) for drift, stale embeddings, and retrieval quality degradation. Alert when semantic search precision falls below thresholds and suggest reindexing.",
+      "why_now": "txtai and semantic search are trending; production RAG systems suffer silent quality degradation\u2014monitoring prevents hallucinations from outdated embeddings.",
+      "stack_hints": [
+        "Python",
+        "FastAPI",
+        "txtai",
+        "React",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Multi-Model Transformer Ensemble and Routing Framework",
+      "topic_slug": "ai-data-and-semantic-search",
+      "scope": "long",
+      "pitch": "Develop a comprehensive Python framework that enables dynamic routing of inference queries across multiple Hugging Face transformer models based on input characteristics (length, domain, complexity). Include automatic model selection, A/B testing, and cost-aware routing to balance accuracy and latency.",
+      "why_now": "Transformers are trending as AI foundations; teams deploying multiple specialized models need intelligent routing to optimize inference efficiency and cost.",
+      "stack_hints": [
+        "Python",
+        "Hugging Face Transformers",
+        "LangChain",
+        "FastAPI",
+        "Pydantic",
+        "Ray"
+      ]
+    },
+    {
+      "title": "Software Bill of Materials (SBOM) Drift Detector",
+      "topic_slug": "security-and-compliance-automation",
+      "scope": "short",
+      "pitch": "Create a TypeScript CLI that compares SBOMs generated by Syft across builds, detecting introduced or removed dependencies, version changes, and new vulnerabilities using Grype. Fail CI/CD if unexplained dependencies are added.",
+      "why_now": "Syft and Grype are trending for supply chain visibility; teams need automated detection of unexpected dependency changes in CI/CD.",
+      "stack_hints": [
+        "TypeScript",
+        "Syft SDK",
+        "Grype SDK",
+        "node-json-diff"
+      ]
+    },
+    {
+      "title": "Vulnerability Remediation Recommendation Engine",
+      "topic_slug": "security-and-compliance-automation",
+      "scope": "medium",
+      "pitch": "Build a Python service that ingests Grype vulnerability reports and suggests the minimum version bump for each dependency that resolves all findings. Rank suggestions by risk (breaking changes, transitive dependencies) and generate a safe upgrade plan with rollback instructions.",
+      "why_now": "Grype is trending; vulnerability reports without remediation guidance create decision paralysis\u2014automated upgrade planning accelerates patching.",
+      "stack_hints": [
+        "Python",
+        "Grype SDK",
+        "dependency-resolver",
+        "semver",
+        "FastAPI"
+      ]
+    },
+    {
+      "title": "Zero-Trust Supply Chain Attestation and Verification Platform",
+      "topic_slug": "security-and-compliance-automation",
+      "scope": "long",
+      "pitch": "Develop an end-to-end platform (Go backend, React frontend) that generates cryptographically signed attestations of build provenance using Syft SBOMs and Grype scans. Enable consumers to verify artifact integrity, source, and security posture without trusting package registries.",
+      "why_now": "Supply chain security (Syft, Grype) is trending; enterprises need verifiable proof of artifact provenance to meet SLSA and SSDF compliance standards.",
+      "stack_hints": [
+        "Go",
+        "React",
+        "Syft SDK",
+        "Grype SDK",
+        "COSE signatures",
+        "PostgreSQL",
+        "gRPC"
+      ]
+    }
+  ]
+}
